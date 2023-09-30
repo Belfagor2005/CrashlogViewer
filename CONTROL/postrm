@@ -1,0 +1,24 @@
+#!/bin/sh
+
+echo
+echo "*****************************************"
+echo "*         Uninstall CrashlogViewer        *"
+echo "*****************************************"
+EXTDIR="/usr/lib/enigma2/python/Plugins/Extensions/CrashlogViewer"
+dream='/var/lib/dpkg/info'
+
+if [ -d "$dream" ]; then
+   dpkg -P --force-all enigma2-plugin-extensions-crashlogviewer
+   rm -rf "$EXTDIR" > /dev/null 2>&1
+fi
+
+if [ -d "$EXTDIR" ]; then
+   opkg remove --force-remove enigma2-plugin-extensions-crashlogviewer
+   rm -rf "$EXTDIR" > /dev/null 2>&1
+fi
+echo "*****************************************"
+echo "*          ....done                     *"
+echo "*****************************************"
+exit 0
+
+
