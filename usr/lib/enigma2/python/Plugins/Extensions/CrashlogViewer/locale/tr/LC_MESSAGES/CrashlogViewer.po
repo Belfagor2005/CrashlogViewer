@@ -1,0 +1,81 @@
+# Signed-off-by: Dario Croci <spaeleus@croci.org>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: CrashlogViewer v0.6\n"
+"POT-Creation-Date: 2023-09-27 14:48+0200\n"
+"PO-Revision-Date: 2023-09-27 18:15+0300\n"
+"Last-Translator: Dario Croci <spaeleus@croci.org>\n"
+"Language-Team: \"Last-Translator: biperva <biperva@dreamosat>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Poedit-Basepath: ../../../../../../../../..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: lib/enigma2/python/Plugins/Extensions/CrashlogViewer/plugin.py:147
+#: lib/enigma2/python/Plugins/Extensions/CrashlogViewer/plugin.py:260
+msgid "Close"
+msgstr "Kapat"
+
+#: lib/enigma2/python/Plugins/Extensions/CrashlogViewer/plugin.py:148
+msgid "View"
+msgstr "Görüntüle"
+
+#: lib/enigma2/python/Plugins/Extensions/CrashlogViewer/plugin.py:149
+msgid "Remove"
+msgstr "Kaldır"
+
+#: lib/enigma2/python/Plugins/Extensions/CrashlogViewer/plugin.py:150
+msgid "Remove All"
+msgstr "Hepsini Kaldır"
+
+#: lib/enigma2/python/Plugins/Extensions/CrashlogViewer/plugin.py:198
+#, python-format
+msgid "Removed %s"
+msgstr "%s kaldırıldı."
+
+#: lib/enigma2/python/Plugins/Extensions/CrashlogViewer/plugin.py:200
+#: lib/enigma2/python/Plugins/Extensions/CrashlogViewer/plugin.py:208
+msgid "Failed remove"
+msgstr "Kaldırma hatası"
+
+#: lib/enigma2/python/Plugins/Extensions/CrashlogViewer/plugin.py:206
+msgid "Removed All Crashlog Files"
+msgstr "Tüm Crashlog Dosyaları Kaldırıldı"
+
+#: lib/enigma2/python/Plugins/Extensions/CrashlogViewer/plugin.py:212
+#, python-format
+msgid ""
+"Crashlog Viewer  ver. %s\n"
+"\n"
+"Developer: 2boom\n"
+"\n"
+"Modifier: Evg77734\n"
+"\n"
+"Update from Lululla\n"
+"Homepage: gisclub.tv"
+msgstr ""
+"Crashlog Viewer ver. %s\n"
+"\n"
+"Yapımcı: 2boom\n"
+"\n"
+"Modifiye Eden: Evg77734\n"
+"\n"
+"Güncelleyen Lululla\n"
+"Anasayfa: gisclub.tv"
+
+#: lib/enigma2/python/Plugins/Extensions/CrashlogViewer/plugin.py:261
+msgid "Restart GUI"
+msgstr "GUI Yeniden Başlat"
+
+#: lib/enigma2/python/Plugins/Extensions/CrashlogViewer/plugin.py:301
+msgid "Crashlog  Viewer"
+msgstr "Crashlog  Viewer"
+
+#: lib/enigma2/python/Plugins/Extensions/CrashlogViewer/plugin.py:302
+msgid "View and remove crashlog files"
+msgstr "Crashlog dosyalarını görüntüleyin ve kaldırın"
