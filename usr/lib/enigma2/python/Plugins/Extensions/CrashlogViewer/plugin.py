@@ -45,7 +45,7 @@ def isMountReadonly(mnt):
         for line in f:
             line = line.split(',')[0]
             line = line.split()
-            print('line ', line)
+            # print('line ', line)
             try:
                 device, mount_point, filesystem, flags = line
             except Exception as err:
@@ -76,7 +76,7 @@ def crashlogPath():
     for crashlog in os.listdir(path_folder_log):
         if crashlog.endswith(".log"):
             crashlogPath_found = True
-            print("Crashlog found")
+            # print("Crashlog found")
             break
     return crashlogPath_found
 
@@ -185,7 +185,7 @@ class CrashLogScreen(Screen):
     def CfgMenu(self):
         self.list = []
         if crashlogPath:
-            print('crashlogPath=', crashlogPath)
+            # print('crashlogPath=', crashlogPath)
             # print('path_folder_log=', path_folder_log)
             # crashfiles = os.popen("ls -lh /media/hdd/*crash*.log ls -lh /media/hdd/logs/*crash*.log /home/root/logs/*crash*.log /tmp/twisted.log")
             crashfiles = os.popen("ls -lh %s*crash*.log %slogs/*crash*.log /home/root/logs/*crash*.log %stwisted.log /media/usb/logs/*crash*.log" % (path_folder_log, path_folder_log, path_folder_log))
@@ -220,7 +220,7 @@ class CrashLogScreen(Screen):
                 Crashfile = '/media/usb/logs/' + item[0] + ".log"                
             else:
                 Crashfile = item[3] + item[0] + ".log"
-            print('Crashfile OK: ', Crashfile)
+            # print('Crashfile OK: ', Crashfile)
             self.session.openWithCallback(self.CfgMenu, LogScreen)
         except:
             Crashfile = " "
@@ -311,9 +311,9 @@ class LogScreen(Screen):
 
     def listcrah(self):
         global Crashfile
-        print('Crashfile=', Crashfile)
-        print('crashlogPath=', crashlogPath)
-        print('path_folder_log=', path_folder_log)
+        # print('Crashfile=', Crashfile)
+        # print('crashlogPath=', crashlogPath)
+        # print('path_folder_log=', path_folder_log)
         list = "No data error"
         list2 = "No data error"
         try:
