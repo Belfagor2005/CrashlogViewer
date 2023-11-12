@@ -3,51 +3,82 @@
 
 # updated Lululla 05/06/2023
 # by 2boom 4bob@ua.fm
-from Screens.Screen import Screen
-from Screens.MessageBox import MessageBox
-from Components.Sources.StaticText import StaticText
 from Components.ActionMap import ActionMap
-from Components.Sources.List import List
-from Tools.LoadPixmap import LoadPixmap
-from Plugins.Plugin import PluginDescriptor
-from Components.ScrollLabel import ScrollLabel
 from Components.Language import language
-from Tools.Directories import resolveFilename, SCOPE_PLUGINS, SCOPE_LANGUAGE
-from os import environ
-import os
-import gettext
+from Components.ScrollLabel import ScrollLabel
+from Components.Sources.List import List
+from Components.Sources.StaticText import StaticText
+from Components.config import config
+from Plugins.Plugin import PluginDescriptor
+from Screens.MessageBox import MessageBox
+from Screens.Screen import Screen
+from Tools.Directories import resolveFilename
+from Tools.Directories import SCOPE_PLUGINS, SCOPE_LANGUAGE
+from Tools.LoadPixmap import LoadPixmap
 from enigma import getDesktop
+from os import environ
+import gettext
+import os
+global Crashfile, path_folder_log
 
-global Crashfile, crashlog_dir
+
 Crashfile = " "
-version = '0.6'
+version = '0.8'
+path_folder_log = '/media/hdd/'
 lang = language.getLanguage()
 environ["LANGUAGE"] = lang[:2]
 gettext.bindtextdomain("enigma2", resolveFilename(SCOPE_LANGUAGE))
 gettext.textdomain("enigma2")
 gettext.bindtextdomain("CrashlogViewer", "%s%s" % (resolveFilename(SCOPE_PLUGINS), "Extensions/CrashlogViewer/locale/"))
-crashlog_dir = '/media/hdd'
 
-# def crashlogPath():
-    # crashlogPath_found = False
-    # try:
-        # crashlog_dir = config.crash.debug_path.value
-    # except KeyError:
-        # crashlog_dir = None
-    # if not crashlog_dir:
-        # crashlog_dir = '/media/hdd'
-    # for crashlog in os.listdir(crashlog_dir):
-        # if (crashlog.startswith("enigma2_crash_") or crashlog.startswith("dvbapp2_crash_")) and crashlog.endswith(".log"):
-            # crashlogPath_found = True
-            # print("Crashlog found")
-            # break
-    # return crashlogPath_found
 
 def _(txt):
     t = gettext.dgettext("CrashlogViewer", txt)
     if t == txt:
         t = gettext.gettext(txt)
     return t
+
+
+def isMountReadonly(mnt):
+    mount_point = ''
+    with open('/proc/mounts') as f:
+        for line in f:
+            line = line.split(',')[0]
+            line = line.split()
+            print('line ', line)
+            try:
+                device, mount_point, filesystem, flags = line
+            except Exception as err:
+                print("Error: %s" % err)
+            if mount_point == mnt:
+                return 'ro' in flags
+    return "mount: '%s' doesn't exist" % mnt
+
+
+def crashlogPath():
+    crashlogPath_found = False
+    try:
+        path_folder_log = config.crash.debug_path.value
+    except KeyError:
+        path_folder_log = None
+    if path_folder_log is None:
+        if os.path.exists("/media/hdd"):
+            if not isMountReadonly("/media/hdd"):
+                path_folder_log = "/media/hdd/"
+        elif os.path.exists("/media/usb"):
+            if not isMountReadonly("/media/usb"):
+                path_folder_log = "/media/usb/"
+        elif os.path.exists("/media/mmc"):
+            if not isMountReadonly("/media/mmc"):
+                path_folder_log = "/media/mmc/"
+        else:
+            path_folder_log = "/tmp/"
+    for crashlog in os.listdir(path_folder_log):
+        if crashlog.endswith(".log"):
+            crashlogPath_found = True
+            print("Crashlog found")
+            break
+    return crashlogPath_found
 
 
 class CrashLogScreen(Screen):
@@ -77,7 +108,6 @@ class CrashLogScreen(Screen):
                 </convert>
             </widget>
         </screen>"""
-
 
     elif sz_w == 1920:
         skin = """
@@ -154,20 +184,28 @@ class CrashLogScreen(Screen):
 
     def CfgMenu(self):
         self.list = []
-        crashfiles = os.popen("ls -lh /media/hdd/*crash*.log ls -lh /media/hdd/logs/*crash*.log /home/root/logs/*crash*.log /tmp/twisted.log /media/hdd/*crash*.log /home/root/logs/*crash*.log")
-        sz_w = getDesktop(0).size().width()
-        if sz_w == 2560:
-            minipng = LoadPixmap(cached=True, path=resolveFilename(SCOPE_PLUGINS, "Extensions/CrashlogViewer/images/crashminiwq.png"))        
-        elif sz_w == 1920:
-            minipng = LoadPixmap(cached=True, path=resolveFilename(SCOPE_PLUGINS, "Extensions/CrashlogViewer/images/crashmini.png"))
-        else:
-            minipng = LoadPixmap(cached=True, path=resolveFilename(SCOPE_PLUGINS, "Extensions/CrashlogViewer/images/crashmini1.png"))
-        for line in crashfiles:
-            item = line.split(" ")
-            name = item[-1].split("/")
-            self.list.append((name[-1][:-5], ("%s %s %s %s %s" % (item[-7], item[-4], item[-5], item[-2], item[-3])), minipng, ("/%s/%s/" % (name[-3], name[-2]))))
-        self["menu"].setList(self.list)
-        self["actions"] = ActionMap(["OkCancelActions"], {"cancel": self.close}, -1)
+        if crashlogPath:
+            # print('crashlogPath=', crashlogPath)
+            # print('path_folder_log=', path_folder_log)
+            # crashfiles = os.popen("ls -lh /media/hdd/*crash*.log ls -lh /media/hdd/logs/*crash*.log /home/root/logs/*crash*.log /tmp/twisted.log")
+            crashfiles = os.popen("ls -lh %s*crash*.log %slogs/*crash*.log /home/root/logs/*crash*.log %stwisted.log /media/usb/logs/*crash*.log" % (path_folder_log, path_folder_log, path_folder_log))
+            sz_w = getDesktop(0).size().width()
+            if sz_w == 2560:
+                minipng = LoadPixmap(cached=True, path=resolveFilename(SCOPE_PLUGINS, "Extensions/CrashlogViewer/images/crashminiwq.png"))
+            elif sz_w == 1920:
+                minipng = LoadPixmap(cached=True, path=resolveFilename(SCOPE_PLUGINS, "Extensions/CrashlogViewer/images/crashmini.png"))
+            else:
+                minipng = LoadPixmap(cached=True, path=resolveFilename(SCOPE_PLUGINS, "Extensions/CrashlogViewer/images/crashmini1.png"))
+            for line in crashfiles:
+                item = line.split(" ")
+                name = item[-1].split("/")
+                name = (name[-1][:-5], ("%s %s %s %s %s" % (item[-7], item[-4], item[-5], item[-2], item[-3])), minipng, ("/%s/%s/" % (name[-3], name[-2])))
+                # print('CrashName: ', name)
+                if name not in self.list:
+                    # self.list.append((name[-1][:-5], ("%s %s %s %s %s" % (item[-7], item[-4], item[-5], item[-2], item[-3])), minipng, ("/%s/%s/" % (name[-3], name[-2]))))
+                    self.list.append(name)
+            self["menu"].setList(self.list)
+            self["actions"] = ActionMap(["OkCancelActions"], {"cancel": self.close}, -1)
 
     def Ok(self):
         item = self["menu"].getCurrent()
@@ -179,7 +217,7 @@ class CrashLogScreen(Screen):
                 Crashfile = '/tmp/' + item[0] + ".log"
             else:
                 Crashfile = item[3] + item[0] + ".log"
-
+            # print('Crashfile: ', Crashfile)
             self.session.openWithCallback(self.CfgMenu, LogScreen)
         except:
             Crashfile = " "
@@ -202,7 +240,7 @@ class CrashLogScreen(Screen):
 
     def BlueKey(self):
         try:
-            os.system("rm /media/hdd/*crash*.log rm /media/hdd/logs/*crash*.log /home/root/logs/*crash*.log /tmp/twisted.log")
+            os.system("rm %s*crash*.log rm %slogs/*crash*.log /home/root/logs/*crash*.log %stwisted.log" % (path_folder_log, path_folder_log, path_folder_log))
             self.mbox = self.session.open(MessageBox, (_("Removed All Crashlog Files")), MessageBox.TYPE_INFO, timeout=4)
         except:
             self.mbox = self.session.open(MessageBox, (_("Failed remove")), MessageBox.TYPE_INFO, timeout=4)
@@ -272,23 +310,25 @@ class LogScreen(Screen):
         global Crashfile
         list = "No data error"
         list2 = "No data error"
-        crashfiles = open(Crashfile, "r")
-        for line in crashfiles:
-            if line.find("Traceback (most recent call last):") != -1 or line.find("Backtrace:") != -1:
-                list = " "
-                list2 = " "
-                for line in crashfiles:
-                    list += line
-                    if line.find("Error: ") != -1:
-                        list2 += line
-                    if line.find("]]>") != -1 or line.find("dmesg") != -1 or line.find("StackTrace") != -1 or line.find("FATAL SIGNAL") != -1:
-                        if line.find("FATAL SIGNAL") != -1:
-                            list2 = "FATAL SIGNAL"
-                        break
-        self["text"].setText(list)
-        crashfiles.close()
+        try:
+            crashfiles = open(Crashfile, "r")
+            for line in crashfiles:
+                if line.find("Traceback (most recent call last):") != -1 or line.find("Backtrace:") != -1:
+                    list = " "
+                    list2 = " "
+                    for line in crashfiles:
+                        list += line
+                        if line.find("Error: ") != -1:
+                            list2 += line
+                        if line.find("]]>") != -1 or line.find("dmesg") != -1 or line.find("StackTrace") != -1 or line.find("FATAL SIGNAL") != -1:
+                            if line.find("FATAL SIGNAL") != -1:
+                                list2 = "FATAL SIGNAL"
+                            break
+            self["text"].setText(list)
+            crashfiles.close()
+        except Exception as e:
+            print('error to open crashfile: ', e)
         self["text2"].setText(list2)
-
         self["actions"] = ActionMap(["OkCancelActions", "DirectionActions"], {"cancel": self.close, "up": self["text"].pageUp, "left": self["text"].pageUp, "down": self["text"].pageDown, "right": self["text"].pageDown}, -1)
 
 

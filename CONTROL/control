@@ -1,5 +1,5 @@
 Package: enigma2-plugin-extensions-crashlogviewer
-Version: 0.6
+Version: 0.8
 Section: base
 Priority: optional
 Architecture: all
