@@ -185,10 +185,11 @@ class CrashLogScreen(Screen):
     def CfgMenu(self):
         self.list = []
         if crashlogPath:
-            # print('crashlogPath=', crashlogPath)
+            print('crashlogPath=', crashlogPath)
             # print('path_folder_log=', path_folder_log)
             # crashfiles = os.popen("ls -lh /media/hdd/*crash*.log ls -lh /media/hdd/logs/*crash*.log /home/root/logs/*crash*.log /tmp/twisted.log")
             crashfiles = os.popen("ls -lh %s*crash*.log %slogs/*crash*.log /home/root/logs/*crash*.log %stwisted.log /media/usb/logs/*crash*.log" % (path_folder_log, path_folder_log, path_folder_log))
+            # crashfiles = os.popen("ls -lh %s*crash*.log %slogs/*crash*.log /home/root/logs/*crash*.log %stwisted.log" % (path_folder_log, path_folder_log, path_folder_log))
             sz_w = getDesktop(0).size().width()
             if sz_w == 2560:
                 minipng = LoadPixmap(cached=True, path=resolveFilename(SCOPE_PLUGINS, "Extensions/CrashlogViewer/images/crashminiwq.png"))
@@ -215,9 +216,11 @@ class CrashLogScreen(Screen):
                 Crashfile = '/home' + item[3] + item[0] + ".log"
             elif item[3] == '/tmp/':
                 Crashfile = '/tmp/' + item[0] + ".log"
+            elif item[3] == '/usb/logs/':
+                Crashfile = '/media/usb/logs/' + item[0] + ".log"                
             else:
                 Crashfile = item[3] + item[0] + ".log"
-            # print('Crashfile: ', Crashfile)
+            print('Crashfile OK: ', Crashfile)
             self.session.openWithCallback(self.CfgMenu, LogScreen)
         except:
             Crashfile = " "
@@ -308,6 +311,9 @@ class LogScreen(Screen):
 
     def listcrah(self):
         global Crashfile
+        print('Crashfile=', Crashfile)
+        print('crashlogPath=', crashlogPath)
+        print('path_folder_log=', path_folder_log)
         list = "No data error"
         list2 = "No data error"
         try:
