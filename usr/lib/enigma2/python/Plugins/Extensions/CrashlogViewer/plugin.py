@@ -45,7 +45,6 @@ def isMountReadonly(mnt):
         for line in f:
             line = line.split(',')[0]
             line = line.split()
-            # print('line ', line)
             try:
                 device, mount_point, filesystem, flags = line
             except Exception as err:
@@ -76,7 +75,6 @@ def crashlogPath():
     for crashlog in os.listdir(path_folder_log):
         if crashlog.endswith(".log"):
             crashlogPath_found = True
-            # print("Crashlog found")
             break
     return crashlogPath_found
 
@@ -185,11 +183,7 @@ class CrashLogScreen(Screen):
     def CfgMenu(self):
         self.list = []
         if crashlogPath:
-            # print('crashlogPath=', crashlogPath)
-            # print('path_folder_log=', path_folder_log)
-            # crashfiles = os.popen("ls -lh /media/hdd/*crash*.log ls -lh /media/hdd/logs/*crash*.log /home/root/logs/*crash*.log /tmp/twisted.log")
             crashfiles = os.popen("ls -lh %s*crash*.log %slogs/*crash*.log /home/root/logs/*crash*.log %stwisted.log /media/usb/logs/*crash*.log" % (path_folder_log, path_folder_log, path_folder_log))
-            # crashfiles = os.popen("ls -lh %s*crash*.log %slogs/*crash*.log /home/root/logs/*crash*.log %stwisted.log" % (path_folder_log, path_folder_log, path_folder_log))
             sz_w = getDesktop(0).size().width()
             if sz_w == 2560:
                 minipng = LoadPixmap(cached=True, path=resolveFilename(SCOPE_PLUGINS, "Extensions/CrashlogViewer/images/crashminiwq.png"))
@@ -201,9 +195,7 @@ class CrashLogScreen(Screen):
                 item = line.split(" ")
                 name = item[-1].split("/")
                 name = (name[-1][:-5], ("%s %s %s %s %s" % (item[-7], item[-4], item[-5], item[-2], item[-3])), minipng, ("/%s/%s/" % (name[-3], name[-2])))
-                # print('CrashName: ', name)
                 if name not in self.list:
-                    # self.list.append((name[-1][:-5], ("%s %s %s %s %s" % (item[-7], item[-4], item[-5], item[-2], item[-3])), minipng, ("/%s/%s/" % (name[-3], name[-2]))))
                     self.list.append(name)
             self["menu"].setList(self.list)
             self["actions"] = ActionMap(["OkCancelActions"], {"cancel": self.close}, -1)
@@ -220,7 +212,6 @@ class CrashLogScreen(Screen):
                 Crashfile = '/media/usb/logs/' + item[0] + ".log"                
             else:
                 Crashfile = item[3] + item[0] + ".log"
-            # print('Crashfile OK: ', Crashfile)
             self.session.openWithCallback(self.CfgMenu, LogScreen)
         except:
             Crashfile = " "
@@ -232,6 +223,8 @@ class CrashLogScreen(Screen):
                 file = '/home' + item[3] + item[0] + ".log"
             elif item[3] == '/tmp/':
                 file = '/tmp/' + item[0] + ".log"
+            elif item[3] == '/usb/logs/':
+                file = '/media/usb/logs/' + item[0] + ".log"  
             else:
                 file = item[3] + item[0] + ".log"
 
@@ -243,7 +236,7 @@ class CrashLogScreen(Screen):
 
     def BlueKey(self):
         try:
-            os.system("rm %s*crash*.log rm %slogs/*crash*.log /home/root/logs/*crash*.log %stwisted.log" % (path_folder_log, path_folder_log, path_folder_log))
+            os.system("rm %s*crash*.log rm %slogs/*crash*.log /home/root/logs/*crash*.log %stwisted.log /media/usb/logs/*crash*.log" % (path_folder_log, path_folder_log, path_folder_log))
             self.mbox = self.session.open(MessageBox, (_("Removed All Crashlog Files")), MessageBox.TYPE_INFO, timeout=4)
         except:
             self.mbox = self.session.open(MessageBox, (_("Failed remove")), MessageBox.TYPE_INFO, timeout=4)
@@ -311,9 +304,6 @@ class LogScreen(Screen):
 
     def listcrah(self):
         global Crashfile
-        # print('Crashfile=', Crashfile)
-        # print('crashlogPath=', crashlogPath)
-        # print('path_folder_log=', path_folder_log)
         list = "No data error"
         list2 = "No data error"
         try:
