@@ -1,14 +1,8 @@
 #!/bin/sh
-echo "***********************************"
-echo "***********************************"
-echo "  Please E2 Restart Is Required ..."
-echo "***********************************"
-echo "  ..       CrashlogViewer ..       "
-echo "***********************************"
-echo "*         by Lululla              *"
-echo "***********************************"
-echo "***********************************"
-echo "*     Installed Successfully      *"
-echo "*     Please Restart E2 Now       *"
-echo "***********************************"
-exit 0
+echo "*********************************************************"
+echo "                  CrashlogViewer                         "
+echo "                Enigma2 plugin/extension                 "
+echo "*********************************************************"
+echo " Successfully INSTALLED. You should restart Enigma2 now. "
+echo "*********************************************************"
+exit 0 

@@ -1,10 +1,9 @@
 Package: enigma2-plugin-extensions-crashlogviewer
-Version: 0.9
-Section: base
-Priority: optional
+Version: 1.1
+Description: Plugin for the needs of the Project XYZ tests
 Architecture: all
-Maintainer: Evg77734
-Description: View and remove crashlog files
-Source: 
-Homepage: gisclub.tv
-OE: enigma2-plugin-extensions-crashlogviewer
+Section: extra
+Priority: optional
+Maintainer: @lululla packed
+License: GPLv2
+Homepage: ********

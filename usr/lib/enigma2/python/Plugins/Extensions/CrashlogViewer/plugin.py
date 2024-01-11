@@ -23,7 +23,7 @@ global Crashfile, path_folder_log
 
 
 Crashfile = " "
-version = '0.8'
+version = '1.1'
 path_folder_log = '/media/hdd/'
 lang = language.getLanguage()
 environ["LANGUAGE"] = lang[:2]

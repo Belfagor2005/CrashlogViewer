@@ -1,24 +1,10 @@
 #!/bin/sh
-
-echo
-echo "*****************************************"
-echo "*         Uninstall CrashlogViewer        *"
-echo "*****************************************"
-EXTDIR="/usr/lib/enigma2/python/Plugins/Extensions/CrashlogViewer"
-dream='/var/lib/dpkg/info'
-
-if [ -d "$dream" ]; then
-   dpkg -P --force-all enigma2-plugin-extensions-crashlogviewer
-   rm -rf "$EXTDIR" > /dev/null 2>&1
-fi
-
-if [ -d "$EXTDIR" ]; then
-   opkg remove --force-remove enigma2-plugin-extensions-crashlogviewer
-   rm -rf "$EXTDIR" > /dev/null 2>&1
-fi
-echo "*****************************************"
-echo "*          ....done                     *"
-echo "*****************************************"
+[ "$1" != "upgrade" ] || exit 0 > /dev/null 2>&1              # prevent the OE2.5+ based Enigma2 for deleting files when the package is "upgrading"
+rm -rf /tmp/ipk/usr/lib/enigma2/python/Plugins/Extensions/CrashlogViewer
+echo "*********************************************************"
+echo "                  crashlogviewer                         "
+echo "                Enigma2 plugin/extension                 "
+echo "*********************************************************"
+echo "  Successfully REMOVED. You should restart Enigma2 now.  "
+echo "*********************************************************"
 exit 0
-
-
