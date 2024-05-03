@@ -2,6 +2,7 @@
 # -*- coding: UTF-8 -*-
 
 # updated Lululla 05/06/2023
+# updated Lululla 30/04/2024
 # by 2boom 4bob@ua.fm
 from Components.ActionMap import ActionMap
 from Components.Language import language
@@ -23,7 +24,7 @@ global Crashfile, path_folder_log
 
 
 Crashfile = " "
-version = '1.1'
+version = '1.2'
 path_folder_log = '/media/hdd/'
 lang = language.getLanguage()
 environ["LANGUAGE"] = lang[:2]
@@ -84,15 +85,15 @@ class CrashLogScreen(Screen):
     if sz_w == 2560:
         skin = """
         <screen name="crashlogscreen" position="center,center" size="1280,1000" title="View or Remove Crashlog files">
-        <ePixmap position="15,908" zPosition="1" size="250,6" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/CrashlogViewer/images/red.png" alphatest="blend" />
-        <widget source="Redkey" render="Label" position="14,918" zPosition="2" size="250,50" font="Regular; 28" halign="center" valign="center" backgroundColor="background" foregroundColor="foreground" transparent="1" />
-        <widget source="Greenkey" render="Label" position="285,918" zPosition="2" size="250,50" font="Regular; 28" halign="center" valign="center" backgroundColor="background" foregroundColor="foreground" transparent="1" />
-        <ePixmap position="285,908" zPosition="1" size="250,6" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/CrashlogViewer/images/green.png" alphatest="blend" />
-        <ePixmap position="555,908" zPosition="1" size="250,6" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/CrashlogViewer/images/yellow.png" transparent="1" alphatest="on" />
-        <widget source="Yellowkey" render="Label" position="556,917" zPosition="2" size="250,50" valign="center" halign="center" font="Regular; 28" transparent="1" />
-        <widget source="Bluekey" render="Label" position="824,916" zPosition="2" size="250,50" valign="center" halign="center" font="Regular; 28" transparent="1" />
-        <ePixmap position="825,903" zPosition="1" size="250,6" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/CrashlogViewer/images/blue.png" transparent="1" alphatest="on" />
-        <ePixmap position="1130,913" size="100,50" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/CrashlogViewer/images/info.png" zPosition="2" alphatest="blend" />
+        <widget source="Redkey" render="Label" position="160,900" size="250,45" zPosition="11" font="Regular; 30" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
+        <widget source="Greenkey" render="Label" position="415,900" size="250,45" zPosition="11" font="Regular; 30" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
+        <widget source="Yellowkey" render="Label" position="670,900" size="250,45" zPosition="11" font="Regular; 30" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
+        <widget source="Bluekey" render="Label" position="925,900" size="250,45" zPosition="11" font="Regular; 30" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
+        <eLabel backgroundColor="#00ff0000" position="160,948" size="250,6" zPosition="12" />
+        <eLabel backgroundColor="#0000ff00" position="415,948" size="250,6" zPosition="12" />
+        <eLabel backgroundColor="#00ffff00" position="670,948" size="250,6" zPosition="12" />
+        <eLabel backgroundColor="#000000ff" position="925,948" size="250,6" zPosition="12" />
+        <eLabel name="" position="1194,901" size="52,52" backgroundColor="#003e4b53" halign="center" valign="center" transparent="0" cornerRadius="26" font="Regular; 17" zPosition="1" text="INFO" />
         <widget source="menu" render="Listbox" position="80,67" size="1137,781" scrollbarMode="showOnDemand">
         <convert type="TemplatedMultiContent">
         {"template": [
@@ -105,21 +106,22 @@ class CrashLogScreen(Screen):
         }
                 </convert>
             </widget>
-        </screen>"""
+        </screen>
+        """
 
     elif sz_w == 1920:
         skin = """
-        <screen name="crashlogscreen" position="center,center" size="960,880" title="View or Remove Crashlog files">
-        <ePixmap position="10,868" zPosition="1" size="165,2" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/CrashlogViewer/images/red.png" alphatest="blend" />
-        <widget source="Redkey" render="Label" position="10,823" zPosition="2" size="165,40" font="Regular; 30" halign="center" valign="center" backgroundColor="background" foregroundColor="foreground" transparent="1" />
-        <widget source="Greenkey" render="Label" position="220,823" zPosition="2" size="175,40" font="Regular; 28" halign="center" valign="center" backgroundColor="background" foregroundColor="foreground" transparent="1" />
-        <ePixmap position="220,868" zPosition="1" size="175,2" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/CrashlogViewer/images/green.png" alphatest="blend" />
-        <ePixmap position="425,868" zPosition="1" size="165,2" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/CrashlogViewer/images/yellow.png" transparent="1" alphatest="on" />
-        <widget source="Yellowkey" render="Label" position="425,823" zPosition="2" size="165,40" valign="center" halign="center" font="Regular; 28" transparent="1" />
-        <widget source="Bluekey" render="Label" position="635,823" zPosition="2" size="165,40" valign="center" halign="center" font="Regular; 28" transparent="1" />
-        <ePixmap position="635,868" zPosition="1" size="165,2" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/CrashlogViewer/images/blue.png" transparent="1" alphatest="on" />
-        <ePixmap position="840,823" size="80,40" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/CrashlogViewer/images/info.png" zPosition="2" alphatest="blend" />
-        <widget source="menu" render="Listbox" position="20,10" size="920,781" scrollbarMode="showOnDemand">
+        <screen name="crashlogscreen" position="center,center" size="1000,880" title="View or Remove Crashlog files">
+        <widget source="Redkey" render="Label" position="0,814" size="250,45" zPosition="11" font="Regular; 26" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
+        <widget source="Greenkey" render="Label" position="252,813" size="250,45" zPosition="11" font="Regular; 26" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
+        <widget source="Yellowkey" render="Label" position="499,814" size="250,45" zPosition="11" font="Regular; 26" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
+        <widget source="Bluekey" render="Label" position="749,814" size="250,45" zPosition="11" font="Regular; 26" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
+        <eLabel backgroundColor="#00ff0000" position="0,858" size="250,6" zPosition="12" />
+        <eLabel backgroundColor="#0000ff00" position="250,858" size="250,6" zPosition="12" />
+        <eLabel backgroundColor="#00ffff00" position="500,858" size="250,6" zPosition="12" />
+        <eLabel backgroundColor="#000000ff" position="750,858" size="250,6" zPosition="12" />
+        <eLabel name="" position="933,753" size="52,52" backgroundColor="#003e4b53" halign="center" valign="center" transparent="0" cornerRadius="26" font="Regular; 17" zPosition="1" text="INFO" />
+        <widget source="menu" render="Listbox" position="20,10" size="961,781" scrollbarMode="showOnDemand">
         <convert type="TemplatedMultiContent">
         {"template": [
             MultiContentEntryText(pos = (70, 2), size = (580, 34), font=0, flags = RT_HALIGN_LEFT, text = 0), # index 2 is the Menu Titel
@@ -131,19 +133,20 @@ class CrashLogScreen(Screen):
         }
                 </convert>
             </widget>
-        </screen>"""
+        </screen>
+        """
     else:
         skin = """
-        <screen name="crashlogscreen" position="320,66" size="640,586" title="View or Remove Crashlog files">
-        <ePixmap position="6,578" zPosition="1" size="110,1" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/CrashlogViewer/images/red.png" alphatest="blend" />
-        <widget source="Redkey" render="Label" position="6,552" zPosition="2" size="110,20" font="Regular; 18" halign="center" valign="center" backgroundColor="background" foregroundColor="foreground" transparent="1" />
-        <widget source="Greenkey" render="Label" position="146,552" zPosition="2" size="116,20" font="Regular; 18" halign="center" valign="center" backgroundColor="background" foregroundColor="foreground" transparent="1" />
-        <ePixmap position="146,578" zPosition="1" size="116,1" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/CrashlogViewer/images/green.png" alphatest="blend" />
-        <ePixmap position="283,578" zPosition="1" size="110,1" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/CrashlogViewer/images/yellow.png" transparent="1" alphatest="on" />
-        <widget source="Yellowkey" render="Label" position="283,552" zPosition="2" size="110,20" valign="center" halign="center" font="Regular; 18" transparent="1" />
-        <widget source="Bluekey" render="Label" position="423,552" zPosition="2" size="110,20" valign="center" halign="center" font="Regular; 18" transparent="1" />
-        <ePixmap position="423,578" zPosition="1" size="110,1" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/CrashlogViewer/images/blue.png" transparent="1" alphatest="on" />
-        <ePixmap position="560,552" size="46,20" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/CrashlogViewer/images/info1.png" zPosition="2" alphatest="blend" />
+        <screen name="crashlogscreen" position="center,center" size="640,586" title="View or Remove Crashlog files">
+        <widget source="Redkey" render="Label" position="6,536" size="160,35" zPosition="11" font="Regular; 22" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
+        <widget source="Greenkey" render="Label" position="166,536" size="160,35" zPosition="11" font="Regular; 22" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
+        <widget source="Yellowkey" render="Label" position="325,536" size="160,35" zPosition="11" font="Regular; 22" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
+        <widget source="Bluekey" render="Label" position="485,536" size="160,35" zPosition="11" font="Regular; 22" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
+        <eLabel backgroundColor="#00ff0000" position="5,570" size="160,6" zPosition="12" />
+        <eLabel backgroundColor="#0000ff00" position="165,570" size="160,6" zPosition="12" />
+        <eLabel backgroundColor="#00ffff00" position="325,570" size="160,6" zPosition="12" />
+        <eLabel backgroundColor="#000000ff" position="480,570" size="160,6" zPosition="12" />
+        <eLabel name="" position="586,495" size="42,35" backgroundColor="#003e4b53" halign="center" valign="center" transparent="0" cornerRadius="26" font="Regular; 14" zPosition="1" text="INFO" />
         <widget source="menu" render="Listbox" position="13,6" size="613,517" scrollbarMode="showOnDemand">
         <convert type="TemplatedMultiContent">
         {"template": [
@@ -156,22 +159,23 @@ class CrashLogScreen(Screen):
         }
                 </convert>
         </widget>
-        </screen>"""
+        </screen>
+        """
 
     def __init__(self, session):
         self.session = session
         Screen.__init__(self, session)
         self["shortcuts"] = ActionMap(["ShortcutActions", "WizardActions", "EPGSelectActions"],
                                       {
-                                        "ok": self.Ok,
-                                        "cancel": self.exit,
-                                        "back": self.exit,
-                                        "red": self.exit,
-                                        "green": self.Ok,
-                                        "yellow": self.YellowKey,
-                                        "blue": self.BlueKey,
-                                        "info": self.infoKey,
-                                       })
+                                      "ok": self.Ok,
+                                      "cancel": self.exit,
+                                      "back": self.exit,
+                                      "red": self.exit,
+                                      "green": self.Ok,
+                                      "yellow": self.YellowKey,
+                                      "blue": self.BlueKey,
+                                      "info": self.infoKey,
+                                      })
         self["Redkey"] = StaticText(_("Close"))
         self["Greenkey"] = StaticText(_("View"))
         self["Yellowkey"] = StaticText(_("Remove"))
@@ -183,7 +187,7 @@ class CrashLogScreen(Screen):
     def CfgMenu(self):
         self.list = []
         if crashlogPath:
-            crashfiles = os.popen("ls -lh %s*crash*.log %slogs/*crash*.log /home/root/logs/*crash*.log %stwisted.log /media/usb/logs/*crash*.log" % (path_folder_log, path_folder_log, path_folder_log))
+            crashfiles = os.popen("ls -lh %s*crash*.log %slogs/*crash*.log /home/root/*crash*.log /home/root/logs/*crash*.log %stwisted.log /media/usb/logs/*crash*.log /media/usb/*crash*.log" % (path_folder_log, path_folder_log, path_folder_log))
             sz_w = getDesktop(0).size().width()
             if sz_w == 2560:
                 minipng = LoadPixmap(cached=True, path=resolveFilename(SCOPE_PLUGINS, "Extensions/CrashlogViewer/images/crashminiwq.png"))
@@ -204,12 +208,14 @@ class CrashLogScreen(Screen):
         item = self["menu"].getCurrent()
         global Crashfile
         try:
-            if item[3] == '/root/logs/':
+            if item[3] == '/root/':
+                Crashfile = '/home' + item[3] + item[0] + ".log"
+            elif item[3] == '/root/logs/':
                 Crashfile = '/home' + item[3] + item[0] + ".log"
             elif item[3] == '/tmp/':
                 Crashfile = '/tmp/' + item[0] + ".log"
             elif item[3] == '/usb/logs/':
-                Crashfile = '/media/usb/logs/' + item[0] + ".log"                
+                Crashfile = '/media/usb/logs/' + item[0] + ".log"
             else:
                 Crashfile = item[3] + item[0] + ".log"
             self.session.openWithCallback(self.CfgMenu, LogScreen)
@@ -219,12 +225,14 @@ class CrashLogScreen(Screen):
     def YellowKey(self):
         item = self["menu"].getCurrent()
         try:
-            if item[3] == '/root/logs/':
+            if item[3] == '/root/':
+                file = '/home' + item[3] + item[0] + ".log"
+            elif item[3] == '/root/logs/':
                 file = '/home' + item[3] + item[0] + ".log"
             elif item[3] == '/tmp/':
                 file = '/tmp/' + item[0] + ".log"
             elif item[3] == '/usb/logs/':
-                file = '/media/usb/logs/' + item[0] + ".log"  
+                file = '/media/usb/logs/' + item[0] + ".log"
             else:
                 file = item[3] + item[0] + ".log"
 
@@ -236,7 +244,7 @@ class CrashLogScreen(Screen):
 
     def BlueKey(self):
         try:
-            os.system("rm %s*crash*.log rm %slogs/*crash*.log /home/root/logs/*crash*.log %stwisted.log /media/usb/logs/*crash*.log" % (path_folder_log, path_folder_log, path_folder_log))
+            os.system("rm %s*crash*.log rm %slogs/*crash*.log /home/root/*crash*.log /home/root/logs/*crash*.log %stwisted.log /media/usb/logs/*crash*.log /media/usb/*crash*.log" % (path_folder_log, path_folder_log, path_folder_log))
             self.mbox = self.session.open(MessageBox, (_("Removed All Crashlog Files")), MessageBox.TYPE_INFO, timeout=4)
         except:
             self.mbox = self.session.open(MessageBox, (_("Failed remove")), MessageBox.TYPE_INFO, timeout=4)
@@ -253,32 +261,35 @@ class LogScreen(Screen):
     sz_w = getDesktop(0).size().width()
     if sz_w == 2560:
         skin = """
-        <screen name="crashlogview" position="0,0" size="2560,1440" title="View Crashlog file">
-        <ePixmap position="2195,1360" zPosition="1" size="250,6" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/CrashlogViewer/images/red.png" alphatest="blend" />
-        <widget source="Redkey" render="Label" position="2199,1373" zPosition="2" size="250,50" font="Regular; 32" halign="center" valign="center" backgroundColor="background" foregroundColor="foreground" transparent="1" />
+        <screen name="crashlogview" position="center,center" size="2560,1440" title="View Crashlog file">
+        <widget source="Redkey" render="Label" position="32,1326" size="250,69" zPosition="11" font="Regular; 30" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
+        <eLabel backgroundColor="#00ff0000" position="35,1393" size="250,6" zPosition="12" />
         <widget name="text" position="0,10" size="2560,1092" font="Console; 42" text="text" />
         <widget name="text2" position="-279,1123" size="2560,190" font="Console; 42" text="text2" foregroundColor="#ff0000" />
         <eLabel position="10,1110" size="2560,4" backgroundColor="#555555" zPosition="1" />
-        </screen>"""
+        </screen>
+        """
 
     elif sz_w == 1920:
         skin = """
-        <screen name="crashlogview" position="20,80" size="1880,980" title="View Crashlog file">
-        <ePixmap position="1680,965" zPosition="1" size="170,2" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/CrashlogViewer/images/red.png" alphatest="blend" />
-        <widget source="Redkey" render="Label" position="1680,920" zPosition="2" size="170,38" font="Regular; 28" halign="center" valign="center" backgroundColor="background" foregroundColor="foreground" transparent="1" />
+        <screen name="crashlogview" position="center,center" size="1880,980" title="View Crashlog file">
+        <widget source="Redkey" render="Label" position="16,919" size="250,45" zPosition="11" font="Regular; 30" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
+        <eLabel backgroundColor="#00ff0000" position="20,963" size="250,6" zPosition="12" />
         <widget name="text" position="10,10" size="1860,695" font="Console; 24" text="text" />
         <widget name="text2" position="10,720" size="1860,190" font="Console; 26" text="text2" foregroundColor="#ff0000" />
         <eLabel position="10,710" size="1860,2" backgroundColor="#555555" zPosition="1" />
-        </screen>"""
+        </screen>
+        """
     else:
         skin = """
-        <screen name="crashlogview" position="13,53" size="1253,653" title="View Crashlog file">
-        <ePixmap position="1120,643" zPosition="1" size="113,1" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/CrashlogViewer/images/red.png" alphatest="blend" />
-        <widget source="Redkey" render="Label" position="1120,613" zPosition="2" size="113,25" font="Regular; 18" halign="center" valign="center" backgroundColor="background" foregroundColor="foreground" transparent="1" />
+        <screen name="crashlogview" position="center,center" size="1253,653" title="View Crashlog file">
+    <widget source="Redkey" render="Label" position="19,609" size="172,33" zPosition="11" font="Regular; 22" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
+        <eLabel backgroundColor="#00ff0000" position="20,643" size="172,6" zPosition="12" />
         <widget name="text" position="6,6" size="1240,463" font="Console; 16" text="text" />
         <widget name="text2" position="6,480" size="1240,126" font="Console; 17" text="text2" foregroundColor="#ff0000" />
         <eLabel position="6,473" size="1240,1" backgroundColor="#555555" zPosition="1" />
-        </screen>"""
+        </screen>
+        """
 
     def __init__(self, session):
         self.session = session
@@ -287,10 +298,10 @@ class LogScreen(Screen):
         self.setTitle('View Crashlog file:  ' + str(Crashfile))
         self["shortcuts"] = ActionMap(["ShortcutActions", "WizardActions"],
                                       {
-                                       "cancel": self.exit,
-                                       "back": self.exit,
-                                       "red": self.exit,
-                                       })
+                                      "cancel": self.exit,
+                                      "back": self.exit,
+                                      "red": self.exit,
+                                      })
         self["Redkey"] = StaticText(_("Close"))
         self["Greenkey"] = StaticText(_("Restart GUI"))
         self["text"] = ScrollLabel("")
@@ -334,8 +345,8 @@ def main(session, **kwargs):
 
 def Plugins(**kwargs):
     return PluginDescriptor(
-            name=(_("Crashlog  Viewer") + " ver. " + version),
-            description=_("View and remove crashlog files"),
-            where=[PluginDescriptor.WHERE_PLUGINMENU, PluginDescriptor.WHERE_EXTENSIONSMENU],
-            icon="crash.png",
-            fnc=main)
+        name=(_("Crashlog  Viewer") + " ver. " + version),
+        description=_("View and remove crashlog files"),
+        where=[PluginDescriptor.WHERE_PLUGINMENU, PluginDescriptor.WHERE_EXTENSIONSMENU],
+        icon="crash.png",
+        fnc=main)
