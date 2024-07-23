@@ -4,6 +4,7 @@
 # updated Lululla 05/06/2023
 # updated Lululla 30/04/2024
 # by 2boom 4bob@ua.fm
+
 from Components.ActionMap import ActionMap
 from Components.Language import language
 from Components.ScrollLabel import ScrollLabel
@@ -13,15 +14,14 @@ from Components.config import config
 from Plugins.Plugin import PluginDescriptor
 from Screens.MessageBox import MessageBox
 from Screens.Screen import Screen
-from Tools.Directories import resolveFilename
-from Tools.Directories import SCOPE_PLUGINS, SCOPE_LANGUAGE
+from Tools.Directories import (SCOPE_PLUGINS, SCOPE_LANGUAGE, resolveFilename)
 from Tools.LoadPixmap import LoadPixmap
 from enigma import getDesktop
 from os import environ
 import gettext
 import os
-global Crashfile, path_folder_log
 
+global Crashfile, path_folder_log
 
 Crashfile = " "
 version = '1.2'
@@ -283,7 +283,7 @@ class LogScreen(Screen):
     else:
         skin = """
         <screen name="crashlogview" position="center,center" size="1253,653" title="View Crashlog file">
-    <widget source="Redkey" render="Label" position="19,609" size="172,33" zPosition="11" font="Regular; 22" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
+        <widget source="Redkey" render="Label" position="19,609" size="172,33" zPosition="11" font="Regular; 22" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
         <eLabel backgroundColor="#00ff0000" position="20,643" size="172,6" zPosition="12" />
         <widget name="text" position="6,6" size="1240,463" font="Console; 16" text="text" />
         <widget name="text2" position="6,480" size="1240,126" font="Console; 17" text="text2" foregroundColor="#ff0000" />
