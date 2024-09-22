@@ -4,6 +4,7 @@
 # updated Lululla 05/06/2023
 # updated Lululla 30/04/2024
 # updated Lululla 30/08/2024
+# updated Lululla 22/09/2024
 # by 2boom 4bob@ua.fm
 
 from Components.ActionMap import ActionMap
@@ -22,11 +23,10 @@ from os import environ
 import gettext
 import os
 import sys
-import glob
 
 global path_folder_log
 
-version = '1.3'
+version = '1.4'
 path_folder_log = '/media/hdd/'
 lang = language.getLanguage()
 environ["LANGUAGE"] = lang[:2]
@@ -62,29 +62,63 @@ def isMountReadonly(mnt):
     return "mount: '%s' doesn't exist" % mnt
 
 
+def paths():
+    return [
+        "/media/hdd", "/media/usb", "/media/mmc", "/home/root", "/home/root/logs/",
+        "/media/hdd/logs", "/media/usb/logs", "/ba/", "/ba/logs"
+    ]
+
+
 def crashlogPath():
+    path_folder_log = '/media/hdd/'
     crashlogPath_found = False
     try:
         path_folder_log = config.crash.debug_path.value
     except (KeyError, AttributeError):
         path_folder_log = None
+    print('path_folder_log:', path_folder_log)
     if path_folder_log is None:
-        possible_paths = ["/media/hdd", "/media/usb", "/media/mmc"]
+        possible_paths = paths()
         for path in possible_paths:
             if os.path.exists(path) and not isMountReadonly(path):
                 path_folder_log = path + "/"
                 break
         else:
             path_folder_log = "/tmp/"
+
     try:
         for crashlog in os.listdir(path_folder_log):
-            if crashlog.endswith(".log"):
+            if crashlog.endswith(".log") and ("crashlog" in crashlog or "twiste" in crashlog):
                 crashlogPath_found = True
                 break
     except OSError as e:
-        print("Error accessing crash log directory: %s" % str(e))
+        print("Errore nell'accesso alla directory di crashlog: %s" % str(e))
         crashlogPath_found = False
+    print('path_folder_log 2 :', path_folder_log)
     return crashlogPath_found
+
+
+def find_log_files():
+    log_files = []
+    possible_paths = paths()
+    for path in possible_paths:
+        if os.path.exists(path) and not isMountReadonly(path):
+            try:
+                for file in os.listdir(path):
+                    if file.endswith(".log") and ("crashlog" in file or "twiste" in file):
+                        log_files.append(os.path.join(path, file))
+            except OSError as e:
+                print("Errore durante l'accesso a:", path, str(e))
+    return log_files
+
+
+def delete_log_files(files):
+    for file in files:
+        try:
+            os.remove(file)
+            print('File eliminato:', file)
+        except OSError as e:
+            print("Errore durante l'eliminazione di {file}:", str(e))
 
 
 class CrashLogScreen(Screen):
@@ -104,8 +138,8 @@ class CrashLogScreen(Screen):
         <widget source="menu" render="Listbox" position="80,67" size="1137,781" scrollbarMode="showOnDemand">
         <convert type="TemplatedMultiContent">
         {"template": [
-            MultiContentEntryText(pos = (80, 5), size = (580, 46), font=0, flags = RT_HALIGN_LEFT | RT_VALIGN_CENTER, text = 0), # index 2 is the Menu Titel
-            MultiContentEntryText(pos = (80, 55), size = (580, 38), font=1, flags = RT_HALIGN_LEFT | RT_VALIGN_CENTER, text = 1), # index 3 is the Description
+            MultiContentEntryText(pos = (80, 5), size = (580, 46), font=0, flags = RT_HALIGN_LEFT, text = 0), # index 2 is the Menu Titel
+            MultiContentEntryText(pos = (80, 55), size = (580, 38), font=1, flags = RT_HALIGN_LEFT, text = 1), # index 3 is the Description
             MultiContentEntryPixmapAlphaTest(pos = (5, 35), size = (51, 40), png = 2), # index 4 is the pixmap
                 ],
         "fonts": [gFont("Regular", 42),gFont("Regular", 34)],
@@ -132,7 +166,7 @@ class CrashLogScreen(Screen):
         <convert type="TemplatedMultiContent">
         {"template": [
             MultiContentEntryText(pos = (70, 2), size = (580, 34), font=0, flags = RT_HALIGN_LEFT, text = 0), # index 2 is the Menu Titel
-            MultiContentEntryText(pos = (80, 29), size = (580, 30), font=1, flags = RT_HALIGN_LEFT, text = 1), # index 3 is the Description
+            MultiContentEntryText(pos = (80, 40), size = (580, 30), font=1, flags = RT_HALIGN_LEFT, text = 1), # index 3 is the Description
             MultiContentEntryPixmapAlphaTest(pos = (5, 15), size = (51, 40), png = 2), # index 4 is the pixmap
                 ],
         "fonts": [gFont("Regular", 30),gFont("Regular", 26)],
@@ -157,11 +191,11 @@ class CrashLogScreen(Screen):
         <widget source="menu" render="Listbox" position="13,6" size="613,517" scrollbarMode="showOnDemand">
         <convert type="TemplatedMultiContent">
         {"template": [
-            MultiContentEntryText(pos = (46, 1), size = (386, 22), font=0, flags = RT_HALIGN_LEFT, text = 0), # index 2 is the Menu Titel
-            MultiContentEntryText(pos = (53, 19), size = (386, 20), font=1, flags = RT_HALIGN_LEFT, text = 1), # index 3 is the Description
+            MultiContentEntryText(pos = (50, 2), size = (550, 22), font=0, flags = RT_HALIGN_LEFT, text = 0), # index 2 is the Menu Titel
+            MultiContentEntryText(pos = (55, 24), size = (550, 20), font=1, flags = RT_HALIGN_LEFT, text = 1), # index 3 is the Description
             MultiContentEntryPixmapAlphaTest(pos = (3, 10), size = (34, 26), png = 2), # index 4 is the pixmap
                 ],
-        "fonts": [gFont("Regular", 18),gFont("Regular", 16)],
+        "fonts": [gFont("Regular", 20),gFont("Regular", 18)],
         "itemHeight": 50
         }
                 </convert>
@@ -193,38 +227,62 @@ class CrashLogScreen(Screen):
 
     def CfgMenu(self):
         self.list = []
-        if crashlogPath:
-            crashfiles = os.popen("ls -lh %s*crash*.log %slogs/*crash*.log /home/root/*crash*.log /home/root/logs/*crash*.log %stwisted.log /media/usb/logs/*crash*.log /media/usb/*crash*.log" % (path_folder_log, path_folder_log, path_folder_log))
-            sz_w = getDesktop(0).size().width()
-            if sz_w == 2560:
-                minipng = LoadPixmap(cached=True, path=resolveFilename(SCOPE_PLUGINS, "Extensions/CrashlogViewer/images/crashminiwq.png"))
-            elif sz_w == 1920:
-                minipng = LoadPixmap(cached=True, path=resolveFilename(SCOPE_PLUGINS, "Extensions/CrashlogViewer/images/crashmini.png"))
-            else:
-                minipng = LoadPixmap(cached=True, path=resolveFilename(SCOPE_PLUGINS, "Extensions/CrashlogViewer/images/crashmini1.png"))
-            for line in crashfiles:
-                item = line.split(" ")
-                name = item[-1].split("/")
-                name = (name[-1][:-5], ("%s %s %s %s %s" % (item[-7], item[-4], item[-5], item[-2], item[-3])), minipng, ("/%s/%s/" % (name[-3], name[-2])))
-                if name not in self.list:
-                    self.list.append(name)
-            self["menu"].setList(self.list)
-            self["actions"] = ActionMap(["OkCancelActions"], {"cancel": self.close}, -1)
+        path_folder_log = "/tmp/"
+        log_files = find_log_files()
+        if log_files:
+            paths_to_search = ' '.join(log_files)
+        else:
+            paths_to_search = ("%s*crash*.log \
+                               %slogs/*crash*.log \
+                               /home/root/*crash*.log \
+                               /home/root/logs/*crash*.log \
+                               %stwisted.log \
+                               /media/usb/logs/*crash*.log \
+                               /media/usb/*crash*.log \
+                               /media/hdd/*crash*.log \
+                               /media/hdd/logs/*crash*.log \
+                               /media/mmc/*crash*.log \
+                               /ba/*crash*.log \
+                               /ba/logs/*crash*.log") % (path_folder_log, path_folder_log, path_folder_log)
+            # paths_to_search = "%s*crash*.log %slogs/*crash*.log /home/root/*crash*.log /home/root/logs/*crash*.log %stwisted.log /media/usb/logs/*crash*.log /media/usb/*crash*.log" % (path_folder_log, path_folder_log, path_folder_log)
+        crashfiles = os.popen("ls -lh " + paths_to_search).read()
+        print('crashfiles:', crashfiles)  # Stampa per debug
+
+        sz_w = getDesktop(0).size().width()
+        if sz_w == 2560:
+            minipng = LoadPixmap(cached=True, path=resolveFilename(SCOPE_PLUGINS, "Extensions/CrashlogViewer/images/crashminiwq.png"))
+        elif sz_w == 1920:
+            minipng = LoadPixmap(cached=True, path=resolveFilename(SCOPE_PLUGINS, "Extensions/CrashlogViewer/images/crashmini.png"))
+        else:
+            minipng = LoadPixmap(cached=True, path=resolveFilename(SCOPE_PLUGINS, "Extensions/CrashlogViewer/images/crashmini1.png"))
+        for line in crashfiles.splitlines():
+            print("Linea di crashfile:", line)
+            item = line.split()
+            if len(item) >= 9:
+                file_size = item[4]  # Dimensione del file
+                file_date = " ".join(item[5:8])  # Data e ora del file
+                file_name = item[8]  # Nome del file con percorso
+                display_name = (file_name.split("/")[-1],  # Mostra solo il nome del file
+                                "Dimensione: %s - Data: %s" % (file_size, file_date),  # Dettagli
+                                minipng,  # Icona appropriata
+                                file_name)  # Percorso completo del file
+                if display_name not in self.list:
+                    print('Aggiungendo alla lista:', display_name)  # Debug per verificare l'aggiunta
+                    self.list.append(display_name)
+        self["menu"].setList(self.list)
+        self["actions"] = ActionMap(["OkCancelActions"], {"cancel": self.close}, -1)
 
     def Ok(self):
         item = self["menu"].getCurrent()
         global Crashfile
         try:
             base_dir = item[3]
-            filename = item[0] + ".log"
-            if base_dir in ['/root/', '/root/logs/']:
-                Crashfile = '/home' + base_dir + filename
-            elif base_dir == '/tmp/':
-                Crashfile = '/tmp/' + filename
-            elif base_dir == '/usb/logs/':
-                Crashfile = '/media/usb/logs/' + filename
-            else:
-                Crashfile = base_dir + filename
+            filename = item[0]  # + ".log"
+            print('base_dir=', base_dir)
+            print('filename=', filename)
+            # 17:53:17.5409 base_dir= /home/root/logs/20240922-165717-enigma2-crash.log
+            # 17:53:17.5410 filename= 20240922-165717-enigma2-crash.log.log
+            Crashfile = str(base_dir)
             self.session.openWithCallback(self.CfgMenu, LogScreen)
         except (IndexError, TypeError, KeyError) as e:
             print(e)
@@ -234,15 +292,9 @@ class CrashLogScreen(Screen):
         item = self["menu"].getCurrent()
         try:
             base_dir = item[3]
-            filename = item[0] + ".log"
-            if base_dir in ['/root/', '/root/logs/']:
-                file_path = '/home' + base_dir + filename
-            elif base_dir == '/tmp/':
-                file_path = '/tmp/' + filename
-            elif base_dir == '/usb/logs/':
-                file_path = '/media/usb/logs/' + filename
-            else:
-                file_path = base_dir + filename
+            # filename = item[0]  # + ".log"
+            file_path = str(base_dir)
+            print('YellowKey file_path=', file_path)
             os.remove(file_path)
             self.mbox = self.session.open(MessageBox, (_("Removed %s") % (file_path)), MessageBox.TYPE_INFO, timeout=4)
         except (IndexError, TypeError, KeyError) as e:
@@ -255,20 +307,18 @@ class CrashLogScreen(Screen):
 
     def BlueKey(self):
         try:
-            # Definizione dei percorsi da cercare
-            percorsi = [
-                os.path.join(path_folder_log, "*crash*.log"),
-                os.path.join(path_folder_log, "logs/*crash*.log"),
-                "/home/root/*crash*.log",
-                "/home/root/logs/*crash*.log",
-                os.path.join(path_folder_log, "twisted.log"),
-                "/media/usb/logs/*crash*.log",
-                "/media/usb/*crash*.log"
-            ]
-            # Itera su ogni percorso e rimuove i file trovati
-            for percorso in percorsi:
-                for file in glob.glob(percorso):
-                    os.remove(file)
+            log_files = find_log_files()
+            if log_files:
+                paths_to_search = ' '.join(log_files)
+            else:
+                paths_to_search = "%s*crash*.log %slogs/*crash*.log /home/root/*crash*.log /home/root/logs/*crash*.log %stwisted.log /media/usb/logs/*crash*.log /media/usb/*crash*.log" % (path_folder_log, path_folder_log, path_folder_log)
+            crashfiles = os.popen("ls -lh " + paths_to_search).read()
+            for line in crashfiles.splitlines():  # Dividi l'output in linee
+                item = line.split()
+                if len(item) >= 9:  # Assicurati che ci siano abbastanza informazioni
+                    file_name = item[8]  # Nome del file con percorso
+                    print('BlueKey file_name=', file_name)
+                    os.remove(file_name)
             self.mbox = self.session.open(MessageBox, (_("Removed All Crashlog Files")), MessageBox.TYPE_INFO, timeout=4)
         except (OSError, IOError) as e:
             self.mbox = self.session.open(MessageBox, (_("Failed to remove some files: %s") % str(e)), MessageBox.TYPE_INFO, timeout=4)
