@@ -5,6 +5,7 @@
 # updated Lululla 30/04/2024
 # updated Lululla 30/08/2024
 # updated Lululla 22/09/2024
+# updated Lululla 17/11/2024
 # by 2boom 4bob@ua.fm
 
 from Components.ActionMap import ActionMap
@@ -24,9 +25,10 @@ import gettext
 import os
 import sys
 
+
 global path_folder_log
 
-version = '1.4'
+version = '1.5'
 path_folder_log = '/media/hdd/'
 lang = language.getLanguage()
 environ["LANGUAGE"] = lang[:2]
@@ -55,10 +57,10 @@ def isMountReadonly(mnt):
                     return 'ro' in flags
     except IOError as e:
         # Gestione errori di I/O (es. file non accessibile)
-        print("Errore di I/O: %s" % str(e), file=sys.stderr)
+        print("Errore di I/O: %s", str(e))
     except Exception as err:
         # Gestione generale delle eccezioni
-        print("Errore: %s" % str(err), file=sys.stderr)
+        print("Errore: %s", str(err))
     return "mount: '%s' doesn't exist" % mnt
 
 
@@ -138,8 +140,8 @@ class CrashLogScreen(Screen):
         <widget source="menu" render="Listbox" position="80,67" size="1137,781" scrollbarMode="showOnDemand">
         <convert type="TemplatedMultiContent">
         {"template": [
-            MultiContentEntryText(pos = (80, 5), size = (580, 46), font=0, flags = RT_HALIGN_LEFT, text = 0), # index 2 is the Menu Titel
-            MultiContentEntryText(pos = (80, 55), size = (580, 38), font=1, flags = RT_HALIGN_LEFT, text = 1), # index 3 is the Description
+            MultiContentEntryText(pos = (80, 5), size = (580, 46), font=0, flags = RT_HALIGN_LEFT | RT_VALIGN_CENTER, text = 0), # index 2 is the Menu Titel
+            MultiContentEntryText(pos = (80, 55), size = (580, 38), font=1, flags = RT_HALIGN_LEFT | RT_VALIGN_CENTER, text = 1), # index 3 is the Description
             MultiContentEntryPixmapAlphaTest(pos = (5, 35), size = (51, 40), png = 2), # index 4 is the pixmap
                 ],
         "fonts": [gFont("Regular", 42),gFont("Regular", 34)],
@@ -166,7 +168,7 @@ class CrashLogScreen(Screen):
         <convert type="TemplatedMultiContent">
         {"template": [
             MultiContentEntryText(pos = (70, 2), size = (580, 34), font=0, flags = RT_HALIGN_LEFT, text = 0), # index 2 is the Menu Titel
-            MultiContentEntryText(pos = (80, 40), size = (580, 30), font=1, flags = RT_HALIGN_LEFT, text = 1), # index 3 is the Description
+            MultiContentEntryText(pos = (80, 29), size = (580, 30), font=1, flags = RT_HALIGN_LEFT, text = 1), # index 3 is the Description
             MultiContentEntryPixmapAlphaTest(pos = (5, 15), size = (51, 40), png = 2), # index 4 is the pixmap
                 ],
         "fonts": [gFont("Regular", 30),gFont("Regular", 26)],
@@ -191,11 +193,11 @@ class CrashLogScreen(Screen):
         <widget source="menu" render="Listbox" position="13,6" size="613,517" scrollbarMode="showOnDemand">
         <convert type="TemplatedMultiContent">
         {"template": [
-            MultiContentEntryText(pos = (50, 2), size = (550, 22), font=0, flags = RT_HALIGN_LEFT, text = 0), # index 2 is the Menu Titel
-            MultiContentEntryText(pos = (55, 24), size = (550, 20), font=1, flags = RT_HALIGN_LEFT, text = 1), # index 3 is the Description
+            MultiContentEntryText(pos = (46, 1), size = (386, 22), font=0, flags = RT_HALIGN_LEFT, text = 0), # index 2 is the Menu Titel
+            MultiContentEntryText(pos = (53, 19), size = (386, 20), font=1, flags = RT_HALIGN_LEFT, text = 1), # index 3 is the Description
             MultiContentEntryPixmapAlphaTest(pos = (3, 10), size = (34, 26), png = 2), # index 4 is the pixmap
                 ],
-        "fonts": [gFont("Regular", 20),gFont("Regular", 18)],
+        "fonts": [gFont("Regular", 18),gFont("Regular", 16)],
         "itemHeight": 50
         }
                 </convert>
@@ -239,15 +241,16 @@ class CrashLogScreen(Screen):
                                %stwisted.log \
                                /media/usb/logs/*crash*.log \
                                /media/usb/*crash*.log \
-                               /media/hdd/*crash*.log \
                                /media/hdd/logs/*crash*.log \
                                /media/mmc/*crash*.log \
+                               /media/hdd/*crash*.log \
                                /ba/*crash*.log \
                                /ba/logs/*crash*.log") % (path_folder_log, path_folder_log, path_folder_log)
             # paths_to_search = "%s*crash*.log %slogs/*crash*.log /home/root/*crash*.log /home/root/logs/*crash*.log %stwisted.log /media/usb/logs/*crash*.log /media/usb/*crash*.log" % (path_folder_log, path_folder_log, path_folder_log)
         crashfiles = os.popen("ls -lh " + paths_to_search).read()
-        print('crashfiles:', crashfiles)  # Stampa per debug
-
+        print('Paths to search:', paths_to_search)
+        crashfiles = os.popen("ls -lh " + paths_to_search).read()
+        print('Crash files found:', crashfiles)
         sz_w = getDesktop(0).size().width()
         if sz_w == 2560:
             minipng = LoadPixmap(cached=True, path=resolveFilename(SCOPE_PLUGINS, "Extensions/CrashlogViewer/images/crashminiwq.png"))
@@ -339,7 +342,9 @@ class LogScreen(Screen):
         skin = """
         <screen name="crashlogview" position="center,center" size="2560,1440" title="View Crashlog file">
         <widget source="Redkey" render="Label" position="32,1326" size="250,69" zPosition="11" font="Regular; 30" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
-        <eLabel backgroundColor="#00ff0000" position="35,1393" size="250,6" zPosition="12" />
+        <widget source="Greenkey" render="Label" position="321,1326" size="250,69" zPosition="11" font="Regular; 30" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
+        <eLabel backgroundColor="#00ff0000" position="32,1394" size="250,6" zPosition="12" />
+        <eLabel backgroundColor="#0000ff00" position="321,1396" size="250,6" zPosition="12" />        
         <widget name="text" position="0,10" size="2560,1092" font="Console; 42" text="text" />
         <widget name="text2" position="-279,1123" size="2560,190" font="Console; 42" text="text2" foregroundColor="#ff0000" />
         <eLabel position="10,1110" size="2560,4" backgroundColor="#555555" zPosition="1" />
@@ -349,8 +354,10 @@ class LogScreen(Screen):
     elif sz_w == 1920:
         skin = """
         <screen name="crashlogview" position="center,center" size="1880,980" title="View Crashlog file">
-        <widget source="Redkey" render="Label" position="16,919" size="250,45" zPosition="11" font="Regular; 30" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
-        <eLabel backgroundColor="#00ff0000" position="20,963" size="250,6" zPosition="12" />
+        <widget source="Redkey" render="Label" position="30,915" size="250,45" zPosition="11" font="Regular; 26" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
+        <widget source="Greenkey" render="Label" position="282,915" size="250,45" zPosition="11" font="Regular; 26" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
+        <eLabel backgroundColor="#00ff0000" position="32,962" size="250,6" zPosition="12" />
+        <eLabel backgroundColor="#0000ff00" position="284,962" size="250,6" zPosition="12" />
         <widget name="text" position="10,10" size="1860,695" font="Console; 24" text="text" />
         <widget name="text2" position="10,720" size="1860,190" font="Console; 26" text="text2" foregroundColor="#ff0000" />
         <eLabel position="10,710" size="1860,2" backgroundColor="#555555" zPosition="1" />
@@ -359,8 +366,10 @@ class LogScreen(Screen):
     else:
         skin = """
         <screen name="crashlogview" position="center,center" size="1253,653" title="View Crashlog file">
-        <widget source="Redkey" render="Label" position="19,609" size="172,33" zPosition="11" font="Regular; 22" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
-        <eLabel backgroundColor="#00ff0000" position="20,643" size="172,6" zPosition="12" />
+        <widget source="Redkey" render="Label" position="30,608" size="160,35" zPosition="11" font="Regular; 22" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
+        <widget source="Greenkey" render="Label" position="192,608" size="160,35" zPosition="11" font="Regular; 22" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
+        <eLabel backgroundColor="#00ff0000" position="33,642" size="160,6" zPosition="12" />
+        <eLabel backgroundColor="#0000ff00" position="195,642" size="160,6" zPosition="12" />
         <widget name="text" position="6,6" size="1240,463" font="Console; 16" text="text" />
         <widget name="text2" position="6,480" size="1240,126" font="Console; 17" text="text2" foregroundColor="#ff0000" />
         <eLabel position="6,473" size="1240,1" backgroundColor="#555555" zPosition="1" />
