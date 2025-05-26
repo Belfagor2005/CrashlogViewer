@@ -6,33 +6,29 @@
 # updated Lululla 30/08/2024
 # updated Lululla 22/09/2024
 # updated Lululla 17/11/2024
+# updated Lululla 26/05/2025
 # by 2boom 4bob@ua.fm
 
+import gettext
+from os import remove, listdir, popen
+from os.path import exists, join
 from Components.ActionMap import ActionMap
-from Components.Language import language
 from Components.ScrollLabel import ScrollLabel
 from Components.Sources.List import List
 from Components.Sources.StaticText import StaticText
-from Components.config import config
 from Plugins.Plugin import PluginDescriptor
+
 from Screens.MessageBox import MessageBox
 from Screens.Screen import Screen
-from Tools.Directories import (SCOPE_PLUGINS, SCOPE_LANGUAGE, resolveFilename)
+
+from Tools.Directories import SCOPE_PLUGINS, resolveFilename
 from Tools.LoadPixmap import LoadPixmap
+
 from enigma import getDesktop
-from os import environ
-import gettext
-import os
 
-global path_folder_log
 
-version = '1.5'
+version = '1.6'
 path_folder_log = '/media/hdd/'
-lang = language.getLanguage()
-environ["LANGUAGE"] = lang[:2]
-gettext.bindtextdomain("enigma2", resolveFilename(SCOPE_LANGUAGE))
-gettext.textdomain("enigma2")
-gettext.bindtextdomain("CrashlogViewer", "%s%s" % (resolveFilename(SCOPE_PLUGINS), "Extensions/CrashlogViewer/locale/"))
 
 
 def _(txt):
@@ -43,23 +39,20 @@ def _(txt):
 
 
 def isMountReadonly(mnt):
-	mount_point = ''
 	try:
-		with open('/proc/mounts', 'r') as f:
+		with open("/proc/mounts", "r") as f:
 			for line in f:
-				line_parts = line.split()
-				if len(line_parts) < 4:
+				parts = line.split()
+				if len(parts) < 4:
 					continue
-				device, mount_point, filesystem, flags = line_parts[:4]
-				if mount_point == mnt:
-					return 'ro' in flags
+				device, mp, fs, flags = parts[:4]
+				if mp == mnt:
+					return "ro" in flags
 	except IOError as e:
-		# Gestione errori di I/O (es. file non accessibile)
-		print("Errore di I/O: %s", str(e))
+		print("I/O error: %s" % str(e))
 	except Exception as err:
-		# Gestione generale delle eccezioni
-		print("Errore: %s", str(err))
-	return "mount: '%s' doesn't exist" % mnt
+		print("Error: %s" % str(err))
+	return False
 
 
 def paths():
@@ -69,56 +62,27 @@ def paths():
 	]
 
 
-def crashlogPath():
-	path_folder_log = '/media/hdd/'
-	crashlogPath_found = False
-	try:
-		path_folder_log = config.crash.debug_path.value
-	except (KeyError, AttributeError):
-		path_folder_log = None
-	print('path_folder_log:', path_folder_log)
-	if path_folder_log is None:
-		possible_paths = paths()
-		for path in possible_paths:
-			if os.path.exists(path) and not isMountReadonly(path):
-				path_folder_log = path + "/"
-				break
-		else:
-			path_folder_log = "/tmp/"
-
-	try:
-		for crashlog in os.listdir(path_folder_log):
-			if crashlog.endswith(".log") and ("crashlog" in crashlog or "twiste" in crashlog):
-				crashlogPath_found = True
-				break
-	except OSError as e:
-		print("Errore nell'accesso alla directory di crashlog: %s" % str(e))
-		crashlogPath_found = False
-	print('path_folder_log 2 :', path_folder_log)
-	return crashlogPath_found
-
-
 def find_log_files():
 	log_files = []
 	possible_paths = paths()
 	for path in possible_paths:
-		if os.path.exists(path) and not isMountReadonly(path):
+		if exists(path) and not isMountReadonly(path):
 			try:
-				for file in os.listdir(path):
+				for file in listdir(path):
 					if file.endswith(".log") and ("crashlog" in file or "twiste" in file):
-						log_files.append(os.path.join(path, file))
+						log_files.append(join(path, file))
 			except OSError as e:
-				print("Errore durante l'accesso a:", path, str(e))
+				print("Error %s while file access to: %s" % (str(e), path))
 	return log_files
 
 
 def delete_log_files(files):
 	for file in files:
 		try:
-			os.remove(file)
-			print('File eliminato:', file)
+			remove(file)
+			print('CrashLogScreen file deletedt: %s' % file)
 		except OSError as e:
-			print("Errore durante l'eliminazione di {file}:", str(e))
+			print("Error while deleting %s error %s:" % (file,  str(e)))
 
 
 class CrashLogScreen(Screen):
@@ -206,17 +170,19 @@ class CrashLogScreen(Screen):
 	def __init__(self, session):
 		self.session = session
 		Screen.__init__(self, session)
-		self["shortcuts"] = ActionMap(["ShortcutActions", "WizardActions", "EPGSelectActions"],
-									  {
-									  "ok": self.Ok,
-									  "cancel": self.exit,
-									  "back": self.exit,
-									  "red": self.exit,
-									  "green": self.Ok,
-									  "yellow": self.YellowKey,
-									  "blue": self.BlueKey,
-									  "info": self.infoKey,
-									  })
+		self["shortcuts"] = ActionMap(
+			["ShortcutActions", "WizardActions", "EPGSelectActions"],
+			{
+				"ok": self.Ok,
+				"cancel": self.exit,
+				"back": self.exit,
+				"red": self.exit,
+				"green": self.Ok,
+				"yellow": self.YellowKey,
+				"blue": self.BlueKey,
+				"info": self.infoKey,
+			}
+		)
 		self["Redkey"] = StaticText(_("Close"))
 		self["Greenkey"] = StaticText(_("View"))
 		self["Yellowkey"] = StaticText(_("Remove"))
@@ -230,25 +196,25 @@ class CrashLogScreen(Screen):
 		path_folder_log = "/tmp/"
 		log_files = find_log_files()
 		if log_files:
-			paths_to_search = ' '.join(log_files)
+			paths_to_search = " ".join(log_files)
 		else:
-			paths_to_search = ("%s*crash*.log \
-							   %slogs/*crash*.log \
-							   /home/root/*crash*.log \
-							   /home/root/logs/*crash*.log \
-							   %stwisted.log \
-							   /media/usb/logs/*crash*.log \
-							   /media/usb/*crash*.log \
-							   /media/hdd/logs/*crash*.log \
-							   /media/mmc/*crash*.log \
-							   /media/hdd/*crash*.log \
-							   /ba/*crash*.log \
-							   /ba/logs/*crash*.log") % (path_folder_log, path_folder_log, path_folder_log)
-			# paths_to_search = "%s*crash*.log %slogs/*crash*.log /home/root/*crash*.log /home/root/logs/*crash*.log %stwisted.log /media/usb/logs/*crash*.log /media/usb/*crash*.log" % (path_folder_log, path_folder_log, path_folder_log)
-		crashfiles = os.popen("ls -lh " + paths_to_search).read()
-		print('Paths to search:', paths_to_search)
-		crashfiles = os.popen("ls -lh " + paths_to_search).read()
-		print('Crash files found:', crashfiles)
+			paths_to_search = (
+				"%s*crash*.log "
+				"%slogs/*crash*.log "
+				"/home/root/*crash*.log "
+				"/home/root/logs/*crash*.log "
+				"%stwisted.log "
+				"/media/usb/logs/*crash*.log "
+				"/media/usb/*crash*.log "
+				"/media/hdd/logs/*crash*.log "
+				"/media/mmc/*crash*.log "
+				"/media/hdd/*crash*.log "
+				"/ba/*crash*.log "
+				"/ba/logs/*crash*.log"
+			) % (path_folder_log, path_folder_log, path_folder_log)
+
+		crashfiles = popen("ls -lh " + paths_to_search).read()
+		crashfiles = popen("ls -lh " + paths_to_search).read()
 		sz_w = getDesktop(0).size().width()
 		if sz_w == 2560:
 			minipng = LoadPixmap(cached=True, path=resolveFilename(SCOPE_PLUGINS, "Extensions/CrashlogViewer/images/crashminiwq.png"))
@@ -257,46 +223,38 @@ class CrashLogScreen(Screen):
 		else:
 			minipng = LoadPixmap(cached=True, path=resolveFilename(SCOPE_PLUGINS, "Extensions/CrashlogViewer/images/crashmini1.png"))
 		for line in crashfiles.splitlines():
-			print("Linea di crashfile:", line)
 			item = line.split()
 			if len(item) >= 9:
-				file_size = item[4]  # Dimensione del file
-				file_date = " ".join(item[5:8])  # Data e ora del file
-				file_name = item[8]  # Nome del file con percorso
-				display_name = (file_name.split("/")[-1],  # Mostra solo il nome del file
-								"Dimensione: %s - Data: %s" % (file_size, file_date),  # Dettagli
-								minipng,  # Icona appropriata
-								file_name)  # Percorso completo del file
+				file_size = item[4]
+				file_date = " ".join(item[5:8])
+				file_name = item[8]
+				display_name = (file_name.split("/")[-1],
+								"Dimensione: %s - Data: %s" % (file_size, file_date),
+								minipng,
+								file_name)
 				if display_name not in self.list:
-					print('Aggiungendo alla lista:', display_name)  # Debug per verificare l'aggiunta
 					self.list.append(display_name)
 		self["menu"].setList(self.list)
 		self["actions"] = ActionMap(["OkCancelActions"], {"cancel": self.close}, -1)
 
 	def Ok(self):
 		item = self["menu"].getCurrent()
-		global Crashfile
+		# global Crashfile
 		try:
 			base_dir = item[3]
-			filename = item[0]  # + ".log"
-			print('base_dir=', base_dir)
-			print('filename=', filename)
-			# 17:53:17.5409 base_dir= /home/root/logs/20240922-165717-enigma2-crash.log
-			# 17:53:17.5410 filename= 20240922-165717-enigma2-crash.log.log
-			Crashfile = str(base_dir)
-			self.session.openWithCallback(self.CfgMenu, LogScreen)
+			# filename = item[0]
+			crashfile = str(base_dir)
+			self.session.openWithCallback(self.CfgMenu, LogScreen, crashfile)
 		except (IndexError, TypeError, KeyError) as e:
-			print(e)
-			Crashfile = " "
+			print('CrashLogScreen error to select: %s' % e)
+			crashfile = " "
 
 	def YellowKey(self):
 		item = self["menu"].getCurrent()
 		try:
 			base_dir = item[3]
-			# filename = item[0]  # + ".log"
 			file_path = str(base_dir)
-			print('YellowKey file_path=', file_path)
-			os.remove(file_path)
+			remove(file_path)
 			self.mbox = self.session.open(MessageBox, (_("Removed %s") % (file_path)), MessageBox.TYPE_INFO, timeout=4)
 		except (IndexError, TypeError, KeyError) as e:
 			self.mbox = self.session.open(MessageBox, (_("Failed to remove file due to an error: %s") % str(e)), MessageBox.TYPE_INFO, timeout=4)
@@ -313,13 +271,12 @@ class CrashLogScreen(Screen):
 				paths_to_search = ' '.join(log_files)
 			else:
 				paths_to_search = "%s*crash*.log %slogs/*crash*.log /home/root/*crash*.log /home/root/logs/*crash*.log %stwisted.log /media/usb/logs/*crash*.log /media/usb/*crash*.log" % (path_folder_log, path_folder_log, path_folder_log)
-			crashfiles = os.popen("ls -lh " + paths_to_search).read()
+			crashfiles = popen("ls -lh " + paths_to_search).read()
 			for line in crashfiles.splitlines():  # Dividi l'output in linee
 				item = line.split()
-				if len(item) >= 9:  # Assicurati che ci siano abbastanza informazioni
-					file_name = item[8]  # Nome del file con percorso
-					print('BlueKey file_name=', file_name)
-					os.remove(file_name)
+				if len(item) >= 9:
+					file_name = item[8]
+					remove(file_name)
 			self.mbox = self.session.open(MessageBox, (_("Removed All Crashlog Files")), MessageBox.TYPE_INFO, timeout=4)
 		except (OSError, IOError) as e:
 			self.mbox = self.session.open(MessageBox, (_("Failed to remove some files: %s") % str(e)), MessageBox.TYPE_INFO, timeout=4)
@@ -374,17 +331,20 @@ class LogScreen(Screen):
 		</screen>
 		"""
 
-	def __init__(self, session):
+	def __init__(self, session, crashfile):
 		self.session = session
 		Screen.__init__(self, session)
-		global Crashfile
-		self.setTitle('View Crashlog file:  ' + str(Crashfile))
-		self["shortcuts"] = ActionMap(["ShortcutActions", "WizardActions"],
-									  {
-									  "cancel": self.exit,
-									  "back": self.exit,
-									  "red": self.exit,
-									  })
+		# global Crashfile
+		self.crashfile = crashfile
+		self.setTitle('View Crashlog file:  ' + str(self.crashfile))
+		self["shortcuts"] = ActionMap(
+			["ShortcutActions", "WizardActions"],
+			{
+				"cancel": self.exit,
+				"back": self.exit,
+				"red": self.exit,
+			}
+		)
 		self["Redkey"] = StaticText(_("Close"))
 		self["Greenkey"] = StaticText(_("Restart GUI"))
 		self["text"] = ScrollLabel("")
@@ -397,11 +357,11 @@ class LogScreen(Screen):
 		self.close()
 
 	def listcrah(self):
-		global Crashfile
+		# global Crashfile
 		list = "No data error"
 		list2 = "No data error"
 		try:
-			crashfiles = open(Crashfile, "r")
+			crashfiles = open(self.crashfile, "r")
 			for line in crashfiles:
 				if line.find("Traceback (most recent call last):") != -1 or line.find("Backtrace:") != -1:
 					list = " "
@@ -417,7 +377,7 @@ class LogScreen(Screen):
 			self["text"].setText(list)
 			crashfiles.close()
 		except Exception as e:
-			print('error to open crashfile: ', e)
+			print('error to open crashfile: %s' % e)
 		self["text2"].setText(list2)
 		self["actions"] = ActionMap(["OkCancelActions", "DirectionActions"], {"cancel": self.close, "up": self["text"].pageUp, "left": self["text"].pageUp, "down": self["text"].pageDown, "right": self["text"].pageDown}, -1)
 

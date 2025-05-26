@@ -1,9 +1,10 @@
 Package: enigma2-plugin-extensions-crashlogviewer
-Version: 1.5
-Description: Plugin for the needs of the Project XYZ tests
+Version: 1.6
+Description: Plugin to view Enigma2 crashlogs directly on the receiver
 Architecture: all
 Section: extra
 Priority: optional
-Maintainer: @lululla packed
+Maintainer: lululla
 License: GPLv2
-Homepage: ********
+Homepage: https://github.com/Belfagor2005
+Source: enigma2-plugin-extensions-crashlogviewer
