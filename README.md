@@ -5,6 +5,9 @@
 [![Python package](https://github.com/Belfagor2005/CrashlogViewer/actions/workflows/pylint.yml/badge.svg)](https://github.com/Belfagor2005/CrashlogViewer/actions/workflows/pylint.yml) 
 ![Visitors](https://komarev.com/ghpvc/?username=Belfagor2005)
 
+
+![Screen RadioGit](https://github.com/Belfagor2005/CrashlogViewer/blob/main/screen/screenshot.png?raw=true)
+
 ---
 
 ## 📄 Description
