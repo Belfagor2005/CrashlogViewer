@@ -60,7 +60,8 @@ def get_log_path():
     """Get the primary log directory path"""
     try:
         path_folder_log = config.crash.debug_path.value
-        if path_folder_log and exists(path_folder_log) and not isMountReadonly(path_folder_log):
+        if path_folder_log and exists(
+                path_folder_log) and not isMountReadonly(path_folder_log):
             return path_folder_log.rstrip('/') + '/'
     except (KeyError, AttributeError):
         pass
@@ -75,9 +76,16 @@ def get_log_path():
 
 def paths():
     return [
-        "/media/hdd", "/media/usb", "/media/mmc", "/home/root", "/home/root/logs/",
-        "/media/hdd/logs", "/media/usb/logs", "/ba/", "/ba/logs", "/tmp/"
-    ]
+        "/media/hdd",
+        "/media/usb",
+        "/media/mmc",
+        "/home/root",
+        "/home/root/logs/",
+        "/media/hdd/logs",
+        "/media/usb/logs",
+        "/ba/",
+        "/ba/logs",
+        "/tmp/"]
 
 
 def find_log_files():
@@ -123,7 +131,7 @@ def find_log_files():
                             'error' in filename or
                             'log' in filename):  # Accept all .log files
                         log_files.append(file_path)
-        except:
+        except BaseException:
             pass
 
     # Also check specific known files
@@ -286,11 +294,23 @@ class CrashLogScreen(Screen):
         crashfiles = popen("ls -lh " + paths_to_search).read()
         sz_w = getDesktop(0).size().width()
         if sz_w == 2560:
-            minipng = LoadPixmap(cached=True, path=resolveFilename(SCOPE_PLUGINS, "Extensions/CrashlogViewer/images/crashminiwq.png"))
+            minipng = LoadPixmap(
+                cached=True,
+                path=resolveFilename(
+                    SCOPE_PLUGINS,
+                    "Extensions/CrashlogViewer/images/crashminiwq.png"))
         elif sz_w == 1920:
-            minipng = LoadPixmap(cached=True, path=resolveFilename(SCOPE_PLUGINS, "Extensions/CrashlogViewer/images/crashmini.png"))
+            minipng = LoadPixmap(
+                cached=True,
+                path=resolveFilename(
+                    SCOPE_PLUGINS,
+                    "Extensions/CrashlogViewer/images/crashmini.png"))
         else:
-            minipng = LoadPixmap(cached=True, path=resolveFilename(SCOPE_PLUGINS, "Extensions/CrashlogViewer/images/crashmini1.png"))
+            minipng = LoadPixmap(
+                cached=True,
+                path=resolveFilename(
+                    SCOPE_PLUGINS,
+                    "Extensions/CrashlogViewer/images/crashmini1.png"))
 
         for line in crashfiles.splitlines():
             item = line.split()
@@ -605,8 +625,13 @@ def main(session, **kwargs):
 
 def Plugins(**kwargs):
     return PluginDescriptor(
-        name=(_("Crashlog  Viewer") + " ver. " + version),
+        name=(
+            _("Crashlog  Viewer") +
+            " ver. " +
+            version),
         description=_("View | Remove Crashlog files"),
-        where=[PluginDescriptor.WHERE_PLUGINMENU, PluginDescriptor.WHERE_EXTENSIONSMENU],
+        where=[
+            PluginDescriptor.WHERE_PLUGINMENU,
+            PluginDescriptor.WHERE_EXTENSIONSMENU],
         icon="crash.png",
         fnc=main)
