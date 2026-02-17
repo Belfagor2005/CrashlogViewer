@@ -332,7 +332,7 @@ class CrashLogScreen(Screen):
         try:
             base_dir = item[3]
             crashfile = str(base_dir)
-            self.session.openWithCallback(self.CfgMenu, LogScreen, crashfile)
+            self.session.openWithCallback(self.CfgMenu, CrashLogView, crashfile)
         except (IndexError, TypeError, KeyError) as e:
             print('CrashLogScreen error to select: %s' % e)
             crashfile = " "
@@ -501,11 +501,11 @@ class CrashLogScreen(Screen):
         self.close()
 
 
-class LogScreen(Screen):
+class CrashLogView(Screen):
     sz_w = getDesktop(0).size().width()
     if sz_w == 1920:
         skin = """
-        <screen name="LogScreen" position="center,center" size="1880,980" title="View Crashlog file">
+        <screen name="CrashLogView" position="center,center" size="1880,980" title="View Crashlog file">
         <widget source="Redkey" render="Label" position="16,919" size="250,45" zPosition="11" font="Regular; 30" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
         <widget source="Greenkey" render="Label" position="266,919" size="250,45" zPosition="11" font="Regular; 30" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
         <eLabel backgroundColor="#00ff0000" position="20,963" size="250,6" zPosition="12" />
@@ -517,7 +517,7 @@ class LogScreen(Screen):
         """
     else:
         skin = """
-        <screen name="LogScreen" position="center,center" size="1253,653" title="View Crashlog file">
+        <screen name="CrashLogView" position="center,center" size="1253,653" title="View Crashlog file">
         <widget source="Redkey" render="Label" position="19,609" size="172,33" zPosition="11" font="Regular; 22" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
         <widget source="Greenkey" render="Label" position="191,609" size="172,33" zPosition="11" font="Regular; 22" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
         <eLabel backgroundColor="#00ff0000" position="20,643" size="172,6" zPosition="12" />
