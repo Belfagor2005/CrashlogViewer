@@ -1,0 +1,72 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"PO-Revision-Date: 2026-05-27 18:34+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Tamil <tamil@systemreboot.net>\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Signed-off-by: Dario Croci <spaeleus@croci.org>
+#
+msgid "Back"
+msgstr "மீண்டும்"
+
+msgid "Close"
+msgstr "மூடு"
+
+msgid "Crashlog Viewer"
+msgstr "கிராஷ்லாக் பார்வையாளர்"
+
+msgid "Deleted %d files"
+msgstr "%d கோப்புகள் நீக்கப்பட்டன"
+
+msgid "Error Only"
+msgstr "பிழை மட்டும்"
+
+msgid "Error opening file: %s"
+msgstr "கோப்பை திறப்பதில் பிழை: %s"
+
+msgid "Error: %s"
+msgstr "பிழை: %s"
+
+msgid "File already removed"
+msgstr "கோப்பு ஏற்கனவே அகற்றப்பட்டது"
+
+msgid "Full Log"
+msgstr "முழு பதிவு"
+
+msgid "No crash logs found"
+msgstr "செயலிழப்பு பதிவுகள் எதுவும் இல்லை"
+
+msgid "No file selected"
+msgstr "கோப்பு எதுவும் தேர்ந்தெடுக்கப்படவில்லை"
+
+msgid "No files deleted"
+msgstr "கோப்புகள் எதுவும் நீக்கப்படவில்லை"
+
+msgid "No specific error trace found in log"
+msgstr "பதிவில் குறிப்பிட்ட பிழை தடயம் எதுவும் இல்லை"
+
+msgid "Press OK or RED to return"
+msgstr "திரும்புவதற்கு OK அல்லது RED ஐ அழுத்தவும்"
+
+msgid "Remove"
+msgstr "அகற்று"
+
+msgid "Remove All"
+msgstr "அனைத்தையும் அகற்று"
+
+msgid "Removed: %s"
+msgstr "அகற்றப்பட்டது: %s"
+
+msgid "View"
+msgstr "காண்க"
+
+msgid "View Crashlog file: %s"
+msgstr "கிராஷ்லாக் கோப்பைப் பார்க்கவும்: %s"
+
+msgid "View | Remove Crashlog files"
+msgstr "காண்க | கிராஷ்லாக் கோப்புகளை அகற்று"

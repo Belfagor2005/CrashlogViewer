@@ -1,0 +1,72 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"PO-Revision-Date: 2026-05-27 18:16+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Bengali <(nothing)>\n"
+"Language: bn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Signed-off-by: Dario Croci <spaeleus@croci.org>
+#
+msgid "Back"
+msgstr "ব্যাক"
+
+msgid "Close"
+msgstr "বন্ধ"
+
+msgid "Crashlog Viewer"
+msgstr "ক্রাশলগ ভিউয়ার"
+
+msgid "Deleted %d files"
+msgstr "%d ফাইল মুছে ফেলা হয়েছে"
+
+msgid "Error Only"
+msgstr "ত্রুটি শুধুমাত্র"
+
+msgid "Error opening file: %s"
+msgstr "ফাইল খুলতে ত্রুটি: %s"
+
+msgid "Error: %s"
+msgstr "ত্রুটি: %s"
+
+msgid "File already removed"
+msgstr "ফাইল ইতিমধ্যে সরানো হয়েছে"
+
+msgid "Full Log"
+msgstr "সম্পূর্ণ লগ"
+
+msgid "No crash logs found"
+msgstr "কোন ক্র্যাশ লগ পাওয়া যায়নি"
+
+msgid "No file selected"
+msgstr "কোনো ফাইল নির্বাচন করা হয়নি"
+
+msgid "No files deleted"
+msgstr "কোনো ফাইল মুছে ফেলা হয়নি"
+
+msgid "No specific error trace found in log"
+msgstr "লগে কোনো নির্দিষ্ট ত্রুটির ট্রেস পাওয়া যায়নি"
+
+msgid "Press OK or RED to return"
+msgstr "ফিরে আসতে OK বা RED টিপুন"
+
+msgid "Remove"
+msgstr "সরান"
+
+msgid "Remove All"
+msgstr "সব সরান"
+
+msgid "Removed: %s"
+msgstr "সরানো হয়েছে: %s"
+
+msgid "View"
+msgstr "দেখুন"
+
+msgid "View Crashlog file: %s"
+msgstr "ক্রাশলগ ফাইল দেখুন: %s"
+
+msgid "View | Remove Crashlog files"
+msgstr "দেখুন | Crashlog ফাইল সরান"

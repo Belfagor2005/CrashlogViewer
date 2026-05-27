@@ -1,0 +1,73 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"PO-Revision-Date: 2026-05-27 18:20+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Finnish <translation-team-fi@lists.sourceforge.net>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# Signed-off-by: Dario Croci <spaeleus@croci.org>
+#
+msgid "Back"
+msgstr "Takaisin"
+
+msgid "Close"
+msgstr "Lähellä"
+
+msgid "Crashlog Viewer"
+msgstr ""
+
+msgid "Deleted %d files"
+msgstr "%d tiedostoa poistettu"
+
+msgid "Error Only"
+msgstr "Vain virhe"
+
+msgid "Error opening file: %s"
+msgstr "Virhe avattaessa tiedostoa: %s"
+
+msgid "Error: %s"
+msgstr "Virhe: %s"
+
+msgid "File already removed"
+msgstr "Tiedosto on jo poistettu"
+
+msgid "Full Log"
+msgstr "Täysi loki"
+
+msgid "No crash logs found"
+msgstr "Törmäyslokeja ei löytynyt"
+
+msgid "No file selected"
+msgstr "Tiedostoa ei ole valittu"
+
+msgid "No files deleted"
+msgstr "Ei tiedostoja poistettu"
+
+msgid "No specific error trace found in log"
+msgstr "Loista ei löytynyt erityistä virhejälkeä"
+
+msgid "Press OK or RED to return"
+msgstr "Palaa painamalla OK tai PUNAISTA"
+
+msgid "Remove"
+msgstr "Poistaa"
+
+msgid "Remove All"
+msgstr "Poista kaikki"
+
+msgid "Removed: %s"
+msgstr "Poistettu: %s"
+
+msgid "View"
+msgstr "Näytä"
+
+msgid "View Crashlog file: %s"
+msgstr "Näytä kaatumislokitiedosto: %s"
+
+msgid "View | Remove Crashlog files"
+msgstr "Näytä | Poista Crashlog-tiedostot"

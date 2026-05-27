@@ -1,0 +1,72 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"PO-Revision-Date: 2026-05-27 18:27+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Malayalam <smc-discuss@googlegroups.com>\n"
+"Language: ml\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Signed-off-by: Dario Croci <spaeleus@croci.org>
+#
+msgid "Back"
+msgstr "തിരികെ"
+
+msgid "Close"
+msgstr "അടയ്ക്കുക"
+
+msgid "Crashlog Viewer"
+msgstr "ക്രാഷ്ലോഗ് വ്യൂവർ"
+
+msgid "Deleted %d files"
+msgstr "%d ഫയലുകൾ ഇല്ലാതാക്കി"
+
+msgid "Error Only"
+msgstr "പിശക് മാത്രം"
+
+msgid "Error opening file: %s"
+msgstr "ഫയൽ തുറക്കുന്നതിൽ പിശക്: %s"
+
+msgid "Error: %s"
+msgstr "പിശക്: %s"
+
+msgid "File already removed"
+msgstr "ഫയൽ ഇതിനകം നീക്കംചെയ്തു"
+
+msgid "Full Log"
+msgstr "പൂർണ്ണ ലോഗ്"
+
+msgid "No crash logs found"
+msgstr "ക്രാഷ് ലോഗുകളൊന്നും കണ്ടെത്തിയില്ല"
+
+msgid "No file selected"
+msgstr "ഫയലൊന്നും തിരഞ്ഞെടുത്തിട്ടില്ല"
+
+msgid "No files deleted"
+msgstr "ഫയലുകളൊന്നും ഇല്ലാതാക്കിയിട്ടില്ല"
+
+msgid "No specific error trace found in log"
+msgstr "ലോഗിൽ പ്രത്യേക പിശക് ട്രെയ്‌സ് കണ്ടെത്തിയില്ല"
+
+msgid "Press OK or RED to return"
+msgstr "തിരികെ വരാൻ OK അല്ലെങ്കിൽ RED അമർത്തുക"
+
+msgid "Remove"
+msgstr "നീക്കം ചെയ്യുക"
+
+msgid "Remove All"
+msgstr "എല്ലാം നീക്കം ചെയ്യുക"
+
+msgid "Removed: %s"
+msgstr "നീക്കംചെയ്‌തു: %s"
+
+msgid "View"
+msgstr "കാണുക"
+
+msgid "View Crashlog file: %s"
+msgstr "ക്രാഷ്‌ലോഗ് ഫയൽ കാണുക: %s"
+
+msgid "View | Remove Crashlog files"
+msgstr "കാണുക | ക്രാഷ്ലോഗ് ഫയലുകൾ നീക്കം ചെയ്യുക"

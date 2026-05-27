@@ -1,0 +1,72 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"PO-Revision-Date: 2026-05-27 18:22+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Hindi <fedora-trans-hi@redhat.com>\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Signed-off-by: Dario Croci <spaeleus@croci.org>
+#
+msgid "Back"
+msgstr "पीछे"
+
+msgid "Close"
+msgstr "बंद करना"
+
+msgid "Crashlog Viewer"
+msgstr "क्रैशलॉग व्यूअर"
+
+msgid "Deleted %d files"
+msgstr "%d फ़ाइलें हटा दी गईं"
+
+msgid "Error Only"
+msgstr "केवल त्रुटि"
+
+msgid "Error opening file: %s"
+msgstr "फ़ाइल खोलने में त्रुटि: %s"
+
+msgid "Error: %s"
+msgstr "त्रुटि: %s"
+
+msgid "File already removed"
+msgstr "फ़ाइल पहले ही हटा दी गई है"
+
+msgid "Full Log"
+msgstr "पूर्ण लॉग"
+
+msgid "No crash logs found"
+msgstr "कोई क्रैश लॉग नहीं मिला"
+
+msgid "No file selected"
+msgstr "कोई फ़ाइल चयनित नहीं"
+
+msgid "No files deleted"
+msgstr "कोई फ़ाइल नहीं हटाई गई"
+
+msgid "No specific error trace found in log"
+msgstr "लॉग में कोई विशिष्ट त्रुटि चिह्न नहीं मिला"
+
+msgid "Press OK or RED to return"
+msgstr "वापस लौटने के लिए OK या RED दबाएँ"
+
+msgid "Remove"
+msgstr "निकालना"
+
+msgid "Remove All"
+msgstr "सभी हटाएं"
+
+msgid "Removed: %s"
+msgstr "हटाया गया: %s"
+
+msgid "View"
+msgstr "देखना"
+
+msgid "View Crashlog file: %s"
+msgstr "क्रैशलॉग फ़ाइल देखें: %s"
+
+msgid "View | Remove Crashlog files"
+msgstr "देखें | क्रैशलॉग फ़ाइलें हटाएँ"

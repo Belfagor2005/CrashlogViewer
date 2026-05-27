@@ -1,0 +1,72 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"PO-Revision-Date: 2026-05-27 18:25+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Central Khmer\n"
+"Language: km\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Signed-off-by: Dario Croci <spaeleus@croci.org>
+#
+msgid "Back"
+msgstr "ត្រឡប់មកវិញ"
+
+msgid "Close"
+msgstr "បិទ"
+
+msgid "Crashlog Viewer"
+msgstr "កម្មវិធីមើលគាំង"
+
+msgid "Deleted %d files"
+msgstr "បានលុបឯកសារ %d"
+
+msgid "Error Only"
+msgstr "កំហុសតែប៉ុណ្ណោះ"
+
+msgid "Error opening file: %s"
+msgstr "កំហុសក្នុងការបើកឯកសារ៖ %s"
+
+msgid "Error: %s"
+msgstr "កំហុស៖ %s"
+
+msgid "File already removed"
+msgstr "ឯកសារត្រូវបានដកចេញរួចហើយ"
+
+msgid "Full Log"
+msgstr "កំណត់ហេតុពេញ"
+
+msgid "No crash logs found"
+msgstr "រកមិនឃើញកំណត់ហេតុគាំងទេ។"
+
+msgid "No file selected"
+msgstr "គ្មានឯកសារត្រូវបានជ្រើសរើសទេ។"
+
+msgid "No files deleted"
+msgstr "គ្មានឯកសារត្រូវបានលុបទេ។"
+
+msgid "No specific error trace found in log"
+msgstr "រកមិនឃើញដានកំហុសជាក់លាក់នៅក្នុងកំណត់ហេតុទេ។"
+
+msgid "Press OK or RED to return"
+msgstr "ចុច OK ឬ RED ដើម្បីត្រឡប់"
+
+msgid "Remove"
+msgstr "ដកចេញ"
+
+msgid "Remove All"
+msgstr "លុបចេញទាំងអស់។"
+
+msgid "Removed: %s"
+msgstr "បានដកចេញ៖ %s"
+
+msgid "View"
+msgstr "មើល"
+
+msgid "View Crashlog file: %s"
+msgstr "មើលឯកសារ Crashlog៖ %s"
+
+msgid "View | Remove Crashlog files"
+msgstr "មើល | យកឯកសារ Crashlog ចេញ"

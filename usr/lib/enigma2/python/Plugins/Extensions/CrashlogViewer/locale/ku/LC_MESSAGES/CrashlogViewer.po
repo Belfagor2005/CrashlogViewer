@@ -1,0 +1,72 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"PO-Revision-Date: 2026-05-27 18:26+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Kurdish <translation-team-ku (at) ferheng.org>\n"
+"Language: ku\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Signed-off-by: Dario Croci <spaeleus@croci.org>
+#
+msgid "Back"
+msgstr "Paş"
+
+msgid "Close"
+msgstr "Nêzîkî"
+
+msgid "Crashlog Viewer"
+msgstr ""
+
+msgid "Deleted %d files"
+msgstr "%d pel hatin jêbirin"
+
+msgid "Error Only"
+msgstr "Tenê xeletî"
+
+msgid "Error opening file: %s"
+msgstr "Çewtiya vekirina pelê: %s"
+
+msgid "Error: %s"
+msgstr "Çewtî: %s"
+
+msgid "File already removed"
+msgstr "Pelê jixwe hatî rakirin"
+
+msgid "Full Log"
+msgstr "Têketinê tije"
+
+msgid "No crash logs found"
+msgstr "Têketinên qezayê nehatin dîtin"
+
+msgid "No file selected"
+msgstr "Ti pel nehat hilbijartin"
+
+msgid "No files deleted"
+msgstr "Ti pel nehat jêbirin"
+
+msgid "No specific error trace found in log"
+msgstr "Di têketinê de şopa xeletiyek taybetî nehat dîtin"
+
+msgid "Press OK or RED to return"
+msgstr "Ji bo vegerê OK an RED bikirtînin"
+
+msgid "Remove"
+msgstr "Dûrxistin"
+
+msgid "Remove All"
+msgstr "Hemûyan jê bibe"
+
+msgid "Removed: %s"
+msgstr "Rakir: %s"
+
+msgid "View"
+msgstr "Dîtinî"
+
+msgid "View Crashlog file: %s"
+msgstr "Pelê Crashlog binêre: %s"
+
+msgid "View | Remove Crashlog files"
+msgstr "Dîtin | Pelên Crashlog jêbirin"

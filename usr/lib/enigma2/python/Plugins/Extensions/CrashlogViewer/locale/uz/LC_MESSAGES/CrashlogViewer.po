@@ -1,0 +1,72 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"PO-Revision-Date: 2026-05-27 18:37+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Uzbek\n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Signed-off-by: Dario Croci <spaeleus@croci.org>
+#
+msgid "Back"
+msgstr "Orqaga"
+
+msgid "Close"
+msgstr "Yopish"
+
+msgid "Crashlog Viewer"
+msgstr ""
+
+msgid "Deleted %d files"
+msgstr "%d ta fayl oʻchirildi"
+
+msgid "Error Only"
+msgstr "Faqat xato"
+
+msgid "Error opening file: %s"
+msgstr "Faylni ochishda xatolik yuz berdi: %s"
+
+msgid "Error: %s"
+msgstr "Xato: %s"
+
+msgid "File already removed"
+msgstr "Fayl allaqachon olib tashlangan"
+
+msgid "Full Log"
+msgstr "To'liq jurnal"
+
+msgid "No crash logs found"
+msgstr "Hech qanday nosozlik jurnali topilmadi"
+
+msgid "No file selected"
+msgstr "Hech qanday fayl tanlanmagan"
+
+msgid "No files deleted"
+msgstr "Hech qanday fayl oʻchirilmadi"
+
+msgid "No specific error trace found in log"
+msgstr "Jurnalda aniq xato izi topilmadi"
+
+msgid "Press OK or RED to return"
+msgstr "Qaytish uchun OK yoki RED tugmasini bosing"
+
+msgid "Remove"
+msgstr "O'chirish"
+
+msgid "Remove All"
+msgstr "Hammasini olib tashlang"
+
+msgid "Removed: %s"
+msgstr "Oʻchirildi: %s"
+
+msgid "View"
+msgstr "Ko‘rish"
+
+msgid "View Crashlog file: %s"
+msgstr "Crashlog faylini koʻrish: %s"
+
+msgid "View | Remove Crashlog files"
+msgstr "Ko'rish | Crashlog fayllarini olib tashlang"

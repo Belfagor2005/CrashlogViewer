@@ -1,0 +1,72 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"PO-Revision-Date: 2026-05-27 18:35+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Turkmen\n"
+"Language: tk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Signed-off-by: Dario Croci <spaeleus@croci.org>
+#
+msgid "Back"
+msgstr "Yzyna"
+
+msgid "Close"
+msgstr ".Akyn"
+
+msgid "Crashlog Viewer"
+msgstr ""
+
+msgid "Deleted %d files"
+msgstr "% D faýllary öçürildi"
+
+msgid "Error Only"
+msgstr "Diňe säwlik"
+
+msgid "Error opening file: %s"
+msgstr "Faýly açmakda säwlik:% s"
+
+msgid "Error: %s"
+msgstr "Roralňyşlyk:% s"
+
+msgid "File already removed"
+msgstr "Faýl eýýäm aýryldy"
+
+msgid "Full Log"
+msgstr "Doly hasaba alyş"
+
+msgid "No crash logs found"
+msgstr "Hiç hili heläkçilik ýazgysy tapylmady"
+
+msgid "No file selected"
+msgstr "Hiç bir faýl saýlanmady"
+
+msgid "No files deleted"
+msgstr "Hiç hili faýl öçürilmedi"
+
+msgid "No specific error trace found in log"
+msgstr "Logurnalda anyk ýalňyşlyk ýok"
+
+msgid "Press OK or RED to return"
+msgstr "Yzyna gaýdyp gelmek üçin OK ýa-da RED basyň"
+
+msgid "Remove"
+msgstr "Aýyr"
+
+msgid "Remove All"
+msgstr "Hemmesini aýyryň"
+
+msgid "Removed: %s"
+msgstr "Aýyryldy:% s"
+
+msgid "View"
+msgstr "Gör"
+
+msgid "View Crashlog file: %s"
+msgstr "“Crashlog” faýlyny görüň:% s"
+
+msgid "View | Remove Crashlog files"
+msgstr "Gör | Crashlog faýllaryny aýyryň"

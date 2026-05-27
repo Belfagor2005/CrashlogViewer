@@ -1,0 +1,72 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"PO-Revision-Date: 2026-05-27 18:14+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Amharic\n"
+"Language: am\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Signed-off-by: Dario Croci <spaeleus@croci.org>
+#
+msgid "Back"
+msgstr "ተመለስ"
+
+msgid "Close"
+msgstr "ገጠመ"
+
+msgid "Crashlog Viewer"
+msgstr "የክራሽሎግ መመልከቻ"
+
+msgid "Deleted %d files"
+msgstr "%d ፋይሎች ተሰርዘዋል"
+
+msgid "Error Only"
+msgstr "ስህተት ብቻ"
+
+msgid "Error opening file: %s"
+msgstr "ፋይል መክፈት ላይ ስህተት፡ %s"
+
+msgid "Error: %s"
+msgstr "ስህተት፡ %s"
+
+msgid "File already removed"
+msgstr "ፋይል አስቀድሞ ተወግዷል"
+
+msgid "Full Log"
+msgstr "ሙሉ ምዝግብ ማስታወሻ"
+
+msgid "No crash logs found"
+msgstr "ምንም የብልሽት ምዝግብ ማስታወሻዎች አልተገኙም።"
+
+msgid "No file selected"
+msgstr "ምንም ፋይል አልተመረጠም።"
+
+msgid "No files deleted"
+msgstr "ምንም ፋይሎች አልተሰረዙም።"
+
+msgid "No specific error trace found in log"
+msgstr "በምዝግብ ማስታወሻ ውስጥ ምንም የተለየ የስህተት ዱካ አልተገኘም።"
+
+msgid "Press OK or RED to return"
+msgstr "ለመመለስ እሺን ወይም RED ን ይጫኑ"
+
+msgid "Remove"
+msgstr "አስወግድ"
+
+msgid "Remove All"
+msgstr "ሁሉንም አስወግድ"
+
+msgid "Removed: %s"
+msgstr "ተወግዷል፡ %s"
+
+msgid "View"
+msgstr "ይመልከቱ"
+
+msgid "View Crashlog file: %s"
+msgstr "የክራሽሎግ ፋይል ይመልከቱ፡ %s"
+
+msgid "View | Remove Crashlog files"
+msgstr "እይታ | የክራሽሎግ ፋይሎችን ያስወግዱ"

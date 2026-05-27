@@ -1,92 +1,63 @@
 # Signed-off-by: Dario Croci <spaeleus@croci.org>
 #
 #, fuzzy
-msgid ""
-msgstr ""
-"Project-Id-Version: CrashlogViewer v0.6\n"
-"POT-Creation-Date: 2025-12-18 00:40+0100\n"
-"PO-Revision-Date: 2023-09-27 21:29+0200\n"
-"Last-Translator: Dario Croci <spaeleus@croci.org>\n"
-"Language-Team: \"Last-Translator: Dario Croci <spaeleus@croci.org>\n"
-"Language: it_IT\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.8\n"
-"X-Poedit-Basepath: ../../../../../../../../..\n"
-"X-Poedit-SearchPath-0: .\n"
 
-#: data/usr/lib/enigma2/python/Plugins/Extensions/CrashlogViewer/plugin.py:254
-#: data/usr/lib/enigma2/python/Plugins/Extensions/CrashlogViewer/plugin.py:462
-#: data/usr/lib/enigma2/python/Plugins/Extensions/CrashlogViewer/plugin.py:532
-msgid "Close"
-msgstr ""
-
-#: data/usr/lib/enigma2/python/Plugins/Extensions/CrashlogViewer/plugin.py:255
-#: data/usr/lib/enigma2/python/Plugins/Extensions/CrashlogViewer/plugin.py:463
-msgid "View"
-msgstr ""
-
-#: data/usr/lib/enigma2/python/Plugins/Extensions/CrashlogViewer/plugin.py:256
-#: data/usr/lib/enigma2/python/Plugins/Extensions/CrashlogViewer/plugin.py:464
-msgid "Remove"
-msgstr ""
-
-#: data/usr/lib/enigma2/python/Plugins/Extensions/CrashlogViewer/plugin.py:257
-#: data/usr/lib/enigma2/python/Plugins/Extensions/CrashlogViewer/plugin.py:465
-msgid "Remove All"
-msgstr ""
-
-#: data/usr/lib/enigma2/python/Plugins/Extensions/CrashlogViewer/plugin.py:338
-msgid "No file selected"
-msgstr ""
-
-#: data/usr/lib/enigma2/python/Plugins/Extensions/CrashlogViewer/plugin.py:344
-msgid "File already removed"
-msgstr ""
-
-#: data/usr/lib/enigma2/python/Plugins/Extensions/CrashlogViewer/plugin.py:352
-#, python-format
-msgid "Removed: %s"
-msgstr ""
-
-#: data/usr/lib/enigma2/python/Plugins/Extensions/CrashlogViewer/plugin.py:362
-#: data/usr/lib/enigma2/python/Plugins/Extensions/CrashlogViewer/plugin.py:403
-#, python-format
-msgid "Error: %s"
-msgstr ""
-
-#: data/usr/lib/enigma2/python/Plugins/Extensions/CrashlogViewer/plugin.py:376
-msgid "No crash logs found"
-msgstr ""
-
-#: data/usr/lib/enigma2/python/Plugins/Extensions/CrashlogViewer/plugin.py:391
-#, python-format
-msgid "Deleted %d files"
-msgstr ""
-
-#: data/usr/lib/enigma2/python/Plugins/Extensions/CrashlogViewer/plugin.py:393
-msgid "No files deleted"
-msgstr ""
-
-#: data/usr/lib/enigma2/python/Plugins/Extensions/CrashlogViewer/plugin.py:440
 msgid "Back"
 msgstr ""
 
-#: data/usr/lib/enigma2/python/Plugins/Extensions/CrashlogViewer/plugin.py:533
-#: data/usr/lib/enigma2/python/Plugins/Extensions/CrashlogViewer/plugin.py:557
-#: data/usr/lib/enigma2/python/Plugins/Extensions/CrashlogViewer/plugin.py:599
+msgid "Close"
+msgstr ""
+
+msgid "Crashlog Viewer"
+msgstr ""
+
+msgid "Deleted %d files"
+msgstr ""
+
 msgid "Error Only"
 msgstr ""
 
-#: data/usr/lib/enigma2/python/Plugins/Extensions/CrashlogViewer/plugin.py:552
+msgid "Error opening file: %s"
+msgstr ""
+
+msgid "Error: %s"
+msgstr ""
+
+msgid "File already removed"
+msgstr ""
+
 msgid "Full Log"
 msgstr ""
 
-#: data/usr/lib/enigma2/python/Plugins/Extensions/CrashlogViewer/plugin.py:608
-msgid "Crashlog  Viewer"
+msgid "No crash logs found"
 msgstr ""
 
-#: data/usr/lib/enigma2/python/Plugins/Extensions/CrashlogViewer/plugin.py:609
+msgid "No file selected"
+msgstr ""
+
+msgid "No files deleted"
+msgstr ""
+
+msgid "No specific error trace found in log"
+msgstr ""
+
+msgid "Press OK or RED to return"
+msgstr ""
+
+msgid "Remove"
+msgstr ""
+
+msgid "Remove All"
+msgstr ""
+
+msgid "Removed: %s"
+msgstr ""
+
+msgid "View"
+msgstr ""
+
+msgid "View Crashlog file: %s"
+msgstr ""
+
 msgid "View | Remove Crashlog files"
 msgstr ""

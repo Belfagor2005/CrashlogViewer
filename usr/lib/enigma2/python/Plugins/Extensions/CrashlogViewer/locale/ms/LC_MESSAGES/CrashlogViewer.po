@@ -1,0 +1,72 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"PO-Revision-Date: 2026-05-27 18:28+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
+"Language: ms\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Signed-off-by: Dario Croci <spaeleus@croci.org>
+#
+msgid "Back"
+msgstr "belakang"
+
+msgid "Close"
+msgstr "tutup"
+
+msgid "Crashlog Viewer"
+msgstr ""
+
+msgid "Deleted %d files"
+msgstr "%d fail dipadamkan"
+
+msgid "Error Only"
+msgstr "Ralat Sahaja"
+
+msgid "Error opening file: %s"
+msgstr "Ralat membuka fail: %s"
+
+msgid "Error: %s"
+msgstr "Ralat: %s"
+
+msgid "File already removed"
+msgstr "Fail sudah dialih keluar"
+
+msgid "Full Log"
+msgstr "Log Penuh"
+
+msgid "No crash logs found"
+msgstr "Tiada log ranap ditemui"
+
+msgid "No file selected"
+msgstr "Tiada fail dipilih"
+
+msgid "No files deleted"
+msgstr "Tiada fail dipadamkan"
+
+msgid "No specific error trace found in log"
+msgstr "Tiada kesan ralat khusus ditemui dalam log"
+
+msgid "Press OK or RED to return"
+msgstr "Tekan OK atau MERAH untuk kembali"
+
+msgid "Remove"
+msgstr "Alih keluar"
+
+msgid "Remove All"
+msgstr "Keluarkan Semua"
+
+msgid "Removed: %s"
+msgstr "Dialih keluar: %s"
+
+msgid "View"
+msgstr "Lihat"
+
+msgid "View Crashlog file: %s"
+msgstr "Lihat fail Crashlog: %s"
+
+msgid "View | Remove Crashlog files"
+msgstr "Lihat | Alih keluar fail Crashlog"

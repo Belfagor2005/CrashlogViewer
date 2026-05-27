@@ -1,0 +1,72 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"PO-Revision-Date: 2026-05-27 18:34+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Swahili <(nothing)>\n"
+"Language: sw\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Signed-off-by: Dario Croci <spaeleus@croci.org>
+#
+msgid "Back"
+msgstr "Nyuma"
+
+msgid "Close"
+msgstr "Funga"
+
+msgid "Crashlog Viewer"
+msgstr "Kitazamaji cha Crashlog"
+
+msgid "Deleted %d files"
+msgstr "Faili %d zimefutwa"
+
+msgid "Error Only"
+msgstr "Hitilafu Pekee"
+
+msgid "Error opening file: %s"
+msgstr "Hitilafu imetokea wakati wa kufungua faili: %s"
+
+msgid "Error: %s"
+msgstr "Hitilafu: %s"
+
+msgid "File already removed"
+msgstr "Faili tayari imeondolewa"
+
+msgid "Full Log"
+msgstr "Ingia Kamili"
+
+msgid "No crash logs found"
+msgstr "Hakuna kumbukumbu za kuacha kufanya kazi zilizopatikana"
+
+msgid "No file selected"
+msgstr "Hakuna faili iliyochaguliwa"
+
+msgid "No files deleted"
+msgstr "Hakuna faili zilizofutwa"
+
+msgid "No specific error trace found in log"
+msgstr "Hakuna ufuatiliaji maalum wa hitilafu uliopatikana kwenye kumbukumbu"
+
+msgid "Press OK or RED to return"
+msgstr "Bonyeza SAWA au RED ili kurejesha"
+
+msgid "Remove"
+msgstr "Ondoa"
+
+msgid "Remove All"
+msgstr "Ondoa Zote"
+
+msgid "Removed: %s"
+msgstr "Imeondolewa: %s"
+
+msgid "View"
+msgstr "Tazama"
+
+msgid "View Crashlog file: %s"
+msgstr "Tazama faili ya Crashlog: %s"
+
+msgid "View | Remove Crashlog files"
+msgstr "Tazama | Ondoa faili za Crashlog"

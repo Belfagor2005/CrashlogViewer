@@ -1,0 +1,73 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"PO-Revision-Date: 2026-05-27 18:17+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Czech <translation-team-cs@lists.sourceforge.net>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+# Signed-off-by: Dario Croci <spaeleus@croci.org>
+#
+msgid "Back"
+msgstr "Zadní"
+
+msgid "Close"
+msgstr "Blízko"
+
+msgid "Crashlog Viewer"
+msgstr ""
+
+msgid "Deleted %d files"
+msgstr "Smazáno %d souborů"
+
+msgid "Error Only"
+msgstr "Pouze chyba"
+
+msgid "Error opening file: %s"
+msgstr "Chyba při otevírání souboru: %s"
+
+msgid "Error: %s"
+msgstr "Chyba: %s"
+
+msgid "File already removed"
+msgstr "Soubor již odstraněn"
+
+msgid "Full Log"
+msgstr "Celý protokol"
+
+msgid "No crash logs found"
+msgstr "Nebyly nalezeny žádné protokoly o selhání"
+
+msgid "No file selected"
+msgstr "Nebyl vybrán žádný soubor"
+
+msgid "No files deleted"
+msgstr "Nebyly odstraněny žádné soubory"
+
+msgid "No specific error trace found in log"
+msgstr "V protokolu nebyla nalezena žádná konkrétní chyba"
+
+msgid "Press OK or RED to return"
+msgstr "Pro návrat stiskněte OK nebo ČERVENÉ tlačítko"
+
+msgid "Remove"
+msgstr "Odstranit"
+
+msgid "Remove All"
+msgstr "Odebrat vše"
+
+msgid "Removed: %s"
+msgstr "Odebráno: %s"
+
+msgid "View"
+msgstr "Pohled"
+
+msgid "View Crashlog file: %s"
+msgstr "Zobrazit soubor Crashlog: %s"
+
+msgid "View | Remove Crashlog files"
+msgstr "Zobrazit | Odstraňte soubory Crashlog"

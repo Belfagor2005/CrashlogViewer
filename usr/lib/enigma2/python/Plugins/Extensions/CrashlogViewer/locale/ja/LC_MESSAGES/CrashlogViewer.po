@@ -1,0 +1,73 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"PO-Revision-Date: 2026-05-27 18:24+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Japanese <translation-team-ja@lists.sourceforge.net>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+# Signed-off-by: Dario Croci <spaeleus@croci.org>
+#
+msgid "Back"
+msgstr "戻る"
+
+msgid "Close"
+msgstr "近い"
+
+msgid "Crashlog Viewer"
+msgstr "クラッシュログビューア"
+
+msgid "Deleted %d files"
+msgstr "%d ファイルを削除しました"
+
+msgid "Error Only"
+msgstr "エラーのみ"
+
+msgid "Error opening file: %s"
+msgstr "ファイルを開くときにエラーが発生しました: %s"
+
+msgid "Error: %s"
+msgstr "エラー: %s"
+
+msgid "File already removed"
+msgstr "ファイルはすでに削除されています"
+
+msgid "Full Log"
+msgstr "完全なログ"
+
+msgid "No crash logs found"
+msgstr "クラッシュログは見つかりませんでした"
+
+msgid "No file selected"
+msgstr "ファイルが選択されていません"
+
+msgid "No files deleted"
+msgstr "ファイルは削除されませんでした"
+
+msgid "No specific error trace found in log"
+msgstr "ログに特定のエラー トレースが見つかりません"
+
+msgid "Press OK or RED to return"
+msgstr "OK または RED を押して戻ります"
+
+msgid "Remove"
+msgstr "取り除く"
+
+msgid "Remove All"
+msgstr "すべて削除"
+
+msgid "Removed: %s"
+msgstr "削除されました: %s"
+
+msgid "View"
+msgstr "ビュー"
+
+msgid "View Crashlog file: %s"
+msgstr "クラッシュログ ファイルを表示: %s"
+
+msgid "View | Remove Crashlog files"
+msgstr "見る |クラッシュログファイルを削除する"

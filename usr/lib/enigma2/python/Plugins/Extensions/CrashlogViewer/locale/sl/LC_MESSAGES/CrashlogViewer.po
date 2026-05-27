@@ -1,0 +1,73 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"PO-Revision-Date: 2026-05-27 18:32+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Slovenian <translation-team-sl@lists.sourceforge.net>\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
+
+# Signed-off-by: Dario Croci <spaeleus@croci.org>
+#
+msgid "Back"
+msgstr "Nazaj"
+
+msgid "Close"
+msgstr "Zapri"
+
+msgid "Crashlog Viewer"
+msgstr "Crashlog pregledovalnik"
+
+msgid "Deleted %d files"
+msgstr "Izbrisanih %d datotek"
+
+msgid "Error Only"
+msgstr "Samo napaka"
+
+msgid "Error opening file: %s"
+msgstr "Napaka pri odpiranju datoteke: %s"
+
+msgid "Error: %s"
+msgstr "Napaka: %s"
+
+msgid "File already removed"
+msgstr "Datoteka je že odstranjena"
+
+msgid "Full Log"
+msgstr "Celoten dnevnik"
+
+msgid "No crash logs found"
+msgstr "Ni dnevnikov zrušitev"
+
+msgid "No file selected"
+msgstr "Izbrana ni nobena datoteka"
+
+msgid "No files deleted"
+msgstr "Ni izbrisanih datotek"
+
+msgid "No specific error trace found in log"
+msgstr "V dnevniku ni bilo mogoče najti posebne sledi napake"
+
+msgid "Press OK or RED to return"
+msgstr "Za vrnitev pritisnite OK ali RDEČO"
+
+msgid "Remove"
+msgstr "Odstrani"
+
+msgid "Remove All"
+msgstr "Odstrani vse"
+
+msgid "Removed: %s"
+msgstr "Odstranjeno: %s"
+
+msgid "View"
+msgstr "Pogled"
+
+msgid "View Crashlog file: %s"
+msgstr "Ogled datoteke Crashlog: %s"
+
+msgid "View | Remove Crashlog files"
+msgstr "Pogled | Odstranite datoteke Crashlog"

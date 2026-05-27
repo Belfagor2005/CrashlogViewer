@@ -1,0 +1,72 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"PO-Revision-Date: 2026-05-27 18:27+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Macedonian <ufo@linux.net.mk>\n"
+"Language: mk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Signed-off-by: Dario Croci <spaeleus@croci.org>
+#
+msgid "Back"
+msgstr "Назад"
+
+msgid "Close"
+msgstr "Затвори"
+
+msgid "Crashlog Viewer"
+msgstr ""
+
+msgid "Deleted %d files"
+msgstr "Избришани %d датотеки"
+
+msgid "Error Only"
+msgstr "Само грешка"
+
+msgid "Error opening file: %s"
+msgstr "Грешка при отворање на датотеката: %s"
+
+msgid "Error: %s"
+msgstr "Грешка: %s"
+
+msgid "File already removed"
+msgstr "Датотеката е веќе отстранета"
+
+msgid "Full Log"
+msgstr "Целосен дневник"
+
+msgid "No crash logs found"
+msgstr "Не се пронајдени дневници за падови"
+
+msgid "No file selected"
+msgstr "Нема избрана датотека"
+
+msgid "No files deleted"
+msgstr "Нема избришани датотеки"
+
+msgid "No specific error trace found in log"
+msgstr "Не е пронајдена специфична трага за грешка во дневникот"
+
+msgid "Press OK or RED to return"
+msgstr "Притиснете ОК или ЦРВЕНО за да се вратите"
+
+msgid "Remove"
+msgstr "Отстрани"
+
+msgid "Remove All"
+msgstr "Отстрани ги сите"
+
+msgid "Removed: %s"
+msgstr "Отстрането: %s"
+
+msgid "View"
+msgstr "Прикажи"
+
+msgid "View Crashlog file: %s"
+msgstr "Погледнете ја датотеката Crashlog: %s"
+
+msgid "View | Remove Crashlog files"
+msgstr "Прикажи | Отстранете ги датотеките Crashlog"

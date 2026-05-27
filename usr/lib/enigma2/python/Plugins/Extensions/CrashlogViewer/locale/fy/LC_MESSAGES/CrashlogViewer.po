@@ -1,0 +1,72 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"PO-Revision-Date: 2026-05-27 18:21+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Western Frisian\n"
+"Language: fy\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Signed-off-by: Dario Croci <spaeleus@croci.org>
+#
+msgid "Back"
+msgstr "Rêch"
+
+msgid "Close"
+msgstr "Slute"
+
+msgid "Crashlog Viewer"
+msgstr ""
+
+msgid "Deleted %d files"
+msgstr "%d triemmen wiske"
+
+msgid "Error Only"
+msgstr "Allinnich flater"
+
+msgid "Error opening file: %s"
+msgstr "Flater by it iepenjen fan triem: %s"
+
+msgid "Error: %s"
+msgstr "Flater: %s"
+
+msgid "File already removed"
+msgstr "Triem al fuortsmiten"
+
+msgid "Full Log"
+msgstr "Folsleine log"
+
+msgid "No crash logs found"
+msgstr "Gjin crash logs fûn"
+
+msgid "No file selected"
+msgstr "Gjin triem selektearre"
+
+msgid "No files deleted"
+msgstr "Gjin triemmen wiske"
+
+msgid "No specific error trace found in log"
+msgstr "Gjin spesifike flaterspoar fûn yn log"
+
+msgid "Press OK or RED to return"
+msgstr "Druk op OK of RED om werom te gean"
+
+msgid "Remove"
+msgstr "Fuortsmite"
+
+msgid "Remove All"
+msgstr "Alles fuortsmite"
+
+msgid "Removed: %s"
+msgstr "Fuortsmite: %s"
+
+msgid "View"
+msgstr "Fisy"
+
+msgid "View Crashlog file: %s"
+msgstr "Besjoch Crashlog-bestân: %s"
+
+msgid "View | Remove Crashlog files"
+msgstr "Besjoch | Ferwiderje Crashlog-bestannen"

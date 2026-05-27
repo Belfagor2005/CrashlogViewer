@@ -1,0 +1,72 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"PO-Revision-Date: 2026-05-27 18:17+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Catalan <ca@dodds.net>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Signed-off-by: Dario Croci <spaeleus@croci.org>
+#
+msgid "Back"
+msgstr "Enrere"
+
+msgid "Close"
+msgstr "Tancar"
+
+msgid "Crashlog Viewer"
+msgstr "Visualitzador de blocs"
+
+msgid "Deleted %d files"
+msgstr "S'han suprimit %d fitxers"
+
+msgid "Error Only"
+msgstr "Només error"
+
+msgid "Error opening file: %s"
+msgstr "Error en obrir el fitxer: %s"
+
+msgid "Error: %s"
+msgstr ""
+
+msgid "File already removed"
+msgstr "El fitxer ja s'ha eliminat"
+
+msgid "Full Log"
+msgstr "Registre complet"
+
+msgid "No crash logs found"
+msgstr "No s'han trobat registres d'error"
+
+msgid "No file selected"
+msgstr "No s'ha seleccionat cap fitxer"
+
+msgid "No files deleted"
+msgstr "No s'ha suprimit cap fitxer"
+
+msgid "No specific error trace found in log"
+msgstr "No s'ha trobat cap rastre d'error específic al registre"
+
+msgid "Press OK or RED to return"
+msgstr "Premeu D'acord o VERMELL per tornar"
+
+msgid "Remove"
+msgstr "Eliminar"
+
+msgid "Remove All"
+msgstr "Elimina-ho tot"
+
+msgid "Removed: %s"
+msgstr "Eliminat: %s"
+
+msgid "View"
+msgstr "Veure"
+
+msgid "View Crashlog file: %s"
+msgstr "Visualitza el fitxer de registre d'accidents: %s"
+
+msgid "View | Remove Crashlog files"
+msgstr "Veure | Elimina els fitxers Crashlog"

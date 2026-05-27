@@ -1,0 +1,73 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"PO-Revision-Date: 2026-05-27 18:30+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Norwegian\n"
+"Language: no\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# Signed-off-by: Dario Croci <spaeleus@croci.org>
+#
+msgid "Back"
+msgstr "Tilbake"
+
+msgid "Close"
+msgstr "Lukke"
+
+msgid "Crashlog Viewer"
+msgstr ""
+
+msgid "Deleted %d files"
+msgstr "Slettet %d filer"
+
+msgid "Error Only"
+msgstr "Kun feil"
+
+msgid "Error opening file: %s"
+msgstr "Feil ved åpning av fil: %s"
+
+msgid "Error: %s"
+msgstr "Feil: %s"
+
+msgid "File already removed"
+msgstr "Filen er allerede fjernet"
+
+msgid "Full Log"
+msgstr "Full logg"
+
+msgid "No crash logs found"
+msgstr "Fant ingen krasjlogger"
+
+msgid "No file selected"
+msgstr "Ingen fil er valgt"
+
+msgid "No files deleted"
+msgstr "Ingen filer slettet"
+
+msgid "No specific error trace found in log"
+msgstr "Ingen spesifikk feilspor funnet i loggen"
+
+msgid "Press OK or RED to return"
+msgstr "Trykk OK eller RØD for å gå tilbake"
+
+msgid "Remove"
+msgstr "Fjerne"
+
+msgid "Remove All"
+msgstr "Fjern alle"
+
+msgid "Removed: %s"
+msgstr "Fjernet: %s"
+
+msgid "View"
+msgstr "Utsikt"
+
+msgid "View Crashlog file: %s"
+msgstr "Se Crashlog-fil: %s"
+
+msgid "View | Remove Crashlog files"
+msgstr "Vis | Fjern Crashlog-filer"

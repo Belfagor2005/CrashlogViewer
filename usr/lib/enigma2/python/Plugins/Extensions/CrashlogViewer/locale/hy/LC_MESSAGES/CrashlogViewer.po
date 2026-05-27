@@ -1,0 +1,72 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"PO-Revision-Date: 2026-05-27 18:23+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Armenian\n"
+"Language: hy\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Signed-off-by: Dario Croci <spaeleus@croci.org>
+#
+msgid "Back"
+msgstr "Ետ"
+
+msgid "Close"
+msgstr "Փակել"
+
+msgid "Crashlog Viewer"
+msgstr ""
+
+msgid "Deleted %d files"
+msgstr "Ջնջվել է %d ֆայլ"
+
+msgid "Error Only"
+msgstr "Միայն սխալ"
+
+msgid "Error opening file: %s"
+msgstr "Ֆայլի բացման սխալ՝ %s"
+
+msgid "Error: %s"
+msgstr "Սխալ՝ %s"
+
+msgid "File already removed"
+msgstr "Ֆայլն արդեն հեռացվել է"
+
+msgid "Full Log"
+msgstr "Ամբողջական մատյան"
+
+msgid "No crash logs found"
+msgstr "Խափանումների մատյաններ չեն գտնվել"
+
+msgid "No file selected"
+msgstr "Ֆայլ ընտրված չէ"
+
+msgid "No files deleted"
+msgstr "Ոչ մի ֆայլ ջնջված չէ"
+
+msgid "No specific error trace found in log"
+msgstr "Մատյանում հատուկ սխալի հետք չի գտնվել"
+
+msgid "Press OK or RED to return"
+msgstr "Սեղմեք OK կամ RED՝ վերադառնալու համար"
+
+msgid "Remove"
+msgstr "Հեռացնել"
+
+msgid "Remove All"
+msgstr "Հեռացնել բոլորը"
+
+msgid "Removed: %s"
+msgstr "Հեռացվել է՝ %s"
+
+msgid "View"
+msgstr "Դիտել"
+
+msgid "View Crashlog file: %s"
+msgstr "Դիտեք Crashlog ֆայլը՝ %s"
+
+msgid "View | Remove Crashlog files"
+msgstr "Դիտել | Հեռացրեք Crashlog ֆայլերը"

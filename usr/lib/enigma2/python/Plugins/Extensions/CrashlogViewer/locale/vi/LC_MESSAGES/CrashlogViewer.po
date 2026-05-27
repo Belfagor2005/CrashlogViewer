@@ -1,0 +1,73 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"PO-Revision-Date: 2026-05-27 18:37+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Vietnamese <translation-team-vi@lists.sourceforge.net>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+# Signed-off-by: Dario Croci <spaeleus@croci.org>
+#
+msgid "Back"
+msgstr "Mặt sau"
+
+msgid "Close"
+msgstr "Đóng"
+
+msgid "Crashlog Viewer"
+msgstr "Trình xem nhật ký sự cố"
+
+msgid "Deleted %d files"
+msgstr "Đã xóa tệp %d"
+
+msgid "Error Only"
+msgstr "Chỉ có lỗi"
+
+msgid "Error opening file: %s"
+msgstr "Lỗi mở tập tin: %s"
+
+msgid "Error: %s"
+msgstr "Lỗi: %s"
+
+msgid "File already removed"
+msgstr "Tệp đã bị xóa"
+
+msgid "Full Log"
+msgstr "Nhật ký đầy đủ"
+
+msgid "No crash logs found"
+msgstr "Không tìm thấy nhật ký sự cố"
+
+msgid "No file selected"
+msgstr "Không có tập tin nào được chọn"
+
+msgid "No files deleted"
+msgstr "Không có tập tin nào bị xóa"
+
+msgid "No specific error trace found in log"
+msgstr "Không tìm thấy dấu vết lỗi cụ thể trong nhật ký"
+
+msgid "Press OK or RED to return"
+msgstr "Nhấn OK hoặc ĐỎ để quay lại"
+
+msgid "Remove"
+msgstr "Di dời"
+
+msgid "Remove All"
+msgstr "Xóa tất cả"
+
+msgid "Removed: %s"
+msgstr "Đã xóa: %s"
+
+msgid "View"
+msgstr "Xem"
+
+msgid "View Crashlog file: %s"
+msgstr "Xem tệp Crashlog: %s"
+
+msgid "View | Remove Crashlog files"
+msgstr "Xem | Xóa tệp Crashlog"

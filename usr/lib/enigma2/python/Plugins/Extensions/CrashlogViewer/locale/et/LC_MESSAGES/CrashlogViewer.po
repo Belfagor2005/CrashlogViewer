@@ -1,0 +1,73 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"PO-Revision-Date: 2026-05-27 18:19+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Estonian <linux-ee@lists.eenet.ee>\n"
+"Language: et\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# Signed-off-by: Dario Croci <spaeleus@croci.org>
+#
+msgid "Back"
+msgstr "Tagasi"
+
+msgid "Close"
+msgstr "Sule"
+
+msgid "Crashlog Viewer"
+msgstr ""
+
+msgid "Deleted %d files"
+msgstr "Kustutatud %d faili"
+
+msgid "Error Only"
+msgstr "Ainult viga"
+
+msgid "Error opening file: %s"
+msgstr "Viga faili avamisel: %s"
+
+msgid "Error: %s"
+msgstr "Viga: %s"
+
+msgid "File already removed"
+msgstr "Fail on juba eemaldatud"
+
+msgid "Full Log"
+msgstr "Täielik logi"
+
+msgid "No crash logs found"
+msgstr "Ühtegi krahhilogi ei leitud"
+
+msgid "No file selected"
+msgstr "Faili pole valitud"
+
+msgid "No files deleted"
+msgstr "Ühtegi faili pole kustutatud"
+
+msgid "No specific error trace found in log"
+msgstr "Logist konkreetset veajälge ei leitud"
+
+msgid "Press OK or RED to return"
+msgstr "Vajutage naasmiseks OK või PUNAST"
+
+msgid "Remove"
+msgstr "Eemalda"
+
+msgid "Remove All"
+msgstr "Eemalda kõik"
+
+msgid "Removed: %s"
+msgstr "Eemaldatud: %s"
+
+msgid "View"
+msgstr "Vaade"
+
+msgid "View Crashlog file: %s"
+msgstr "Kuva krahhilogi fail: %s"
+
+msgid "View | Remove Crashlog files"
+msgstr "Vaata | Eemaldage Crashlogi failid"

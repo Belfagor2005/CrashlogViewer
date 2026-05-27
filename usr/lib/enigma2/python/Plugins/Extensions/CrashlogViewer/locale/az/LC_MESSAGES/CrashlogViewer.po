@@ -1,0 +1,72 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"PO-Revision-Date: 2026-05-27 18:15+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Azerbaijani\n"
+"Language: az\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Signed-off-by: Dario Croci <spaeleus@croci.org>
+#
+msgid "Back"
+msgstr "Geri"
+
+msgid "Close"
+msgstr "Bağlayın"
+
+msgid "Crashlog Viewer"
+msgstr ""
+
+msgid "Deleted %d files"
+msgstr "%d fayl silindi"
+
+msgid "Error Only"
+msgstr "Yalnız Xəta"
+
+msgid "Error opening file: %s"
+msgstr "Faylın açılması xətası: %s"
+
+msgid "Error: %s"
+msgstr "Xəta: %s"
+
+msgid "File already removed"
+msgstr "Fayl artıq silindi"
+
+msgid "Full Log"
+msgstr "Tam Qeydiyyat"
+
+msgid "No crash logs found"
+msgstr "Heç bir qəza qeydi tapılmadı"
+
+msgid "No file selected"
+msgstr "Heç bir fayl seçilməyib"
+
+msgid "No files deleted"
+msgstr "Heç bir fayl silinməyib"
+
+msgid "No specific error trace found in log"
+msgstr "Jurnalda xüsusi xəta izi tapılmadı"
+
+msgid "Press OK or RED to return"
+msgstr "Geri qayıtmaq üçün OK və ya QIRMIZI basın"
+
+msgid "Remove"
+msgstr "Sil"
+
+msgid "Remove All"
+msgstr "Hamısını Sil"
+
+msgid "Removed: %s"
+msgstr "Silindi: %s"
+
+msgid "View"
+msgstr "Baxın"
+
+msgid "View Crashlog file: %s"
+msgstr "Crashlog faylına baxın: %s"
+
+msgid "View | Remove Crashlog files"
+msgstr "Baxın | Crashlog fayllarını silin"

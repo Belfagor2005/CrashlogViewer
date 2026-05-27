@@ -1,0 +1,73 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"PO-Revision-Date: 2026-05-27 18:19+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Esperanto <translation-team-eo@lists.sourceforge.net>\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# Signed-off-by: Dario Croci <spaeleus@croci.org>
+#
+msgid "Back"
+msgstr "Reen"
+
+msgid "Close"
+msgstr "Fermu"
+
+msgid "Crashlog Viewer"
+msgstr "Crashlog-Vidilo"
+
+msgid "Deleted %d files"
+msgstr "Forigitaj %d dosieroj"
+
+msgid "Error Only"
+msgstr "Nur Eraro"
+
+msgid "Error opening file: %s"
+msgstr "Eraro dum malfermo de dosiero: %s"
+
+msgid "Error: %s"
+msgstr "Eraro: %s"
+
+msgid "File already removed"
+msgstr "Dosiero jam forigita"
+
+msgid "Full Log"
+msgstr "Plena Registro"
+
+msgid "No crash logs found"
+msgstr "Neniuj kraŝaj protokoloj trovitaj"
+
+msgid "No file selected"
+msgstr "Neniu dosiero elektita"
+
+msgid "No files deleted"
+msgstr "Neniuj dosieroj forigitaj"
+
+msgid "No specific error trace found in log"
+msgstr "Neniu specifa erarspuro trovita en protokolo"
+
+msgid "Press OK or RED to return"
+msgstr "Premu OK aŭ RUĜAN por reveni"
+
+msgid "Remove"
+msgstr "Forigi"
+
+msgid "Remove All"
+msgstr "Forigi Ĉion"
+
+msgid "Removed: %s"
+msgstr "Forigita: %s"
+
+msgid "View"
+msgstr "Vido"
+
+msgid "View Crashlog file: %s"
+msgstr "Vidi Crashlog-dosieron: %s"
+
+msgid "View | Remove Crashlog files"
+msgstr "Vidi | Forigu Crashlog-dosierojn"

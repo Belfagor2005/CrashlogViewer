@@ -1,0 +1,73 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"PO-Revision-Date: 2026-05-27 18:27+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Latvian <translation-team-lv@lists.sourceforge.net>\n"
+"Language: lv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
+
+# Signed-off-by: Dario Croci <spaeleus@croci.org>
+#
+msgid "Back"
+msgstr "Atpakaļ"
+
+msgid "Close"
+msgstr "Aizvērt"
+
+msgid "Crashlog Viewer"
+msgstr ""
+
+msgid "Deleted %d files"
+msgstr "Izdzēsti %d faili"
+
+msgid "Error Only"
+msgstr "Tikai kļūda"
+
+msgid "Error opening file: %s"
+msgstr "Atverot failu, radās kļūda: %s"
+
+msgid "Error: %s"
+msgstr "Kļūda: %s"
+
+msgid "File already removed"
+msgstr "Fails jau ir noņemts"
+
+msgid "Full Log"
+msgstr "Pilns žurnāls"
+
+msgid "No crash logs found"
+msgstr "Netika atrasts neviens avāriju žurnāls"
+
+msgid "No file selected"
+msgstr "Nav atlasīts neviens fails"
+
+msgid "No files deleted"
+msgstr "Nav izdzēsts neviens fails"
+
+msgid "No specific error trace found in log"
+msgstr "Žurnālā netika atrasts īpašs kļūdas izsekojums"
+
+msgid "Press OK or RED to return"
+msgstr "Lai atgrieztos, nospiediet OK vai RED"
+
+msgid "Remove"
+msgstr "Noņemt"
+
+msgid "Remove All"
+msgstr "Noņemt visu"
+
+msgid "Removed: %s"
+msgstr "Noņemts: %s"
+
+msgid "View"
+msgstr "Skatīt"
+
+msgid "View Crashlog file: %s"
+msgstr "Skatīt avārijas žurnāla failu: %s"
+
+msgid "View | Remove Crashlog files"
+msgstr "Skatīt | Noņemiet Crashlog failus"

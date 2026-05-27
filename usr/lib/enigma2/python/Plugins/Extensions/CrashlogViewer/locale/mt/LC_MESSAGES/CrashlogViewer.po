@@ -1,0 +1,72 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"PO-Revision-Date: 2026-05-27 18:28+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Maltese <translation-team-mt@lists.sourceforge.net>\n"
+"Language: mt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Signed-off-by: Dario Croci <spaeleus@croci.org>
+#
+msgid "Back"
+msgstr "Lura"
+
+msgid "Close"
+msgstr "Agħlaq"
+
+msgid "Crashlog Viewer"
+msgstr ""
+
+msgid "Deleted %d files"
+msgstr "Tħassru %d fajls"
+
+msgid "Error Only"
+msgstr "Żball Biss"
+
+msgid "Error opening file: %s"
+msgstr "Żball fil-ftuħ tal-fajl: %s"
+
+msgid "Error: %s"
+msgstr "Żball: %s"
+
+msgid "File already removed"
+msgstr "Il-fajl diġà tneħħa"
+
+msgid "Full Log"
+msgstr "Log Sħiħ"
+
+msgid "No crash logs found"
+msgstr "Ma nstab l-ebda logs tal-ħabta"
+
+msgid "No file selected"
+msgstr "Ebda fajl magħżul"
+
+msgid "No files deleted"
+msgstr "Ebda fajls imħassra"
+
+msgid "No specific error trace found in log"
+msgstr "L-ebda traċċa ta' żball speċifika ma nstabet fil-log"
+
+msgid "Press OK or RED to return"
+msgstr "Agħfas OK jew AĦMAR biex tirritorna"
+
+msgid "Remove"
+msgstr "Neħħi"
+
+msgid "Remove All"
+msgstr "Neħħi Kollha"
+
+msgid "Removed: %s"
+msgstr "Imneħħija: %s"
+
+msgid "View"
+msgstr "Ara"
+
+msgid "View Crashlog file: %s"
+msgstr "Ara l-fajl Crashlog: %s"
+
+msgid "View | Remove Crashlog files"
+msgstr "Ara | Neħħi l-fajls Crashlog"

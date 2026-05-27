@@ -1,0 +1,72 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"PO-Revision-Date: 2026-05-27 18:16+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Bosnian <mtodorov@alu.hr>\n"
+"Language: bs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Signed-off-by: Dario Croci <spaeleus@croci.org>
+#
+msgid "Back"
+msgstr "Nazad"
+
+msgid "Close"
+msgstr "Zatvori"
+
+msgid "Crashlog Viewer"
+msgstr ""
+
+msgid "Deleted %d files"
+msgstr "Izbrisano je %d fajlova"
+
+msgid "Error Only"
+msgstr "Samo greška"
+
+msgid "Error opening file: %s"
+msgstr "Greška pri otvaranju datoteke: %s"
+
+msgid "Error: %s"
+msgstr "Greška: %s"
+
+msgid "File already removed"
+msgstr "Fajl je već uklonjen"
+
+msgid "Full Log"
+msgstr ""
+
+msgid "No crash logs found"
+msgstr "Nisu pronađeni zapisi o padu"
+
+msgid "No file selected"
+msgstr "Nije odabran nijedan fajl"
+
+msgid "No files deleted"
+msgstr "Nijedan fajl nije izbrisan"
+
+msgid "No specific error trace found in log"
+msgstr "U zapisniku nije pronađen nikakav specifičan trag greške"
+
+msgid "Press OK or RED to return"
+msgstr "Pritisnite OK ili CRVENI za povratak"
+
+msgid "Remove"
+msgstr "Ukloni"
+
+msgid "Remove All"
+msgstr "Ukloni sve"
+
+msgid "Removed: %s"
+msgstr "Uklonjeno: %s"
+
+msgid "View"
+msgstr "Pogled"
+
+msgid "View Crashlog file: %s"
+msgstr "Pogledajte Crashlog fajl: %s"
+
+msgid "View | Remove Crashlog files"
+msgstr "Pogledaj | Uklonite Crashlog fajlove"

@@ -1,0 +1,72 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"PO-Revision-Date: 2026-05-27 18:22+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Gujarati\n"
+"Language: gu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Signed-off-by: Dario Croci <spaeleus@croci.org>
+#
+msgid "Back"
+msgstr "પાછળ"
+
+msgid "Close"
+msgstr "બંધ કરો"
+
+msgid "Crashlog Viewer"
+msgstr "ક્રેશલોગ વ્યૂઅર"
+
+msgid "Deleted %d files"
+msgstr "%d ફાઇલો કાઢી નાખી"
+
+msgid "Error Only"
+msgstr "ભૂલ માત્ર"
+
+msgid "Error opening file: %s"
+msgstr "ફાઇલ ખોલવામાં ભૂલ: %s"
+
+msgid "Error: %s"
+msgstr "ભૂલ: %s"
+
+msgid "File already removed"
+msgstr "ફાઇલ પહેલેથી જ કાઢી નાખી છે"
+
+msgid "Full Log"
+msgstr "સંપૂર્ણ લોગ"
+
+msgid "No crash logs found"
+msgstr "કોઈ ક્રેશ લોગ મળ્યા નથી"
+
+msgid "No file selected"
+msgstr "કોઈ ફાઇલ પસંદ કરી નથી"
+
+msgid "No files deleted"
+msgstr "કોઈ ફાઈલો કાઢી નથી"
+
+msgid "No specific error trace found in log"
+msgstr "લોગમાં કોઈ ચોક્કસ ભૂલ ટ્રેસ મળી નથી"
+
+msgid "Press OK or RED to return"
+msgstr "પરત કરવા માટે OK અથવા RED દબાવો"
+
+msgid "Remove"
+msgstr "દૂર કરો"
+
+msgid "Remove All"
+msgstr "બધા દૂર કરો"
+
+msgid "Removed: %s"
+msgstr "દૂર કર્યું: %s"
+
+msgid "View"
+msgstr "જુઓ"
+
+msgid "View Crashlog file: %s"
+msgstr "ક્રેશલોગ ફાઇલ જુઓ: %s"
+
+msgid "View | Remove Crashlog files"
+msgstr "જુઓ | Crashlog ફાઇલો દૂર કરો"

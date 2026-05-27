@@ -1,0 +1,74 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"PO-Revision-Date: 2026-05-27 18:18+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: English\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# Signed-off-by: Dario Croci <spaeleus@croci.org>
+#
+#, fuzzy
+msgid "Back"
+msgstr "Back"
+
+msgid "Close"
+msgstr "Close"
+
+msgid "Crashlog Viewer"
+msgstr "Crashlog Viewer"
+
+msgid "Deleted %d files"
+msgstr "Deleted %d files"
+
+msgid "Error Only"
+msgstr "Error Only"
+
+msgid "Error opening file: %s"
+msgstr "Error opening file: %s"
+
+msgid "Error: %s"
+msgstr "Error: %s"
+
+msgid "File already removed"
+msgstr "File already removed"
+
+msgid "Full Log"
+msgstr "Full Log"
+
+msgid "No crash logs found"
+msgstr "No crash logs found"
+
+msgid "No file selected"
+msgstr "No file selected"
+
+msgid "No files deleted"
+msgstr "No files deleted"
+
+msgid "No specific error trace found in log"
+msgstr "No specific error trace found in log"
+
+msgid "Press OK or RED to return"
+msgstr "Press OK or RED to return"
+
+msgid "Remove"
+msgstr "Remove"
+
+msgid "Remove All"
+msgstr "Remove All"
+
+msgid "Removed: %s"
+msgstr "Removed: %s"
+
+msgid "View"
+msgstr "View"
+
+msgid "View Crashlog file: %s"
+msgstr "View Crashlog file: %s"
+
+msgid "View | Remove Crashlog files"
+msgstr "View | Remove Crashlog files"

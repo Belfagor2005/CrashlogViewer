@@ -1,0 +1,73 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"PO-Revision-Date: 2026-05-27 18:31+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Romanian <translation-team-ro@lists.sourceforge.net>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2;\n"
+
+# Signed-off-by: Dario Croci <spaeleus@croci.org>
+#
+msgid "Back"
+msgstr "Spate"
+
+msgid "Close"
+msgstr "Aproape"
+
+msgid "Crashlog Viewer"
+msgstr "Vizualizator de blocări"
+
+msgid "Deleted %d files"
+msgstr "Au fost șterse %d fișiere"
+
+msgid "Error Only"
+msgstr "Numai eroare"
+
+msgid "Error opening file: %s"
+msgstr "Eroare la deschiderea fișierului: %s"
+
+msgid "Error: %s"
+msgstr "Eroare: %s"
+
+msgid "File already removed"
+msgstr "Fișierul a fost deja eliminat"
+
+msgid "Full Log"
+msgstr "Jurnal complet"
+
+msgid "No crash logs found"
+msgstr "Nu s-au găsit jurnalele de blocare"
+
+msgid "No file selected"
+msgstr "Niciun fișier selectat"
+
+msgid "No files deleted"
+msgstr "Niciun fișier nu a fost șters"
+
+msgid "No specific error trace found in log"
+msgstr "Nu s-a găsit nicio urmă de eroare specifică în jurnal"
+
+msgid "Press OK or RED to return"
+msgstr "Apăsați OK sau ROȘU pentru a reveni"
+
+msgid "Remove"
+msgstr "Elimina"
+
+msgid "Remove All"
+msgstr "Eliminați tot"
+
+msgid "Removed: %s"
+msgstr "Eliminat: %s"
+
+msgid "View"
+msgstr "Vedere"
+
+msgid "View Crashlog file: %s"
+msgstr "Vizualizați fișierul jurnal de blocări: %s"
+
+msgid "View | Remove Crashlog files"
+msgstr "Vizualizare | Eliminați fișierele Crashlog"

@@ -1,0 +1,73 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"PO-Revision-Date: 2026-05-27 18:18+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: German <translation-team-de@lists.sourceforge.net>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# Signed-off-by: Dario Croci <spaeleus@croci.org>
+#
+msgid "Back"
+msgstr "Zurück"
+
+msgid "Close"
+msgstr "Schließen"
+
+msgid "Crashlog Viewer"
+msgstr "Crashlog-Viewer"
+
+msgid "Deleted %d files"
+msgstr "%d Dateien gelöscht"
+
+msgid "Error Only"
+msgstr "Nur Fehler"
+
+msgid "Error opening file: %s"
+msgstr "Fehler beim Öffnen der Datei: %s"
+
+msgid "Error: %s"
+msgstr "Fehler: %s"
+
+msgid "File already removed"
+msgstr "Datei bereits entfernt"
+
+msgid "Full Log"
+msgstr "Vollständiges Protokoll"
+
+msgid "No crash logs found"
+msgstr "Keine Absturzprotokolle gefunden"
+
+msgid "No file selected"
+msgstr "Keine Datei ausgewählt"
+
+msgid "No files deleted"
+msgstr "Keine Dateien gelöscht"
+
+msgid "No specific error trace found in log"
+msgstr "Im Protokoll wurde keine spezifische Fehlerspur gefunden"
+
+msgid "Press OK or RED to return"
+msgstr "Drücken Sie OK oder ROT, um zurückzukehren"
+
+msgid "Remove"
+msgstr "Entfernen"
+
+msgid "Remove All"
+msgstr "Alle entfernen"
+
+msgid "Removed: %s"
+msgstr "Entfernt: %s"
+
+msgid "View"
+msgstr "Sicht"
+
+msgid "View Crashlog file: %s"
+msgstr "Crashlog-Datei anzeigen: %s"
+
+msgid "View | Remove Crashlog files"
+msgstr "Ansicht | Entfernen Sie Crashlog-Dateien"

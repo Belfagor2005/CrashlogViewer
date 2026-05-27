@@ -1,0 +1,72 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"PO-Revision-Date: 2026-05-27 18:19+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Basque <translation-team-eu@googlegroups.com>\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Signed-off-by: Dario Croci <spaeleus@croci.org>
+#
+msgid "Back"
+msgstr "Itzuli"
+
+msgid "Close"
+msgstr "Itxi"
+
+msgid "Crashlog Viewer"
+msgstr ""
+
+msgid "Deleted %d files"
+msgstr "%d fitxategi ezabatu dira"
+
+msgid "Error Only"
+msgstr "Errore bakarra"
+
+msgid "Error opening file: %s"
+msgstr "Errore bat gertatu da fitxategia irekitzean: %s"
+
+msgid "Error: %s"
+msgstr "Errorea: %s"
+
+msgid "File already removed"
+msgstr "Dagoeneko kendu da fitxategia"
+
+msgid "Full Log"
+msgstr "Erregistro osoa"
+
+msgid "No crash logs found"
+msgstr "Ez da hutsegiteen erregistrorik aurkitu"
+
+msgid "No file selected"
+msgstr "Ez da fitxategirik hautatu"
+
+msgid "No files deleted"
+msgstr "Ez da fitxategirik ezabatu"
+
+msgid "No specific error trace found in log"
+msgstr "Ez da akatsen arrasto zehatzik aurkitu erregistroan"
+
+msgid "Press OK or RED to return"
+msgstr "Sakatu Ados edo GORRIA itzultzeko"
+
+msgid "Remove"
+msgstr "Kendu"
+
+msgid "Remove All"
+msgstr "Kendu guztiak"
+
+msgid "Removed: %s"
+msgstr "Kendua: %s"
+
+msgid "View"
+msgstr "Ikusi"
+
+msgid "View Crashlog file: %s"
+msgstr "Ikusi Crashlog fitxategia: %s"
+
+msgid "View | Remove Crashlog files"
+msgstr "Ikusi | Kendu Crashlog fitxategiak"

@@ -1,0 +1,72 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"PO-Revision-Date: 2026-05-27 18:22+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Galician <proxecto@trasno.gal>\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Signed-off-by: Dario Croci <spaeleus@croci.org>
+#
+msgid "Back"
+msgstr "De volta"
+
+msgid "Close"
+msgstr "Pechar"
+
+msgid "Crashlog Viewer"
+msgstr "Visor de crashlog"
+
+msgid "Deleted %d files"
+msgstr ""
+
+msgid "Error Only"
+msgstr ""
+
+msgid "Error opening file: %s"
+msgstr "Erro ao abrir o ficheiro: %s"
+
+msgid "Error: %s"
+msgstr "Erro: %s"
+
+msgid "File already removed"
+msgstr "O ficheiro xa se eliminou"
+
+msgid "Full Log"
+msgstr "Rexistro completo"
+
+msgid "No crash logs found"
+msgstr "Non se atoparon rexistros de fallos"
+
+msgid "No file selected"
+msgstr "Non se seleccionou ningún ficheiro"
+
+msgid "No files deleted"
+msgstr "Non se eliminou ningún ficheiro"
+
+msgid "No specific error trace found in log"
+msgstr "Non se atopou ningún rastro de erro específico no rexistro"
+
+msgid "Press OK or RED to return"
+msgstr "Preme OK ou VERMELLO para volver"
+
+msgid "Remove"
+msgstr "Eliminar"
+
+msgid "Remove All"
+msgstr "Eliminar todo"
+
+msgid "Removed: %s"
+msgstr "Eliminado: %s"
+
+msgid "View"
+msgstr "Ver"
+
+msgid "View Crashlog file: %s"
+msgstr "Ver ficheiro de rexistro de fallos: %s"
+
+msgid "View | Remove Crashlog files"
+msgstr "Ver | Eliminar ficheiros Crashlog"

@@ -1,0 +1,72 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"PO-Revision-Date: 2026-05-27 18:17+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Welsh\n"
+"Language: cy\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Signed-off-by: Dario Croci <spaeleus@croci.org>
+#
+msgid "Back"
+msgstr "Yn ol"
+
+msgid "Close"
+msgstr "Cau"
+
+msgid "Crashlog Viewer"
+msgstr "Gwyliwr Crashlog"
+
+msgid "Deleted %d files"
+msgstr "Wedi dileu %d ffeil"
+
+msgid "Error Only"
+msgstr "Gwall yn Unig"
+
+msgid "Error opening file: %s"
+msgstr "Gwall wrth agor ffeil: %s"
+
+msgid "Error: %s"
+msgstr "Gwall: %s"
+
+msgid "File already removed"
+msgstr "Mae'r ffeil eisoes wedi'i thynnu"
+
+msgid "Full Log"
+msgstr "Log Llawn"
+
+msgid "No crash logs found"
+msgstr "Heb ganfod logiau chwalfa"
+
+msgid "No file selected"
+msgstr "Dim ffeil wedi'i dewis"
+
+msgid "No files deleted"
+msgstr "Dim ffeiliau wedi'u dileu"
+
+msgid "No specific error trace found in log"
+msgstr "Ni chanfuwyd unrhyw olrhain gwall penodol yn y log"
+
+msgid "Press OK or RED to return"
+msgstr "Pwyswch OK neu RED i ddychwelyd"
+
+msgid "Remove"
+msgstr "Dileu"
+
+msgid "Remove All"
+msgstr "Dileu Pawb"
+
+msgid "Removed: %s"
+msgstr "Wedi'i ddileu: %s"
+
+msgid "View"
+msgstr "Golwg"
+
+msgid "View Crashlog file: %s"
+msgstr "Gweld ffeil Crashlog: %s"
+
+msgid "View | Remove Crashlog files"
+msgstr "Gweld | Dileu ffeiliau Crashlog"

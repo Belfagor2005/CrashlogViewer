@@ -1,0 +1,73 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"PO-Revision-Date: 2026-05-27 18:18+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Greek <team@lists.gnome.gr>\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# Signed-off-by: Dario Croci <spaeleus@croci.org>
+#
+msgid "Back"
+msgstr "Πίσω"
+
+msgid "Close"
+msgstr "Κοντά"
+
+msgid "Crashlog Viewer"
+msgstr ""
+
+msgid "Deleted %d files"
+msgstr "Διαγράφηκαν %d αρχεία"
+
+msgid "Error Only"
+msgstr "Μόνο σφάλμα"
+
+msgid "Error opening file: %s"
+msgstr "Σφάλμα κατά το άνοιγμα του αρχείου: %s"
+
+msgid "Error: %s"
+msgstr "Σφάλμα: %s"
+
+msgid "File already removed"
+msgstr "Το αρχείο έχει ήδη αφαιρεθεί"
+
+msgid "Full Log"
+msgstr "Πλήρες αρχείο καταγραφής"
+
+msgid "No crash logs found"
+msgstr "Δεν βρέθηκαν αρχεία καταγραφής σφαλμάτων"
+
+msgid "No file selected"
+msgstr "Δεν έχει επιλεγεί αρχείο"
+
+msgid "No files deleted"
+msgstr "Δεν διαγράφηκαν αρχεία"
+
+msgid "No specific error trace found in log"
+msgstr "Δεν βρέθηκε συγκεκριμένο ίχνος σφάλματος στο αρχείο καταγραφής"
+
+msgid "Press OK or RED to return"
+msgstr "Πατήστε OK ή ΚΟΚΚΙΝΟ για να επιστρέψετε"
+
+msgid "Remove"
+msgstr "Αφαιρώ"
+
+msgid "Remove All"
+msgstr "Κατάργηση όλων"
+
+msgid "Removed: %s"
+msgstr "Καταργήθηκε: %s"
+
+msgid "View"
+msgstr "Θέα"
+
+msgid "View Crashlog file: %s"
+msgstr "Προβολή αρχείου Crashlog: %s"
+
+msgid "View | Remove Crashlog files"
+msgstr "Προβολή | Καταργήστε τα αρχεία Crashlog"

@@ -1,0 +1,73 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"PO-Revision-Date: 2026-05-27 18:32+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Slovak <sk-i18n@lists.linux.sk>\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+# Signed-off-by: Dario Croci <spaeleus@croci.org>
+#
+msgid "Back"
+msgstr "Späť"
+
+msgid "Close"
+msgstr "Zavrieť"
+
+msgid "Crashlog Viewer"
+msgstr ""
+
+msgid "Deleted %d files"
+msgstr "Počet odstránených súborov: %d"
+
+msgid "Error Only"
+msgstr "Iba chyba"
+
+msgid "Error opening file: %s"
+msgstr "Chyba pri otváraní súboru: %s"
+
+msgid "Error: %s"
+msgstr "Chyba: %s"
+
+msgid "File already removed"
+msgstr "Súbor už bol odstránený"
+
+msgid "Full Log"
+msgstr "Úplný denník"
+
+msgid "No crash logs found"
+msgstr "Nenašli sa žiadne denníky zlyhaní"
+
+msgid "No file selected"
+msgstr "Nie je vybratý žiadny súbor"
+
+msgid "No files deleted"
+msgstr "Neboli odstránené žiadne súbory"
+
+msgid "No specific error trace found in log"
+msgstr "V denníku sa nenašla žiadna špecifická stopa chyby"
+
+msgid "Press OK or RED to return"
+msgstr "Stlačením OK alebo ČERVENÉHO tlačidla sa vrátite"
+
+msgid "Remove"
+msgstr "Odstrániť"
+
+msgid "Remove All"
+msgstr "Odstrániť všetko"
+
+msgid "Removed: %s"
+msgstr "Odstránené: %s"
+
+msgid "View"
+msgstr "Zobraziť"
+
+msgid "View Crashlog file: %s"
+msgstr "Zobraziť súbor Crashlog: %s"
+
+msgid "View | Remove Crashlog files"
+msgstr "Zobraziť | Odstráňte súbory Crashlog"

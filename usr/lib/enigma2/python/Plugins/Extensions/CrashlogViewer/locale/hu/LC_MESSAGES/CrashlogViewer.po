@@ -1,0 +1,73 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"PO-Revision-Date: 2026-05-27 18:23+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Hungarian <translation-team-hu@lists.sourceforge.net>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# Signed-off-by: Dario Croci <spaeleus@croci.org>
+#
+msgid "Back"
+msgstr "Vissza"
+
+msgid "Close"
+msgstr "Közeli"
+
+msgid "Crashlog Viewer"
+msgstr ""
+
+msgid "Deleted %d files"
+msgstr "%d fájl törölve"
+
+msgid "Error Only"
+msgstr "Csak hiba"
+
+msgid "Error opening file: %s"
+msgstr "Hiba a fájl megnyitásakor: %s"
+
+msgid "Error: %s"
+msgstr "Hiba: %s"
+
+msgid "File already removed"
+msgstr "A fájl már eltávolítva"
+
+msgid "Full Log"
+msgstr "Teljes napló"
+
+msgid "No crash logs found"
+msgstr "Nem található összeomlási napló"
+
+msgid "No file selected"
+msgstr "Nincs kiválasztva fájl"
+
+msgid "No files deleted"
+msgstr "Nincsenek törölt fájlok"
+
+msgid "No specific error trace found in log"
+msgstr "Nem található konkrét hibanyom a naplóban"
+
+msgid "Press OK or RED to return"
+msgstr "Nyomja meg az OK vagy a PIROS gombot a visszatéréshez"
+
+msgid "Remove"
+msgstr "Távolítsa el"
+
+msgid "Remove All"
+msgstr "Összes eltávolítása"
+
+msgid "Removed: %s"
+msgstr "Eltávolítva: %s"
+
+msgid "View"
+msgstr "Kilátás"
+
+msgid "View Crashlog file: %s"
+msgstr "Összeomlási naplófájl megtekintése: %s"
+
+msgid "View | Remove Crashlog files"
+msgstr "Megtekintés | Távolítsa el a Crashlog fájlokat"

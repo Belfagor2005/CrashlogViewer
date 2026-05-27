@@ -1,0 +1,73 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"PO-Revision-Date: 2026-05-27 18:22+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Hebrew <heb-bugzap@hamakor.org.il>\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# Signed-off-by: Dario Croci <spaeleus@croci.org>
+#
+msgid "Back"
+msgstr "בְּחֲזָרָה"
+
+msgid "Close"
+msgstr "לִסְגוֹר"
+
+msgid "Crashlog Viewer"
+msgstr ""
+
+msgid "Deleted %d files"
+msgstr "נמחקו %d קבצים"
+
+msgid "Error Only"
+msgstr "שגיאה בלבד"
+
+msgid "Error opening file: %s"
+msgstr "שגיאה בפתיחת הקובץ: %s"
+
+msgid "Error: %s"
+msgstr "שגיאה: %s"
+
+msgid "File already removed"
+msgstr "הקובץ כבר הוסר"
+
+msgid "Full Log"
+msgstr "יומן מלא"
+
+msgid "No crash logs found"
+msgstr "לא נמצאו יומני קריסה"
+
+msgid "No file selected"
+msgstr "לא נבחר קובץ"
+
+msgid "No files deleted"
+msgstr "לא נמחקו קבצים"
+
+msgid "No specific error trace found in log"
+msgstr "לא נמצא עקבות שגיאה ספציפית ביומן"
+
+msgid "Press OK or RED to return"
+msgstr "לחץ על OK או אדום כדי לחזור"
+
+msgid "Remove"
+msgstr "לְהַסִיר"
+
+msgid "Remove All"
+msgstr "הסר הכל"
+
+msgid "Removed: %s"
+msgstr "הוסר: %s"
+
+msgid "View"
+msgstr "נוֹף"
+
+msgid "View Crashlog file: %s"
+msgstr "הצג קובץ Crashlog: %s"
+
+msgid "View | Remove Crashlog files"
+msgstr "צפה | הסר קבצי Crashlog"

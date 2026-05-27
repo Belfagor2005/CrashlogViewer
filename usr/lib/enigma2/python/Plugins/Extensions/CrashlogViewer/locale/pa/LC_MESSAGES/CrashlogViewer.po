@@ -1,0 +1,72 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"PO-Revision-Date: 2026-05-27 18:31+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Punjabi <punjabi-l10n@lists.sourceforge.net>\n"
+"Language: pa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Signed-off-by: Dario Croci <spaeleus@croci.org>
+#
+msgid "Back"
+msgstr "ਵਾਪਸ"
+
+msgid "Close"
+msgstr "ਬੰਦ ਕਰੋ"
+
+msgid "Crashlog Viewer"
+msgstr "ਕਰੈਸ਼ਲੌਗ ਦਰਸ਼ਕ"
+
+msgid "Deleted %d files"
+msgstr "%d ਫ਼ਾਈਲਾਂ ਮਿਟਾਈਆਂ ਗਈਆਂ"
+
+msgid "Error Only"
+msgstr "ਗਲਤੀ ਸਿਰਫ਼"
+
+msgid "Error opening file: %s"
+msgstr "ਫਾਈਲ ਖੋਲ੍ਹਣ ਵਿੱਚ ਤਰੁੱਟੀ: %s"
+
+msgid "Error: %s"
+msgstr "ਤਰੁੱਟੀ: %s"
+
+msgid "File already removed"
+msgstr "ਫ਼ਾਈਲ ਪਹਿਲਾਂ ਹੀ ਹਟਾ ਦਿੱਤੀ ਗਈ ਹੈ"
+
+msgid "Full Log"
+msgstr "ਪੂਰਾ ਲਾਗ"
+
+msgid "No crash logs found"
+msgstr "ਕੋਈ ਕਰੈਸ਼ ਲੌਗ ਨਹੀਂ ਮਿਲਿਆ"
+
+msgid "No file selected"
+msgstr "ਕੋਈ ਫ਼ਾਈਲ ਨਹੀਂ ਚੁਣੀ ਗਈ"
+
+msgid "No files deleted"
+msgstr "ਕੋਈ ਫ਼ਾਈਲਾਂ ਨਹੀਂ ਮਿਟਾਈਆਂ ਗਈਆਂ"
+
+msgid "No specific error trace found in log"
+msgstr "ਲਾਗ ਵਿੱਚ ਕੋਈ ਖਾਸ ਗਲਤੀ ਟਰੇਸ ਨਹੀਂ ਮਿਲਿਆ"
+
+msgid "Press OK or RED to return"
+msgstr "ਵਾਪਸ ਜਾਣ ਲਈ OK ਜਾਂ RED ਦਬਾਓ"
+
+msgid "Remove"
+msgstr "ਹਟਾਓ"
+
+msgid "Remove All"
+msgstr "ਸਭ ਹਟਾਓ"
+
+msgid "Removed: %s"
+msgstr "ਹਟਾਇਆ ਗਿਆ: %s"
+
+msgid "View"
+msgstr "ਦੇਖੋ"
+
+msgid "View Crashlog file: %s"
+msgstr "ਕ੍ਰੈਸ਼ਲੌਗ ਫਾਈਲ ਵੇਖੋ: %s"
+
+msgid "View | Remove Crashlog files"
+msgstr "ਦੇਖੋ | ਕ੍ਰੈਸ਼ਲੌਗ ਫਾਈਲਾਂ ਨੂੰ ਹਟਾਓ"

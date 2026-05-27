@@ -1,0 +1,72 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"PO-Revision-Date: 2026-05-27 18:15+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Arabic <(nothing)>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Signed-off-by: Dario Croci <spaeleus@croci.org>
+#
+msgid "Back"
+msgstr "خلف"
+
+msgid "Close"
+msgstr "يغلق"
+
+msgid "Crashlog Viewer"
+msgstr "عارض سجل الأعطال"
+
+msgid "Deleted %d files"
+msgstr "تم حذف %d من الملفات"
+
+msgid "Error Only"
+msgstr "خطأ فقط"
+
+msgid "Error opening file: %s"
+msgstr "خطأ في فتح الملف: %s"
+
+msgid "Error: %s"
+msgstr "الخطأ: %s"
+
+msgid "File already removed"
+msgstr "تمت إزالة الملف بالفعل"
+
+msgid "Full Log"
+msgstr "سجل كامل"
+
+msgid "No crash logs found"
+msgstr "لم يتم العثور على سجلات الأعطال"
+
+msgid "No file selected"
+msgstr "لم يتم تحديد أي ملف"
+
+msgid "No files deleted"
+msgstr "لم يتم حذف أي ملفات"
+
+msgid "No specific error trace found in log"
+msgstr "لم يتم العثور على أثر خطأ محدد في السجل"
+
+msgid "Press OK or RED to return"
+msgstr "اضغط على OK أو RED للعودة"
+
+msgid "Remove"
+msgstr "يزيل"
+
+msgid "Remove All"
+msgstr "إزالة الكل"
+
+msgid "Removed: %s"
+msgstr "تمت الإزالة: %s"
+
+msgid "View"
+msgstr "منظر"
+
+msgid "View Crashlog file: %s"
+msgstr "عرض ملف سجل الأعطال: %s"
+
+msgid "View | Remove Crashlog files"
+msgstr "عرض | إزالة ملفات Crashlog"

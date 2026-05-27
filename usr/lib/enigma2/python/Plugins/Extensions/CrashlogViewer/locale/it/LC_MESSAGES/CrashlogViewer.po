@@ -16,87 +16,70 @@ msgstr ""
 "X-Poedit-Basepath: ../../../../../../../../..\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: lib/enigma2/python/Plugins/Extensions/CrashlogViewer/plugin.py:254
-#: lib/enigma2/python/Plugins/Extensions/CrashlogViewer/plugin.py:462
-#: lib/enigma2/python/Plugins/Extensions/CrashlogViewer/plugin.py:532
-msgid "Close"
-msgstr "Esci"
-
-#: lib/enigma2/python/Plugins/Extensions/CrashlogViewer/plugin.py:255
-#: lib/enigma2/python/Plugins/Extensions/CrashlogViewer/plugin.py:463
-msgid "View"
-msgstr "Mostra"
-
-#: lib/enigma2/python/Plugins/Extensions/CrashlogViewer/plugin.py:256
-#: lib/enigma2/python/Plugins/Extensions/CrashlogViewer/plugin.py:464
-msgid "Remove"
-msgstr "Rimuovi"
-
-#: lib/enigma2/python/Plugins/Extensions/CrashlogViewer/plugin.py:257
-#: lib/enigma2/python/Plugins/Extensions/CrashlogViewer/plugin.py:465
-msgid "Remove All"
-msgstr "Rimuovi tutto"
-
-#: lib/enigma2/python/Plugins/Extensions/CrashlogViewer/plugin.py:338
-msgid "No file selected"
-msgstr "Nessun file selezionato"
-
-#: lib/enigma2/python/Plugins/Extensions/CrashlogViewer/plugin.py:344
-msgid "File already removed"
-msgstr "File già rimosso"
-
-#: lib/enigma2/python/Plugins/Extensions/CrashlogViewer/plugin.py:352
-#, python-format
-msgid "Removed: %s"
-msgstr "Rimosso: %s"
-
-#: lib/enigma2/python/Plugins/Extensions/CrashlogViewer/plugin.py:362
-#: lib/enigma2/python/Plugins/Extensions/CrashlogViewer/plugin.py:403
-#, python-format
-msgid "Error: %s"
-msgstr "Errore: %s"
-
-#: lib/enigma2/python/Plugins/Extensions/CrashlogViewer/plugin.py:376
-msgid "No crash logs found"
-msgstr "Nessun file di registro trovato"
-
-#: lib/enigma2/python/Plugins/Extensions/CrashlogViewer/plugin.py:391
-#, python-format
-msgid "Deleted %d files"
-msgstr "Eliminati %d file"
-
-#: lib/enigma2/python/Plugins/Extensions/CrashlogViewer/plugin.py:393
-msgid "No files deleted"
-msgstr "Nessun file cancellato"
-
-#: lib/enigma2/python/Plugins/Extensions/CrashlogViewer/plugin.py:440
 msgid "Back"
 msgstr "Torna"
 
-#: lib/enigma2/python/Plugins/Extensions/CrashlogViewer/plugin.py:533
-#: lib/enigma2/python/Plugins/Extensions/CrashlogViewer/plugin.py:557
-#: lib/enigma2/python/Plugins/Extensions/CrashlogViewer/plugin.py:599
+msgid "Close"
+msgstr "Esci"
+
+#, fuzzy
+msgid "Crashlog Viewer"
+msgstr "Visualizzatore di crashlog"
+
+msgid "Deleted %d files"
+msgstr "Eliminati %d file"
+
 msgid "Error Only"
 msgstr "Solo Errori"
 
-#: lib/enigma2/python/Plugins/Extensions/CrashlogViewer/plugin.py:552
+msgid "Error opening file: %s"
+msgstr "Errore durante l'apertura del file: %s"
+
+msgid "Error: %s"
+msgstr "Errore: %s"
+
+msgid "File already removed"
+msgstr "File già rimosso"
+
 msgid "Full Log"
 msgstr "Log Comleto"
 
-#: lib/enigma2/python/Plugins/Extensions/CrashlogViewer/plugin.py:608
-msgid "Crashlog  Viewer"
-msgstr "Visualizzatore di crashlog"
+msgid "No crash logs found"
+msgstr "Nessun file di registro trovato"
 
-#: lib/enigma2/python/Plugins/Extensions/CrashlogViewer/plugin.py:609
+msgid "No file selected"
+msgstr "Nessun file selezionato"
+
+msgid "No files deleted"
+msgstr "Nessun file cancellato"
+
+msgid "No specific error trace found in log"
+msgstr "Nessuna traccia di errore specifica trovata nel registro"
+
+msgid "Press OK or RED to return"
+msgstr "Premere OK o ROSSO per tornare"
+
+msgid "Remove"
+msgstr "Rimuovi"
+
+msgid "Remove All"
+msgstr "Rimuovi tutto"
+
+msgid "Removed: %s"
+msgstr "Rimosso: %s"
+
+msgid "View"
+msgstr "Mostra"
+
+#, fuzzy
+msgid "View Crashlog file: %s"
+msgstr "Visualizza | rimuovi File Crashlog"
+
 msgid "View | Remove Crashlog files"
 msgstr "Visualizza | rimuovi File Crashlog"
 
 #~ msgid "Back to List"
 #~ msgstr "Torna all'elenco"
-
-#, python-format
-#~ msgid "Error opening file: %s"
-#~ msgstr "Errore durante l'apertura del file: %s"
 
 #~ msgid "Empty file"
 #~ msgstr "File vuoto"

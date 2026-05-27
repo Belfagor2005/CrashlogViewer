@@ -6,6 +6,7 @@ msgstr ""
 "PO-Revision-Date: 2011-11-17 12:30+0200\n"
 "Last-Translator: 2boom <4bob@ua.fm>\n"
 "Language-Team:  <4bob@ua.fm>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -13,36 +14,79 @@ msgstr ""
 "X-Poedit-Country: RUSSIAN FEDERATION\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
+# Signed-off-by: Dario Croci <spaeleus@croci.org>
+#
+msgid "Back"
+msgstr "Назад"
+
 msgid "Close"
 msgstr "Закрыть"
-
-msgid "Restart GUI"
-msgstr "Перезагрузка GUI"
-
-msgid "Save"
-msgstr "Сохранить"
-
-msgid "view and remove crashlog files"
-msgstr "просмотр и удаление файлов креша"
 
 msgid "Crashlog Viewer"
 msgstr "Crashlog Утилита"
 
-msgid "%s.gz created in /tmp"
-msgstr "%s.gz создан в /tmp"
+msgid "Deleted %d files"
+msgstr "Удалены %d файлов"
 
-msgid "Removed All Crashlog Files"
-msgstr "Все файлы удалены"
+msgid "Error Only"
+msgstr "Только ошибка"
 
-msgid "Removed %s"
-msgstr "Удален %s"
+msgid "Error opening file: %s"
+msgstr "Ошибка открытия файла: %s"
 
-msgid "Remove All"
-msgstr "Удалить все"
+msgid "Error: %s"
+msgstr "Ошибка: %s"
+
+msgid "File already removed"
+msgstr "Файл уже удален"
+
+msgid "Full Log"
+msgstr "Полный журнал"
+
+msgid "No crash logs found"
+msgstr "Журналы сбоев не найдены"
+
+msgid "No file selected"
+msgstr "Файл не выбран"
+
+msgid "No files deleted"
+msgstr "Ни один файл не удален"
+
+msgid "No specific error trace found in log"
+msgstr "В журнале не обнаружено конкретных следов ошибок"
+
+msgid "Press OK or RED to return"
+msgstr "Нажмите ОК или КРАСНЫЙ, чтобы вернуться."
 
 msgid "Remove"
 msgstr "Удалить"
 
+msgid "Remove All"
+msgstr "Удалить все"
+
+#, fuzzy
+msgid "Removed: %s"
+msgstr "Удален %s"
+
 msgid "View"
 msgstr "Просмотреть"
 
+#, fuzzy
+msgid "View Crashlog file: %s"
+msgstr "просмотр и удаление файлов креша"
+
+#, fuzzy
+msgid "View | Remove Crashlog files"
+msgstr "просмотр и удаление файлов креша"
+
+#~ msgid "Restart GUI"
+#~ msgstr "Перезагрузка GUI"
+
+#~ msgid "Save"
+#~ msgstr "Сохранить"
+
+#~ msgid "%s.gz created in /tmp"
+#~ msgstr "%s.gz создан в /tmp"
+
+#~ msgid "Removed All Crashlog Files"
+#~ msgstr "Все файлы удалены"

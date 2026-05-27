@@ -1,0 +1,72 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"PO-Revision-Date: 2026-05-27 18:33+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Albanian <translation-team-sq@lists.sourceforge.net>\n"
+"Language: sq\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Signed-off-by: Dario Croci <spaeleus@croci.org>
+#
+msgid "Back"
+msgstr "Mbrapa"
+
+msgid "Close"
+msgstr "Mbylle"
+
+msgid "Crashlog Viewer"
+msgstr "Shikuesi i Crashlog"
+
+msgid "Deleted %d files"
+msgstr "%d skedarë u fshinë"
+
+msgid "Error Only"
+msgstr "Vetëm gabim"
+
+msgid "Error opening file: %s"
+msgstr "Gabim në hapjen e skedarit: %s"
+
+msgid "Error: %s"
+msgstr "Gabim: %s"
+
+msgid "File already removed"
+msgstr "Skedari është hequr tashmë"
+
+msgid "Full Log"
+msgstr "Regjistri i plotë"
+
+msgid "No crash logs found"
+msgstr "Nuk u gjetën regjistra aksidentesh"
+
+msgid "No file selected"
+msgstr "Asnjë skedar i zgjedhur"
+
+msgid "No files deleted"
+msgstr "Asnjë skedar nuk u fshi"
+
+msgid "No specific error trace found in log"
+msgstr "Nuk u gjet asnjë gjurmë specifike e gabimit në regjistër"
+
+msgid "Press OK or RED to return"
+msgstr "Shtypni OK ose KUQ për t'u kthyer"
+
+msgid "Remove"
+msgstr "Hiq"
+
+msgid "Remove All"
+msgstr "Hiq të gjitha"
+
+msgid "Removed: %s"
+msgstr "U hoq: %s"
+
+msgid "View"
+msgstr "Shiko"
+
+msgid "View Crashlog file: %s"
+msgstr "Shiko skedarin Crashlog: %s"
+
+msgid "View | Remove Crashlog files"
+msgstr "Shiko | Hiq skedarët Crashlog"

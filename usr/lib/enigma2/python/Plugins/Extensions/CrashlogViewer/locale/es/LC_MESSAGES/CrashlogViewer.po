@@ -1,0 +1,73 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"PO-Revision-Date: 2026-05-27 18:19+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Spanish <es@tp.org.es>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# Signed-off-by: Dario Croci <spaeleus@croci.org>
+#
+msgid "Back"
+msgstr "Atrás"
+
+msgid "Close"
+msgstr "Cerca"
+
+msgid "Crashlog Viewer"
+msgstr "Visor de registros de fallos"
+
+msgid "Deleted %d files"
+msgstr "%d archivos eliminados"
+
+msgid "Error Only"
+msgstr "Sólo errores"
+
+msgid "Error opening file: %s"
+msgstr "Error al abrir el archivo: %s"
+
+msgid "Error: %s"
+msgstr ""
+
+msgid "File already removed"
+msgstr "Archivo ya eliminado"
+
+msgid "Full Log"
+msgstr "Registro completo"
+
+msgid "No crash logs found"
+msgstr "No se encontraron registros de fallos"
+
+msgid "No file selected"
+msgstr "Ningún archivo seleccionado"
+
+msgid "No files deleted"
+msgstr "No se eliminaron archivos"
+
+msgid "No specific error trace found in log"
+msgstr "No se encontró ningún rastro de error específico en el registro"
+
+msgid "Press OK or RED to return"
+msgstr "Presione OK o ROJO para regresar"
+
+msgid "Remove"
+msgstr "Eliminar"
+
+msgid "Remove All"
+msgstr "Quitar todo"
+
+msgid "Removed: %s"
+msgstr "Eliminado: %s"
+
+msgid "View"
+msgstr "Vista"
+
+msgid "View Crashlog file: %s"
+msgstr "Ver archivo Crashlog: %s"
+
+msgid "View | Remove Crashlog files"
+msgstr "Ver | Eliminar archivos de registro de fallos"

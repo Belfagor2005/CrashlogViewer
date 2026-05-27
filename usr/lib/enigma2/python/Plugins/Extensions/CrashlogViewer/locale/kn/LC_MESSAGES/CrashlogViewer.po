@@ -1,0 +1,72 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"PO-Revision-Date: 2026-05-27 18:25+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Kannada <debian-l10n-kannada@lists.debian.org>\n"
+"Language: kn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Signed-off-by: Dario Croci <spaeleus@croci.org>
+#
+msgid "Back"
+msgstr "ಹಿಂದೆ"
+
+msgid "Close"
+msgstr "ಮುಚ್ಚಿ"
+
+msgid "Crashlog Viewer"
+msgstr "ಕ್ರ್ಯಾಶ್ಲಾಗ್ ವೀಕ್ಷಕ"
+
+msgid "Deleted %d files"
+msgstr "%d ಫೈಲ್‌ಗಳನ್ನು ಅಳಿಸಲಾಗಿದೆ"
+
+msgid "Error Only"
+msgstr "ದೋಷ ಮಾತ್ರ"
+
+msgid "Error opening file: %s"
+msgstr "ಫೈಲ್ ತೆರೆಯುವಲ್ಲಿ ದೋಷ: %s"
+
+msgid "Error: %s"
+msgstr "ದೋಷ: %s"
+
+msgid "File already removed"
+msgstr "ಫೈಲ್ ಅನ್ನು ಈಗಾಗಲೇ ತೆಗೆದುಹಾಕಲಾಗಿದೆ"
+
+msgid "Full Log"
+msgstr "ಪೂರ್ಣ ಲಾಗ್"
+
+msgid "No crash logs found"
+msgstr "ಯಾವುದೇ ಕ್ರ್ಯಾಶ್ ಲಾಗ್‌ಗಳು ಕಂಡುಬಂದಿಲ್ಲ"
+
+msgid "No file selected"
+msgstr "ಯಾವುದೇ ಫೈಲ್ ಆಯ್ಕೆ ಮಾಡಲಾಗಿಲ್ಲ"
+
+msgid "No files deleted"
+msgstr "ಯಾವುದೇ ಫೈಲ್‌ಗಳನ್ನು ಅಳಿಸಲಾಗಿಲ್ಲ"
+
+msgid "No specific error trace found in log"
+msgstr "ಲಾಗ್‌ನಲ್ಲಿ ಯಾವುದೇ ನಿರ್ದಿಷ್ಟ ದೋಷ ಟ್ರೇಸ್ ಕಂಡುಬಂದಿಲ್ಲ"
+
+msgid "Press OK or RED to return"
+msgstr "ಹಿಂತಿರುಗಲು ಸರಿ ಅಥವಾ ಕೆಂಪು ಒತ್ತಿರಿ"
+
+msgid "Remove"
+msgstr "ತೆಗೆದುಹಾಕಿ"
+
+msgid "Remove All"
+msgstr "ಎಲ್ಲವನ್ನೂ ತೆಗೆದುಹಾಕಿ"
+
+msgid "Removed: %s"
+msgstr "ತೆಗೆದುಹಾಕಲಾಗಿದೆ: %s"
+
+msgid "View"
+msgstr "ವೀಕ್ಷಿಸಿ"
+
+msgid "View Crashlog file: %s"
+msgstr "ಕ್ರ್ಯಾಶ್ಲಾಗ್ ಫೈಲ್ ಅನ್ನು ವೀಕ್ಷಿಸಿ: %s"
+
+msgid "View | Remove Crashlog files"
+msgstr "ವೀಕ್ಷಿಸಿ | ಕ್ರ್ಯಾಶ್ಲಾಗ್ ಫೈಲ್ಗಳನ್ನು ತೆಗೆದುಹಾಕಿ"

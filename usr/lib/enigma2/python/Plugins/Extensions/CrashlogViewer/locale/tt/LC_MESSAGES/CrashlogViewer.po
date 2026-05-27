@@ -1,0 +1,72 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"PO-Revision-Date: 2026-05-27 18:36+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Tatar\n"
+"Language: tt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Signed-off-by: Dario Croci <spaeleus@croci.org>
+#
+msgid "Back"
+msgstr "Кире"
+
+msgid "Close"
+msgstr "Ябу"
+
+msgid "Crashlog Viewer"
+msgstr ""
+
+msgid "Deleted %d files"
+msgstr "% D файллары бетерелде"
+
+msgid "Error Only"
+msgstr "Хата гына"
+
+msgid "Error opening file: %s"
+msgstr "Файлны ачуда хата:% s"
+
+msgid "Error: %s"
+msgstr "Хата:% s"
+
+msgid "File already removed"
+msgstr "Файл инде бетерелде"
+
+msgid "Full Log"
+msgstr "Тулы журнал"
+
+msgid "No crash logs found"
+msgstr "Crashимерелгән бүрәнәләр табылмады"
+
+msgid "No file selected"
+msgstr "Файл сайланмаган"
+
+msgid "No files deleted"
+msgstr "Файллар бетерелмәгән"
+
+msgid "No specific error trace found in log"
+msgstr "Бүрәнәдә махсус хата эзе табылмады"
+
+msgid "Press OK or RED to return"
+msgstr "Кайту өчен ОК яки RED басыгыз"
+
+msgid "Remove"
+msgstr "Чыгар"
+
+msgid "Remove All"
+msgstr "Барысын да бетерегез"
+
+msgid "Removed: %s"
+msgstr "Чыгарылды:% s"
+
+msgid "View"
+msgstr "Карарга"
+
+msgid "View Crashlog file: %s"
+msgstr "Crashlog файлын карау:% s"
+
+msgid "View | Remove Crashlog files"
+msgstr "Карарга | Crashlog файлларын бетерегез"

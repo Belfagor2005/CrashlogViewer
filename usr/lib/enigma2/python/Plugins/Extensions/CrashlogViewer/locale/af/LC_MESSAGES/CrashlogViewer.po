@@ -1,0 +1,72 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"PO-Revision-Date: 2026-05-27 18:14+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Afrikaans <i18n@af.org.za>\n"
+"Language: af\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Signed-off-by: Dario Croci <spaeleus@croci.org>
+#
+msgid "Back"
+msgstr "Terug"
+
+msgid "Close"
+msgstr "Maak toe"
+
+msgid "Crashlog Viewer"
+msgstr ""
+
+msgid "Deleted %d files"
+msgstr "Het %d lêers uitgevee"
+
+msgid "Error Only"
+msgstr "Slegs fout"
+
+msgid "Error opening file: %s"
+msgstr "Kon nie lêer oopmaak nie: %s"
+
+msgid "Error: %s"
+msgstr "Fout: %s"
+
+msgid "File already removed"
+msgstr "Lêer reeds verwyder"
+
+msgid "Full Log"
+msgstr "Volledige logboek"
+
+msgid "No crash logs found"
+msgstr "Geen ongelukloglêers gevind nie"
+
+msgid "No file selected"
+msgstr "Geen lêer gekies nie"
+
+msgid "No files deleted"
+msgstr "Geen lêers is uitgevee nie"
+
+msgid "No specific error trace found in log"
+msgstr "Geen spesifieke foutspoor gevind in log nie"
+
+msgid "Press OK or RED to return"
+msgstr "Druk OK of ROOI om terug te keer"
+
+msgid "Remove"
+msgstr "Verwyder"
+
+msgid "Remove All"
+msgstr "Verwyder alles"
+
+msgid "Removed: %s"
+msgstr "Verwyder: %s"
+
+msgid "View"
+msgstr "Uitsig"
+
+msgid "View Crashlog file: %s"
+msgstr "Bekyk Crashlog-lêer: %s"
+
+msgid "View | Remove Crashlog files"
+msgstr "Kyk | Verwyder Crashlog-lêers"

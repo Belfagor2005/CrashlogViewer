@@ -1,0 +1,72 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"PO-Revision-Date: 2026-05-27 18:34+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Telugu <(nothing)>\n"
+"Language: te\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Signed-off-by: Dario Croci <spaeleus@croci.org>
+#
+msgid "Back"
+msgstr "వెనుకకు"
+
+msgid "Close"
+msgstr "మూసివేయి"
+
+msgid "Crashlog Viewer"
+msgstr "క్రాష్‌లాగ్ వ్యూయర్"
+
+msgid "Deleted %d files"
+msgstr "%d ఫైల్‌లు తొలగించబడ్డాయి"
+
+msgid "Error Only"
+msgstr "లోపం మాత్రమే"
+
+msgid "Error opening file: %s"
+msgstr "ఫైల్ తెరవడంలో లోపం: %s"
+
+msgid "Error: %s"
+msgstr "లోపం: %s"
+
+msgid "File already removed"
+msgstr "ఫైల్ ఇప్పటికే తీసివేయబడింది"
+
+msgid "Full Log"
+msgstr "పూర్తి లాగ్"
+
+msgid "No crash logs found"
+msgstr "క్రాష్ లాగ్‌లు ఏవీ కనుగొనబడలేదు"
+
+msgid "No file selected"
+msgstr "ఫైల్ ఏదీ ఎంచుకోబడలేదు"
+
+msgid "No files deleted"
+msgstr "ఫైల్‌లు ఏవీ తొలగించబడలేదు"
+
+msgid "No specific error trace found in log"
+msgstr "లాగ్‌లో నిర్దిష్ట లోపం ట్రేస్ కనుగొనబడలేదు"
+
+msgid "Press OK or RED to return"
+msgstr "తిరిగి రావడానికి సరే లేదా RED నొక్కండి"
+
+msgid "Remove"
+msgstr "తొలగించు"
+
+msgid "Remove All"
+msgstr "అన్నింటినీ తీసివేయండి"
+
+msgid "Removed: %s"
+msgstr "తీసివేయబడింది: %s"
+
+msgid "View"
+msgstr "చూడండి"
+
+msgid "View Crashlog file: %s"
+msgstr "క్రాష్‌లాగ్ ఫైల్‌ను వీక్షించండి: %s"
+
+msgid "View | Remove Crashlog files"
+msgstr "చూడండి | క్రాష్‌లాగ్ ఫైల్‌లను తీసివేయండి"

@@ -1,0 +1,72 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"PO-Revision-Date: 2026-05-27 18:34+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Tajik <rkovacs@khujand.org>\n"
+"Language: tg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Signed-off-by: Dario Croci <spaeleus@croci.org>
+#
+msgid "Back"
+msgstr "Бозгашт"
+
+msgid "Close"
+msgstr "Пӯшед"
+
+msgid "Crashlog Viewer"
+msgstr "Намоишгари Crashlog"
+
+msgid "Deleted %d files"
+msgstr "%d файл нест карда шуд"
+
+msgid "Error Only"
+msgstr "Танҳо хато"
+
+msgid "Error opening file: %s"
+msgstr "Хатогии кушодани файл: %s"
+
+msgid "Error: %s"
+msgstr "Хатогӣ: %s"
+
+msgid "File already removed"
+msgstr "Файл аллакай нест карда шудааст"
+
+msgid "Full Log"
+msgstr "Сабти пурра"
+
+msgid "No crash logs found"
+msgstr "Ягон сабти садама ёфт нашуд"
+
+msgid "No file selected"
+msgstr "Ягон файл интихоб нашудааст"
+
+msgid "No files deleted"
+msgstr "Ягон файл нест карда нашудааст"
+
+msgid "No specific error trace found in log"
+msgstr "Дар гузориш ягон пайгирии хатои мушаххас ёфт нашуд"
+
+msgid "Press OK or RED to return"
+msgstr "Барои баргаштан OK ё RED -ро пахш кунед"
+
+msgid "Remove"
+msgstr "Хориҷ кунед"
+
+msgid "Remove All"
+msgstr "Ҳамаро нест кунед"
+
+msgid "Removed: %s"
+msgstr "Хориҷ шуд: %s"
+
+msgid "View"
+msgstr "Намоиш"
+
+msgid "View Crashlog file: %s"
+msgstr "Намоиши файли Crashlog: %s"
+
+msgid "View | Remove Crashlog files"
+msgstr "Намоиш | Файлҳои Crashlogро нест кунед"

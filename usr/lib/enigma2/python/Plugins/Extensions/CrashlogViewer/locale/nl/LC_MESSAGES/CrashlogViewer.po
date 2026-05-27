@@ -1,0 +1,73 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"PO-Revision-Date: 2026-05-27 18:29+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Dutch <vertaling@vrijschrift.org>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# Signed-off-by: Dario Croci <spaeleus@croci.org>
+#
+msgid "Back"
+msgstr "Rug"
+
+msgid "Close"
+msgstr "Dichtbij"
+
+msgid "Crashlog Viewer"
+msgstr "Crashlog-viewer"
+
+msgid "Deleted %d files"
+msgstr "%d bestanden verwijderd"
+
+msgid "Error Only"
+msgstr "Alleen fout"
+
+msgid "Error opening file: %s"
+msgstr "Fout bij openen van bestand: %s"
+
+msgid "Error: %s"
+msgstr "Fout: %s"
+
+msgid "File already removed"
+msgstr "Bestand al verwijderd"
+
+msgid "Full Log"
+msgstr "Volledig logboek"
+
+msgid "No crash logs found"
+msgstr "Geen crashlogboeken gevonden"
+
+msgid "No file selected"
+msgstr "Geen bestand geselecteerd"
+
+msgid "No files deleted"
+msgstr "Geen bestanden verwijderd"
+
+msgid "No specific error trace found in log"
+msgstr "Er is geen specifiek fouttracé gevonden in het logboek"
+
+msgid "Press OK or RED to return"
+msgstr "Druk op OK of ROOD om terug te keren"
+
+msgid "Remove"
+msgstr "Verwijderen"
+
+msgid "Remove All"
+msgstr "Alles verwijderen"
+
+msgid "Removed: %s"
+msgstr "Verwijderd: %s"
+
+msgid "View"
+msgstr "Weergave"
+
+msgid "View Crashlog file: %s"
+msgstr "Crashlogbestand bekijken: %s"
+
+msgid "View | Remove Crashlog files"
+msgstr "Bekijk | Crashlog-bestanden verwijderen"

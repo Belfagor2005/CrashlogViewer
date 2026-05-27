@@ -1,0 +1,73 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"PO-Revision-Date: 2026-05-27 18:33+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# Signed-off-by: Dario Croci <spaeleus@croci.org>
+#
+msgid "Back"
+msgstr "Tillbaka"
+
+msgid "Close"
+msgstr "Nära"
+
+msgid "Crashlog Viewer"
+msgstr ""
+
+msgid "Deleted %d files"
+msgstr "Raderade %d filer"
+
+msgid "Error Only"
+msgstr "Endast fel"
+
+msgid "Error opening file: %s"
+msgstr "Fel vid öppning av filen: %s"
+
+msgid "Error: %s"
+msgstr "Fel: %s"
+
+msgid "File already removed"
+msgstr "Filen har redan tagits bort"
+
+msgid "Full Log"
+msgstr "Fullständig logg"
+
+msgid "No crash logs found"
+msgstr "Inga kraschloggar hittades"
+
+msgid "No file selected"
+msgstr "Ingen fil har valts"
+
+msgid "No files deleted"
+msgstr "Inga filer raderade"
+
+msgid "No specific error trace found in log"
+msgstr "Inget specifikt felspår hittades i loggen"
+
+msgid "Press OK or RED to return"
+msgstr "Tryck på OK eller RÖD för att gå tillbaka"
+
+msgid "Remove"
+msgstr "Ta bort"
+
+msgid "Remove All"
+msgstr "Ta bort alla"
+
+msgid "Removed: %s"
+msgstr "Borttaget: %s"
+
+msgid "View"
+msgstr "Se"
+
+msgid "View Crashlog file: %s"
+msgstr "Visa Crashlog-fil: %s"
+
+msgid "View | Remove Crashlog files"
+msgstr "Visa | Ta bort Crashlog-filer"

@@ -1,0 +1,72 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"PO-Revision-Date: 2026-05-27 18:38+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Chinese\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Signed-off-by: Dario Croci <spaeleus@croci.org>
+#
+msgid "Back"
+msgstr "后退"
+
+msgid "Close"
+msgstr "关闭"
+
+msgid "Crashlog Viewer"
+msgstr "崩溃日志查看器"
+
+msgid "Deleted %d files"
+msgstr "已删除 %d 个文件"
+
+msgid "Error Only"
+msgstr "仅错误"
+
+msgid "Error opening file: %s"
+msgstr "打开文件时出错：%s"
+
+msgid "Error: %s"
+msgstr "错误：%s"
+
+msgid "File already removed"
+msgstr "文件已删除"
+
+msgid "Full Log"
+msgstr "完整日志"
+
+msgid "No crash logs found"
+msgstr "未找到崩溃日志"
+
+msgid "No file selected"
+msgstr "未选择文件"
+
+msgid "No files deleted"
+msgstr "没有删除任何文件"
+
+msgid "No specific error trace found in log"
+msgstr "日志中没有发现具体的错误跟踪"
+
+msgid "Press OK or RED to return"
+msgstr "按确定或红色返回"
+
+msgid "Remove"
+msgstr "消除"
+
+msgid "Remove All"
+msgstr "全部删除"
+
+msgid "Removed: %s"
+msgstr "已删除：%s"
+
+msgid "View"
+msgstr "看法"
+
+msgid "View Crashlog file: %s"
+msgstr "查看崩溃日志文件：%s"
+
+msgid "View | Remove Crashlog files"
+msgstr "查看 |删除崩溃日志文件"

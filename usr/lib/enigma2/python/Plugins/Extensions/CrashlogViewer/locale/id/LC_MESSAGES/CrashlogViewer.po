@@ -1,0 +1,72 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"PO-Revision-Date: 2026-05-27 18:24+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Indonesian <translation-team-id@lists.sourceforge.net>\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Signed-off-by: Dario Croci <spaeleus@croci.org>
+#
+msgid "Back"
+msgstr "Kembali"
+
+msgid "Close"
+msgstr "Menutup"
+
+msgid "Crashlog Viewer"
+msgstr "Penampil Crashlog"
+
+msgid "Deleted %d files"
+msgstr "Menghapus %d file"
+
+msgid "Error Only"
+msgstr "Hanya Kesalahan"
+
+msgid "Error opening file: %s"
+msgstr "Kesalahan saat membuka berkas: %s"
+
+msgid "Error: %s"
+msgstr "Kesalahan: %s"
+
+msgid "File already removed"
+msgstr "File sudah dihapus"
+
+msgid "Full Log"
+msgstr "Catatan Lengkap"
+
+msgid "No crash logs found"
+msgstr "Tidak ditemukan log kerusakan"
+
+msgid "No file selected"
+msgstr "Tidak ada berkas yang dipilih"
+
+msgid "No files deleted"
+msgstr "Tidak ada file yang dihapus"
+
+msgid "No specific error trace found in log"
+msgstr "Tidak ada jejak kesalahan spesifik yang ditemukan di log"
+
+msgid "Press OK or RED to return"
+msgstr "Tekan OK atau MERAH untuk kembali"
+
+msgid "Remove"
+msgstr "Menghapus"
+
+msgid "Remove All"
+msgstr "Hapus semua"
+
+msgid "Removed: %s"
+msgstr "Dihapus: %s"
+
+msgid "View"
+msgstr "Melihat"
+
+msgid "View Crashlog file: %s"
+msgstr "Lihat berkas Crashlog: %s"
+
+msgid "View | Remove Crashlog files"
+msgstr "Lihat | Hapus file Crashlog"

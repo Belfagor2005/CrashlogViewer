@@ -1,0 +1,73 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"PO-Revision-Date: 2026-05-27 18:21+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n==2 ? 1 : 2;\n"
+
+# Signed-off-by: Dario Croci <spaeleus@croci.org>
+#
+msgid "Back"
+msgstr "Ar ais"
+
+msgid "Close"
+msgstr "Dún"
+
+msgid "Crashlog Viewer"
+msgstr "Amharcán Crashlog"
+
+msgid "Deleted %d files"
+msgstr "Scriosadh %d comhad"
+
+msgid "Error Only"
+msgstr "Earráid Amháin"
+
+msgid "Error opening file: %s"
+msgstr "Earráid agus comhad á oscailt: %s"
+
+msgid "Error: %s"
+msgstr "Earráid: %s"
+
+msgid "File already removed"
+msgstr "Baineadh an comhad cheana féin"
+
+msgid "Full Log"
+msgstr "Log Iomlán"
+
+msgid "No crash logs found"
+msgstr "Níor aimsíodh aon loga tuairteála"
+
+msgid "No file selected"
+msgstr "Níor roghnaíodh aon chomhad"
+
+msgid "No files deleted"
+msgstr "Níor scriosadh aon chomhad"
+
+msgid "No specific error trace found in log"
+msgstr "Níor aimsíodh aon rian earráide ar leith sa loga"
+
+msgid "Press OK or RED to return"
+msgstr "Brúigh OK nó RED chun filleadh"
+
+msgid "Remove"
+msgstr "Bain"
+
+msgid "Remove All"
+msgstr "Bain Uile"
+
+msgid "Removed: %s"
+msgstr "Bainte: %s"
+
+msgid "View"
+msgstr "Amharc"
+
+msgid "View Crashlog file: %s"
+msgstr "Féach ar chomhad Crashlog: %s"
+
+msgid "View | Remove Crashlog files"
+msgstr "Amharc | Bain comhaid Crashlog"

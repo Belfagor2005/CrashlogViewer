@@ -1,0 +1,72 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"PO-Revision-Date: 2026-05-27 18:32+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Sinhala\n"
+"Language: si\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Signed-off-by: Dario Croci <spaeleus@croci.org>
+#
+msgid "Back"
+msgstr "ආපසු"
+
+msgid "Close"
+msgstr "වසන්න"
+
+msgid "Crashlog Viewer"
+msgstr ""
+
+msgid "Deleted %d files"
+msgstr "ගොනු %dක් මකන ලදී"
+
+msgid "Error Only"
+msgstr "දෝෂයක් පමණි"
+
+msgid "Error opening file: %s"
+msgstr "ගොනුව විවෘත කිරීමේ දෝෂයකි: %s"
+
+msgid "Error: %s"
+msgstr "දෝෂය: %s"
+
+msgid "File already removed"
+msgstr "ගොනුව දැනටමත් ඉවත් කර ඇත"
+
+msgid "Full Log"
+msgstr "සම්පූර්ණ ලොගය"
+
+msgid "No crash logs found"
+msgstr "බිඳවැටීම් ලඝු-සටහන් හමු නොවිණි"
+
+msgid "No file selected"
+msgstr "ගොනුවක් තෝරා නැත"
+
+msgid "No files deleted"
+msgstr "ගොනු මකා නැත"
+
+msgid "No specific error trace found in log"
+msgstr "ලොගයේ නිශ්චිත දෝෂයක් සොයාගත නොහැකි විය"
+
+msgid "Press OK or RED to return"
+msgstr "ආපසු යාමට OK හෝ RED ඔබන්න"
+
+msgid "Remove"
+msgstr "ඉවත් කරන්න"
+
+msgid "Remove All"
+msgstr "සියල්ල ඉවත් කරන්න"
+
+msgid "Removed: %s"
+msgstr "ඉවත් කරන ලදී: %s"
+
+msgid "View"
+msgstr "බලන්න"
+
+msgid "View Crashlog file: %s"
+msgstr "Crashlog ගොනුව බලන්න: %s"
+
+msgid "View | Remove Crashlog files"
+msgstr "බලන්න | Crashlog ගොනු ඉවත් කරන්න"

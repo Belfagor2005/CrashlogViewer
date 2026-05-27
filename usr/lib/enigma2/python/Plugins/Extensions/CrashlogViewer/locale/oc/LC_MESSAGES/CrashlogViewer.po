@@ -1,0 +1,72 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"PO-Revision-Date: 2026-05-27 18:30+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Occitan\n"
+"Language: oc\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Signed-off-by: Dario Croci <spaeleus@croci.org>
+#
+msgid "Back"
+msgstr "Arrièr"
+
+msgid "Close"
+msgstr "Barrar"
+
+msgid "Crashlog Viewer"
+msgstr "Visor de crashlog"
+
+msgid "Deleted %d files"
+msgstr "%d fichièrs suprimits"
+
+msgid "Error Only"
+msgstr "Error solament"
+
+msgid "Error opening file: %s"
+msgstr "Error al moment de la dobertura del fichièr : %s"
+
+msgid "Error: %s"
+msgstr "Error : %s"
+
+msgid "File already removed"
+msgstr "Fichièr ja suprimit"
+
+msgid "Full Log"
+msgstr "Jornal complet"
+
+msgid "No crash logs found"
+msgstr "Cap de jornal de crash trobat"
+
+msgid "No file selected"
+msgstr "Cap de fichièr pas seleccionat"
+
+msgid "No files deleted"
+msgstr "Pas cap de fichièr suprimit"
+
+msgid "No specific error trace found in log"
+msgstr "Cap de traça d'error especifica pas trobada dins lo jornal"
+
+msgid "Press OK or RED to return"
+msgstr "Quichatz sus D'acòrdi o ROGE per tornar"
+
+msgid "Remove"
+msgstr "Levar"
+
+msgid "Remove All"
+msgstr "Suprimir tot"
+
+msgid "Removed: %s"
+msgstr "Suprimit : %s"
+
+msgid "View"
+msgstr "Vista"
+
+msgid "View Crashlog file: %s"
+msgstr "Afichar lo fichièr Crashlog : %s"
+
+msgid "View | Remove Crashlog files"
+msgstr "Afichar | Suprimir los fichièrs de Crashlog"
