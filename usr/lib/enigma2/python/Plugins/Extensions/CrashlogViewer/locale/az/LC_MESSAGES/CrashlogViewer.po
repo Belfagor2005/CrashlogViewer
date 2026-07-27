@@ -22,14 +22,8 @@ msgstr "Bağlayın"
 msgid "Crashlog Viewer"
 msgstr "Crashlog Viewer"
 
-msgid "Date"
-msgstr "Tarix"
-
 msgid "Deleted %d files"
 msgstr "%d fayl silindi"
-
-msgid "Developer"
-msgstr "Tərtibatçı"
 
 msgid "Error Only"
 msgstr "Yalnız Xəta"
@@ -45,9 +39,6 @@ msgstr "Fayl artıq silindi"
 
 msgid "Full Log"
 msgstr "Tam Qeydiyyat"
-
-msgid "Modifier"
-msgstr "Modifikator"
 
 msgid "No crash logs found"
 msgstr "Heç bir qəza qeydi tapılmadı"
@@ -73,21 +64,29 @@ msgstr "Hamısını Sil"
 msgid "Removed: %s"
 msgstr "Silindi: %s"
 
-msgid "Size"
-msgstr "Ölçü"
-
-msgid "Update from"
-msgstr "Yeniləmə"
-
-msgid "Version"
-msgstr "Versiya"
-
 msgid "View"
 msgstr "Baxın"
-
-msgid "View | Remove Crashlog files"
-msgstr "Baxın | Crashlog fayllarını silin"
 
 msgid "View Crashlog file: %s"
 msgstr "Crashlog faylına baxın: %s"
 
+msgid "View | Remove Crashlog files"
+msgstr "Baxın | Crashlog fayllarını silin"
+
+#~ msgid "Date"
+#~ msgstr "Tarix"
+
+#~ msgid "Developer"
+#~ msgstr "Tərtibatçı"
+
+#~ msgid "Modifier"
+#~ msgstr "Modifikator"
+
+#~ msgid "Size"
+#~ msgstr "Ölçü"
+
+#~ msgid "Update from"
+#~ msgstr "Yeniləmə"
+
+#~ msgid "Version"
+#~ msgstr "Versiya"

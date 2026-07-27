@@ -22,14 +22,8 @@ msgstr "Közeli"
 msgid "Crashlog Viewer"
 msgstr "Crashlog Viewer"
 
-msgid "Date"
-msgstr "Dátum"
-
 msgid "Deleted %d files"
 msgstr "%d fájl törölve"
-
-msgid "Developer"
-msgstr "Fejlesztő"
 
 msgid "Error Only"
 msgstr "Csak hiba"
@@ -45,9 +39,6 @@ msgstr "A fájl már eltávolítva"
 
 msgid "Full Log"
 msgstr "Teljes napló"
-
-msgid "Modifier"
-msgstr "Módosító"
 
 msgid "No crash logs found"
 msgstr "Nem található összeomlási napló"
@@ -73,21 +64,29 @@ msgstr "Összes eltávolítása"
 msgid "Removed: %s"
 msgstr "Eltávolítva: %s"
 
-msgid "Size"
-msgstr "Méret"
-
-msgid "Update from"
-msgstr "Frissítés innen"
-
-msgid "Version"
-msgstr "Változat"
-
 msgid "View"
 msgstr "Kilátás"
-
-msgid "View | Remove Crashlog files"
-msgstr "Megtekintés | Távolítsa el a Crashlog fájlokat"
 
 msgid "View Crashlog file: %s"
 msgstr "Összeomlási naplófájl megtekintése: %s"
 
+msgid "View | Remove Crashlog files"
+msgstr "Megtekintés | Távolítsa el a Crashlog fájlokat"
+
+#~ msgid "Date"
+#~ msgstr "Dátum"
+
+#~ msgid "Developer"
+#~ msgstr "Fejlesztő"
+
+#~ msgid "Modifier"
+#~ msgstr "Módosító"
+
+#~ msgid "Size"
+#~ msgstr "Méret"
+
+#~ msgid "Update from"
+#~ msgstr "Frissítés innen"
+
+#~ msgid "Version"
+#~ msgstr "Változat"

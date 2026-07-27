@@ -22,14 +22,8 @@ msgstr "ବନ୍ଦ"
 msgid "Crashlog Viewer"
 msgstr "କ୍ରାସ୍ଲଗ୍ ଦର୍ଶକ |"
 
-msgid "Date"
-msgstr "ତାରିଖ"
-
 msgid "Deleted %d files"
 msgstr "% D ଫାଇଲ୍ ଡିଲିଟ୍ ହୋଇଛି |"
-
-msgid "Developer"
-msgstr "ବିକାଶକାରୀ"
 
 msgid "Error Only"
 msgstr "କେବଳ ତ୍ରୁଟି |"
@@ -45,9 +39,6 @@ msgstr "ଫାଇଲ୍ ପୂର୍ବରୁ ଅପସାରିତ ହୋଇଛ
 
 msgid "Full Log"
 msgstr "ପୂର୍ଣ୍ଣ ଲଗ୍ |"
-
-msgid "Modifier"
-msgstr "ପରିବର୍ତ୍ତନକାରୀ"
 
 msgid "No crash logs found"
 msgstr "କ crash ଣସି କ୍ରାସ୍ ଲଗ୍ ମିଳିଲା ନାହିଁ |"
@@ -73,21 +64,29 @@ msgstr "ସମସ୍ତ ଅପସାରଣ କରନ୍ତୁ |"
 msgid "Removed: %s"
 msgstr "ଅପସାରିତ:% s"
 
-msgid "Size"
-msgstr "ଆକାର |"
-
-msgid "Update from"
-msgstr "ରୁ ଅଦ୍ୟତନ କରନ୍ତୁ |"
-
-msgid "Version"
-msgstr "ସଂସ୍କରଣ"
-
 msgid "View"
 msgstr "ଦର୍ଶନ କରନ୍ତୁ |"
-
-msgid "View | Remove Crashlog files"
-msgstr "ଦେଖନ୍ତୁ | କ୍ରାସଲଗ୍ ଫାଇଲଗୁଡିକ ଅପସାରଣ କରନ୍ତୁ |"
 
 msgid "View Crashlog file: %s"
 msgstr "କ୍ରାଶଲଗ୍ ଫାଇଲ୍ ଦେଖନ୍ତୁ:% s |"
 
+msgid "View | Remove Crashlog files"
+msgstr "ଦେଖନ୍ତୁ | କ୍ରାସଲଗ୍ ଫାଇଲଗୁଡିକ ଅପସାରଣ କରନ୍ତୁ |"
+
+#~ msgid "Date"
+#~ msgstr "ତାରିଖ"
+
+#~ msgid "Developer"
+#~ msgstr "ବିକାଶକାରୀ"
+
+#~ msgid "Modifier"
+#~ msgstr "ପରିବର୍ତ୍ତନକାରୀ"
+
+#~ msgid "Size"
+#~ msgstr "ଆକାର |"
+
+#~ msgid "Update from"
+#~ msgstr "ରୁ ଅଦ୍ୟତନ କରନ୍ତୁ |"
+
+#~ msgid "Version"
+#~ msgstr "ସଂସ୍କରଣ"

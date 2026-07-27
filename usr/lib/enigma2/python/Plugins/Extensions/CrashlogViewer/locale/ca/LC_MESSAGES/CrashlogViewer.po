@@ -22,14 +22,8 @@ msgstr "Tancar"
 msgid "Crashlog Viewer"
 msgstr "Visualitzador de blocs"
 
-msgid "Date"
-msgstr "Data"
-
 msgid "Deleted %d files"
 msgstr "S'han suprimit %d fitxers"
-
-msgid "Developer"
-msgstr "Desenvolupador"
 
 msgid "Error Only"
 msgstr "Només error"
@@ -45,9 +39,6 @@ msgstr "El fitxer ja s'ha eliminat"
 
 msgid "Full Log"
 msgstr "Registre complet"
-
-msgid "Modifier"
-msgstr "Modificador"
 
 msgid "No crash logs found"
 msgstr "No s'han trobat registres d'error"
@@ -73,21 +64,29 @@ msgstr "Elimina-ho tot"
 msgid "Removed: %s"
 msgstr "Eliminat: %s"
 
-msgid "Size"
-msgstr "Mida"
-
-msgid "Update from"
-msgstr "Actualitza des de"
-
-msgid "Version"
-msgstr "Versió"
-
 msgid "View"
 msgstr "Veure"
-
-msgid "View | Remove Crashlog files"
-msgstr "Veure | Elimina els fitxers Crashlog"
 
 msgid "View Crashlog file: %s"
 msgstr "Visualitza el fitxer de registre d'accidents: %s"
 
+msgid "View | Remove Crashlog files"
+msgstr "Veure | Elimina els fitxers Crashlog"
+
+#~ msgid "Date"
+#~ msgstr "Data"
+
+#~ msgid "Developer"
+#~ msgstr "Desenvolupador"
+
+#~ msgid "Modifier"
+#~ msgstr "Modificador"
+
+#~ msgid "Size"
+#~ msgstr "Mida"
+
+#~ msgid "Update from"
+#~ msgstr "Actualitza des de"
+
+#~ msgid "Version"
+#~ msgstr "Versió"

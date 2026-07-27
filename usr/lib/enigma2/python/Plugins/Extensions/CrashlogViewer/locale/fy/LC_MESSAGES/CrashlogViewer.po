@@ -22,14 +22,8 @@ msgstr "Slute"
 msgid "Crashlog Viewer"
 msgstr "Crashlog Viewer"
 
-msgid "Date"
-msgstr "Datum"
-
 msgid "Deleted %d files"
 msgstr "%d triemmen wiske"
-
-msgid "Developer"
-msgstr "Untwikkelder"
 
 msgid "Error Only"
 msgstr "Allinnich flater"
@@ -45,9 +39,6 @@ msgstr "Triem al fuortsmiten"
 
 msgid "Full Log"
 msgstr "Folsleine log"
-
-msgid "Modifier"
-msgstr "Modifier"
 
 msgid "No crash logs found"
 msgstr "Gjin crash logs fûn"
@@ -73,21 +64,29 @@ msgstr "Alles fuortsmite"
 msgid "Removed: %s"
 msgstr "Fuortsmite: %s"
 
-msgid "Size"
-msgstr "Grutte"
-
-msgid "Update from"
-msgstr "Update fan"
-
-msgid "Version"
-msgstr "Ferzje"
-
 msgid "View"
 msgstr "Fisy"
-
-msgid "View | Remove Crashlog files"
-msgstr "Besjoch | Ferwiderje Crashlog-bestannen"
 
 msgid "View Crashlog file: %s"
 msgstr "Besjoch Crashlog-bestân: %s"
 
+msgid "View | Remove Crashlog files"
+msgstr "Besjoch | Ferwiderje Crashlog-bestannen"
+
+#~ msgid "Date"
+#~ msgstr "Datum"
+
+#~ msgid "Developer"
+#~ msgstr "Untwikkelder"
+
+#~ msgid "Modifier"
+#~ msgstr "Modifier"
+
+#~ msgid "Size"
+#~ msgstr "Grutte"
+
+#~ msgid "Update from"
+#~ msgstr "Update fan"
+
+#~ msgid "Version"
+#~ msgstr "Ferzje"

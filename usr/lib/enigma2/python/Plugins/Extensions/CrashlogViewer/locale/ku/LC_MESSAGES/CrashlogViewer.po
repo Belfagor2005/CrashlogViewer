@@ -22,14 +22,8 @@ msgstr "Nêzîkî"
 msgid "Crashlog Viewer"
 msgstr "Crashlog Viewer"
 
-msgid "Date"
-msgstr "Rojek"
-
 msgid "Deleted %d files"
 msgstr "%d pel hatin jêbirin"
-
-msgid "Developer"
-msgstr "Developer"
 
 msgid "Error Only"
 msgstr "Tenê xeletî"
@@ -45,9 +39,6 @@ msgstr "Pelê jixwe hatî rakirin"
 
 msgid "Full Log"
 msgstr "Têketinê tije"
-
-msgid "Modifier"
-msgstr "Guherker"
 
 msgid "No crash logs found"
 msgstr "Têketinên qezayê nehatin dîtin"
@@ -73,21 +64,29 @@ msgstr "Hemûyan jê bibe"
 msgid "Removed: %s"
 msgstr "Rakir: %s"
 
-msgid "Size"
-msgstr "Mezinayî"
-
-msgid "Update from"
-msgstr "Nûvekirin ji"
-
-msgid "Version"
-msgstr "Awa"
-
 msgid "View"
 msgstr "Dîtinî"
-
-msgid "View | Remove Crashlog files"
-msgstr "Dîtin | Pelên Crashlog jêbirin"
 
 msgid "View Crashlog file: %s"
 msgstr "Pelê Crashlog binêre: %s"
 
+msgid "View | Remove Crashlog files"
+msgstr "Dîtin | Pelên Crashlog jêbirin"
+
+#~ msgid "Date"
+#~ msgstr "Rojek"
+
+#~ msgid "Developer"
+#~ msgstr "Developer"
+
+#~ msgid "Modifier"
+#~ msgstr "Guherker"
+
+#~ msgid "Size"
+#~ msgstr "Mezinayî"
+
+#~ msgid "Update from"
+#~ msgstr "Nûvekirin ji"
+
+#~ msgid "Version"
+#~ msgstr "Awa"

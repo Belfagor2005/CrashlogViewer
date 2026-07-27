@@ -22,14 +22,8 @@ msgstr ".Akyn"
 msgid "Crashlog Viewer"
 msgstr "Crashlog Viewer"
 
-msgid "Date"
-msgstr "Sene"
-
 msgid "Deleted %d files"
 msgstr "% D faýllary öçürildi"
-
-msgid "Developer"
-msgstr "Öndüriji"
 
 msgid "Error Only"
 msgstr "Diňe säwlik"
@@ -45,9 +39,6 @@ msgstr "Faýl eýýäm aýryldy"
 
 msgid "Full Log"
 msgstr "Doly hasaba alyş"
-
-msgid "Modifier"
-msgstr "Üýtgediji"
 
 msgid "No crash logs found"
 msgstr "Hiç hili heläkçilik ýazgysy tapylmady"
@@ -73,21 +64,29 @@ msgstr "Hemmesini aýyryň"
 msgid "Removed: %s"
 msgstr "Aýyryldy:% s"
 
-msgid "Size"
-msgstr "Ölçegi"
-
-msgid "Update from"
-msgstr "Täzelen"
-
-msgid "Version"
-msgstr "Wersiýa"
-
 msgid "View"
 msgstr "Gör"
-
-msgid "View | Remove Crashlog files"
-msgstr "Gör | Crashlog faýllaryny aýyryň"
 
 msgid "View Crashlog file: %s"
 msgstr "“Crashlog” faýlyny görüň:% s"
 
+msgid "View | Remove Crashlog files"
+msgstr "Gör | Crashlog faýllaryny aýyryň"
+
+#~ msgid "Date"
+#~ msgstr "Sene"
+
+#~ msgid "Developer"
+#~ msgstr "Öndüriji"
+
+#~ msgid "Modifier"
+#~ msgstr "Üýtgediji"
+
+#~ msgid "Size"
+#~ msgstr "Ölçegi"
+
+#~ msgid "Update from"
+#~ msgstr "Täzelen"
+
+#~ msgid "Version"
+#~ msgstr "Wersiýa"

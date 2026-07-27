@@ -22,14 +22,8 @@ msgstr "Жабу"
 msgid "Crashlog Viewer"
 msgstr "Crashlog Viewer"
 
-msgid "Date"
-msgstr "Күн"
-
 msgid "Deleted %d files"
 msgstr "%d файл жойылды"
-
-msgid "Developer"
-msgstr "Әзірлеуші"
 
 msgid "Error Only"
 msgstr "Тек қате"
@@ -45,9 +39,6 @@ msgstr "Файл әлдеқашан жойылған"
 
 msgid "Full Log"
 msgstr "Толық журнал"
-
-msgid "Modifier"
-msgstr "Модификатор"
 
 msgid "No crash logs found"
 msgstr "Бұзылу журналдары табылмады"
@@ -73,21 +64,29 @@ msgstr "Барлығын жою"
 msgid "Removed: %s"
 msgstr "Жойылды: %s"
 
-msgid "Size"
-msgstr "Өлшем"
-
-msgid "Update from"
-msgstr "Жаңарту"
-
-msgid "Version"
-msgstr "Нұсқа"
-
 msgid "View"
 msgstr "Көру"
-
-msgid "View | Remove Crashlog files"
-msgstr "қарау | Crashlog файлдарын жойыңыз"
 
 msgid "View Crashlog file: %s"
 msgstr "Crashlog файлын көру: %s"
 
+msgid "View | Remove Crashlog files"
+msgstr "қарау | Crashlog файлдарын жойыңыз"
+
+#~ msgid "Date"
+#~ msgstr "Күн"
+
+#~ msgid "Developer"
+#~ msgstr "Әзірлеуші"
+
+#~ msgid "Modifier"
+#~ msgstr "Модификатор"
+
+#~ msgid "Size"
+#~ msgstr "Өлшем"
+
+#~ msgid "Update from"
+#~ msgstr "Жаңарту"
+
+#~ msgid "Version"
+#~ msgstr "Нұсқа"

@@ -22,14 +22,8 @@ msgstr "Fermu"
 msgid "Crashlog Viewer"
 msgstr "Crashlog-Vidilo"
 
-msgid "Date"
-msgstr "Dato"
-
 msgid "Deleted %d files"
 msgstr "Forigitaj %d dosieroj"
-
-msgid "Developer"
-msgstr "Ellaboranto"
 
 msgid "Error Only"
 msgstr "Nur Eraro"
@@ -45,9 +39,6 @@ msgstr "Dosiero jam forigita"
 
 msgid "Full Log"
 msgstr "Plena Registro"
-
-msgid "Modifier"
-msgstr "Modifilo"
 
 msgid "No crash logs found"
 msgstr "Neniuj kraŝaj protokoloj trovitaj"
@@ -73,21 +64,29 @@ msgstr "Forigi Ĉion"
 msgid "Removed: %s"
 msgstr "Forigita: %s"
 
-msgid "Size"
-msgstr "Grandeco"
-
-msgid "Update from"
-msgstr "Ĝisdatigi de"
-
-msgid "Version"
-msgstr "Versio"
-
 msgid "View"
 msgstr "Vido"
-
-msgid "View | Remove Crashlog files"
-msgstr "Vidi | Forigu Crashlog-dosierojn"
 
 msgid "View Crashlog file: %s"
 msgstr "Vidi Crashlog-dosieron: %s"
 
+msgid "View | Remove Crashlog files"
+msgstr "Vidi | Forigu Crashlog-dosierojn"
+
+#~ msgid "Date"
+#~ msgstr "Dato"
+
+#~ msgid "Developer"
+#~ msgstr "Ellaboranto"
+
+#~ msgid "Modifier"
+#~ msgstr "Modifilo"
+
+#~ msgid "Size"
+#~ msgstr "Grandeco"
+
+#~ msgid "Update from"
+#~ msgstr "Ĝisdatigi de"
+
+#~ msgid "Version"
+#~ msgstr "Versio"

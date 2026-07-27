@@ -22,14 +22,8 @@ msgstr "Aproape"
 msgid "Crashlog Viewer"
 msgstr "Vizualizator de blocări"
 
-msgid "Date"
-msgstr "Data"
-
 msgid "Deleted %d files"
 msgstr "Au fost șterse %d fișiere"
-
-msgid "Developer"
-msgstr "Dezvoltator"
 
 msgid "Error Only"
 msgstr "Numai eroare"
@@ -45,9 +39,6 @@ msgstr "Fișierul a fost deja eliminat"
 
 msgid "Full Log"
 msgstr "Jurnal complet"
-
-msgid "Modifier"
-msgstr "Modificator"
 
 msgid "No crash logs found"
 msgstr "Nu s-au găsit jurnalele de blocare"
@@ -73,21 +64,29 @@ msgstr "Eliminați tot"
 msgid "Removed: %s"
 msgstr "Eliminat: %s"
 
-msgid "Size"
-msgstr "Dimensiune"
-
-msgid "Update from"
-msgstr "Actualizați de la"
-
-msgid "Version"
-msgstr "Versiune"
-
 msgid "View"
 msgstr "Vedere"
-
-msgid "View | Remove Crashlog files"
-msgstr "Vizualizare | Eliminați fișierele Crashlog"
 
 msgid "View Crashlog file: %s"
 msgstr "Vizualizați fișierul jurnal de blocări: %s"
 
+msgid "View | Remove Crashlog files"
+msgstr "Vizualizare | Eliminați fișierele Crashlog"
+
+#~ msgid "Date"
+#~ msgstr "Data"
+
+#~ msgid "Developer"
+#~ msgstr "Dezvoltator"
+
+#~ msgid "Modifier"
+#~ msgstr "Modificator"
+
+#~ msgid "Size"
+#~ msgstr "Dimensiune"
+
+#~ msgid "Update from"
+#~ msgstr "Actualizați de la"
+
+#~ msgid "Version"
+#~ msgstr "Versiune"

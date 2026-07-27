@@ -22,14 +22,8 @@ msgstr "Zatvori"
 msgid "Crashlog Viewer"
 msgstr "Crashlog Viewer"
 
-msgid "Date"
-msgstr "Datum"
-
 msgid "Deleted %d files"
 msgstr "Izbrisano je %d fajlova"
-
-msgid "Developer"
-msgstr "Developer"
 
 msgid "Error Only"
 msgstr "Samo greška"
@@ -45,9 +39,6 @@ msgstr "Fajl je već uklonjen"
 
 msgid "Full Log"
 msgstr "Full Log"
-
-msgid "Modifier"
-msgstr "Modifikator"
 
 msgid "No crash logs found"
 msgstr "Nisu pronađeni zapisi o padu"
@@ -73,21 +64,29 @@ msgstr "Ukloni sve"
 msgid "Removed: %s"
 msgstr "Uklonjeno: %s"
 
-msgid "Size"
-msgstr "Veličina"
-
-msgid "Update from"
-msgstr "Ažuriraj od"
-
-msgid "Version"
-msgstr "Verzija"
-
 msgid "View"
 msgstr "Pogled"
-
-msgid "View | Remove Crashlog files"
-msgstr "Pogledaj | Uklonite Crashlog fajlove"
 
 msgid "View Crashlog file: %s"
 msgstr "Pogledajte Crashlog fajl: %s"
 
+msgid "View | Remove Crashlog files"
+msgstr "Pogledaj | Uklonite Crashlog fajlove"
+
+#~ msgid "Date"
+#~ msgstr "Datum"
+
+#~ msgid "Developer"
+#~ msgstr "Developer"
+
+#~ msgid "Modifier"
+#~ msgstr "Modifikator"
+
+#~ msgid "Size"
+#~ msgstr "Veličina"
+
+#~ msgid "Update from"
+#~ msgstr "Ažuriraj od"
+
+#~ msgid "Version"
+#~ msgstr "Verzija"

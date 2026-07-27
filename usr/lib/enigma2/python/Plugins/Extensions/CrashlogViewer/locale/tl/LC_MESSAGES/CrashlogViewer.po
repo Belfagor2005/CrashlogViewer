@@ -22,14 +22,8 @@ msgstr "Isara"
 msgid "Crashlog Viewer"
 msgstr "Crashlog Viewer"
 
-msgid "Date"
-msgstr "Petsa"
-
 msgid "Deleted %d files"
 msgstr "Tinanggal ang %d file"
-
-msgid "Developer"
-msgstr "Developer"
 
 msgid "Error Only"
 msgstr "Error Lang"
@@ -45,9 +39,6 @@ msgstr "Naalis na ang file"
 
 msgid "Full Log"
 msgstr "Buong Log"
-
-msgid "Modifier"
-msgstr "Modifier"
 
 msgid "No crash logs found"
 msgstr "Walang nakitang mga crash log"
@@ -73,21 +64,29 @@ msgstr "Alisin Lahat"
 msgid "Removed: %s"
 msgstr "Inalis: %s"
 
-msgid "Size"
-msgstr "Sukat"
-
-msgid "Update from"
-msgstr "Update mula sa"
-
-msgid "Version"
-msgstr "Bersyon"
-
 msgid "View"
 msgstr "Tingnan"
-
-msgid "View | Remove Crashlog files"
-msgstr "Tingnan ang | Alisin ang mga file ng Crashlog"
 
 msgid "View Crashlog file: %s"
 msgstr "Tingnan ang Crashlog file: %s"
 
+msgid "View | Remove Crashlog files"
+msgstr "Tingnan ang | Alisin ang mga file ng Crashlog"
+
+#~ msgid "Date"
+#~ msgstr "Petsa"
+
+#~ msgid "Developer"
+#~ msgstr "Developer"
+
+#~ msgid "Modifier"
+#~ msgstr "Modifier"
+
+#~ msgid "Size"
+#~ msgstr "Sukat"
+
+#~ msgid "Update from"
+#~ msgstr "Update mula sa"
+
+#~ msgid "Version"
+#~ msgstr "Bersyon"

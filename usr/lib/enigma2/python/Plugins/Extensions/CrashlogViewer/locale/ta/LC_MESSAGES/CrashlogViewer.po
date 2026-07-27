@@ -22,14 +22,8 @@ msgstr "மூடு"
 msgid "Crashlog Viewer"
 msgstr "கிராஷ்லாக் பார்வையாளர்"
 
-msgid "Date"
-msgstr "தேதி"
-
 msgid "Deleted %d files"
 msgstr "%d கோப்புகள் நீக்கப்பட்டன"
-
-msgid "Developer"
-msgstr "டெவலப்பர்"
 
 msgid "Error Only"
 msgstr "பிழை மட்டும்"
@@ -45,9 +39,6 @@ msgstr "கோப்பு ஏற்கனவே அகற்றப்பட்�
 
 msgid "Full Log"
 msgstr "முழு பதிவு"
-
-msgid "Modifier"
-msgstr "மாற்றியமைப்பவர்"
 
 msgid "No crash logs found"
 msgstr "செயலிழப்பு பதிவுகள் எதுவும் இல்லை"
@@ -73,21 +64,29 @@ msgstr "அனைத்தையும் அகற்று"
 msgid "Removed: %s"
 msgstr "அகற்றப்பட்டது: %s"
 
-msgid "Size"
-msgstr "அளவு"
-
-msgid "Update from"
-msgstr "இதிலிருந்து புதுப்பிக்கவும்"
-
-msgid "Version"
-msgstr "பதிப்பு"
-
 msgid "View"
 msgstr "காண்க"
-
-msgid "View | Remove Crashlog files"
-msgstr "காண்க | கிராஷ்லாக் கோப்புகளை அகற்று"
 
 msgid "View Crashlog file: %s"
 msgstr "கிராஷ்லாக் கோப்பைப் பார்க்கவும்: %s"
 
+msgid "View | Remove Crashlog files"
+msgstr "காண்க | கிராஷ்லாக் கோப்புகளை அகற்று"
+
+#~ msgid "Date"
+#~ msgstr "தேதி"
+
+#~ msgid "Developer"
+#~ msgstr "டெவலப்பர்"
+
+#~ msgid "Modifier"
+#~ msgstr "மாற்றியமைப்பவர்"
+
+#~ msgid "Size"
+#~ msgstr "அளவு"
+
+#~ msgid "Update from"
+#~ msgstr "இதிலிருந்து புதுப்பிக்கவும்"
+
+#~ msgid "Version"
+#~ msgstr "பதிப்பு"

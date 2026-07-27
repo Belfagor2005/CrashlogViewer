@@ -22,14 +22,8 @@ msgstr "לִסְגוֹר"
 msgid "Crashlog Viewer"
 msgstr "Crashlog Viewer"
 
-msgid "Date"
-msgstr "תַאֲרִיך"
-
 msgid "Deleted %d files"
 msgstr "נמחקו %d קבצים"
-
-msgid "Developer"
-msgstr "מפתח"
 
 msgid "Error Only"
 msgstr "שגיאה בלבד"
@@ -45,9 +39,6 @@ msgstr "הקובץ כבר הוסר"
 
 msgid "Full Log"
 msgstr "יומן מלא"
-
-msgid "Modifier"
-msgstr "מַתקֵן"
 
 msgid "No crash logs found"
 msgstr "לא נמצאו יומני קריסה"
@@ -73,21 +64,29 @@ msgstr "הסר הכל"
 msgid "Removed: %s"
 msgstr "הוסר: %s"
 
-msgid "Size"
-msgstr "גוֹדֶל"
-
-msgid "Update from"
-msgstr "עדכון מ"
-
-msgid "Version"
-msgstr "גִרְסָה"
-
 msgid "View"
 msgstr "נוֹף"
-
-msgid "View | Remove Crashlog files"
-msgstr "צפה | הסר קבצי Crashlog"
 
 msgid "View Crashlog file: %s"
 msgstr "הצג קובץ Crashlog: %s"
 
+msgid "View | Remove Crashlog files"
+msgstr "צפה | הסר קבצי Crashlog"
+
+#~ msgid "Date"
+#~ msgstr "תַאֲרִיך"
+
+#~ msgid "Developer"
+#~ msgstr "מפתח"
+
+#~ msgid "Modifier"
+#~ msgstr "מַתקֵן"
+
+#~ msgid "Size"
+#~ msgstr "גוֹדֶל"
+
+#~ msgid "Update from"
+#~ msgstr "עדכון מ"
+
+#~ msgid "Version"
+#~ msgstr "גִרְסָה"

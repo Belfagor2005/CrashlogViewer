@@ -22,14 +22,8 @@ msgstr "Blízko"
 msgid "Crashlog Viewer"
 msgstr "Crashlog Viewer"
 
-msgid "Date"
-msgstr "Datum"
-
 msgid "Deleted %d files"
 msgstr "Smazáno %d souborů"
-
-msgid "Developer"
-msgstr "Vývojář"
 
 msgid "Error Only"
 msgstr "Pouze chyba"
@@ -45,9 +39,6 @@ msgstr "Soubor již odstraněn"
 
 msgid "Full Log"
 msgstr "Celý protokol"
-
-msgid "Modifier"
-msgstr "Modifikátor"
 
 msgid "No crash logs found"
 msgstr "Nebyly nalezeny žádné protokoly o selhání"
@@ -73,21 +64,29 @@ msgstr "Odebrat vše"
 msgid "Removed: %s"
 msgstr "Odebráno: %s"
 
-msgid "Size"
-msgstr "Velikost"
-
-msgid "Update from"
-msgstr "Aktualizace z"
-
-msgid "Version"
-msgstr "Verze"
-
 msgid "View"
 msgstr "Pohled"
-
-msgid "View | Remove Crashlog files"
-msgstr "Zobrazit | Odstraňte soubory Crashlog"
 
 msgid "View Crashlog file: %s"
 msgstr "Zobrazit soubor Crashlog: %s"
 
+msgid "View | Remove Crashlog files"
+msgstr "Zobrazit | Odstraňte soubory Crashlog"
+
+#~ msgid "Date"
+#~ msgstr "Datum"
+
+#~ msgid "Developer"
+#~ msgstr "Vývojář"
+
+#~ msgid "Modifier"
+#~ msgstr "Modifikátor"
+
+#~ msgid "Size"
+#~ msgstr "Velikost"
+
+#~ msgid "Update from"
+#~ msgstr "Aktualizace z"
+
+#~ msgid "Version"
+#~ msgstr "Verze"

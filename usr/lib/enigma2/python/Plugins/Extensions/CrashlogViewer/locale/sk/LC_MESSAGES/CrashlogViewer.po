@@ -22,14 +22,8 @@ msgstr "Zavrieť"
 msgid "Crashlog Viewer"
 msgstr "Crashlog Viewer"
 
-msgid "Date"
-msgstr "Dátum"
-
 msgid "Deleted %d files"
 msgstr "Počet odstránených súborov: %d"
-
-msgid "Developer"
-msgstr "Vývojár"
 
 msgid "Error Only"
 msgstr "Iba chyba"
@@ -45,9 +39,6 @@ msgstr "Súbor už bol odstránený"
 
 msgid "Full Log"
 msgstr "Úplný denník"
-
-msgid "Modifier"
-msgstr "Modifikátor"
 
 msgid "No crash logs found"
 msgstr "Nenašli sa žiadne denníky zlyhaní"
@@ -73,21 +64,29 @@ msgstr "Odstrániť všetko"
 msgid "Removed: %s"
 msgstr "Odstránené: %s"
 
-msgid "Size"
-msgstr "Veľkosť"
-
-msgid "Update from"
-msgstr "Aktualizácia z"
-
-msgid "Version"
-msgstr "Verzia"
-
 msgid "View"
 msgstr "Zobraziť"
-
-msgid "View | Remove Crashlog files"
-msgstr "Zobraziť | Odstráňte súbory Crashlog"
 
 msgid "View Crashlog file: %s"
 msgstr "Zobraziť súbor Crashlog: %s"
 
+msgid "View | Remove Crashlog files"
+msgstr "Zobraziť | Odstráňte súbory Crashlog"
+
+#~ msgid "Date"
+#~ msgstr "Dátum"
+
+#~ msgid "Developer"
+#~ msgstr "Vývojár"
+
+#~ msgid "Modifier"
+#~ msgstr "Modifikátor"
+
+#~ msgid "Size"
+#~ msgstr "Veľkosť"
+
+#~ msgid "Update from"
+#~ msgstr "Aktualizácia z"
+
+#~ msgid "Version"
+#~ msgstr "Verzia"

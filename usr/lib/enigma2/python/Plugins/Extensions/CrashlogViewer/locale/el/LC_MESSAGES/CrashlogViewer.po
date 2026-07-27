@@ -22,14 +22,8 @@ msgstr "Κοντά"
 msgid "Crashlog Viewer"
 msgstr "Crashlog Viewer"
 
-msgid "Date"
-msgstr "Ημερομηνία"
-
 msgid "Deleted %d files"
 msgstr "Διαγράφηκαν %d αρχεία"
-
-msgid "Developer"
-msgstr "Προγραμματιστής"
 
 msgid "Error Only"
 msgstr "Μόνο σφάλμα"
@@ -45,9 +39,6 @@ msgstr "Το αρχείο έχει ήδη αφαιρεθεί"
 
 msgid "Full Log"
 msgstr "Πλήρες αρχείο καταγραφής"
-
-msgid "Modifier"
-msgstr "Τροποποιητής"
 
 msgid "No crash logs found"
 msgstr "Δεν βρέθηκαν αρχεία καταγραφής σφαλμάτων"
@@ -73,21 +64,29 @@ msgstr "Κατάργηση όλων"
 msgid "Removed: %s"
 msgstr "Καταργήθηκε: %s"
 
-msgid "Size"
-msgstr "Μέγεθος"
-
-msgid "Update from"
-msgstr "Ενημέρωση από"
-
-msgid "Version"
-msgstr "Εκδοχή"
-
 msgid "View"
 msgstr "Θέα"
-
-msgid "View | Remove Crashlog files"
-msgstr "Προβολή | Καταργήστε τα αρχεία Crashlog"
 
 msgid "View Crashlog file: %s"
 msgstr "Προβολή αρχείου Crashlog: %s"
 
+msgid "View | Remove Crashlog files"
+msgstr "Προβολή | Καταργήστε τα αρχεία Crashlog"
+
+#~ msgid "Date"
+#~ msgstr "Ημερομηνία"
+
+#~ msgid "Developer"
+#~ msgstr "Προγραμματιστής"
+
+#~ msgid "Modifier"
+#~ msgstr "Τροποποιητής"
+
+#~ msgid "Size"
+#~ msgstr "Μέγεθος"
+
+#~ msgid "Update from"
+#~ msgstr "Ενημέρωση από"
+
+#~ msgid "Version"
+#~ msgstr "Εκδοχή"

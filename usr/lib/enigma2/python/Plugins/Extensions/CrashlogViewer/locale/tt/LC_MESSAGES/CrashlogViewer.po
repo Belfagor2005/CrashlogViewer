@@ -22,14 +22,8 @@ msgstr "Ябу"
 msgid "Crashlog Viewer"
 msgstr "Crashlog Viewer"
 
-msgid "Date"
-msgstr "Дата"
-
 msgid "Deleted %d files"
 msgstr "% D файллары бетерелде"
-
-msgid "Developer"
-msgstr "Төзүче"
 
 msgid "Error Only"
 msgstr "Хата гына"
@@ -45,9 +39,6 @@ msgstr "Файл инде бетерелде"
 
 msgid "Full Log"
 msgstr "Тулы журнал"
-
-msgid "Modifier"
-msgstr "Модификатор"
 
 msgid "No crash logs found"
 msgstr "Crashимерелгән бүрәнәләр табылмады"
@@ -73,21 +64,29 @@ msgstr "Барысын да бетерегез"
 msgid "Removed: %s"
 msgstr "Чыгарылды:% s"
 
-msgid "Size"
-msgstr "Размер"
-
-msgid "Update from"
-msgstr "Яңарту"
-
-msgid "Version"
-msgstr "Вариант"
-
 msgid "View"
 msgstr "Карарга"
-
-msgid "View | Remove Crashlog files"
-msgstr "Карарга | Crashlog файлларын бетерегез"
 
 msgid "View Crashlog file: %s"
 msgstr "Crashlog файлын карау:% s"
 
+msgid "View | Remove Crashlog files"
+msgstr "Карарга | Crashlog файлларын бетерегез"
+
+#~ msgid "Date"
+#~ msgstr "Дата"
+
+#~ msgid "Developer"
+#~ msgstr "Төзүче"
+
+#~ msgid "Modifier"
+#~ msgstr "Модификатор"
+
+#~ msgid "Size"
+#~ msgstr "Размер"
+
+#~ msgid "Update from"
+#~ msgstr "Яңарту"
+
+#~ msgid "Version"
+#~ msgstr "Вариант"

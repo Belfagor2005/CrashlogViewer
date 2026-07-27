@@ -1,18 +1,6 @@
 # CrashlogViewer translations
 # Copyright (C) 2026 Lululla Team
 #
-msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: \n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-
 
 msgid "Back"
 msgstr ""
@@ -23,13 +11,7 @@ msgstr ""
 msgid "Crashlog Viewer"
 msgstr ""
 
-msgid "Date"
-msgstr ""
-
 msgid "Deleted %d files"
-msgstr ""
-
-msgid "Developer"
 msgstr ""
 
 msgid "Error Only"
@@ -45,9 +27,6 @@ msgid "File already removed"
 msgstr ""
 
 msgid "Full Log"
-msgstr ""
-
-msgid "Modifier"
 msgstr ""
 
 msgid "No crash logs found"
@@ -74,21 +53,11 @@ msgstr ""
 msgid "Removed: %s"
 msgstr ""
 
-msgid "Size"
-msgstr ""
-
-msgid "Update from"
-msgstr ""
-
-msgid "Version"
-msgstr ""
-
 msgid "View"
-msgstr ""
-
-msgid "View | Remove Crashlog files"
 msgstr ""
 
 msgid "View Crashlog file: %s"
 msgstr ""
 
+msgid "View | Remove Crashlog files"
+msgstr ""

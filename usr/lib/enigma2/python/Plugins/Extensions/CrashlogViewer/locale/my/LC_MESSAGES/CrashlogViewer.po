@@ -22,14 +22,8 @@ msgstr "ပိတ်လိုက်"
 msgid "Crashlog Viewer"
 msgstr "Crashlog ကြည့်ရှုသူ"
 
-msgid "Date"
-msgstr "ရက်စွဲ"
-
 msgid "Deleted %d files"
 msgstr "ဖိုင် %d ဖိုင်ကို ဖျက်လိုက်ပါပြီ။"
-
-msgid "Developer"
-msgstr "ပြုစုသူ"
 
 msgid "Error Only"
 msgstr "အမှားသာ"
@@ -45,9 +39,6 @@ msgstr "ဖိုင်ကို ဖယ်ရှားပြီးပါပြ�
 
 msgid "Full Log"
 msgstr "မှတ်တမ်းအပြည့်အစုံ"
-
-msgid "Modifier"
-msgstr "ပြုပြင်မွမ်းမံခြင်း။"
 
 msgid "No crash logs found"
 msgstr "ပျက်စီးမှုမှတ်တမ်းများ မတွေ့ပါ။"
@@ -73,21 +64,29 @@ msgstr "အားလုံးကို ဖယ်ရှားပါ။"
 msgid "Removed: %s"
 msgstr "ဖယ်ရှားထားသည်- %s"
 
-msgid "Size"
-msgstr "အရွယ်အစား"
-
-msgid "Update from"
-msgstr "မှ အပ်ဒိတ်"
-
-msgid "Version"
-msgstr "ဗားရှင်း"
-
 msgid "View"
 msgstr "အမြင်"
-
-msgid "View | Remove Crashlog files"
-msgstr "အမြင် | Crashlog ဖိုင်များကို ဖယ်ရှားပါ။"
 
 msgid "View Crashlog file: %s"
 msgstr "Crashlog ဖိုင်ကိုကြည့်ပါ- %s"
 
+msgid "View | Remove Crashlog files"
+msgstr "အမြင် | Crashlog ဖိုင်များကို ဖယ်ရှားပါ။"
+
+#~ msgid "Date"
+#~ msgstr "ရက်စွဲ"
+
+#~ msgid "Developer"
+#~ msgstr "ပြုစုသူ"
+
+#~ msgid "Modifier"
+#~ msgstr "ပြုပြင်မွမ်းမံခြင်း။"
+
+#~ msgid "Size"
+#~ msgstr "အရွယ်အစား"
+
+#~ msgid "Update from"
+#~ msgstr "မှ အပ်ဒိတ်"
+
+#~ msgid "Version"
+#~ msgstr "ဗားရှင်း"

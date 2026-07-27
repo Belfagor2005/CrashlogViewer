@@ -22,14 +22,8 @@ msgstr "Maak toe"
 msgid "Crashlog Viewer"
 msgstr "Crashlog Viewer"
 
-msgid "Date"
-msgstr "Datum"
-
 msgid "Deleted %d files"
 msgstr "Het %d lêers uitgevee"
-
-msgid "Developer"
-msgstr "Ontwikkelaar"
 
 msgid "Error Only"
 msgstr "Slegs fout"
@@ -45,9 +39,6 @@ msgstr "Lêer reeds verwyder"
 
 msgid "Full Log"
 msgstr "Volledige logboek"
-
-msgid "Modifier"
-msgstr "Wysiger"
 
 msgid "No crash logs found"
 msgstr "Geen ongelukloglêers gevind nie"
@@ -73,21 +64,29 @@ msgstr "Verwyder alles"
 msgid "Removed: %s"
 msgstr "Verwyder: %s"
 
-msgid "Size"
-msgstr "Grootte"
-
-msgid "Update from"
-msgstr "Opdatering vanaf"
-
-msgid "Version"
-msgstr "Weergawe"
-
 msgid "View"
 msgstr "Uitsig"
-
-msgid "View | Remove Crashlog files"
-msgstr "Kyk | Verwyder Crashlog-lêers"
 
 msgid "View Crashlog file: %s"
 msgstr "Bekyk Crashlog-lêer: %s"
 
+msgid "View | Remove Crashlog files"
+msgstr "Kyk | Verwyder Crashlog-lêers"
+
+#~ msgid "Date"
+#~ msgstr "Datum"
+
+#~ msgid "Developer"
+#~ msgstr "Ontwikkelaar"
+
+#~ msgid "Modifier"
+#~ msgstr "Wysiger"
+
+#~ msgid "Size"
+#~ msgstr "Grootte"
+
+#~ msgid "Update from"
+#~ msgstr "Opdatering vanaf"
+
+#~ msgid "Version"
+#~ msgstr "Weergawe"

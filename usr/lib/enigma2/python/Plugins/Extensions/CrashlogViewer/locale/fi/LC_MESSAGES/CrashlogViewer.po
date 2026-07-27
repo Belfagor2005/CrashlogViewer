@@ -22,14 +22,8 @@ msgstr "Lähellä"
 msgid "Crashlog Viewer"
 msgstr "Crashlog Viewer"
 
-msgid "Date"
-msgstr "Päivämäärä"
-
 msgid "Deleted %d files"
 msgstr "%d tiedostoa poistettu"
-
-msgid "Developer"
-msgstr "Kehittäjä"
 
 msgid "Error Only"
 msgstr "Vain virhe"
@@ -45,9 +39,6 @@ msgstr "Tiedosto on jo poistettu"
 
 msgid "Full Log"
 msgstr "Täysi loki"
-
-msgid "Modifier"
-msgstr "Muokkaus"
 
 msgid "No crash logs found"
 msgstr "Törmäyslokeja ei löytynyt"
@@ -73,21 +64,29 @@ msgstr "Poista kaikki"
 msgid "Removed: %s"
 msgstr "Poistettu: %s"
 
-msgid "Size"
-msgstr "Koko"
-
-msgid "Update from"
-msgstr "Päivitys kohteesta"
-
-msgid "Version"
-msgstr "Versio"
-
 msgid "View"
 msgstr "Näytä"
-
-msgid "View | Remove Crashlog files"
-msgstr "Näytä | Poista Crashlog-tiedostot"
 
 msgid "View Crashlog file: %s"
 msgstr "Näytä kaatumislokitiedosto: %s"
 
+msgid "View | Remove Crashlog files"
+msgstr "Näytä | Poista Crashlog-tiedostot"
+
+#~ msgid "Date"
+#~ msgstr "Päivämäärä"
+
+#~ msgid "Developer"
+#~ msgstr "Kehittäjä"
+
+#~ msgid "Modifier"
+#~ msgstr "Muokkaus"
+
+#~ msgid "Size"
+#~ msgstr "Koko"
+
+#~ msgid "Update from"
+#~ msgstr "Päivitys kohteesta"
+
+#~ msgid "Version"
+#~ msgstr "Versio"

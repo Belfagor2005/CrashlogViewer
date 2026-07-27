@@ -22,14 +22,8 @@ msgstr "Փակել"
 msgid "Crashlog Viewer"
 msgstr "Crashlog Viewer"
 
-msgid "Date"
-msgstr "Ամսաթիվ"
-
 msgid "Deleted %d files"
 msgstr "Ջնջվել է %d ֆայլ"
-
-msgid "Developer"
-msgstr "Մշակող"
 
 msgid "Error Only"
 msgstr "Միայն սխալ"
@@ -45,9 +39,6 @@ msgstr "Ֆայլն արդեն հեռացվել է"
 
 msgid "Full Log"
 msgstr "Ամբողջական մատյան"
-
-msgid "Modifier"
-msgstr "Փոփոխիչ"
 
 msgid "No crash logs found"
 msgstr "Խափանումների մատյաններ չեն գտնվել"
@@ -73,21 +64,29 @@ msgstr "Հեռացնել բոլորը"
 msgid "Removed: %s"
 msgstr "Հեռացվել է՝ %s"
 
-msgid "Size"
-msgstr "Չափը"
-
-msgid "Update from"
-msgstr "Թարմացնել ից"
-
-msgid "Version"
-msgstr "Տարբերակ"
-
 msgid "View"
 msgstr "Դիտել"
-
-msgid "View | Remove Crashlog files"
-msgstr "Դիտել | Հեռացրեք Crashlog ֆայլերը"
 
 msgid "View Crashlog file: %s"
 msgstr "Դիտեք Crashlog ֆայլը՝ %s"
 
+msgid "View | Remove Crashlog files"
+msgstr "Դիտել | Հեռացրեք Crashlog ֆայլերը"
+
+#~ msgid "Date"
+#~ msgstr "Ամսաթիվ"
+
+#~ msgid "Developer"
+#~ msgstr "Մշակող"
+
+#~ msgid "Modifier"
+#~ msgstr "Փոփոխիչ"
+
+#~ msgid "Size"
+#~ msgstr "Չափը"
+
+#~ msgid "Update from"
+#~ msgstr "Թարմացնել ից"
+
+#~ msgid "Version"
+#~ msgstr "Տարբերակ"

@@ -22,14 +22,8 @@ msgstr "נאָענט"
 msgid "Crashlog Viewer"
 msgstr "קראַשלאָג וויוער"
 
-msgid "Date"
-msgstr "טאָג"
-
 msgid "Deleted %d files"
 msgstr "אויסגעמעקט %d טעקעס"
-
-msgid "Developer"
-msgstr "דעוועלאָפּער"
 
 msgid "Error Only"
 msgstr "בלויז טעות"
@@ -45,9 +39,6 @@ msgstr "טעקע שוין אַוועקגענומען"
 
 msgid "Full Log"
 msgstr "גאַנץ קלאָץ"
-
-msgid "Modifier"
-msgstr "מאָדיפיער"
 
 msgid "No crash logs found"
 msgstr "קיין קראַך לאָגס געפֿונען"
@@ -73,21 +64,29 @@ msgstr "אַראָפּנעמען אַלע"
 msgid "Removed: %s"
 msgstr "אַוועקגענומען: %s"
 
-msgid "Size"
-msgstr "גרייס"
-
-msgid "Update from"
-msgstr "דערהייַנטיקן פון"
-
-msgid "Version"
-msgstr "ווערסיע"
-
 msgid "View"
 msgstr "View"
-
-msgid "View | Remove Crashlog files"
-msgstr "View | אַראָפּנעמען קראַשלאָג טעקעס"
 
 msgid "View Crashlog file: %s"
 msgstr "זען קראַשלאָג טעקע: %s"
 
+msgid "View | Remove Crashlog files"
+msgstr "View | אַראָפּנעמען קראַשלאָג טעקעס"
+
+#~ msgid "Date"
+#~ msgstr "טאָג"
+
+#~ msgid "Developer"
+#~ msgstr "דעוועלאָפּער"
+
+#~ msgid "Modifier"
+#~ msgstr "מאָדיפיער"
+
+#~ msgid "Size"
+#~ msgstr "גרייס"
+
+#~ msgid "Update from"
+#~ msgstr "דערהייַנטיקן פון"
+
+#~ msgid "Version"
+#~ msgstr "ווערסיע"

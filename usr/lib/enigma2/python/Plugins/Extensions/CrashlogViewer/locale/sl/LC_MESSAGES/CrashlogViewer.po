@@ -22,14 +22,8 @@ msgstr "Zapri"
 msgid "Crashlog Viewer"
 msgstr "Crashlog pregledovalnik"
 
-msgid "Date"
-msgstr "Datum"
-
 msgid "Deleted %d files"
 msgstr "Izbrisanih %d datotek"
-
-msgid "Developer"
-msgstr "Razvijalec"
 
 msgid "Error Only"
 msgstr "Samo napaka"
@@ -45,9 +39,6 @@ msgstr "Datoteka je že odstranjena"
 
 msgid "Full Log"
 msgstr "Celoten dnevnik"
-
-msgid "Modifier"
-msgstr "Modifikator"
 
 msgid "No crash logs found"
 msgstr "Ni dnevnikov zrušitev"
@@ -73,21 +64,29 @@ msgstr "Odstrani vse"
 msgid "Removed: %s"
 msgstr "Odstranjeno: %s"
 
-msgid "Size"
-msgstr "Velikost"
-
-msgid "Update from"
-msgstr "Posodobitev iz"
-
-msgid "Version"
-msgstr "Različica"
-
 msgid "View"
 msgstr "Pogled"
-
-msgid "View | Remove Crashlog files"
-msgstr "Pogled | Odstranite datoteke Crashlog"
 
 msgid "View Crashlog file: %s"
 msgstr "Ogled datoteke Crashlog: %s"
 
+msgid "View | Remove Crashlog files"
+msgstr "Pogled | Odstranite datoteke Crashlog"
+
+#~ msgid "Date"
+#~ msgstr "Datum"
+
+#~ msgid "Developer"
+#~ msgstr "Razvijalec"
+
+#~ msgid "Modifier"
+#~ msgstr "Modifikator"
+
+#~ msgid "Size"
+#~ msgstr "Velikost"
+
+#~ msgid "Update from"
+#~ msgstr "Posodobitev iz"
+
+#~ msgid "Version"
+#~ msgstr "Različica"

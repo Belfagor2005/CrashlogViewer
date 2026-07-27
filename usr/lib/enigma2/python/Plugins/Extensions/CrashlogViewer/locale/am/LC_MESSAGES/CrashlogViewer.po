@@ -22,14 +22,8 @@ msgstr "ገጠመ"
 msgid "Crashlog Viewer"
 msgstr "የክራሽሎግ መመልከቻ"
 
-msgid "Date"
-msgstr "ቀን"
-
 msgid "Deleted %d files"
 msgstr "%d ፋይሎች ተሰርዘዋል"
-
-msgid "Developer"
-msgstr "ገንቢ"
 
 msgid "Error Only"
 msgstr "ስህተት ብቻ"
@@ -45,9 +39,6 @@ msgstr "ፋይል አስቀድሞ ተወግዷል"
 
 msgid "Full Log"
 msgstr "ሙሉ ምዝግብ ማስታወሻ"
-
-msgid "Modifier"
-msgstr "መቀየሪያ"
 
 msgid "No crash logs found"
 msgstr "ምንም የብልሽት ምዝግብ ማስታወሻዎች አልተገኙም።"
@@ -73,21 +64,29 @@ msgstr "ሁሉንም አስወግድ"
 msgid "Removed: %s"
 msgstr "ተወግዷል፡ %s"
 
-msgid "Size"
-msgstr "መጠን"
-
-msgid "Update from"
-msgstr "አዘምን ከ"
-
-msgid "Version"
-msgstr "ሥሪት"
-
 msgid "View"
 msgstr "ይመልከቱ"
-
-msgid "View | Remove Crashlog files"
-msgstr "እይታ | የክራሽሎግ ፋይሎችን ያስወግዱ"
 
 msgid "View Crashlog file: %s"
 msgstr "የክራሽሎግ ፋይል ይመልከቱ፡ %s"
 
+msgid "View | Remove Crashlog files"
+msgstr "እይታ | የክራሽሎግ ፋይሎችን ያስወግዱ"
+
+#~ msgid "Date"
+#~ msgstr "ቀን"
+
+#~ msgid "Developer"
+#~ msgstr "ገንቢ"
+
+#~ msgid "Modifier"
+#~ msgstr "መቀየሪያ"
+
+#~ msgid "Size"
+#~ msgstr "መጠን"
+
+#~ msgid "Update from"
+#~ msgstr "አዘምን ከ"
+
+#~ msgid "Version"
+#~ msgstr "ሥሪት"

@@ -22,14 +22,8 @@ msgstr "Dún"
 msgid "Crashlog Viewer"
 msgstr "Amharcán Crashlog"
 
-msgid "Date"
-msgstr "Dáta"
-
 msgid "Deleted %d files"
 msgstr "Scriosadh %d comhad"
-
-msgid "Developer"
-msgstr "Forbróir"
 
 msgid "Error Only"
 msgstr "Earráid Amháin"
@@ -45,9 +39,6 @@ msgstr "Baineadh an comhad cheana féin"
 
 msgid "Full Log"
 msgstr "Log Iomlán"
-
-msgid "Modifier"
-msgstr "Mionathraitheoir"
 
 msgid "No crash logs found"
 msgstr "Níor aimsíodh aon loga tuairteála"
@@ -73,21 +64,29 @@ msgstr "Bain Uile"
 msgid "Removed: %s"
 msgstr "Bainte: %s"
 
-msgid "Size"
-msgstr "Méid"
-
-msgid "Update from"
-msgstr "Nuashonrú ó"
-
-msgid "Version"
-msgstr "Leagan"
-
 msgid "View"
 msgstr "Amharc"
-
-msgid "View | Remove Crashlog files"
-msgstr "Amharc | Bain comhaid Crashlog"
 
 msgid "View Crashlog file: %s"
 msgstr "Féach ar chomhad Crashlog: %s"
 
+msgid "View | Remove Crashlog files"
+msgstr "Amharc | Bain comhaid Crashlog"
+
+#~ msgid "Date"
+#~ msgstr "Dáta"
+
+#~ msgid "Developer"
+#~ msgstr "Forbróir"
+
+#~ msgid "Modifier"
+#~ msgstr "Mionathraitheoir"
+
+#~ msgid "Size"
+#~ msgstr "Méid"
+
+#~ msgid "Update from"
+#~ msgstr "Nuashonrú ó"
+
+#~ msgid "Version"
+#~ msgstr "Leagan"

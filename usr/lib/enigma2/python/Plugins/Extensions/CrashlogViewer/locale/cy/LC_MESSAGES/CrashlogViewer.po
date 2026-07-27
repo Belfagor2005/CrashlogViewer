@@ -22,14 +22,8 @@ msgstr "Cau"
 msgid "Crashlog Viewer"
 msgstr "Gwyliwr Crashlog"
 
-msgid "Date"
-msgstr "Dyddiad"
-
 msgid "Deleted %d files"
 msgstr "Wedi dileu %d ffeil"
-
-msgid "Developer"
-msgstr "Datblygwr"
 
 msgid "Error Only"
 msgstr "Gwall yn Unig"
@@ -45,9 +39,6 @@ msgstr "Mae'r ffeil eisoes wedi'i thynnu"
 
 msgid "Full Log"
 msgstr "Log Llawn"
-
-msgid "Modifier"
-msgstr "Addasydd"
 
 msgid "No crash logs found"
 msgstr "Heb ganfod logiau chwalfa"
@@ -73,21 +64,29 @@ msgstr "Dileu Pawb"
 msgid "Removed: %s"
 msgstr "Wedi'i ddileu: %s"
 
-msgid "Size"
-msgstr "Maint"
-
-msgid "Update from"
-msgstr "Diweddariad o"
-
-msgid "Version"
-msgstr "Fersiwn"
-
 msgid "View"
 msgstr "Golwg"
-
-msgid "View | Remove Crashlog files"
-msgstr "Gweld | Dileu ffeiliau Crashlog"
 
 msgid "View Crashlog file: %s"
 msgstr "Gweld ffeil Crashlog: %s"
 
+msgid "View | Remove Crashlog files"
+msgstr "Gweld | Dileu ffeiliau Crashlog"
+
+#~ msgid "Date"
+#~ msgstr "Dyddiad"
+
+#~ msgid "Developer"
+#~ msgstr "Datblygwr"
+
+#~ msgid "Modifier"
+#~ msgstr "Addasydd"
+
+#~ msgid "Size"
+#~ msgstr "Maint"
+
+#~ msgid "Update from"
+#~ msgstr "Diweddariad o"
+
+#~ msgid "Version"
+#~ msgstr "Fersiwn"

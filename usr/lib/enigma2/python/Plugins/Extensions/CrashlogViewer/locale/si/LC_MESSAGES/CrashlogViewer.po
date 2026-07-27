@@ -22,14 +22,8 @@ msgstr "වසන්න"
 msgid "Crashlog Viewer"
 msgstr "Crashlog Viewer"
 
-msgid "Date"
-msgstr "දිනය"
-
 msgid "Deleted %d files"
 msgstr "ගොනු %dක් මකන ලදී"
-
-msgid "Developer"
-msgstr "සංවර්ධකයා"
 
 msgid "Error Only"
 msgstr "දෝෂයක් පමණි"
@@ -45,9 +39,6 @@ msgstr "ගොනුව දැනටමත් ඉවත් කර ඇත"
 
 msgid "Full Log"
 msgstr "සම්පූර්ණ ලොගය"
-
-msgid "Modifier"
-msgstr "විකරණය කරන්නා"
 
 msgid "No crash logs found"
 msgstr "බිඳවැටීම් ලඝු-සටහන් හමු නොවිණි"
@@ -73,21 +64,29 @@ msgstr "සියල්ල ඉවත් කරන්න"
 msgid "Removed: %s"
 msgstr "ඉවත් කරන ලදී: %s"
 
-msgid "Size"
-msgstr "ප්රමාණය"
-
-msgid "Update from"
-msgstr "වෙතින් යාවත්කාලීන කරන්න"
-
-msgid "Version"
-msgstr "අනුවාදය"
-
 msgid "View"
 msgstr "බලන්න"
-
-msgid "View | Remove Crashlog files"
-msgstr "බලන්න | Crashlog ගොනු ඉවත් කරන්න"
 
 msgid "View Crashlog file: %s"
 msgstr "Crashlog ගොනුව බලන්න: %s"
 
+msgid "View | Remove Crashlog files"
+msgstr "බලන්න | Crashlog ගොනු ඉවත් කරන්න"
+
+#~ msgid "Date"
+#~ msgstr "දිනය"
+
+#~ msgid "Developer"
+#~ msgstr "සංවර්ධකයා"
+
+#~ msgid "Modifier"
+#~ msgstr "විකරණය කරන්නා"
+
+#~ msgid "Size"
+#~ msgstr "ප්රමාණය"
+
+#~ msgid "Update from"
+#~ msgstr "වෙතින් යාවත්කාලීන කරන්න"
+
+#~ msgid "Version"
+#~ msgstr "අනුවාදය"

@@ -22,14 +22,8 @@ msgstr "Блізка"
 msgid "Crashlog Viewer"
 msgstr "Прагляднік Crashlog"
 
-msgid "Date"
-msgstr "Дата"
-
 msgid "Deleted %d files"
 msgstr "Выдалена %d файла"
-
-msgid "Developer"
-msgstr "Распрацоўшчык"
 
 msgid "Error Only"
 msgstr "Толькі памылка"
@@ -45,9 +39,6 @@ msgstr "Файл ужо выдалены"
 
 msgid "Full Log"
 msgstr "Поўны часопіс"
-
-msgid "Modifier"
-msgstr "Мадыфікатар"
 
 msgid "No crash logs found"
 msgstr "Журналы збояў не знойдзены"
@@ -73,21 +64,29 @@ msgstr "Выдаліць усе"
 msgid "Removed: %s"
 msgstr "Выдалена: %s"
 
-msgid "Size"
-msgstr "Памер"
-
-msgid "Update from"
-msgstr "Абнаўленне з"
-
-msgid "Version"
-msgstr "Версія"
-
 msgid "View"
 msgstr "Выгляд"
-
-msgid "View | Remove Crashlog files"
-msgstr "Прагляд | Выдаліць файлы Crashlog"
 
 msgid "View Crashlog file: %s"
 msgstr "Прагляд файла Crashlog: %s"
 
+msgid "View | Remove Crashlog files"
+msgstr "Прагляд | Выдаліць файлы Crashlog"
+
+#~ msgid "Date"
+#~ msgstr "Дата"
+
+#~ msgid "Developer"
+#~ msgstr "Распрацоўшчык"
+
+#~ msgid "Modifier"
+#~ msgstr "Мадыфікатар"
+
+#~ msgid "Size"
+#~ msgstr "Памер"
+
+#~ msgid "Update from"
+#~ msgstr "Абнаўленне з"
+
+#~ msgid "Version"
+#~ msgstr "Версія"

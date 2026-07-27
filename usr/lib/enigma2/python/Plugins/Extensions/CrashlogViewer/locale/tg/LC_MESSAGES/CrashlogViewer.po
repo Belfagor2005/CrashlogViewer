@@ -22,14 +22,8 @@ msgstr "Пӯшед"
 msgid "Crashlog Viewer"
 msgstr "Намоишгари Crashlog"
 
-msgid "Date"
-msgstr "Сана"
-
 msgid "Deleted %d files"
 msgstr "%d файл нест карда шуд"
-
-msgid "Developer"
-msgstr "Таҳиягар"
 
 msgid "Error Only"
 msgstr "Танҳо хато"
@@ -45,9 +39,6 @@ msgstr "Файл аллакай нест карда шудааст"
 
 msgid "Full Log"
 msgstr "Сабти пурра"
-
-msgid "Modifier"
-msgstr "Тағйирдиҳанда"
 
 msgid "No crash logs found"
 msgstr "Ягон сабти садама ёфт нашуд"
@@ -73,21 +64,29 @@ msgstr "Ҳамаро нест кунед"
 msgid "Removed: %s"
 msgstr "Хориҷ шуд: %s"
 
-msgid "Size"
-msgstr "Андоза"
-
-msgid "Update from"
-msgstr "Навсозӣ аз"
-
-msgid "Version"
-msgstr "Версия"
-
 msgid "View"
 msgstr "Намоиш"
-
-msgid "View | Remove Crashlog files"
-msgstr "Намоиш | Файлҳои Crashlogро нест кунед"
 
 msgid "View Crashlog file: %s"
 msgstr "Намоиши файли Crashlog: %s"
 
+msgid "View | Remove Crashlog files"
+msgstr "Намоиш | Файлҳои Crashlogро нест кунед"
+
+#~ msgid "Date"
+#~ msgstr "Сана"
+
+#~ msgid "Developer"
+#~ msgstr "Таҳиягар"
+
+#~ msgid "Modifier"
+#~ msgstr "Тағйирдиҳанда"
+
+#~ msgid "Size"
+#~ msgstr "Андоза"
+
+#~ msgid "Update from"
+#~ msgstr "Навсозӣ аз"
+
+#~ msgid "Version"
+#~ msgstr "Версия"

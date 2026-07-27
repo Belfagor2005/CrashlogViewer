@@ -22,14 +22,8 @@ msgstr "Затвори"
 msgid "Crashlog Viewer"
 msgstr "Crashlog Viewer"
 
-msgid "Date"
-msgstr "Датум"
-
 msgid "Deleted %d files"
 msgstr "Избришани %d датотеки"
-
-msgid "Developer"
-msgstr "Програмер"
 
 msgid "Error Only"
 msgstr "Само грешка"
@@ -45,9 +39,6 @@ msgstr "Датотеката е веќе отстранета"
 
 msgid "Full Log"
 msgstr "Целосен дневник"
-
-msgid "Modifier"
-msgstr "Модификатор"
 
 msgid "No crash logs found"
 msgstr "Не се пронајдени дневници за падови"
@@ -73,21 +64,29 @@ msgstr "Отстрани ги сите"
 msgid "Removed: %s"
 msgstr "Отстрането: %s"
 
-msgid "Size"
-msgstr "Големина"
-
-msgid "Update from"
-msgstr "Ажурирање од"
-
-msgid "Version"
-msgstr "Верзија"
-
 msgid "View"
 msgstr "Прикажи"
-
-msgid "View | Remove Crashlog files"
-msgstr "Прикажи | Отстранете ги датотеките Crashlog"
 
 msgid "View Crashlog file: %s"
 msgstr "Погледнете ја датотеката Crashlog: %s"
 
+msgid "View | Remove Crashlog files"
+msgstr "Прикажи | Отстранете ги датотеките Crashlog"
+
+#~ msgid "Date"
+#~ msgstr "Датум"
+
+#~ msgid "Developer"
+#~ msgstr "Програмер"
+
+#~ msgid "Modifier"
+#~ msgstr "Модификатор"
+
+#~ msgid "Size"
+#~ msgstr "Големина"
+
+#~ msgid "Update from"
+#~ msgstr "Ажурирање од"
+
+#~ msgid "Version"
+#~ msgstr "Верзија"

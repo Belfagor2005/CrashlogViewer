@@ -22,14 +22,8 @@ msgstr "Funga"
 msgid "Crashlog Viewer"
 msgstr "Kitazamaji cha Crashlog"
 
-msgid "Date"
-msgstr "Tarehe"
-
 msgid "Deleted %d files"
 msgstr "Faili %d zimefutwa"
-
-msgid "Developer"
-msgstr "Msanidi"
 
 msgid "Error Only"
 msgstr "Hitilafu Pekee"
@@ -45,9 +39,6 @@ msgstr "Faili tayari imeondolewa"
 
 msgid "Full Log"
 msgstr "Ingia Kamili"
-
-msgid "Modifier"
-msgstr "Kirekebishaji"
 
 msgid "No crash logs found"
 msgstr "Hakuna kumbukumbu za kuacha kufanya kazi zilizopatikana"
@@ -73,21 +64,29 @@ msgstr "Ondoa Zote"
 msgid "Removed: %s"
 msgstr "Imeondolewa: %s"
 
-msgid "Size"
-msgstr "Ukubwa"
-
-msgid "Update from"
-msgstr "Sasisha kutoka"
-
-msgid "Version"
-msgstr "Toleo"
-
 msgid "View"
 msgstr "Tazama"
-
-msgid "View | Remove Crashlog files"
-msgstr "Tazama | Ondoa faili za Crashlog"
 
 msgid "View Crashlog file: %s"
 msgstr "Tazama faili ya Crashlog: %s"
 
+msgid "View | Remove Crashlog files"
+msgstr "Tazama | Ondoa faili za Crashlog"
+
+#~ msgid "Date"
+#~ msgstr "Tarehe"
+
+#~ msgid "Developer"
+#~ msgstr "Msanidi"
+
+#~ msgid "Modifier"
+#~ msgstr "Kirekebishaji"
+
+#~ msgid "Size"
+#~ msgstr "Ukubwa"
+
+#~ msgid "Update from"
+#~ msgstr "Sasisha kutoka"
+
+#~ msgid "Version"
+#~ msgstr "Toleo"

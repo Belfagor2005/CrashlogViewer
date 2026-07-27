@@ -22,14 +22,8 @@ msgstr "Lukke"
 msgid "Crashlog Viewer"
 msgstr "Crashlog Viewer"
 
-msgid "Date"
-msgstr "Dato"
-
 msgid "Deleted %d files"
 msgstr "Slettet %d filer"
-
-msgid "Developer"
-msgstr "Utvikler"
 
 msgid "Error Only"
 msgstr "Kun feil"
@@ -45,9 +39,6 @@ msgstr "Filen er allerede fjernet"
 
 msgid "Full Log"
 msgstr "Full logg"
-
-msgid "Modifier"
-msgstr "Modifikator"
 
 msgid "No crash logs found"
 msgstr "Fant ingen krasjlogger"
@@ -73,21 +64,29 @@ msgstr "Fjern alle"
 msgid "Removed: %s"
 msgstr "Fjernet: %s"
 
-msgid "Size"
-msgstr "Størrelse"
-
-msgid "Update from"
-msgstr "Oppdatering fra"
-
-msgid "Version"
-msgstr "Versjon"
-
 msgid "View"
 msgstr "Utsikt"
-
-msgid "View | Remove Crashlog files"
-msgstr "Vis | Fjern Crashlog-filer"
 
 msgid "View Crashlog file: %s"
 msgstr "Se Crashlog-fil: %s"
 
+msgid "View | Remove Crashlog files"
+msgstr "Vis | Fjern Crashlog-filer"
+
+#~ msgid "Date"
+#~ msgstr "Dato"
+
+#~ msgid "Developer"
+#~ msgstr "Utvikler"
+
+#~ msgid "Modifier"
+#~ msgstr "Modifikator"
+
+#~ msgid "Size"
+#~ msgstr "Størrelse"
+
+#~ msgid "Update from"
+#~ msgstr "Oppdatering fra"
+
+#~ msgid "Version"
+#~ msgstr "Versjon"

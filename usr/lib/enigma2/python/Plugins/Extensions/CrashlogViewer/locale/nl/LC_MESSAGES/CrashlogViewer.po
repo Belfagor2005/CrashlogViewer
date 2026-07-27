@@ -22,14 +22,8 @@ msgstr "Dichtbij"
 msgid "Crashlog Viewer"
 msgstr "Crashlog-viewer"
 
-msgid "Date"
-msgstr "Datum"
-
 msgid "Deleted %d files"
 msgstr "%d bestanden verwijderd"
-
-msgid "Developer"
-msgstr "Ontwikkelaar"
 
 msgid "Error Only"
 msgstr "Alleen fout"
@@ -45,9 +39,6 @@ msgstr "Bestand al verwijderd"
 
 msgid "Full Log"
 msgstr "Volledig logboek"
-
-msgid "Modifier"
-msgstr "Wijziger"
 
 msgid "No crash logs found"
 msgstr "Geen crashlogboeken gevonden"
@@ -73,21 +64,29 @@ msgstr "Alles verwijderen"
 msgid "Removed: %s"
 msgstr "Verwijderd: %s"
 
-msgid "Size"
-msgstr "Maat"
-
-msgid "Update from"
-msgstr "Bijwerken van"
-
-msgid "Version"
-msgstr "Versie"
-
 msgid "View"
 msgstr "Weergave"
-
-msgid "View | Remove Crashlog files"
-msgstr "Bekijk | Crashlog-bestanden verwijderen"
 
 msgid "View Crashlog file: %s"
 msgstr "Crashlogbestand bekijken: %s"
 
+msgid "View | Remove Crashlog files"
+msgstr "Bekijk | Crashlog-bestanden verwijderen"
+
+#~ msgid "Date"
+#~ msgstr "Datum"
+
+#~ msgid "Developer"
+#~ msgstr "Ontwikkelaar"
+
+#~ msgid "Modifier"
+#~ msgstr "Wijziger"
+
+#~ msgid "Size"
+#~ msgstr "Maat"
+
+#~ msgid "Update from"
+#~ msgstr "Bijwerken van"
+
+#~ msgid "Version"
+#~ msgstr "Versie"

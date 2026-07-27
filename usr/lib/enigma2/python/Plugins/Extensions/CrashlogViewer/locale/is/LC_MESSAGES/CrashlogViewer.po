@@ -22,14 +22,8 @@ msgstr "Loka"
 msgid "Crashlog Viewer"
 msgstr "Crashlog Viewer"
 
-msgid "Date"
-msgstr "Dagsetning"
-
 msgid "Deleted %d files"
 msgstr "Eyddi %d skrám"
-
-msgid "Developer"
-msgstr "Hönnuður"
 
 msgid "Error Only"
 msgstr "Aðeins villa"
@@ -45,9 +39,6 @@ msgstr "Skrá þegar fjarlægð"
 
 msgid "Full Log"
 msgstr "Full log"
-
-msgid "Modifier"
-msgstr "Breytir"
 
 msgid "No crash logs found"
 msgstr "Engir hrunskrár fundust"
@@ -73,21 +64,29 @@ msgstr "Fjarlægja allt"
 msgid "Removed: %s"
 msgstr "Fjarlægt: %s"
 
-msgid "Size"
-msgstr "Stærð"
-
-msgid "Update from"
-msgstr "Uppfærsla frá"
-
-msgid "Version"
-msgstr "Útgáfa"
-
 msgid "View"
 msgstr "Skoða"
-
-msgid "View | Remove Crashlog files"
-msgstr "Skoða | Fjarlægðu Crashlog skrár"
 
 msgid "View Crashlog file: %s"
 msgstr "Skoða Crashlog skrá: %s"
 
+msgid "View | Remove Crashlog files"
+msgstr "Skoða | Fjarlægðu Crashlog skrár"
+
+#~ msgid "Date"
+#~ msgstr "Dagsetning"
+
+#~ msgid "Developer"
+#~ msgstr "Hönnuður"
+
+#~ msgid "Modifier"
+#~ msgstr "Breytir"
+
+#~ msgid "Size"
+#~ msgstr "Stærð"
+
+#~ msgid "Update from"
+#~ msgstr "Uppfærsla frá"
+
+#~ msgid "Version"
+#~ msgstr "Útgáfa"

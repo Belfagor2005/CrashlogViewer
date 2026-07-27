@@ -22,14 +22,8 @@ msgstr "Dùin"
 msgid "Crashlog Viewer"
 msgstr "Sealladair Crashlog"
 
-msgid "Date"
-msgstr "Ceann-latha"
-
 msgid "Deleted %d files"
 msgstr "Chaidh %d faidhle a sguabadh às"
-
-msgid "Developer"
-msgstr "Leasaiche"
 
 msgid "Error Only"
 msgstr "Mearachd a-mhàin"
@@ -45,9 +39,6 @@ msgstr "Chaidh am faidhle a thoirt air falbh mu thràth"
 
 msgid "Full Log"
 msgstr "Log slàn"
-
-msgid "Modifier"
-msgstr "Mion-atharrachaidh"
 
 msgid "No crash logs found"
 msgstr "Cha deach logaichean tubaist a lorg"
@@ -73,21 +64,29 @@ msgstr "Thoir air falbh a h-uile"
 msgid "Removed: %s"
 msgstr "Air a thoirt air falbh: %s"
 
-msgid "Size"
-msgstr "Meud"
-
-msgid "Update from"
-msgstr "Ùrachadh bho"
-
-msgid "Version"
-msgstr "Tionndadh"
-
 msgid "View"
 msgstr "Sealladh"
-
-msgid "View | Remove Crashlog files"
-msgstr "Seall | Thoir air falbh faidhlichean Crashlog"
 
 msgid "View Crashlog file: %s"
 msgstr "Seall am faidhle Crashlog: %s"
 
+msgid "View | Remove Crashlog files"
+msgstr "Seall | Thoir air falbh faidhlichean Crashlog"
+
+#~ msgid "Date"
+#~ msgstr "Ceann-latha"
+
+#~ msgid "Developer"
+#~ msgstr "Leasaiche"
+
+#~ msgid "Modifier"
+#~ msgstr "Mion-atharrachaidh"
+
+#~ msgid "Size"
+#~ msgstr "Meud"
+
+#~ msgid "Update from"
+#~ msgstr "Ùrachadh bho"
+
+#~ msgid "Version"
+#~ msgstr "Tionndadh"

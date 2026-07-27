@@ -22,14 +22,8 @@ msgstr "Uždaryti"
 msgid "Crashlog Viewer"
 msgstr "„Crashlog Viewer“."
 
-msgid "Date"
-msgstr "Data"
-
 msgid "Deleted %d files"
 msgstr "Ištrinta %d failų"
-
-msgid "Developer"
-msgstr "Kūrėjas"
 
 msgid "Error Only"
 msgstr "Tik klaida"
@@ -45,9 +39,6 @@ msgstr "Failas jau pašalintas"
 
 msgid "Full Log"
 msgstr "Visas žurnalas"
-
-msgid "Modifier"
-msgstr "Modifikatorius"
 
 msgid "No crash logs found"
 msgstr "Nerasta jokių avarijų žurnalų"
@@ -73,21 +64,29 @@ msgstr "Pašalinti viską"
 msgid "Removed: %s"
 msgstr "Pašalinta: %s"
 
-msgid "Size"
-msgstr "Dydis"
-
-msgid "Update from"
-msgstr "Atnaujinti iš"
-
-msgid "Version"
-msgstr "Versija"
-
 msgid "View"
 msgstr "Žiūrėti"
-
-msgid "View | Remove Crashlog files"
-msgstr "Žiūrėti | Pašalinkite „Crashlog“ failus"
 
 msgid "View Crashlog file: %s"
 msgstr "Peržiūrėti „Crashlog“ failą: %s"
 
+msgid "View | Remove Crashlog files"
+msgstr "Žiūrėti | Pašalinkite „Crashlog“ failus"
+
+#~ msgid "Date"
+#~ msgstr "Data"
+
+#~ msgid "Developer"
+#~ msgstr "Kūrėjas"
+
+#~ msgid "Modifier"
+#~ msgstr "Modifikatorius"
+
+#~ msgid "Size"
+#~ msgstr "Dydis"
+
+#~ msgid "Update from"
+#~ msgstr "Atnaujinti iš"
+
+#~ msgid "Version"
+#~ msgstr "Versija"

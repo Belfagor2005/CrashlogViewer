@@ -22,14 +22,8 @@ msgstr "затвори"
 msgid "Crashlog Viewer"
 msgstr "Crashlog Viewer"
 
-msgid "Date"
-msgstr "Дата"
-
 msgid "Deleted %d files"
 msgstr "Изтрити %d файла"
-
-msgid "Developer"
-msgstr "Разработчик"
 
 msgid "Error Only"
 msgstr "Само грешка"
@@ -45,9 +39,6 @@ msgstr "Файлът вече е премахнат"
 
 msgid "Full Log"
 msgstr "Пълен дневник"
-
-msgid "Modifier"
-msgstr "Модификатор"
 
 msgid "No crash logs found"
 msgstr "Няма намерени регистрационни файлове за сривове"
@@ -73,21 +64,29 @@ msgstr "Премахни всички"
 msgid "Removed: %s"
 msgstr "Премахнато: %s"
 
-msgid "Size"
-msgstr "Размер"
-
-msgid "Update from"
-msgstr "Актуализиране от"
-
-msgid "Version"
-msgstr "Версия"
-
 msgid "View"
 msgstr "Преглед"
-
-msgid "View | Remove Crashlog files"
-msgstr "Преглед | Премахване на Crashlog файлове"
 
 msgid "View Crashlog file: %s"
 msgstr "Вижте Crashlog файла: %s"
 
+msgid "View | Remove Crashlog files"
+msgstr "Преглед | Премахване на Crashlog файлове"
+
+#~ msgid "Date"
+#~ msgstr "Дата"
+
+#~ msgid "Developer"
+#~ msgstr "Разработчик"
+
+#~ msgid "Modifier"
+#~ msgstr "Модификатор"
+
+#~ msgid "Size"
+#~ msgstr "Размер"
+
+#~ msgid "Update from"
+#~ msgstr "Актуализиране от"
+
+#~ msgid "Version"
+#~ msgstr "Версия"

@@ -22,14 +22,8 @@ msgstr "Aizvērt"
 msgid "Crashlog Viewer"
 msgstr "Crashlog Viewer"
 
-msgid "Date"
-msgstr "Datums"
-
 msgid "Deleted %d files"
 msgstr "Izdzēsti %d faili"
-
-msgid "Developer"
-msgstr "Izstrādātājs"
 
 msgid "Error Only"
 msgstr "Tikai kļūda"
@@ -45,9 +39,6 @@ msgstr "Fails jau ir noņemts"
 
 msgid "Full Log"
 msgstr "Pilns žurnāls"
-
-msgid "Modifier"
-msgstr "Modifikators"
 
 msgid "No crash logs found"
 msgstr "Netika atrasts neviens avāriju žurnāls"
@@ -73,21 +64,29 @@ msgstr "Noņemt visu"
 msgid "Removed: %s"
 msgstr "Noņemts: %s"
 
-msgid "Size"
-msgstr "Izmērs"
-
-msgid "Update from"
-msgstr "Atjaunināt no"
-
-msgid "Version"
-msgstr "Versija"
-
 msgid "View"
 msgstr "Skatīt"
-
-msgid "View | Remove Crashlog files"
-msgstr "Skatīt | Noņemiet Crashlog failus"
 
 msgid "View Crashlog file: %s"
 msgstr "Skatīt avārijas žurnāla failu: %s"
 
+msgid "View | Remove Crashlog files"
+msgstr "Skatīt | Noņemiet Crashlog failus"
+
+#~ msgid "Date"
+#~ msgstr "Datums"
+
+#~ msgid "Developer"
+#~ msgstr "Izstrādātājs"
+
+#~ msgid "Modifier"
+#~ msgstr "Modifikators"
+
+#~ msgid "Size"
+#~ msgstr "Izmērs"
+
+#~ msgid "Update from"
+#~ msgstr "Atjaunināt no"
+
+#~ msgid "Version"
+#~ msgstr "Versija"

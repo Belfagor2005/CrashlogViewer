@@ -22,14 +22,8 @@ msgstr "Sule"
 msgid "Crashlog Viewer"
 msgstr "Crashlog Viewer"
 
-msgid "Date"
-msgstr "Kuupäev"
-
 msgid "Deleted %d files"
 msgstr "Kustutatud %d faili"
-
-msgid "Developer"
-msgstr "Arendaja"
 
 msgid "Error Only"
 msgstr "Ainult viga"
@@ -45,9 +39,6 @@ msgstr "Fail on juba eemaldatud"
 
 msgid "Full Log"
 msgstr "Täielik logi"
-
-msgid "Modifier"
-msgstr "Modifikaator"
 
 msgid "No crash logs found"
 msgstr "Ühtegi krahhilogi ei leitud"
@@ -73,21 +64,29 @@ msgstr "Eemalda kõik"
 msgid "Removed: %s"
 msgstr "Eemaldatud: %s"
 
-msgid "Size"
-msgstr "Suurus"
-
-msgid "Update from"
-msgstr "Värskendus alates"
-
-msgid "Version"
-msgstr "Versioon"
-
 msgid "View"
 msgstr "Vaade"
-
-msgid "View | Remove Crashlog files"
-msgstr "Vaata | Eemaldage Crashlogi failid"
 
 msgid "View Crashlog file: %s"
 msgstr "Kuva krahhilogi fail: %s"
 
+msgid "View | Remove Crashlog files"
+msgstr "Vaata | Eemaldage Crashlogi failid"
+
+#~ msgid "Date"
+#~ msgstr "Kuupäev"
+
+#~ msgid "Developer"
+#~ msgstr "Arendaja"
+
+#~ msgid "Modifier"
+#~ msgstr "Modifikaator"
+
+#~ msgid "Size"
+#~ msgstr "Suurus"
+
+#~ msgid "Update from"
+#~ msgstr "Värskendus alates"
+
+#~ msgid "Version"
+#~ msgstr "Versioon"

@@ -22,14 +22,8 @@ msgstr "Agħlaq"
 msgid "Crashlog Viewer"
 msgstr "Crashlog Viewer"
 
-msgid "Date"
-msgstr "Data"
-
 msgid "Deleted %d files"
 msgstr "Tħassru %d fajls"
-
-msgid "Developer"
-msgstr "Żviluppatur"
 
 msgid "Error Only"
 msgstr "Żball Biss"
@@ -45,9 +39,6 @@ msgstr "Il-fajl diġà tneħħa"
 
 msgid "Full Log"
 msgstr "Log Sħiħ"
-
-msgid "Modifier"
-msgstr "Modifikatur"
 
 msgid "No crash logs found"
 msgstr "Ma nstab l-ebda logs tal-ħabta"
@@ -73,21 +64,29 @@ msgstr "Neħħi Kollha"
 msgid "Removed: %s"
 msgstr "Imneħħija: %s"
 
-msgid "Size"
-msgstr "Daqs"
-
-msgid "Update from"
-msgstr "Aġġorna minn"
-
-msgid "Version"
-msgstr "Verżjoni"
-
 msgid "View"
 msgstr "Ara"
-
-msgid "View | Remove Crashlog files"
-msgstr "Ara | Neħħi l-fajls Crashlog"
 
 msgid "View Crashlog file: %s"
 msgstr "Ara l-fajl Crashlog: %s"
 
+msgid "View | Remove Crashlog files"
+msgstr "Ara | Neħħi l-fajls Crashlog"
+
+#~ msgid "Date"
+#~ msgstr "Data"
+
+#~ msgid "Developer"
+#~ msgstr "Żviluppatur"
+
+#~ msgid "Modifier"
+#~ msgstr "Modifikatur"
+
+#~ msgid "Size"
+#~ msgstr "Daqs"
+
+#~ msgid "Update from"
+#~ msgstr "Aġġorna minn"
+
+#~ msgid "Version"
+#~ msgstr "Verżjoni"

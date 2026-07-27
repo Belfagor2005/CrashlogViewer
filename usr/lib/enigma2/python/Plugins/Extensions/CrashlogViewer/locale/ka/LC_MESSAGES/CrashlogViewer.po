@@ -22,14 +22,8 @@ msgstr "დახურვა"
 msgid "Crashlog Viewer"
 msgstr "Crashlog Viewer"
 
-msgid "Date"
-msgstr "თარიღი"
-
 msgid "Deleted %d files"
 msgstr "წაიშალა %d ფაილი"
-
-msgid "Developer"
-msgstr "დეველოპერი"
 
 msgid "Error Only"
 msgstr "მხოლოდ შეცდომა"
@@ -45,9 +39,6 @@ msgstr "ფაილი უკვე წაშლილია"
 
 msgid "Full Log"
 msgstr "სრული ჟურნალი"
-
-msgid "Modifier"
-msgstr "მოდიფიკატორი"
 
 msgid "No crash logs found"
 msgstr "ავარიის ჟურნალი ვერ მოიძებნა"
@@ -73,21 +64,29 @@ msgstr "წაშალე ყველა"
 msgid "Removed: %s"
 msgstr "წაშლილია: %s"
 
-msgid "Size"
-msgstr "ზომა"
-
-msgid "Update from"
-msgstr "განახლება დან"
-
-msgid "Version"
-msgstr "ვერსია"
-
 msgid "View"
 msgstr "ხედი"
-
-msgid "View | Remove Crashlog files"
-msgstr "ნახვა | Crashlog ფაილების წაშლა"
 
 msgid "View Crashlog file: %s"
 msgstr "Crashlog ფაილის ნახვა: %s"
 
+msgid "View | Remove Crashlog files"
+msgstr "ნახვა | Crashlog ფაილების წაშლა"
+
+#~ msgid "Date"
+#~ msgstr "თარიღი"
+
+#~ msgid "Developer"
+#~ msgstr "დეველოპერი"
+
+#~ msgid "Modifier"
+#~ msgstr "მოდიფიკატორი"
+
+#~ msgid "Size"
+#~ msgstr "ზომა"
+
+#~ msgid "Update from"
+#~ msgstr "განახლება დან"
+
+#~ msgid "Version"
+#~ msgstr "ვერსია"

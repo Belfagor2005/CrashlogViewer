@@ -22,14 +22,8 @@ msgstr "Yopish"
 msgid "Crashlog Viewer"
 msgstr "Crashlog Viewer"
 
-msgid "Date"
-msgstr "Sana"
-
 msgid "Deleted %d files"
 msgstr "%d ta fayl oʻchirildi"
-
-msgid "Developer"
-msgstr "Dasturchi"
 
 msgid "Error Only"
 msgstr "Faqat xato"
@@ -45,9 +39,6 @@ msgstr "Fayl allaqachon olib tashlangan"
 
 msgid "Full Log"
 msgstr "To'liq jurnal"
-
-msgid "Modifier"
-msgstr "Modifikator"
 
 msgid "No crash logs found"
 msgstr "Hech qanday nosozlik jurnali topilmadi"
@@ -73,21 +64,29 @@ msgstr "Hammasini olib tashlang"
 msgid "Removed: %s"
 msgstr "Oʻchirildi: %s"
 
-msgid "Size"
-msgstr "Hajmi"
-
-msgid "Update from"
-msgstr "dan yangilash"
-
-msgid "Version"
-msgstr "Versiya"
-
 msgid "View"
 msgstr "Ko‘rish"
-
-msgid "View | Remove Crashlog files"
-msgstr "Ko'rish | Crashlog fayllarini olib tashlang"
 
 msgid "View Crashlog file: %s"
 msgstr "Crashlog faylini koʻrish: %s"
 
+msgid "View | Remove Crashlog files"
+msgstr "Ko'rish | Crashlog fayllarini olib tashlang"
+
+#~ msgid "Date"
+#~ msgstr "Sana"
+
+#~ msgid "Developer"
+#~ msgstr "Dasturchi"
+
+#~ msgid "Modifier"
+#~ msgstr "Modifikator"
+
+#~ msgid "Size"
+#~ msgstr "Hajmi"
+
+#~ msgid "Update from"
+#~ msgstr "dan yangilash"
+
+#~ msgid "Version"
+#~ msgstr "Versiya"

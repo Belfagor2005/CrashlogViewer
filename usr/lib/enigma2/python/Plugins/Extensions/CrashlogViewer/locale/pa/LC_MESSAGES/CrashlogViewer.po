@@ -22,14 +22,8 @@ msgstr "ਬੰਦ ਕਰੋ"
 msgid "Crashlog Viewer"
 msgstr "ਕਰੈਸ਼ਲੌਗ ਦਰਸ਼ਕ"
 
-msgid "Date"
-msgstr "ਮਿਤੀ"
-
 msgid "Deleted %d files"
 msgstr "%d ਫ਼ਾਈਲਾਂ ਮਿਟਾਈਆਂ ਗਈਆਂ"
-
-msgid "Developer"
-msgstr "ਵਿਕਾਸਕਾਰ"
 
 msgid "Error Only"
 msgstr "ਗਲਤੀ ਸਿਰਫ਼"
@@ -45,9 +39,6 @@ msgstr "ਫ਼ਾਈਲ ਪਹਿਲਾਂ ਹੀ ਹਟਾ ਦਿੱਤੀ ਗ�
 
 msgid "Full Log"
 msgstr "ਪੂਰਾ ਲਾਗ"
-
-msgid "Modifier"
-msgstr "ਸੋਧਕ"
 
 msgid "No crash logs found"
 msgstr "ਕੋਈ ਕਰੈਸ਼ ਲੌਗ ਨਹੀਂ ਮਿਲਿਆ"
@@ -73,21 +64,29 @@ msgstr "ਸਭ ਹਟਾਓ"
 msgid "Removed: %s"
 msgstr "ਹਟਾਇਆ ਗਿਆ: %s"
 
-msgid "Size"
-msgstr "ਆਕਾਰ"
-
-msgid "Update from"
-msgstr "ਤੋਂ ਅੱਪਡੇਟ ਕਰੋ"
-
-msgid "Version"
-msgstr "ਸੰਸਕਰਣ"
-
 msgid "View"
 msgstr "ਦੇਖੋ"
-
-msgid "View | Remove Crashlog files"
-msgstr "ਦੇਖੋ | ਕ੍ਰੈਸ਼ਲੌਗ ਫਾਈਲਾਂ ਨੂੰ ਹਟਾਓ"
 
 msgid "View Crashlog file: %s"
 msgstr "ਕ੍ਰੈਸ਼ਲੌਗ ਫਾਈਲ ਵੇਖੋ: %s"
 
+msgid "View | Remove Crashlog files"
+msgstr "ਦੇਖੋ | ਕ੍ਰੈਸ਼ਲੌਗ ਫਾਈਲਾਂ ਨੂੰ ਹਟਾਓ"
+
+#~ msgid "Date"
+#~ msgstr "ਮਿਤੀ"
+
+#~ msgid "Developer"
+#~ msgstr "ਵਿਕਾਸਕਾਰ"
+
+#~ msgid "Modifier"
+#~ msgstr "ਸੋਧਕ"
+
+#~ msgid "Size"
+#~ msgstr "ਆਕਾਰ"
+
+#~ msgid "Update from"
+#~ msgstr "ਤੋਂ ਅੱਪਡੇਟ ਕਰੋ"
+
+#~ msgid "Version"
+#~ msgstr "ਸੰਸਕਰਣ"

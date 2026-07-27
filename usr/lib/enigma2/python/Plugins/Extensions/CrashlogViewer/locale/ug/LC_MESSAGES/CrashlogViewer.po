@@ -22,14 +22,8 @@ msgstr "تاقاش"
 msgid "Crashlog Viewer"
 msgstr "Crashlog Viewer"
 
-msgid "Date"
-msgstr "چېسلا"
-
 msgid "Deleted %d files"
 msgstr "% D ھۆججىتى ئۆچۈرۈلدى"
-
-msgid "Developer"
-msgstr "Developer"
 
 msgid "Error Only"
 msgstr "پەقەت خاتالىق"
@@ -45,9 +39,6 @@ msgstr "ھۆججەت ئۆچۈرۈلدى"
 
 msgid "Full Log"
 msgstr "تولۇق خاتىرە"
-
-msgid "Modifier"
-msgstr "ئۆزگەرتكۈچ"
 
 msgid "No crash logs found"
 msgstr "كاشىلا خاتىرىلىرى تېپىلمىدى"
@@ -73,21 +64,29 @@ msgstr "ھەممىنى ئۆچۈرۈڭ"
 msgid "Removed: %s"
 msgstr "چىقىرىۋېتىلدى:% s"
 
-msgid "Size"
-msgstr "چوڭلۇقى"
-
-msgid "Update from"
-msgstr "يېڭىلاش"
-
-msgid "Version"
-msgstr "نەشرى"
-
 msgid "View"
 msgstr "كۆرۈش"
-
-msgid "View | Remove Crashlog files"
-msgstr "كۆرۈش | Crashlog ھۆججىتىنى ئۆچۈرۈڭ"
 
 msgid "View Crashlog file: %s"
 msgstr "Crashlog ھۆججىتىنى كۆرۈش:% s"
 
+msgid "View | Remove Crashlog files"
+msgstr "كۆرۈش | Crashlog ھۆججىتىنى ئۆچۈرۈڭ"
+
+#~ msgid "Date"
+#~ msgstr "چېسلا"
+
+#~ msgid "Developer"
+#~ msgstr "Developer"
+
+#~ msgid "Modifier"
+#~ msgstr "ئۆزگەرتكۈچ"
+
+#~ msgid "Size"
+#~ msgstr "چوڭلۇقى"
+
+#~ msgid "Update from"
+#~ msgstr "يېڭىلاش"
+
+#~ msgid "Version"
+#~ msgstr "نەشرى"

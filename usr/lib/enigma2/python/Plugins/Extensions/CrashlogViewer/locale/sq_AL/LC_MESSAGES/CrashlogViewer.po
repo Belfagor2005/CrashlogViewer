@@ -22,14 +22,8 @@ msgstr "Mbylle"
 msgid "Crashlog Viewer"
 msgstr "Shikuesi i Crashlog"
 
-msgid "Date"
-msgstr "Data"
-
 msgid "Deleted %d files"
 msgstr "%d skedarë u fshinë"
-
-msgid "Developer"
-msgstr "Zhvilluesi"
 
 msgid "Error Only"
 msgstr "Vetëm gabim"
@@ -45,9 +39,6 @@ msgstr "Skedari është hequr tashmë"
 
 msgid "Full Log"
 msgstr "Regjistri i plotë"
-
-msgid "Modifier"
-msgstr "Modifikues"
 
 msgid "No crash logs found"
 msgstr "Nuk u gjetën regjistra aksidentesh"
@@ -73,21 +64,29 @@ msgstr "Hiq të gjitha"
 msgid "Removed: %s"
 msgstr "U hoq: %s"
 
-msgid "Size"
-msgstr "Madhësia"
-
-msgid "Update from"
-msgstr "Përditëso nga"
-
-msgid "Version"
-msgstr "Versioni"
-
 msgid "View"
 msgstr "Shiko"
-
-msgid "View | Remove Crashlog files"
-msgstr "Shiko | Hiq skedarët Crashlog"
 
 msgid "View Crashlog file: %s"
 msgstr "Shiko skedarin Crashlog: %s"
 
+msgid "View | Remove Crashlog files"
+msgstr "Shiko | Hiq skedarët Crashlog"
+
+#~ msgid "Date"
+#~ msgstr "Data"
+
+#~ msgid "Developer"
+#~ msgstr "Zhvilluesi"
+
+#~ msgid "Modifier"
+#~ msgstr "Modifikues"
+
+#~ msgid "Size"
+#~ msgstr "Madhësia"
+
+#~ msgid "Update from"
+#~ msgstr "Përditëso nga"
+
+#~ msgid "Version"
+#~ msgstr "Versioni"

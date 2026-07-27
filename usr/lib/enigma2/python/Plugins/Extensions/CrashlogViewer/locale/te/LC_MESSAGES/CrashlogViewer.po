@@ -22,14 +22,8 @@ msgstr "మూసివేయి"
 msgid "Crashlog Viewer"
 msgstr "క్రాష్‌లాగ్ వ్యూయర్"
 
-msgid "Date"
-msgstr "తేదీ"
-
 msgid "Deleted %d files"
 msgstr "%d ఫైల్‌లు తొలగించబడ్డాయి"
-
-msgid "Developer"
-msgstr "డెవలపర్"
 
 msgid "Error Only"
 msgstr "లోపం మాత్రమే"
@@ -45,9 +39,6 @@ msgstr "ఫైల్ ఇప్పటికే తీసివేయబడిం�
 
 msgid "Full Log"
 msgstr "పూర్తి లాగ్"
-
-msgid "Modifier"
-msgstr "మాడిఫైయర్"
 
 msgid "No crash logs found"
 msgstr "క్రాష్ లాగ్‌లు ఏవీ కనుగొనబడలేదు"
@@ -73,21 +64,29 @@ msgstr "అన్నింటినీ తీసివేయండి"
 msgid "Removed: %s"
 msgstr "తీసివేయబడింది: %s"
 
-msgid "Size"
-msgstr "పరిమాణం"
-
-msgid "Update from"
-msgstr "నుండి నవీకరించండి"
-
-msgid "Version"
-msgstr "వెర్షన్"
-
 msgid "View"
 msgstr "చూడండి"
-
-msgid "View | Remove Crashlog files"
-msgstr "చూడండి | క్రాష్‌లాగ్ ఫైల్‌లను తీసివేయండి"
 
 msgid "View Crashlog file: %s"
 msgstr "క్రాష్‌లాగ్ ఫైల్‌ను వీక్షించండి: %s"
 
+msgid "View | Remove Crashlog files"
+msgstr "చూడండి | క్రాష్‌లాగ్ ఫైల్‌లను తీసివేయండి"
+
+#~ msgid "Date"
+#~ msgstr "తేదీ"
+
+#~ msgid "Developer"
+#~ msgstr "డెవలపర్"
+
+#~ msgid "Modifier"
+#~ msgstr "మాడిఫైయర్"
+
+#~ msgid "Size"
+#~ msgstr "పరిమాణం"
+
+#~ msgid "Update from"
+#~ msgstr "నుండి నవీకరించండి"
+
+#~ msgid "Version"
+#~ msgstr "వెర్షన్"

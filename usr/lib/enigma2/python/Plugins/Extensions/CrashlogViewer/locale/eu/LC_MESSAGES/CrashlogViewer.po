@@ -22,14 +22,8 @@ msgstr "Itxi"
 msgid "Crashlog Viewer"
 msgstr "Crashlog Viewer"
 
-msgid "Date"
-msgstr "Data"
-
 msgid "Deleted %d files"
 msgstr "%d fitxategi ezabatu dira"
-
-msgid "Developer"
-msgstr "Garatzailea"
 
 msgid "Error Only"
 msgstr "Errore bakarra"
@@ -45,9 +39,6 @@ msgstr "Dagoeneko kendu da fitxategia"
 
 msgid "Full Log"
 msgstr "Erregistro osoa"
-
-msgid "Modifier"
-msgstr "Aldatzailea"
 
 msgid "No crash logs found"
 msgstr "Ez da hutsegiteen erregistrorik aurkitu"
@@ -73,21 +64,29 @@ msgstr "Kendu guztiak"
 msgid "Removed: %s"
 msgstr "Kendua: %s"
 
-msgid "Size"
-msgstr "Tamaina"
-
-msgid "Update from"
-msgstr "Eguneratu hemendik"
-
-msgid "Version"
-msgstr "Bertsioa"
-
 msgid "View"
 msgstr "Ikusi"
-
-msgid "View | Remove Crashlog files"
-msgstr "Ikusi | Kendu Crashlog fitxategiak"
 
 msgid "View Crashlog file: %s"
 msgstr "Ikusi Crashlog fitxategia: %s"
 
+msgid "View | Remove Crashlog files"
+msgstr "Ikusi | Kendu Crashlog fitxategiak"
+
+#~ msgid "Date"
+#~ msgstr "Data"
+
+#~ msgid "Developer"
+#~ msgstr "Garatzailea"
+
+#~ msgid "Modifier"
+#~ msgstr "Aldatzailea"
+
+#~ msgid "Size"
+#~ msgstr "Tamaina"
+
+#~ msgid "Update from"
+#~ msgstr "Eguneratu hemendik"
+
+#~ msgid "Version"
+#~ msgstr "Bertsioa"

@@ -22,14 +22,8 @@ msgstr "Хаах"
 msgid "Crashlog Viewer"
 msgstr "Crashlog Viewer"
 
-msgid "Date"
-msgstr "Огноо"
-
 msgid "Deleted %d files"
 msgstr "%d файл устгасан"
-
-msgid "Developer"
-msgstr "Хөгжүүлэгч"
 
 msgid "Error Only"
 msgstr "Зөвхөн алдаа"
@@ -45,9 +39,6 @@ msgstr "Файлыг аль хэдийн устгасан"
 
 msgid "Full Log"
 msgstr "Бүрэн бүртгэл"
-
-msgid "Modifier"
-msgstr "Өөрчлөгч"
 
 msgid "No crash logs found"
 msgstr "Гэмтлийн бүртгэл олдсонгүй"
@@ -73,21 +64,29 @@ msgstr "Бүгдийг устгах"
 msgid "Removed: %s"
 msgstr "Устгасан: %s"
 
-msgid "Size"
-msgstr "Хэмжээ"
-
-msgid "Update from"
-msgstr "-аас шинэчлэх"
-
-msgid "Version"
-msgstr "Хувилбар"
-
 msgid "View"
 msgstr "Харах"
-
-msgid "View | Remove Crashlog files"
-msgstr "Харах | Crashlog файлуудыг устгана уу"
 
 msgid "View Crashlog file: %s"
 msgstr "Crashlog файлыг харах: %s"
 
+msgid "View | Remove Crashlog files"
+msgstr "Харах | Crashlog файлуудыг устгана уу"
+
+#~ msgid "Date"
+#~ msgstr "Огноо"
+
+#~ msgid "Developer"
+#~ msgstr "Хөгжүүлэгч"
+
+#~ msgid "Modifier"
+#~ msgstr "Өөрчлөгч"
+
+#~ msgid "Size"
+#~ msgstr "Хэмжээ"
+
+#~ msgid "Update from"
+#~ msgstr "-аас шинэчлэх"
+
+#~ msgid "Version"
+#~ msgstr "Хувилбар"

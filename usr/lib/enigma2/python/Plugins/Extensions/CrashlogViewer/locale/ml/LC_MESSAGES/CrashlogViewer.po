@@ -22,14 +22,8 @@ msgstr "അടയ്ക്കുക"
 msgid "Crashlog Viewer"
 msgstr "ക്രാഷ്ലോഗ് വ്യൂവർ"
 
-msgid "Date"
-msgstr "തീയതി"
-
 msgid "Deleted %d files"
 msgstr "%d ഫയലുകൾ ഇല്ലാതാക്കി"
-
-msgid "Developer"
-msgstr "ഡെവലപ്പർ"
 
 msgid "Error Only"
 msgstr "പിശക് മാത്രം"
@@ -45,9 +39,6 @@ msgstr "ഫയൽ ഇതിനകം നീക്കംചെയ്തു"
 
 msgid "Full Log"
 msgstr "പൂർണ്ണ ലോഗ്"
-
-msgid "Modifier"
-msgstr "മോഡിഫയർ"
 
 msgid "No crash logs found"
 msgstr "ക്രാഷ് ലോഗുകളൊന്നും കണ്ടെത്തിയില്ല"
@@ -73,21 +64,29 @@ msgstr "എല്ലാം നീക്കം ചെയ്യുക"
 msgid "Removed: %s"
 msgstr "നീക്കംചെയ്‌തു: %s"
 
-msgid "Size"
-msgstr "വലിപ്പം"
-
-msgid "Update from"
-msgstr "മുതൽ അപ്ഡേറ്റ് ചെയ്യുക"
-
-msgid "Version"
-msgstr "പതിപ്പ്"
-
 msgid "View"
 msgstr "കാണുക"
-
-msgid "View | Remove Crashlog files"
-msgstr "കാണുക | ക്രാഷ്ലോഗ് ഫയലുകൾ നീക്കം ചെയ്യുക"
 
 msgid "View Crashlog file: %s"
 msgstr "ക്രാഷ്‌ലോഗ് ഫയൽ കാണുക: %s"
 
+msgid "View | Remove Crashlog files"
+msgstr "കാണുക | ക്രാഷ്ലോഗ് ഫയലുകൾ നീക്കം ചെയ്യുക"
+
+#~ msgid "Date"
+#~ msgstr "തീയതി"
+
+#~ msgid "Developer"
+#~ msgstr "ഡെവലപ്പർ"
+
+#~ msgid "Modifier"
+#~ msgstr "മോഡിഫയർ"
+
+#~ msgid "Size"
+#~ msgstr "വലിപ്പം"
+
+#~ msgid "Update from"
+#~ msgstr "മുതൽ അപ്ഡേറ്റ് ചെയ്യുക"
+
+#~ msgid "Version"
+#~ msgstr "പതിപ്പ്"

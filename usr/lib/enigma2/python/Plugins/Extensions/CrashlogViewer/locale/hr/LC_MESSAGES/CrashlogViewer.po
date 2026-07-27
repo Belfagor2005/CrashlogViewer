@@ -22,14 +22,8 @@ msgstr "Zatvoriti"
 msgid "Crashlog Viewer"
 msgstr "Crashlog preglednik"
 
-msgid "Date"
-msgstr "Datum"
-
 msgid "Deleted %d files"
 msgstr "Izbrisano %d datoteka"
-
-msgid "Developer"
-msgstr "Developer"
 
 msgid "Error Only"
 msgstr "Samo pogreška"
@@ -45,9 +39,6 @@ msgstr "Datoteka je već uklonjena"
 
 msgid "Full Log"
 msgstr "Cijeli dnevnik"
-
-msgid "Modifier"
-msgstr "Modifikator"
 
 msgid "No crash logs found"
 msgstr "Nema pronađenih zapisa o rušenju"
@@ -73,21 +64,29 @@ msgstr "Ukloni sve"
 msgid "Removed: %s"
 msgstr "Uklonjeno: %s"
 
-msgid "Size"
-msgstr "Veličina"
-
-msgid "Update from"
-msgstr "Ažuriranje od"
-
-msgid "Version"
-msgstr "Verzija"
-
 msgid "View"
 msgstr "Pogled"
-
-msgid "View | Remove Crashlog files"
-msgstr "Pogledaj | Uklonite Crashlog datoteke"
 
 msgid "View Crashlog file: %s"
 msgstr "Pogledajte Crashlog datoteku: %s"
 
+msgid "View | Remove Crashlog files"
+msgstr "Pogledaj | Uklonite Crashlog datoteke"
+
+#~ msgid "Date"
+#~ msgstr "Datum"
+
+#~ msgid "Developer"
+#~ msgstr "Developer"
+
+#~ msgid "Modifier"
+#~ msgstr "Modifikator"
+
+#~ msgid "Size"
+#~ msgstr "Veličina"
+
+#~ msgid "Update from"
+#~ msgstr "Ažuriranje od"
+
+#~ msgid "Version"
+#~ msgstr "Verzija"

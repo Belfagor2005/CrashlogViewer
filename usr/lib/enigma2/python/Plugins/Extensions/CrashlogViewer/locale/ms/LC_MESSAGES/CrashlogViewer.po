@@ -22,14 +22,8 @@ msgstr "tutup"
 msgid "Crashlog Viewer"
 msgstr "Crashlog Viewer"
 
-msgid "Date"
-msgstr "tarikh"
-
 msgid "Deleted %d files"
 msgstr "%d fail dipadamkan"
-
-msgid "Developer"
-msgstr "pemaju"
 
 msgid "Error Only"
 msgstr "Ralat Sahaja"
@@ -45,9 +39,6 @@ msgstr "Fail sudah dialih keluar"
 
 msgid "Full Log"
 msgstr "Log Penuh"
-
-msgid "Modifier"
-msgstr "Pengubah suai"
 
 msgid "No crash logs found"
 msgstr "Tiada log ranap ditemui"
@@ -73,21 +64,29 @@ msgstr "Keluarkan Semua"
 msgid "Removed: %s"
 msgstr "Dialih keluar: %s"
 
-msgid "Size"
-msgstr "Saiz"
-
-msgid "Update from"
-msgstr "Kemas kini daripada"
-
-msgid "Version"
-msgstr "Versi"
-
 msgid "View"
 msgstr "Lihat"
-
-msgid "View | Remove Crashlog files"
-msgstr "Lihat | Alih keluar fail Crashlog"
 
 msgid "View Crashlog file: %s"
 msgstr "Lihat fail Crashlog: %s"
 
+msgid "View | Remove Crashlog files"
+msgstr "Lihat | Alih keluar fail Crashlog"
+
+#~ msgid "Date"
+#~ msgstr "tarikh"
+
+#~ msgid "Developer"
+#~ msgstr "pemaju"
+
+#~ msgid "Modifier"
+#~ msgstr "Pengubah suai"
+
+#~ msgid "Size"
+#~ msgstr "Saiz"
+
+#~ msgid "Update from"
+#~ msgstr "Kemas kini daripada"
+
+#~ msgid "Version"
+#~ msgstr "Versi"
