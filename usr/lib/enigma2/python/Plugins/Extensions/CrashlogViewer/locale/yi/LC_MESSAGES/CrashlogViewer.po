@@ -1,16 +1,18 @@
+# yi translations
+# Copyright (C) 2026 Lululla Team
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: enigma 2\n"
-"PO-Revision-Date: 2026-05-27 18:38+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Yiddish\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: yi <ekekaz@gmail.com>\n"
 "Language: yi\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-# Signed-off-by: Dario Croci <spaeleus@croci.org>
-#
 msgid "Back"
 msgstr "צוריק"
 
@@ -20,8 +22,14 @@ msgstr "נאָענט"
 msgid "Crashlog Viewer"
 msgstr "קראַשלאָג וויוער"
 
+msgid "Date"
+msgstr "טאָג"
+
 msgid "Deleted %d files"
 msgstr "אויסגעמעקט %d טעקעס"
+
+msgid "Developer"
+msgstr "דעוועלאָפּער"
 
 msgid "Error Only"
 msgstr "בלויז טעות"
@@ -37,6 +45,9 @@ msgstr "טעקע שוין אַוועקגענומען"
 
 msgid "Full Log"
 msgstr "גאַנץ קלאָץ"
+
+msgid "Modifier"
+msgstr "מאָדיפיער"
 
 msgid "No crash logs found"
 msgstr "קיין קראַך לאָגס געפֿונען"
@@ -62,11 +73,21 @@ msgstr "אַראָפּנעמען אַלע"
 msgid "Removed: %s"
 msgstr "אַוועקגענומען: %s"
 
+msgid "Size"
+msgstr "גרייס"
+
+msgid "Update from"
+msgstr "דערהייַנטיקן פון"
+
+msgid "Version"
+msgstr "ווערסיע"
+
 msgid "View"
-msgstr ""
+msgstr "View"
+
+msgid "View | Remove Crashlog files"
+msgstr "View | אַראָפּנעמען קראַשלאָג טעקעס"
 
 msgid "View Crashlog file: %s"
 msgstr "זען קראַשלאָג טעקע: %s"
 
-msgid "View | Remove Crashlog files"
-msgstr "View | אַראָפּנעמען קראַשלאָג טעקעס"

@@ -1,17 +1,18 @@
+# ro translations
+# Copyright (C) 2026 Lululla Team
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: enigma 2\n"
-"PO-Revision-Date: 2026-05-27 18:31+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Romanian <translation-team-ro@lists.sourceforge.net>\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: ro <ekekaz@gmail.com>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2;\n"
 
-# Signed-off-by: Dario Croci <spaeleus@croci.org>
-#
 msgid "Back"
 msgstr "Spate"
 
@@ -21,8 +22,14 @@ msgstr "Aproape"
 msgid "Crashlog Viewer"
 msgstr "Vizualizator de blocări"
 
+msgid "Date"
+msgstr "Data"
+
 msgid "Deleted %d files"
 msgstr "Au fost șterse %d fișiere"
+
+msgid "Developer"
+msgstr "Dezvoltator"
 
 msgid "Error Only"
 msgstr "Numai eroare"
@@ -38,6 +45,9 @@ msgstr "Fișierul a fost deja eliminat"
 
 msgid "Full Log"
 msgstr "Jurnal complet"
+
+msgid "Modifier"
+msgstr "Modificator"
 
 msgid "No crash logs found"
 msgstr "Nu s-au găsit jurnalele de blocare"
@@ -63,11 +73,21 @@ msgstr "Eliminați tot"
 msgid "Removed: %s"
 msgstr "Eliminat: %s"
 
+msgid "Size"
+msgstr "Dimensiune"
+
+msgid "Update from"
+msgstr "Actualizați de la"
+
+msgid "Version"
+msgstr "Versiune"
+
 msgid "View"
 msgstr "Vedere"
+
+msgid "View | Remove Crashlog files"
+msgstr "Vizualizare | Eliminați fișierele Crashlog"
 
 msgid "View Crashlog file: %s"
 msgstr "Vizualizați fișierul jurnal de blocări: %s"
 
-msgid "View | Remove Crashlog files"
-msgstr "Vizualizare | Eliminați fișierele Crashlog"

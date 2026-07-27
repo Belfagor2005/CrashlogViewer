@@ -1,17 +1,18 @@
+# eo translations
+# Copyright (C) 2026 Lululla Team
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: enigma 2\n"
-"PO-Revision-Date: 2026-05-27 18:19+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Esperanto <translation-team-eo@lists.sourceforge.net>\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: eo <ekekaz@gmail.com>\n"
 "Language: eo\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-# Signed-off-by: Dario Croci <spaeleus@croci.org>
-#
 msgid "Back"
 msgstr "Reen"
 
@@ -21,8 +22,14 @@ msgstr "Fermu"
 msgid "Crashlog Viewer"
 msgstr "Crashlog-Vidilo"
 
+msgid "Date"
+msgstr "Dato"
+
 msgid "Deleted %d files"
 msgstr "Forigitaj %d dosieroj"
+
+msgid "Developer"
+msgstr "Ellaboranto"
 
 msgid "Error Only"
 msgstr "Nur Eraro"
@@ -38,6 +45,9 @@ msgstr "Dosiero jam forigita"
 
 msgid "Full Log"
 msgstr "Plena Registro"
+
+msgid "Modifier"
+msgstr "Modifilo"
 
 msgid "No crash logs found"
 msgstr "Neniuj kraŝaj protokoloj trovitaj"
@@ -63,11 +73,21 @@ msgstr "Forigi Ĉion"
 msgid "Removed: %s"
 msgstr "Forigita: %s"
 
+msgid "Size"
+msgstr "Grandeco"
+
+msgid "Update from"
+msgstr "Ĝisdatigi de"
+
+msgid "Version"
+msgstr "Versio"
+
 msgid "View"
 msgstr "Vido"
+
+msgid "View | Remove Crashlog files"
+msgstr "Vidi | Forigu Crashlog-dosierojn"
 
 msgid "View Crashlog file: %s"
 msgstr "Vidi Crashlog-dosieron: %s"
 
-msgid "View | Remove Crashlog files"
-msgstr "Vidi | Forigu Crashlog-dosierojn"

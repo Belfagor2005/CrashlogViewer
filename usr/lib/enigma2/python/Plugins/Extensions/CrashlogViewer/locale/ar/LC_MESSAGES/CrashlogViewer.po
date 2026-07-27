@@ -1,16 +1,18 @@
+# ar translations
+# Copyright (C) 2026 Lululla Team
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: enigma 2\n"
-"PO-Revision-Date: 2026-05-27 18:15+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Arabic <(nothing)>\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: ar <ekekaz@gmail.com>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-# Signed-off-by: Dario Croci <spaeleus@croci.org>
-#
 msgid "Back"
 msgstr "خلف"
 
@@ -20,8 +22,14 @@ msgstr "يغلق"
 msgid "Crashlog Viewer"
 msgstr "عارض سجل الأعطال"
 
+msgid "Date"
+msgstr "تاريخ"
+
 msgid "Deleted %d files"
 msgstr "تم حذف %d من الملفات"
+
+msgid "Developer"
+msgstr "المطور"
 
 msgid "Error Only"
 msgstr "خطأ فقط"
@@ -37,6 +45,9 @@ msgstr "تمت إزالة الملف بالفعل"
 
 msgid "Full Log"
 msgstr "سجل كامل"
+
+msgid "Modifier"
+msgstr "المعدل"
 
 msgid "No crash logs found"
 msgstr "لم يتم العثور على سجلات الأعطال"
@@ -62,11 +73,21 @@ msgstr "إزالة الكل"
 msgid "Removed: %s"
 msgstr "تمت الإزالة: %s"
 
+msgid "Size"
+msgstr "مقاس"
+
+msgid "Update from"
+msgstr "التحديث من"
+
+msgid "Version"
+msgstr "إصدار"
+
 msgid "View"
 msgstr "منظر"
+
+msgid "View | Remove Crashlog files"
+msgstr "عرض | إزالة ملفات Crashlog"
 
 msgid "View Crashlog file: %s"
 msgstr "عرض ملف سجل الأعطال: %s"
 
-msgid "View | Remove Crashlog files"
-msgstr "عرض | إزالة ملفات Crashlog"

@@ -1,17 +1,18 @@
+# ga translations
+# Copyright (C) 2026 Lululla Team
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: enigma 2\n"
-"PO-Revision-Date: 2026-05-27 18:21+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: ga <ekekaz@gmail.com>\n"
 "Language: ga\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n==2 ? 1 : 2;\n"
 
-# Signed-off-by: Dario Croci <spaeleus@croci.org>
-#
 msgid "Back"
 msgstr "Ar ais"
 
@@ -21,8 +22,14 @@ msgstr "Dún"
 msgid "Crashlog Viewer"
 msgstr "Amharcán Crashlog"
 
+msgid "Date"
+msgstr "Dáta"
+
 msgid "Deleted %d files"
 msgstr "Scriosadh %d comhad"
+
+msgid "Developer"
+msgstr "Forbróir"
 
 msgid "Error Only"
 msgstr "Earráid Amháin"
@@ -38,6 +45,9 @@ msgstr "Baineadh an comhad cheana féin"
 
 msgid "Full Log"
 msgstr "Log Iomlán"
+
+msgid "Modifier"
+msgstr "Mionathraitheoir"
 
 msgid "No crash logs found"
 msgstr "Níor aimsíodh aon loga tuairteála"
@@ -63,11 +73,21 @@ msgstr "Bain Uile"
 msgid "Removed: %s"
 msgstr "Bainte: %s"
 
+msgid "Size"
+msgstr "Méid"
+
+msgid "Update from"
+msgstr "Nuashonrú ó"
+
+msgid "Version"
+msgstr "Leagan"
+
 msgid "View"
 msgstr "Amharc"
+
+msgid "View | Remove Crashlog files"
+msgstr "Amharc | Bain comhaid Crashlog"
 
 msgid "View Crashlog file: %s"
 msgstr "Féach ar chomhad Crashlog: %s"
 
-msgid "View | Remove Crashlog files"
-msgstr "Amharc | Bain comhaid Crashlog"

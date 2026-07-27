@@ -1,16 +1,18 @@
+# zh_SG translations
+# Copyright (C) 2026 Lululla Team
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: enigma 2\n"
-"PO-Revision-Date: 2026-05-27 18:39+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Language zh-SG\n"
-"Language: zh-SG\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: zh_SG <ekekaz@gmail.com>\n"
+"Language: zh_SG\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-# Signed-off-by: Dario Croci <spaeleus@croci.org>
-#
 msgid "Back"
 msgstr "后退"
 
@@ -20,8 +22,14 @@ msgstr "关闭"
 msgid "Crashlog Viewer"
 msgstr "崩溃日志查看器"
 
+msgid "Date"
+msgstr "日期"
+
 msgid "Deleted %d files"
 msgstr "已删除 %d 个文件"
+
+msgid "Developer"
+msgstr "开发商"
 
 msgid "Error Only"
 msgstr "仅错误"
@@ -37,6 +45,9 @@ msgstr "文件已删除"
 
 msgid "Full Log"
 msgstr "完整日志"
+
+msgid "Modifier"
+msgstr "修饰符"
 
 msgid "No crash logs found"
 msgstr "未找到崩溃日志"
@@ -62,11 +73,21 @@ msgstr "全部删除"
 msgid "Removed: %s"
 msgstr "已删除：%s"
 
+msgid "Size"
+msgstr "尺寸"
+
+msgid "Update from"
+msgstr "更新自"
+
+msgid "Version"
+msgstr "版本"
+
 msgid "View"
 msgstr "看法"
+
+msgid "View | Remove Crashlog files"
+msgstr "查看 |删除崩溃日志文件"
 
 msgid "View Crashlog file: %s"
 msgstr "查看崩溃日志文件：%s"
 
-msgid "View | Remove Crashlog files"
-msgstr "查看 |删除崩溃日志文件"

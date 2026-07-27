@@ -1,16 +1,18 @@
+# sr_Latn translations
+# Copyright (C) 2026 Lululla Team
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: enigma 2\n"
-"PO-Revision-Date: 2026-05-27 18:33+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Language sr-Latn\n"
-"Language: sr-Latn\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: sr_Latn <ekekaz@gmail.com>\n"
+"Language: sr_Latn\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-# Signed-off-by: Dario Croci <spaeleus@croci.org>
-#
 msgid "Back"
 msgstr "Назад"
 
@@ -20,8 +22,14 @@ msgstr "Затвори"
 msgid "Crashlog Viewer"
 msgstr "Црасхлог Виевер"
 
+msgid "Date"
+msgstr "Датум"
+
 msgid "Deleted %d files"
 msgstr "Избрисано је %д датотека"
+
+msgid "Developer"
+msgstr "Девелопер"
 
 msgid "Error Only"
 msgstr "Само грешка"
@@ -37,6 +45,9 @@ msgstr "Фајл је већ уклоњен"
 
 msgid "Full Log"
 msgstr "Фулл Лог"
+
+msgid "Modifier"
+msgstr "Модификатор"
 
 msgid "No crash logs found"
 msgstr "Није пронађен ниједан дневник пада"
@@ -62,11 +73,21 @@ msgstr "Уклони све"
 msgid "Removed: %s"
 msgstr "Уклоњено: %с"
 
+msgid "Size"
+msgstr "Величина"
+
+msgid "Update from"
+msgstr "Ажурирај од"
+
+msgid "Version"
+msgstr "Верзија"
+
 msgid "View"
 msgstr "Виев"
+
+msgid "View | Remove Crashlog files"
+msgstr "Погледај | Уклоните Црасхлог датотеке"
 
 msgid "View Crashlog file: %s"
 msgstr "Погледајте Црасхлог датотеку: %с"
 
-msgid "View | Remove Crashlog files"
-msgstr "Погледај | Уклоните Црасхлог датотеке"

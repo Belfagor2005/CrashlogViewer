@@ -1,17 +1,18 @@
+# et translations
+# Copyright (C) 2026 Lululla Team
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: enigma 2\n"
-"PO-Revision-Date: 2026-05-27 18:19+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Estonian <linux-ee@lists.eenet.ee>\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: et <ekekaz@gmail.com>\n"
 "Language: et\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-# Signed-off-by: Dario Croci <spaeleus@croci.org>
-#
 msgid "Back"
 msgstr "Tagasi"
 
@@ -19,10 +20,16 @@ msgid "Close"
 msgstr "Sule"
 
 msgid "Crashlog Viewer"
-msgstr ""
+msgstr "Crashlog Viewer"
+
+msgid "Date"
+msgstr "Kuupäev"
 
 msgid "Deleted %d files"
 msgstr "Kustutatud %d faili"
+
+msgid "Developer"
+msgstr "Arendaja"
 
 msgid "Error Only"
 msgstr "Ainult viga"
@@ -38,6 +45,9 @@ msgstr "Fail on juba eemaldatud"
 
 msgid "Full Log"
 msgstr "Täielik logi"
+
+msgid "Modifier"
+msgstr "Modifikaator"
 
 msgid "No crash logs found"
 msgstr "Ühtegi krahhilogi ei leitud"
@@ -63,11 +73,21 @@ msgstr "Eemalda kõik"
 msgid "Removed: %s"
 msgstr "Eemaldatud: %s"
 
+msgid "Size"
+msgstr "Suurus"
+
+msgid "Update from"
+msgstr "Värskendus alates"
+
+msgid "Version"
+msgstr "Versioon"
+
 msgid "View"
 msgstr "Vaade"
+
+msgid "View | Remove Crashlog files"
+msgstr "Vaata | Eemaldage Crashlogi failid"
 
 msgid "View Crashlog file: %s"
 msgstr "Kuva krahhilogi fail: %s"
 
-msgid "View | Remove Crashlog files"
-msgstr "Vaata | Eemaldage Crashlogi failid"

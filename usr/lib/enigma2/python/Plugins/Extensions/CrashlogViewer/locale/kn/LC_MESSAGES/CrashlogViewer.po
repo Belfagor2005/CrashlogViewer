@@ -1,16 +1,18 @@
+# kn translations
+# Copyright (C) 2026 Lululla Team
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: enigma 2\n"
-"PO-Revision-Date: 2026-05-27 18:25+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Kannada <debian-l10n-kannada@lists.debian.org>\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: kn <ekekaz@gmail.com>\n"
 "Language: kn\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-# Signed-off-by: Dario Croci <spaeleus@croci.org>
-#
 msgid "Back"
 msgstr "ಹಿಂದೆ"
 
@@ -20,8 +22,14 @@ msgstr "ಮುಚ್ಚಿ"
 msgid "Crashlog Viewer"
 msgstr "ಕ್ರ್ಯಾಶ್ಲಾಗ್ ವೀಕ್ಷಕ"
 
+msgid "Date"
+msgstr "ದಿನಾಂಕ"
+
 msgid "Deleted %d files"
 msgstr "%d ಫೈಲ್‌ಗಳನ್ನು ಅಳಿಸಲಾಗಿದೆ"
+
+msgid "Developer"
+msgstr "ಡೆವಲಪರ್"
 
 msgid "Error Only"
 msgstr "ದೋಷ ಮಾತ್ರ"
@@ -37,6 +45,9 @@ msgstr "ಫೈಲ್ ಅನ್ನು ಈಗಾಗಲೇ ತೆಗೆದುಹಾ
 
 msgid "Full Log"
 msgstr "ಪೂರ್ಣ ಲಾಗ್"
+
+msgid "Modifier"
+msgstr "ಪರಿವರ್ತಕ"
 
 msgid "No crash logs found"
 msgstr "ಯಾವುದೇ ಕ್ರ್ಯಾಶ್ ಲಾಗ್‌ಗಳು ಕಂಡುಬಂದಿಲ್ಲ"
@@ -62,11 +73,21 @@ msgstr "ಎಲ್ಲವನ್ನೂ ತೆಗೆದುಹಾಕಿ"
 msgid "Removed: %s"
 msgstr "ತೆಗೆದುಹಾಕಲಾಗಿದೆ: %s"
 
+msgid "Size"
+msgstr "ಗಾತ್ರ"
+
+msgid "Update from"
+msgstr "ನಿಂದ ನವೀಕರಿಸಿ"
+
+msgid "Version"
+msgstr "ಆವೃತ್ತಿ"
+
 msgid "View"
 msgstr "ವೀಕ್ಷಿಸಿ"
+
+msgid "View | Remove Crashlog files"
+msgstr "ವೀಕ್ಷಿಸಿ | ಕ್ರ್ಯಾಶ್ಲಾಗ್ ಫೈಲ್ಗಳನ್ನು ತೆಗೆದುಹಾಕಿ"
 
 msgid "View Crashlog file: %s"
 msgstr "ಕ್ರ್ಯಾಶ್ಲಾಗ್ ಫೈಲ್ ಅನ್ನು ವೀಕ್ಷಿಸಿ: %s"
 
-msgid "View | Remove Crashlog files"
-msgstr "ವೀಕ್ಷಿಸಿ | ಕ್ರ್ಯಾಶ್ಲಾಗ್ ಫೈಲ್ಗಳನ್ನು ತೆಗೆದುಹಾಕಿ"

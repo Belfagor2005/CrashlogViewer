@@ -1,16 +1,18 @@
+# am translations
+# Copyright (C) 2026 Lululla Team
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: enigma 2\n"
-"PO-Revision-Date: 2026-05-27 18:14+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Amharic\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: am <ekekaz@gmail.com>\n"
 "Language: am\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-# Signed-off-by: Dario Croci <spaeleus@croci.org>
-#
 msgid "Back"
 msgstr "ተመለስ"
 
@@ -20,8 +22,14 @@ msgstr "ገጠመ"
 msgid "Crashlog Viewer"
 msgstr "የክራሽሎግ መመልከቻ"
 
+msgid "Date"
+msgstr "ቀን"
+
 msgid "Deleted %d files"
 msgstr "%d ፋይሎች ተሰርዘዋል"
+
+msgid "Developer"
+msgstr "ገንቢ"
 
 msgid "Error Only"
 msgstr "ስህተት ብቻ"
@@ -37,6 +45,9 @@ msgstr "ፋይል አስቀድሞ ተወግዷል"
 
 msgid "Full Log"
 msgstr "ሙሉ ምዝግብ ማስታወሻ"
+
+msgid "Modifier"
+msgstr "መቀየሪያ"
 
 msgid "No crash logs found"
 msgstr "ምንም የብልሽት ምዝግብ ማስታወሻዎች አልተገኙም።"
@@ -62,11 +73,21 @@ msgstr "ሁሉንም አስወግድ"
 msgid "Removed: %s"
 msgstr "ተወግዷል፡ %s"
 
+msgid "Size"
+msgstr "መጠን"
+
+msgid "Update from"
+msgstr "አዘምን ከ"
+
+msgid "Version"
+msgstr "ሥሪት"
+
 msgid "View"
 msgstr "ይመልከቱ"
+
+msgid "View | Remove Crashlog files"
+msgstr "እይታ | የክራሽሎግ ፋይሎችን ያስወግዱ"
 
 msgid "View Crashlog file: %s"
 msgstr "የክራሽሎግ ፋይል ይመልከቱ፡ %s"
 
-msgid "View | Remove Crashlog files"
-msgstr "እይታ | የክራሽሎግ ፋይሎችን ያስወግዱ"

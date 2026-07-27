@@ -1,16 +1,18 @@
+# km translations
+# Copyright (C) 2026 Lululla Team
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: enigma 2\n"
-"PO-Revision-Date: 2026-05-27 18:25+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Central Khmer\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: km <ekekaz@gmail.com>\n"
 "Language: km\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-# Signed-off-by: Dario Croci <spaeleus@croci.org>
-#
 msgid "Back"
 msgstr "ត្រឡប់មកវិញ"
 
@@ -20,8 +22,14 @@ msgstr "បិទ"
 msgid "Crashlog Viewer"
 msgstr "កម្មវិធីមើលគាំង"
 
+msgid "Date"
+msgstr "កាលបរិច្ឆេទ"
+
 msgid "Deleted %d files"
 msgstr "បានលុបឯកសារ %d"
+
+msgid "Developer"
+msgstr "អ្នកអភិវឌ្ឍន៍"
 
 msgid "Error Only"
 msgstr "កំហុសតែប៉ុណ្ណោះ"
@@ -37,6 +45,9 @@ msgstr "ឯកសារត្រូវបានដកចេញរួចហើយ
 
 msgid "Full Log"
 msgstr "កំណត់ហេតុពេញ"
+
+msgid "Modifier"
+msgstr "អ្នកកែប្រែ"
 
 msgid "No crash logs found"
 msgstr "រកមិនឃើញកំណត់ហេតុគាំងទេ។"
@@ -62,11 +73,21 @@ msgstr "លុបចេញទាំងអស់។"
 msgid "Removed: %s"
 msgstr "បានដកចេញ៖ %s"
 
+msgid "Size"
+msgstr "ទំហំ"
+
+msgid "Update from"
+msgstr "ធ្វើបច្ចុប្បន្នភាពពី"
+
+msgid "Version"
+msgstr "កំណែ"
+
 msgid "View"
 msgstr "មើល"
+
+msgid "View | Remove Crashlog files"
+msgstr "មើល | យកឯកសារ Crashlog ចេញ"
 
 msgid "View Crashlog file: %s"
 msgstr "មើលឯកសារ Crashlog៖ %s"
 
-msgid "View | Remove Crashlog files"
-msgstr "មើល | យកឯកសារ Crashlog ចេញ"

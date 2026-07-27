@@ -1,16 +1,18 @@
+# gu translations
+# Copyright (C) 2026 Lululla Team
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: enigma 2\n"
-"PO-Revision-Date: 2026-05-27 18:22+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Gujarati\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: gu <ekekaz@gmail.com>\n"
 "Language: gu\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-# Signed-off-by: Dario Croci <spaeleus@croci.org>
-#
 msgid "Back"
 msgstr "પાછળ"
 
@@ -20,8 +22,14 @@ msgstr "બંધ કરો"
 msgid "Crashlog Viewer"
 msgstr "ક્રેશલોગ વ્યૂઅર"
 
+msgid "Date"
+msgstr "તારીખ"
+
 msgid "Deleted %d files"
 msgstr "%d ફાઇલો કાઢી નાખી"
+
+msgid "Developer"
+msgstr "વિકાસકર્તા"
 
 msgid "Error Only"
 msgstr "ભૂલ માત્ર"
@@ -37,6 +45,9 @@ msgstr "ફાઇલ પહેલેથી જ કાઢી નાખી છે"
 
 msgid "Full Log"
 msgstr "સંપૂર્ણ લોગ"
+
+msgid "Modifier"
+msgstr "સુધારક"
 
 msgid "No crash logs found"
 msgstr "કોઈ ક્રેશ લોગ મળ્યા નથી"
@@ -62,11 +73,21 @@ msgstr "બધા દૂર કરો"
 msgid "Removed: %s"
 msgstr "દૂર કર્યું: %s"
 
+msgid "Size"
+msgstr "કદ"
+
+msgid "Update from"
+msgstr "થી અપડેટ"
+
+msgid "Version"
+msgstr "સંસ્કરણ"
+
 msgid "View"
 msgstr "જુઓ"
+
+msgid "View | Remove Crashlog files"
+msgstr "જુઓ | Crashlog ફાઇલો દૂર કરો"
 
 msgid "View Crashlog file: %s"
 msgstr "ક્રેશલોગ ફાઇલ જુઓ: %s"
 
-msgid "View | Remove Crashlog files"
-msgstr "જુઓ | Crashlog ફાઇલો દૂર કરો"

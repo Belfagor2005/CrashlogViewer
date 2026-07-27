@@ -1,17 +1,18 @@
+# lv translations
+# Copyright (C) 2026 Lululla Team
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: enigma 2\n"
-"PO-Revision-Date: 2026-05-27 18:27+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Latvian <translation-team-lv@lists.sourceforge.net>\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: lv <ekekaz@gmail.com>\n"
 "Language: lv\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
 
-# Signed-off-by: Dario Croci <spaeleus@croci.org>
-#
 msgid "Back"
 msgstr "Atpakaļ"
 
@@ -19,10 +20,16 @@ msgid "Close"
 msgstr "Aizvērt"
 
 msgid "Crashlog Viewer"
-msgstr ""
+msgstr "Crashlog Viewer"
+
+msgid "Date"
+msgstr "Datums"
 
 msgid "Deleted %d files"
 msgstr "Izdzēsti %d faili"
+
+msgid "Developer"
+msgstr "Izstrādātājs"
 
 msgid "Error Only"
 msgstr "Tikai kļūda"
@@ -38,6 +45,9 @@ msgstr "Fails jau ir noņemts"
 
 msgid "Full Log"
 msgstr "Pilns žurnāls"
+
+msgid "Modifier"
+msgstr "Modifikators"
 
 msgid "No crash logs found"
 msgstr "Netika atrasts neviens avāriju žurnāls"
@@ -63,11 +73,21 @@ msgstr "Noņemt visu"
 msgid "Removed: %s"
 msgstr "Noņemts: %s"
 
+msgid "Size"
+msgstr "Izmērs"
+
+msgid "Update from"
+msgstr "Atjaunināt no"
+
+msgid "Version"
+msgstr "Versija"
+
 msgid "View"
 msgstr "Skatīt"
+
+msgid "View | Remove Crashlog files"
+msgstr "Skatīt | Noņemiet Crashlog failus"
 
 msgid "View Crashlog file: %s"
 msgstr "Skatīt avārijas žurnāla failu: %s"
 
-msgid "View | Remove Crashlog files"
-msgstr "Skatīt | Noņemiet Crashlog failus"

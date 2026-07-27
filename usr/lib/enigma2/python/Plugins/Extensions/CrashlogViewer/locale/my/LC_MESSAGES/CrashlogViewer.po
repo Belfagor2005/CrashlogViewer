@@ -1,16 +1,18 @@
+# my translations
+# Copyright (C) 2026 Lululla Team
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: enigma 2\n"
-"PO-Revision-Date: 2026-05-27 18:29+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Burmese\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: my <ekekaz@gmail.com>\n"
 "Language: my\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-# Signed-off-by: Dario Croci <spaeleus@croci.org>
-#
 msgid "Back"
 msgstr "ကျော"
 
@@ -20,8 +22,14 @@ msgstr "ပိတ်လိုက်"
 msgid "Crashlog Viewer"
 msgstr "Crashlog ကြည့်ရှုသူ"
 
+msgid "Date"
+msgstr "ရက်စွဲ"
+
 msgid "Deleted %d files"
 msgstr "ဖိုင် %d ဖိုင်ကို ဖျက်လိုက်ပါပြီ။"
+
+msgid "Developer"
+msgstr "ပြုစုသူ"
 
 msgid "Error Only"
 msgstr "အမှားသာ"
@@ -37,6 +45,9 @@ msgstr "ဖိုင်ကို ဖယ်ရှားပြီးပါပြ�
 
 msgid "Full Log"
 msgstr "မှတ်တမ်းအပြည့်အစုံ"
+
+msgid "Modifier"
+msgstr "ပြုပြင်မွမ်းမံခြင်း။"
 
 msgid "No crash logs found"
 msgstr "ပျက်စီးမှုမှတ်တမ်းများ မတွေ့ပါ။"
@@ -62,11 +73,21 @@ msgstr "အားလုံးကို ဖယ်ရှားပါ။"
 msgid "Removed: %s"
 msgstr "ဖယ်ရှားထားသည်- %s"
 
+msgid "Size"
+msgstr "အရွယ်အစား"
+
+msgid "Update from"
+msgstr "မှ အပ်ဒိတ်"
+
+msgid "Version"
+msgstr "ဗားရှင်း"
+
 msgid "View"
 msgstr "အမြင်"
+
+msgid "View | Remove Crashlog files"
+msgstr "အမြင် | Crashlog ဖိုင်များကို ဖယ်ရှားပါ။"
 
 msgid "View Crashlog file: %s"
 msgstr "Crashlog ဖိုင်ကိုကြည့်ပါ- %s"
 
-msgid "View | Remove Crashlog files"
-msgstr "အမြင် | Crashlog ဖိုင်များကို ဖယ်ရှားပါ။"

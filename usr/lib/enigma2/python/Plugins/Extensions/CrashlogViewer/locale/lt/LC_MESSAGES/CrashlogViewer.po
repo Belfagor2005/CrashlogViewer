@@ -1,17 +1,18 @@
+# lt translations
+# Copyright (C) 2026 Lululla Team
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: enigma 2\n"
-"PO-Revision-Date: 2026-05-27 18:26+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Lithuanian <komp_lt@konferencijos.lt>\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: lt <ekekaz@gmail.com>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-# Signed-off-by: Dario Croci <spaeleus@croci.org>
-#
 msgid "Back"
 msgstr "Atgal"
 
@@ -21,8 +22,14 @@ msgstr "Uždaryti"
 msgid "Crashlog Viewer"
 msgstr "„Crashlog Viewer“."
 
+msgid "Date"
+msgstr "Data"
+
 msgid "Deleted %d files"
 msgstr "Ištrinta %d failų"
+
+msgid "Developer"
+msgstr "Kūrėjas"
 
 msgid "Error Only"
 msgstr "Tik klaida"
@@ -38,6 +45,9 @@ msgstr "Failas jau pašalintas"
 
 msgid "Full Log"
 msgstr "Visas žurnalas"
+
+msgid "Modifier"
+msgstr "Modifikatorius"
 
 msgid "No crash logs found"
 msgstr "Nerasta jokių avarijų žurnalų"
@@ -63,11 +73,21 @@ msgstr "Pašalinti viską"
 msgid "Removed: %s"
 msgstr "Pašalinta: %s"
 
+msgid "Size"
+msgstr "Dydis"
+
+msgid "Update from"
+msgstr "Atnaujinti iš"
+
+msgid "Version"
+msgstr "Versija"
+
 msgid "View"
 msgstr "Žiūrėti"
+
+msgid "View | Remove Crashlog files"
+msgstr "Žiūrėti | Pašalinkite „Crashlog“ failus"
 
 msgid "View Crashlog file: %s"
 msgstr "Peržiūrėti „Crashlog“ failą: %s"
 
-msgid "View | Remove Crashlog files"
-msgstr "Žiūrėti | Pašalinkite „Crashlog“ failus"

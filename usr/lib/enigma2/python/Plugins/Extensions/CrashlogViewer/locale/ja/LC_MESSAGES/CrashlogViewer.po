@@ -1,17 +1,18 @@
+# ja translations
+# Copyright (C) 2026 Lululla Team
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: enigma 2\n"
-"PO-Revision-Date: 2026-05-27 18:24+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Japanese <translation-team-ja@lists.sourceforge.net>\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: ja <ekekaz@gmail.com>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 
-# Signed-off-by: Dario Croci <spaeleus@croci.org>
-#
 msgid "Back"
 msgstr "戻る"
 
@@ -21,8 +22,14 @@ msgstr "近い"
 msgid "Crashlog Viewer"
 msgstr "クラッシュログビューア"
 
+msgid "Date"
+msgstr "日付"
+
 msgid "Deleted %d files"
 msgstr "%d ファイルを削除しました"
+
+msgid "Developer"
+msgstr "開発者"
 
 msgid "Error Only"
 msgstr "エラーのみ"
@@ -38,6 +45,9 @@ msgstr "ファイルはすでに削除されています"
 
 msgid "Full Log"
 msgstr "完全なログ"
+
+msgid "Modifier"
+msgstr "修飾子"
 
 msgid "No crash logs found"
 msgstr "クラッシュログは見つかりませんでした"
@@ -63,11 +73,21 @@ msgstr "すべて削除"
 msgid "Removed: %s"
 msgstr "削除されました: %s"
 
+msgid "Size"
+msgstr "サイズ"
+
+msgid "Update from"
+msgstr "更新元"
+
+msgid "Version"
+msgstr "バージョン"
+
 msgid "View"
 msgstr "ビュー"
+
+msgid "View | Remove Crashlog files"
+msgstr "見る |クラッシュログファイルを削除する"
 
 msgid "View Crashlog file: %s"
 msgstr "クラッシュログ ファイルを表示: %s"
 
-msgid "View | Remove Crashlog files"
-msgstr "見る |クラッシュログファイルを削除する"

@@ -1,16 +1,18 @@
+# gd translations
+# Copyright (C) 2026 Lululla Team
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: enigma 2\n"
-"PO-Revision-Date: 2026-05-27 18:21+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Scottish Gaelic <fios@foramnagaidhlig.net>\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: gd <ekekaz@gmail.com>\n"
 "Language: gd\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-# Signed-off-by: Dario Croci <spaeleus@croci.org>
-#
 msgid "Back"
 msgstr "Air ais"
 
@@ -20,8 +22,14 @@ msgstr "Dùin"
 msgid "Crashlog Viewer"
 msgstr "Sealladair Crashlog"
 
+msgid "Date"
+msgstr "Ceann-latha"
+
 msgid "Deleted %d files"
 msgstr "Chaidh %d faidhle a sguabadh às"
+
+msgid "Developer"
+msgstr "Leasaiche"
 
 msgid "Error Only"
 msgstr "Mearachd a-mhàin"
@@ -37,6 +45,9 @@ msgstr "Chaidh am faidhle a thoirt air falbh mu thràth"
 
 msgid "Full Log"
 msgstr "Log slàn"
+
+msgid "Modifier"
+msgstr "Mion-atharrachaidh"
 
 msgid "No crash logs found"
 msgstr "Cha deach logaichean tubaist a lorg"
@@ -62,11 +73,21 @@ msgstr "Thoir air falbh a h-uile"
 msgid "Removed: %s"
 msgstr "Air a thoirt air falbh: %s"
 
+msgid "Size"
+msgstr "Meud"
+
+msgid "Update from"
+msgstr "Ùrachadh bho"
+
+msgid "Version"
+msgstr "Tionndadh"
+
 msgid "View"
 msgstr "Sealladh"
+
+msgid "View | Remove Crashlog files"
+msgstr "Seall | Thoir air falbh faidhlichean Crashlog"
 
 msgid "View Crashlog file: %s"
 msgstr "Seall am faidhle Crashlog: %s"
 
-msgid "View | Remove Crashlog files"
-msgstr "Seall | Thoir air falbh faidhlichean Crashlog"

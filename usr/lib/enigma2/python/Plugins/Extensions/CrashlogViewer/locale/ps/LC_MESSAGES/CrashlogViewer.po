@@ -1,16 +1,18 @@
+# ps translations
+# Copyright (C) 2026 Lululla Team
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: enigma 2\n"
-"PO-Revision-Date: 2026-05-27 18:31+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Pashto\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: ps <ekekaz@gmail.com>\n"
 "Language: ps\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-# Signed-off-by: Dario Croci <spaeleus@croci.org>
-#
 msgid "Back"
 msgstr "شاته"
 
@@ -20,8 +22,14 @@ msgstr "تړل"
 msgid "Crashlog Viewer"
 msgstr "د کریشلاګ لیدونکی"
 
+msgid "Date"
+msgstr "نیټه"
+
 msgid "Deleted %d files"
 msgstr "%d فایلونه ړنګ کړل"
+
+msgid "Developer"
+msgstr "پرمخ وړونکی"
 
 msgid "Error Only"
 msgstr "یوازې تېروتنه"
@@ -37,6 +45,9 @@ msgstr "فایل لا دمخه لرې شوی"
 
 msgid "Full Log"
 msgstr "بشپړ ننوتل"
+
+msgid "Modifier"
+msgstr "ترمیم کوونکی"
 
 msgid "No crash logs found"
 msgstr "د کریش لاګونه ونه موندل شول"
@@ -62,11 +73,21 @@ msgstr "ټول لرې کړئ"
 msgid "Removed: %s"
 msgstr "لرې شوی: %s"
 
+msgid "Size"
+msgstr "اندازه"
+
+msgid "Update from"
+msgstr "څخه تازه کول"
+
+msgid "Version"
+msgstr "نسخه"
+
 msgid "View"
 msgstr "لید"
+
+msgid "View | Remove Crashlog files"
+msgstr "لید | د کریشلاګ فایلونه لرې کړئ"
 
 msgid "View Crashlog file: %s"
 msgstr "د کریشلاګ فایل وګورئ: %s"
 
-msgid "View | Remove Crashlog files"
-msgstr "لید | د کریشلاګ فایلونه لرې کړئ"

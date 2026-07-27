@@ -1,16 +1,18 @@
+# tg translations
+# Copyright (C) 2026 Lululla Team
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: enigma 2\n"
-"PO-Revision-Date: 2026-05-27 18:34+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Tajik <rkovacs@khujand.org>\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: tg <ekekaz@gmail.com>\n"
 "Language: tg\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-# Signed-off-by: Dario Croci <spaeleus@croci.org>
-#
 msgid "Back"
 msgstr "Бозгашт"
 
@@ -20,8 +22,14 @@ msgstr "Пӯшед"
 msgid "Crashlog Viewer"
 msgstr "Намоишгари Crashlog"
 
+msgid "Date"
+msgstr "Сана"
+
 msgid "Deleted %d files"
 msgstr "%d файл нест карда шуд"
+
+msgid "Developer"
+msgstr "Таҳиягар"
 
 msgid "Error Only"
 msgstr "Танҳо хато"
@@ -37,6 +45,9 @@ msgstr "Файл аллакай нест карда шудааст"
 
 msgid "Full Log"
 msgstr "Сабти пурра"
+
+msgid "Modifier"
+msgstr "Тағйирдиҳанда"
 
 msgid "No crash logs found"
 msgstr "Ягон сабти садама ёфт нашуд"
@@ -62,11 +73,21 @@ msgstr "Ҳамаро нест кунед"
 msgid "Removed: %s"
 msgstr "Хориҷ шуд: %s"
 
+msgid "Size"
+msgstr "Андоза"
+
+msgid "Update from"
+msgstr "Навсозӣ аз"
+
+msgid "Version"
+msgstr "Версия"
+
 msgid "View"
 msgstr "Намоиш"
+
+msgid "View | Remove Crashlog files"
+msgstr "Намоиш | Файлҳои Crashlogро нест кунед"
 
 msgid "View Crashlog file: %s"
 msgstr "Намоиши файли Crashlog: %s"
 
-msgid "View | Remove Crashlog files"
-msgstr "Намоиш | Файлҳои Crashlogро нест кунед"

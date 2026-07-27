@@ -1,17 +1,18 @@
+# es translations
+# Copyright (C) 2026 Lululla Team
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: enigma 2\n"
-"PO-Revision-Date: 2026-05-27 18:19+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Spanish <es@tp.org.es>\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: es <ekekaz@gmail.com>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-# Signed-off-by: Dario Croci <spaeleus@croci.org>
-#
 msgid "Back"
 msgstr "Atrás"
 
@@ -21,8 +22,14 @@ msgstr "Cerca"
 msgid "Crashlog Viewer"
 msgstr "Visor de registros de fallos"
 
+msgid "Date"
+msgstr "Fecha"
+
 msgid "Deleted %d files"
 msgstr "%d archivos eliminados"
+
+msgid "Developer"
+msgstr "Revelador"
 
 msgid "Error Only"
 msgstr "Sólo errores"
@@ -31,13 +38,16 @@ msgid "Error opening file: %s"
 msgstr "Error al abrir el archivo: %s"
 
 msgid "Error: %s"
-msgstr ""
+msgstr "Error: %s"
 
 msgid "File already removed"
 msgstr "Archivo ya eliminado"
 
 msgid "Full Log"
 msgstr "Registro completo"
+
+msgid "Modifier"
+msgstr "Modificador"
 
 msgid "No crash logs found"
 msgstr "No se encontraron registros de fallos"
@@ -63,11 +73,21 @@ msgstr "Quitar todo"
 msgid "Removed: %s"
 msgstr "Eliminado: %s"
 
+msgid "Size"
+msgstr "Tamaño"
+
+msgid "Update from"
+msgstr "Actualización desde"
+
+msgid "Version"
+msgstr "Versión"
+
 msgid "View"
 msgstr "Vista"
+
+msgid "View | Remove Crashlog files"
+msgstr "Ver | Eliminar archivos de registro de fallos"
 
 msgid "View Crashlog file: %s"
 msgstr "Ver archivo Crashlog: %s"
 
-msgid "View | Remove Crashlog files"
-msgstr "Ver | Eliminar archivos de registro de fallos"

@@ -1,16 +1,18 @@
+# id translations
+# Copyright (C) 2026 Lululla Team
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: enigma 2\n"
-"PO-Revision-Date: 2026-05-27 18:24+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Indonesian <translation-team-id@lists.sourceforge.net>\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: id <ekekaz@gmail.com>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-# Signed-off-by: Dario Croci <spaeleus@croci.org>
-#
 msgid "Back"
 msgstr "Kembali"
 
@@ -20,8 +22,14 @@ msgstr "Menutup"
 msgid "Crashlog Viewer"
 msgstr "Penampil Crashlog"
 
+msgid "Date"
+msgstr "Tanggal"
+
 msgid "Deleted %d files"
 msgstr "Menghapus %d file"
+
+msgid "Developer"
+msgstr "Pengembang"
 
 msgid "Error Only"
 msgstr "Hanya Kesalahan"
@@ -37,6 +45,9 @@ msgstr "File sudah dihapus"
 
 msgid "Full Log"
 msgstr "Catatan Lengkap"
+
+msgid "Modifier"
+msgstr "Pengubah"
 
 msgid "No crash logs found"
 msgstr "Tidak ditemukan log kerusakan"
@@ -62,11 +73,21 @@ msgstr "Hapus semua"
 msgid "Removed: %s"
 msgstr "Dihapus: %s"
 
+msgid "Size"
+msgstr "Ukuran"
+
+msgid "Update from"
+msgstr "Pembaruan dari"
+
+msgid "Version"
+msgstr "Versi"
+
 msgid "View"
 msgstr "Melihat"
+
+msgid "View | Remove Crashlog files"
+msgstr "Lihat | Hapus file Crashlog"
 
 msgid "View Crashlog file: %s"
 msgstr "Lihat berkas Crashlog: %s"
 
-msgid "View | Remove Crashlog files"
-msgstr "Lihat | Hapus file Crashlog"

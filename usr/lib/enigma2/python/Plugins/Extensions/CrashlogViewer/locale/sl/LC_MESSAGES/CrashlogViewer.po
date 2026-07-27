@@ -1,17 +1,18 @@
+# sl translations
+# Copyright (C) 2026 Lululla Team
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: enigma 2\n"
-"PO-Revision-Date: 2026-05-27 18:32+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Slovenian <translation-team-sl@lists.sourceforge.net>\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: sl <ekekaz@gmail.com>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
 
-# Signed-off-by: Dario Croci <spaeleus@croci.org>
-#
 msgid "Back"
 msgstr "Nazaj"
 
@@ -21,8 +22,14 @@ msgstr "Zapri"
 msgid "Crashlog Viewer"
 msgstr "Crashlog pregledovalnik"
 
+msgid "Date"
+msgstr "Datum"
+
 msgid "Deleted %d files"
 msgstr "Izbrisanih %d datotek"
+
+msgid "Developer"
+msgstr "Razvijalec"
 
 msgid "Error Only"
 msgstr "Samo napaka"
@@ -38,6 +45,9 @@ msgstr "Datoteka je že odstranjena"
 
 msgid "Full Log"
 msgstr "Celoten dnevnik"
+
+msgid "Modifier"
+msgstr "Modifikator"
 
 msgid "No crash logs found"
 msgstr "Ni dnevnikov zrušitev"
@@ -63,11 +73,21 @@ msgstr "Odstrani vse"
 msgid "Removed: %s"
 msgstr "Odstranjeno: %s"
 
+msgid "Size"
+msgstr "Velikost"
+
+msgid "Update from"
+msgstr "Posodobitev iz"
+
+msgid "Version"
+msgstr "Različica"
+
 msgid "View"
 msgstr "Pogled"
+
+msgid "View | Remove Crashlog files"
+msgstr "Pogled | Odstranite datoteke Crashlog"
 
 msgid "View Crashlog file: %s"
 msgstr "Ogled datoteke Crashlog: %s"
 
-msgid "View | Remove Crashlog files"
-msgstr "Pogled | Odstranite datoteke Crashlog"

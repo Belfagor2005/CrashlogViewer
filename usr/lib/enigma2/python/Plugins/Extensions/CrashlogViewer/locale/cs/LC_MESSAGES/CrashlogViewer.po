@@ -1,17 +1,18 @@
+# cs translations
+# Copyright (C) 2026 Lululla Team
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: enigma 2\n"
-"PO-Revision-Date: 2026-05-27 18:17+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Czech <translation-team-cs@lists.sourceforge.net>\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: cs <ekekaz@gmail.com>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
-# Signed-off-by: Dario Croci <spaeleus@croci.org>
-#
 msgid "Back"
 msgstr "Zadní"
 
@@ -19,10 +20,16 @@ msgid "Close"
 msgstr "Blízko"
 
 msgid "Crashlog Viewer"
-msgstr ""
+msgstr "Crashlog Viewer"
+
+msgid "Date"
+msgstr "Datum"
 
 msgid "Deleted %d files"
 msgstr "Smazáno %d souborů"
+
+msgid "Developer"
+msgstr "Vývojář"
 
 msgid "Error Only"
 msgstr "Pouze chyba"
@@ -38,6 +45,9 @@ msgstr "Soubor již odstraněn"
 
 msgid "Full Log"
 msgstr "Celý protokol"
+
+msgid "Modifier"
+msgstr "Modifikátor"
 
 msgid "No crash logs found"
 msgstr "Nebyly nalezeny žádné protokoly o selhání"
@@ -63,11 +73,21 @@ msgstr "Odebrat vše"
 msgid "Removed: %s"
 msgstr "Odebráno: %s"
 
+msgid "Size"
+msgstr "Velikost"
+
+msgid "Update from"
+msgstr "Aktualizace z"
+
+msgid "Version"
+msgstr "Verze"
+
 msgid "View"
 msgstr "Pohled"
+
+msgid "View | Remove Crashlog files"
+msgstr "Zobrazit | Odstraňte soubory Crashlog"
 
 msgid "View Crashlog file: %s"
 msgstr "Zobrazit soubor Crashlog: %s"
 
-msgid "View | Remove Crashlog files"
-msgstr "Zobrazit | Odstraňte soubory Crashlog"

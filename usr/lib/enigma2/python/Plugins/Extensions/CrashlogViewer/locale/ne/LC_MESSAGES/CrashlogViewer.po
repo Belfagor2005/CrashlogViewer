@@ -1,16 +1,18 @@
+# ne translations
+# Copyright (C) 2026 Lululla Team
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: enigma 2\n"
-"PO-Revision-Date: 2026-05-27 18:29+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Nepali <translation-team-ne@lists.sourceforge.net>\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: ne <ekekaz@gmail.com>\n"
 "Language: ne\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-# Signed-off-by: Dario Croci <spaeleus@croci.org>
-#
 msgid "Back"
 msgstr "पछाडि"
 
@@ -20,8 +22,14 @@ msgstr "बन्द गर्नुहोस्"
 msgid "Crashlog Viewer"
 msgstr "क्र्याशलग दर्शक"
 
+msgid "Date"
+msgstr "मिति"
+
 msgid "Deleted %d files"
 msgstr "%d फाइलहरू मेटाइयो"
+
+msgid "Developer"
+msgstr "विकासकर्ता"
 
 msgid "Error Only"
 msgstr "त्रुटि मात्र"
@@ -37,6 +45,9 @@ msgstr "फाइल पहिले नै हटाइयो"
 
 msgid "Full Log"
 msgstr "पूर्ण लग"
+
+msgid "Modifier"
+msgstr "परिमार्जनकर्ता"
 
 msgid "No crash logs found"
 msgstr "कुनै क्र्यास लगहरू फेला परेनन्"
@@ -62,11 +73,21 @@ msgstr "सबै हटाउनुहोस्"
 msgid "Removed: %s"
 msgstr "हटाइयो: %s"
 
+msgid "Size"
+msgstr "साइज"
+
+msgid "Update from"
+msgstr "बाट अद्यावधिक गर्नुहोस्"
+
+msgid "Version"
+msgstr "संस्करण"
+
 msgid "View"
 msgstr "हेर्नुहोस्"
+
+msgid "View | Remove Crashlog files"
+msgstr "हेर्नुहोस | Crashlog फाइलहरू हटाउनुहोस्"
 
 msgid "View Crashlog file: %s"
 msgstr "Crashlog फाइल हेर्नुहोस्: %s"
 
-msgid "View | Remove Crashlog files"
-msgstr "हेर्नुहोस | Crashlog फाइलहरू हटाउनुहोस्"

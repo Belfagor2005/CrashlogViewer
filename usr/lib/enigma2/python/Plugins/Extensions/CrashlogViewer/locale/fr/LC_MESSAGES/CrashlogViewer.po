@@ -1,17 +1,18 @@
+# fr translations
+# Copyright (C) 2026 Lululla Team
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: enigma 2\n"
-"PO-Revision-Date: 2026-05-27 18:20+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: French <traduc@traduc.org>\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: fr <ekekaz@gmail.com>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-# Signed-off-by: Dario Croci <spaeleus@croci.org>
-#
 msgid "Back"
 msgstr "Dos"
 
@@ -21,8 +22,14 @@ msgstr "Fermer"
 msgid "Crashlog Viewer"
 msgstr "Visionneuse de journaux de crash"
 
+msgid "Date"
+msgstr "Date"
+
 msgid "Deleted %d files"
 msgstr "%d fichiers supprimés"
+
+msgid "Developer"
+msgstr "Promoteur"
 
 msgid "Error Only"
 msgstr "Erreur uniquement"
@@ -38,6 +45,9 @@ msgstr "Fichier déjà supprimé"
 
 msgid "Full Log"
 msgstr "Journal complet"
+
+msgid "Modifier"
+msgstr "Modificateur"
 
 msgid "No crash logs found"
 msgstr "Aucun journal de crash trouvé"
@@ -63,11 +73,21 @@ msgstr "Supprimer tout"
 msgid "Removed: %s"
 msgstr "Supprimé : %s"
 
+msgid "Size"
+msgstr "Taille"
+
+msgid "Update from"
+msgstr "Mise à jour de"
+
+msgid "Version"
+msgstr "Version"
+
 msgid "View"
 msgstr "Voir"
+
+msgid "View | Remove Crashlog files"
+msgstr "Voir | Supprimer les fichiers Crashlog"
 
 msgid "View Crashlog file: %s"
 msgstr "Afficher le fichier Crashlog : %s"
 
-msgid "View | Remove Crashlog files"
-msgstr "Voir | Supprimer les fichiers Crashlog"

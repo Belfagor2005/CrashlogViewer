@@ -1,35 +1,35 @@
-# Signed-off-by: Dario Croci <spaeleus@croci.org>
+# tr translations
+# Copyright (C) 2026 Lululla Team
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: CrashlogViewer v0.6\n"
-"POT-Creation-Date: 2023-09-27 14:48+0200\n"
-"PO-Revision-Date: 2023-09-27 18:15+0300\n"
-"Last-Translator: Dario Croci <spaeleus@croci.org>\n"
-"Language-Team: \"Last-Translator: biperva <biperva@dreamosat>\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: tr <ekekaz@gmail.com>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.3.2\n"
-"X-Poedit-Basepath: ../../../../../../../../..\n"
-"X-Poedit-SearchPath-0: .\n"
 
-# Signed-off-by: Dario Croci <spaeleus@croci.org>
-#
 msgid "Back"
 msgstr "Geri"
 
 msgid "Close"
 msgstr "Kapat"
 
-#, fuzzy
 msgid "Crashlog Viewer"
 msgstr "Crashlog  Viewer"
 
+msgid "Date"
+msgstr "Tarih"
+
 msgid "Deleted %d files"
 msgstr "%d dosya silindi"
+
+msgid "Developer"
+msgstr "Geliştirici"
 
 msgid "Error Only"
 msgstr "Yalnızca Hata"
@@ -40,12 +40,14 @@ msgstr "Dosya açılırken hata oluştu: %s"
 msgid "Error: %s"
 msgstr "Hata: %s"
 
-#, fuzzy
 msgid "File already removed"
 msgstr "Kaldırma hatası"
 
 msgid "Full Log"
 msgstr "Tam Günlük"
+
+msgid "Modifier"
+msgstr "Değiştirici"
 
 msgid "No crash logs found"
 msgstr "Kilitlenme günlüğü bulunamadı"
@@ -68,24 +70,24 @@ msgstr "Kaldır"
 msgid "Remove All"
 msgstr "Hepsini Kaldır"
 
-#, fuzzy
 msgid "Removed: %s"
 msgstr "%s kaldırıldı."
+
+msgid "Size"
+msgstr "Boyut"
+
+msgid "Update from"
+msgstr "Şuradan güncelle:"
+
+msgid "Version"
+msgstr "Sürüm"
 
 msgid "View"
 msgstr "Görüntüle"
 
-#, fuzzy
-msgid "View Crashlog file: %s"
-msgstr "Crashlog dosyalarını görüntüleyin ve kaldırın"
-
-#, fuzzy
 msgid "View | Remove Crashlog files"
 msgstr "Crashlog dosyalarını görüntüleyin ve kaldırın"
 
-#~ msgid "Removed All Crashlog Files"
-#~ msgstr "Tüm Crashlog Dosyaları Kaldırıldı"
+msgid "View Crashlog file: %s"
+msgstr "Crashlog dosyalarını görüntüleyin ve kaldırın"
 
-#, python-format
-#~ msgid "Restart GUI"
-#~ msgstr "GUI Yeniden Başlat"

@@ -1,17 +1,18 @@
+# vi translations
+# Copyright (C) 2026 Lululla Team
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: enigma 2\n"
-"PO-Revision-Date: 2026-05-27 18:37+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Vietnamese <translation-team-vi@lists.sourceforge.net>\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: vi <ekekaz@gmail.com>\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 
-# Signed-off-by: Dario Croci <spaeleus@croci.org>
-#
 msgid "Back"
 msgstr "Mặt sau"
 
@@ -21,8 +22,14 @@ msgstr "Đóng"
 msgid "Crashlog Viewer"
 msgstr "Trình xem nhật ký sự cố"
 
+msgid "Date"
+msgstr "Ngày"
+
 msgid "Deleted %d files"
 msgstr "Đã xóa tệp %d"
+
+msgid "Developer"
+msgstr "Nhà phát triển"
 
 msgid "Error Only"
 msgstr "Chỉ có lỗi"
@@ -38,6 +45,9 @@ msgstr "Tệp đã bị xóa"
 
 msgid "Full Log"
 msgstr "Nhật ký đầy đủ"
+
+msgid "Modifier"
+msgstr "Công cụ sửa đổi"
 
 msgid "No crash logs found"
 msgstr "Không tìm thấy nhật ký sự cố"
@@ -63,11 +73,21 @@ msgstr "Xóa tất cả"
 msgid "Removed: %s"
 msgstr "Đã xóa: %s"
 
+msgid "Size"
+msgstr "Kích cỡ"
+
+msgid "Update from"
+msgstr "Cập nhật từ"
+
+msgid "Version"
+msgstr "Phiên bản"
+
 msgid "View"
 msgstr "Xem"
+
+msgid "View | Remove Crashlog files"
+msgstr "Xem | Xóa tệp Crashlog"
 
 msgid "View Crashlog file: %s"
 msgstr "Xem tệp Crashlog: %s"
 
-msgid "View | Remove Crashlog files"
-msgstr "Xem | Xóa tệp Crashlog"

@@ -1,16 +1,18 @@
+# bn translations
+# Copyright (C) 2026 Lululla Team
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: enigma 2\n"
-"PO-Revision-Date: 2026-05-27 18:16+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Bengali <(nothing)>\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: bn <ekekaz@gmail.com>\n"
 "Language: bn\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-# Signed-off-by: Dario Croci <spaeleus@croci.org>
-#
 msgid "Back"
 msgstr "ব্যাক"
 
@@ -20,8 +22,14 @@ msgstr "বন্ধ"
 msgid "Crashlog Viewer"
 msgstr "ক্রাশলগ ভিউয়ার"
 
+msgid "Date"
+msgstr "তারিখ"
+
 msgid "Deleted %d files"
 msgstr "%d ফাইল মুছে ফেলা হয়েছে"
+
+msgid "Developer"
+msgstr "বিকাশকারী"
 
 msgid "Error Only"
 msgstr "ত্রুটি শুধুমাত্র"
@@ -37,6 +45,9 @@ msgstr "ফাইল ইতিমধ্যে সরানো হয়েছে
 
 msgid "Full Log"
 msgstr "সম্পূর্ণ লগ"
+
+msgid "Modifier"
+msgstr "পরিবর্তনকারী"
 
 msgid "No crash logs found"
 msgstr "কোন ক্র্যাশ লগ পাওয়া যায়নি"
@@ -62,11 +73,21 @@ msgstr "সব সরান"
 msgid "Removed: %s"
 msgstr "সরানো হয়েছে: %s"
 
+msgid "Size"
+msgstr "আকার"
+
+msgid "Update from"
+msgstr "থেকে আপডেট"
+
+msgid "Version"
+msgstr "সংস্করণ"
+
 msgid "View"
 msgstr "দেখুন"
+
+msgid "View | Remove Crashlog files"
+msgstr "দেখুন | Crashlog ফাইল সরান"
 
 msgid "View Crashlog file: %s"
 msgstr "ক্রাশলগ ফাইল দেখুন: %s"
 
-msgid "View | Remove Crashlog files"
-msgstr "দেখুন | Crashlog ফাইল সরান"

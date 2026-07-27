@@ -1,17 +1,18 @@
+# sk translations
+# Copyright (C) 2026 Lululla Team
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: enigma 2\n"
-"PO-Revision-Date: 2026-05-27 18:32+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Slovak <sk-i18n@lists.linux.sk>\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: sk <ekekaz@gmail.com>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
-# Signed-off-by: Dario Croci <spaeleus@croci.org>
-#
 msgid "Back"
 msgstr "Späť"
 
@@ -19,10 +20,16 @@ msgid "Close"
 msgstr "Zavrieť"
 
 msgid "Crashlog Viewer"
-msgstr ""
+msgstr "Crashlog Viewer"
+
+msgid "Date"
+msgstr "Dátum"
 
 msgid "Deleted %d files"
 msgstr "Počet odstránených súborov: %d"
+
+msgid "Developer"
+msgstr "Vývojár"
 
 msgid "Error Only"
 msgstr "Iba chyba"
@@ -38,6 +45,9 @@ msgstr "Súbor už bol odstránený"
 
 msgid "Full Log"
 msgstr "Úplný denník"
+
+msgid "Modifier"
+msgstr "Modifikátor"
 
 msgid "No crash logs found"
 msgstr "Nenašli sa žiadne denníky zlyhaní"
@@ -63,11 +73,21 @@ msgstr "Odstrániť všetko"
 msgid "Removed: %s"
 msgstr "Odstránené: %s"
 
+msgid "Size"
+msgstr "Veľkosť"
+
+msgid "Update from"
+msgstr "Aktualizácia z"
+
+msgid "Version"
+msgstr "Verzia"
+
 msgid "View"
 msgstr "Zobraziť"
+
+msgid "View | Remove Crashlog files"
+msgstr "Zobraziť | Odstráňte súbory Crashlog"
 
 msgid "View Crashlog file: %s"
 msgstr "Zobraziť súbor Crashlog: %s"
 
-msgid "View | Remove Crashlog files"
-msgstr "Zobraziť | Odstráňte súbory Crashlog"

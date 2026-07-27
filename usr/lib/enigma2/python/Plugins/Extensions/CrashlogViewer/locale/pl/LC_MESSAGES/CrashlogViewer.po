@@ -1,17 +1,18 @@
+# pl translations
+# Copyright (C) 2026 Lululla Team
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: enigma 2\n"
-"PO-Revision-Date: 2026-05-27 18:31+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Polish <translation-team-pl@lists.sourceforge.net>\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: pl <ekekaz@gmail.com>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-# Signed-off-by: Dario Croci <spaeleus@croci.org>
-#
 msgid "Back"
 msgstr "Z powrotem"
 
@@ -21,8 +22,14 @@ msgstr "Zamknąć"
 msgid "Crashlog Viewer"
 msgstr "Przeglądarka Crashlogu"
 
+msgid "Date"
+msgstr "Data"
+
 msgid "Deleted %d files"
 msgstr "Usunięto %d plików"
+
+msgid "Developer"
+msgstr "Wywoływacz"
 
 msgid "Error Only"
 msgstr "Tylko błąd"
@@ -38,6 +45,9 @@ msgstr "Plik został już usunięty"
 
 msgid "Full Log"
 msgstr "Pełny dziennik"
+
+msgid "Modifier"
+msgstr "Modyfikator"
 
 msgid "No crash logs found"
 msgstr "Nie znaleziono dzienników awarii"
@@ -63,11 +73,21 @@ msgstr "Usuń wszystko"
 msgid "Removed: %s"
 msgstr "Usunięto: %s"
 
+msgid "Size"
+msgstr "Rozmiar"
+
+msgid "Update from"
+msgstr "Aktualizacja z"
+
+msgid "Version"
+msgstr "Wersja"
+
 msgid "View"
 msgstr "Pogląd"
+
+msgid "View | Remove Crashlog files"
+msgstr "Zobacz | Usuń pliki Crashlog"
 
 msgid "View Crashlog file: %s"
 msgstr "Wyświetl plik dziennika awarii: %s"
 
-msgid "View | Remove Crashlog files"
-msgstr "Zobacz | Usuń pliki Crashlog"

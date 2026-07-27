@@ -1,16 +1,18 @@
+# tl translations
+# Copyright (C) 2026 Lululla Team
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: enigma 2\n"
-"PO-Revision-Date: 2026-05-27 18:35+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Tagalog\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: tl <ekekaz@gmail.com>\n"
 "Language: tl\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-# Signed-off-by: Dario Croci <spaeleus@croci.org>
-#
 msgid "Back"
 msgstr "Bumalik"
 
@@ -18,10 +20,16 @@ msgid "Close"
 msgstr "Isara"
 
 msgid "Crashlog Viewer"
-msgstr ""
+msgstr "Crashlog Viewer"
+
+msgid "Date"
+msgstr "Petsa"
 
 msgid "Deleted %d files"
 msgstr "Tinanggal ang %d file"
+
+msgid "Developer"
+msgstr "Developer"
 
 msgid "Error Only"
 msgstr "Error Lang"
@@ -30,13 +38,16 @@ msgid "Error opening file: %s"
 msgstr "Error sa pagbubukas ng file: %s"
 
 msgid "Error: %s"
-msgstr ""
+msgstr "Error: %s"
 
 msgid "File already removed"
 msgstr "Naalis na ang file"
 
 msgid "Full Log"
 msgstr "Buong Log"
+
+msgid "Modifier"
+msgstr "Modifier"
 
 msgid "No crash logs found"
 msgstr "Walang nakitang mga crash log"
@@ -62,11 +73,21 @@ msgstr "Alisin Lahat"
 msgid "Removed: %s"
 msgstr "Inalis: %s"
 
+msgid "Size"
+msgstr "Sukat"
+
+msgid "Update from"
+msgstr "Update mula sa"
+
+msgid "Version"
+msgstr "Bersyon"
+
 msgid "View"
 msgstr "Tingnan"
+
+msgid "View | Remove Crashlog files"
+msgstr "Tingnan ang | Alisin ang mga file ng Crashlog"
 
 msgid "View Crashlog file: %s"
 msgstr "Tingnan ang Crashlog file: %s"
 
-msgid "View | Remove Crashlog files"
-msgstr "Tingnan ang | Alisin ang mga file ng Crashlog"

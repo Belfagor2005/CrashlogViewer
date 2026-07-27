@@ -1,16 +1,18 @@
+# th translations
+# Copyright (C) 2026 Lululla Team
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: enigma 2\n"
-"PO-Revision-Date: 2026-05-27 18:35+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Thai <(nothing)>\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: th <ekekaz@gmail.com>\n"
 "Language: th\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-# Signed-off-by: Dario Croci <spaeleus@croci.org>
-#
 msgid "Back"
 msgstr "กลับ"
 
@@ -20,8 +22,14 @@ msgstr "ปิด"
 msgid "Crashlog Viewer"
 msgstr "โปรแกรมดู Crashlog"
 
+msgid "Date"
+msgstr "วันที่"
+
 msgid "Deleted %d files"
 msgstr "ลบ %d ไฟล์แล้ว"
+
+msgid "Developer"
+msgstr "นักพัฒนา"
 
 msgid "Error Only"
 msgstr "ข้อผิดพลาดเท่านั้น"
@@ -37,6 +45,9 @@ msgstr "ไฟล์ถูกลบออกไปแล้ว"
 
 msgid "Full Log"
 msgstr "บันทึกแบบเต็ม"
+
+msgid "Modifier"
+msgstr "ตัวแก้ไข"
 
 msgid "No crash logs found"
 msgstr "ไม่พบบันทึกข้อขัดข้อง"
@@ -62,11 +73,21 @@ msgstr "ลบทั้งหมด"
 msgid "Removed: %s"
 msgstr "ลบออก: %s"
 
+msgid "Size"
+msgstr "ขนาด"
+
+msgid "Update from"
+msgstr "อัพเดตจาก"
+
+msgid "Version"
+msgstr "เวอร์ชัน"
+
 msgid "View"
 msgstr "ดู"
+
+msgid "View | Remove Crashlog files"
+msgstr "ดู | ลบไฟล์ Crashlog"
 
 msgid "View Crashlog file: %s"
 msgstr "ดูไฟล์ Crashlog: %s"
 
-msgid "View | Remove Crashlog files"
-msgstr "ดู | ลบไฟล์ Crashlog"

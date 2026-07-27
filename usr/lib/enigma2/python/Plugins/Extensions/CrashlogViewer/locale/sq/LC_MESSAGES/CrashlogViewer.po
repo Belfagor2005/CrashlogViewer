@@ -1,16 +1,18 @@
+# sq translations
+# Copyright (C) 2026 Lululla Team
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: enigma 2\n"
-"PO-Revision-Date: 2026-05-27 18:33+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Albanian <translation-team-sq@lists.sourceforge.net>\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: sq <ekekaz@gmail.com>\n"
 "Language: sq\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-# Signed-off-by: Dario Croci <spaeleus@croci.org>
-#
 msgid "Back"
 msgstr "Mbrapa"
 
@@ -20,8 +22,14 @@ msgstr "Mbylle"
 msgid "Crashlog Viewer"
 msgstr "Shikuesi i Crashlog"
 
+msgid "Date"
+msgstr "Data"
+
 msgid "Deleted %d files"
 msgstr "%d skedarë u fshinë"
+
+msgid "Developer"
+msgstr "Zhvilluesi"
 
 msgid "Error Only"
 msgstr "Vetëm gabim"
@@ -37,6 +45,9 @@ msgstr "Skedari është hequr tashmë"
 
 msgid "Full Log"
 msgstr "Regjistri i plotë"
+
+msgid "Modifier"
+msgstr "Modifikues"
 
 msgid "No crash logs found"
 msgstr "Nuk u gjetën regjistra aksidentesh"
@@ -62,11 +73,21 @@ msgstr "Hiq të gjitha"
 msgid "Removed: %s"
 msgstr "U hoq: %s"
 
+msgid "Size"
+msgstr "Madhësia"
+
+msgid "Update from"
+msgstr "Përditëso nga"
+
+msgid "Version"
+msgstr "Versioni"
+
 msgid "View"
 msgstr "Shiko"
+
+msgid "View | Remove Crashlog files"
+msgstr "Shiko | Hiq skedarët Crashlog"
 
 msgid "View Crashlog file: %s"
 msgstr "Shiko skedarin Crashlog: %s"
 
-msgid "View | Remove Crashlog files"
-msgstr "Shiko | Hiq skedarët Crashlog"

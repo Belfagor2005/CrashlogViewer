@@ -1,16 +1,18 @@
+# sw translations
+# Copyright (C) 2026 Lululla Team
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: enigma 2\n"
-"PO-Revision-Date: 2026-05-27 18:34+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Swahili <(nothing)>\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: sw <ekekaz@gmail.com>\n"
 "Language: sw\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-# Signed-off-by: Dario Croci <spaeleus@croci.org>
-#
 msgid "Back"
 msgstr "Nyuma"
 
@@ -20,8 +22,14 @@ msgstr "Funga"
 msgid "Crashlog Viewer"
 msgstr "Kitazamaji cha Crashlog"
 
+msgid "Date"
+msgstr "Tarehe"
+
 msgid "Deleted %d files"
 msgstr "Faili %d zimefutwa"
+
+msgid "Developer"
+msgstr "Msanidi"
 
 msgid "Error Only"
 msgstr "Hitilafu Pekee"
@@ -37,6 +45,9 @@ msgstr "Faili tayari imeondolewa"
 
 msgid "Full Log"
 msgstr "Ingia Kamili"
+
+msgid "Modifier"
+msgstr "Kirekebishaji"
 
 msgid "No crash logs found"
 msgstr "Hakuna kumbukumbu za kuacha kufanya kazi zilizopatikana"
@@ -62,11 +73,21 @@ msgstr "Ondoa Zote"
 msgid "Removed: %s"
 msgstr "Imeondolewa: %s"
 
+msgid "Size"
+msgstr "Ukubwa"
+
+msgid "Update from"
+msgstr "Sasisha kutoka"
+
+msgid "Version"
+msgstr "Toleo"
+
 msgid "View"
 msgstr "Tazama"
+
+msgid "View | Remove Crashlog files"
+msgstr "Tazama | Ondoa faili za Crashlog"
 
 msgid "View Crashlog file: %s"
 msgstr "Tazama faili ya Crashlog: %s"
 
-msgid "View | Remove Crashlog files"
-msgstr "Tazama | Ondoa faili za Crashlog"

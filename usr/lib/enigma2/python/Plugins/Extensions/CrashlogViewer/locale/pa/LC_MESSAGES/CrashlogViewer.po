@@ -1,16 +1,18 @@
+# pa translations
+# Copyright (C) 2026 Lululla Team
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: enigma 2\n"
-"PO-Revision-Date: 2026-05-27 18:31+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Punjabi <punjabi-l10n@lists.sourceforge.net>\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: pa <ekekaz@gmail.com>\n"
 "Language: pa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-# Signed-off-by: Dario Croci <spaeleus@croci.org>
-#
 msgid "Back"
 msgstr "ਵਾਪਸ"
 
@@ -20,8 +22,14 @@ msgstr "ਬੰਦ ਕਰੋ"
 msgid "Crashlog Viewer"
 msgstr "ਕਰੈਸ਼ਲੌਗ ਦਰਸ਼ਕ"
 
+msgid "Date"
+msgstr "ਮਿਤੀ"
+
 msgid "Deleted %d files"
 msgstr "%d ਫ਼ਾਈਲਾਂ ਮਿਟਾਈਆਂ ਗਈਆਂ"
+
+msgid "Developer"
+msgstr "ਵਿਕਾਸਕਾਰ"
 
 msgid "Error Only"
 msgstr "ਗਲਤੀ ਸਿਰਫ਼"
@@ -37,6 +45,9 @@ msgstr "ਫ਼ਾਈਲ ਪਹਿਲਾਂ ਹੀ ਹਟਾ ਦਿੱਤੀ ਗ�
 
 msgid "Full Log"
 msgstr "ਪੂਰਾ ਲਾਗ"
+
+msgid "Modifier"
+msgstr "ਸੋਧਕ"
 
 msgid "No crash logs found"
 msgstr "ਕੋਈ ਕਰੈਸ਼ ਲੌਗ ਨਹੀਂ ਮਿਲਿਆ"
@@ -62,11 +73,21 @@ msgstr "ਸਭ ਹਟਾਓ"
 msgid "Removed: %s"
 msgstr "ਹਟਾਇਆ ਗਿਆ: %s"
 
+msgid "Size"
+msgstr "ਆਕਾਰ"
+
+msgid "Update from"
+msgstr "ਤੋਂ ਅੱਪਡੇਟ ਕਰੋ"
+
+msgid "Version"
+msgstr "ਸੰਸਕਰਣ"
+
 msgid "View"
 msgstr "ਦੇਖੋ"
+
+msgid "View | Remove Crashlog files"
+msgstr "ਦੇਖੋ | ਕ੍ਰੈਸ਼ਲੌਗ ਫਾਈਲਾਂ ਨੂੰ ਹਟਾਓ"
 
 msgid "View Crashlog file: %s"
 msgstr "ਕ੍ਰੈਸ਼ਲੌਗ ਫਾਈਲ ਵੇਖੋ: %s"
 
-msgid "View | Remove Crashlog files"
-msgstr "ਦੇਖੋ | ਕ੍ਰੈਸ਼ਲੌਗ ਫਾਈਲਾਂ ਨੂੰ ਹਟਾਓ"

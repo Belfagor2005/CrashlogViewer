@@ -1,16 +1,18 @@
+# is translations
+# Copyright (C) 2026 Lululla Team
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: enigma 2\n"
-"PO-Revision-Date: 2026-05-27 18:24+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Icelandic <translation-team-is@lists.sourceforge.net>\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: is <ekekaz@gmail.com>\n"
 "Language: is\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-# Signed-off-by: Dario Croci <spaeleus@croci.org>
-#
 msgid "Back"
 msgstr "Til baka"
 
@@ -18,10 +20,16 @@ msgid "Close"
 msgstr "Loka"
 
 msgid "Crashlog Viewer"
-msgstr ""
+msgstr "Crashlog Viewer"
+
+msgid "Date"
+msgstr "Dagsetning"
 
 msgid "Deleted %d files"
 msgstr "Eyddi %d skrám"
+
+msgid "Developer"
+msgstr "Hönnuður"
 
 msgid "Error Only"
 msgstr "Aðeins villa"
@@ -37,6 +45,9 @@ msgstr "Skrá þegar fjarlægð"
 
 msgid "Full Log"
 msgstr "Full log"
+
+msgid "Modifier"
+msgstr "Breytir"
 
 msgid "No crash logs found"
 msgstr "Engir hrunskrár fundust"
@@ -62,11 +73,21 @@ msgstr "Fjarlægja allt"
 msgid "Removed: %s"
 msgstr "Fjarlægt: %s"
 
+msgid "Size"
+msgstr "Stærð"
+
+msgid "Update from"
+msgstr "Uppfærsla frá"
+
+msgid "Version"
+msgstr "Útgáfa"
+
 msgid "View"
 msgstr "Skoða"
+
+msgid "View | Remove Crashlog files"
+msgstr "Skoða | Fjarlægðu Crashlog skrár"
 
 msgid "View Crashlog file: %s"
 msgstr "Skoða Crashlog skrá: %s"
 
-msgid "View | Remove Crashlog files"
-msgstr "Skoða | Fjarlægðu Crashlog skrár"

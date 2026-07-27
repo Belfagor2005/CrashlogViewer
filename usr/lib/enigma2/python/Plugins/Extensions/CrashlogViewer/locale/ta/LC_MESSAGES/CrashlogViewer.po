@@ -1,16 +1,18 @@
+# ta translations
+# Copyright (C) 2026 Lululla Team
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: enigma 2\n"
-"PO-Revision-Date: 2026-05-27 18:34+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Tamil <tamil@systemreboot.net>\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: ta <ekekaz@gmail.com>\n"
 "Language: ta\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-# Signed-off-by: Dario Croci <spaeleus@croci.org>
-#
 msgid "Back"
 msgstr "மீண்டும்"
 
@@ -20,8 +22,14 @@ msgstr "மூடு"
 msgid "Crashlog Viewer"
 msgstr "கிராஷ்லாக் பார்வையாளர்"
 
+msgid "Date"
+msgstr "தேதி"
+
 msgid "Deleted %d files"
 msgstr "%d கோப்புகள் நீக்கப்பட்டன"
+
+msgid "Developer"
+msgstr "டெவலப்பர்"
 
 msgid "Error Only"
 msgstr "பிழை மட்டும்"
@@ -37,6 +45,9 @@ msgstr "கோப்பு ஏற்கனவே அகற்றப்பட்�
 
 msgid "Full Log"
 msgstr "முழு பதிவு"
+
+msgid "Modifier"
+msgstr "மாற்றியமைப்பவர்"
 
 msgid "No crash logs found"
 msgstr "செயலிழப்பு பதிவுகள் எதுவும் இல்லை"
@@ -62,11 +73,21 @@ msgstr "அனைத்தையும் அகற்று"
 msgid "Removed: %s"
 msgstr "அகற்றப்பட்டது: %s"
 
+msgid "Size"
+msgstr "அளவு"
+
+msgid "Update from"
+msgstr "இதிலிருந்து புதுப்பிக்கவும்"
+
+msgid "Version"
+msgstr "பதிப்பு"
+
 msgid "View"
 msgstr "காண்க"
+
+msgid "View | Remove Crashlog files"
+msgstr "காண்க | கிராஷ்லாக் கோப்புகளை அகற்று"
 
 msgid "View Crashlog file: %s"
 msgstr "கிராஷ்லாக் கோப்பைப் பார்க்கவும்: %s"
 
-msgid "View | Remove Crashlog files"
-msgstr "காண்க | கிராஷ்லாக் கோப்புகளை அகற்று"

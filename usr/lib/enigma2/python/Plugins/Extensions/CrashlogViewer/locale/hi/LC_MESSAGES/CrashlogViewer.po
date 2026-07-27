@@ -1,16 +1,18 @@
+# hi translations
+# Copyright (C) 2026 Lululla Team
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: enigma 2\n"
-"PO-Revision-Date: 2026-05-27 18:22+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Hindi <fedora-trans-hi@redhat.com>\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: hi <ekekaz@gmail.com>\n"
 "Language: hi\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-# Signed-off-by: Dario Croci <spaeleus@croci.org>
-#
 msgid "Back"
 msgstr "पीछे"
 
@@ -20,8 +22,14 @@ msgstr "बंद करना"
 msgid "Crashlog Viewer"
 msgstr "क्रैशलॉग व्यूअर"
 
+msgid "Date"
+msgstr "तारीख"
+
 msgid "Deleted %d files"
 msgstr "%d फ़ाइलें हटा दी गईं"
+
+msgid "Developer"
+msgstr "डेवलपर"
 
 msgid "Error Only"
 msgstr "केवल त्रुटि"
@@ -37,6 +45,9 @@ msgstr "फ़ाइल पहले ही हटा दी गई है"
 
 msgid "Full Log"
 msgstr "पूर्ण लॉग"
+
+msgid "Modifier"
+msgstr "संशोधक"
 
 msgid "No crash logs found"
 msgstr "कोई क्रैश लॉग नहीं मिला"
@@ -62,11 +73,21 @@ msgstr "सभी हटाएं"
 msgid "Removed: %s"
 msgstr "हटाया गया: %s"
 
+msgid "Size"
+msgstr "आकार"
+
+msgid "Update from"
+msgstr "से अद्यतन करें"
+
+msgid "Version"
+msgstr "संस्करण"
+
 msgid "View"
 msgstr "देखना"
+
+msgid "View | Remove Crashlog files"
+msgstr "देखें | क्रैशलॉग फ़ाइलें हटाएँ"
 
 msgid "View Crashlog file: %s"
 msgstr "क्रैशलॉग फ़ाइल देखें: %s"
 
-msgid "View | Remove Crashlog files"
-msgstr "देखें | क्रैशलॉग फ़ाइलें हटाएँ"

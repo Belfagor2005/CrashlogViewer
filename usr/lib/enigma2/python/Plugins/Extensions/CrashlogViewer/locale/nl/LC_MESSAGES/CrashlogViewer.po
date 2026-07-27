@@ -1,17 +1,18 @@
+# nl translations
+# Copyright (C) 2026 Lululla Team
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: enigma 2\n"
-"PO-Revision-Date: 2026-05-27 18:29+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Dutch <vertaling@vrijschrift.org>\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: nl <ekekaz@gmail.com>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-# Signed-off-by: Dario Croci <spaeleus@croci.org>
-#
 msgid "Back"
 msgstr "Rug"
 
@@ -21,8 +22,14 @@ msgstr "Dichtbij"
 msgid "Crashlog Viewer"
 msgstr "Crashlog-viewer"
 
+msgid "Date"
+msgstr "Datum"
+
 msgid "Deleted %d files"
 msgstr "%d bestanden verwijderd"
+
+msgid "Developer"
+msgstr "Ontwikkelaar"
 
 msgid "Error Only"
 msgstr "Alleen fout"
@@ -38,6 +45,9 @@ msgstr "Bestand al verwijderd"
 
 msgid "Full Log"
 msgstr "Volledig logboek"
+
+msgid "Modifier"
+msgstr "Wijziger"
 
 msgid "No crash logs found"
 msgstr "Geen crashlogboeken gevonden"
@@ -63,11 +73,21 @@ msgstr "Alles verwijderen"
 msgid "Removed: %s"
 msgstr "Verwijderd: %s"
 
+msgid "Size"
+msgstr "Maat"
+
+msgid "Update from"
+msgstr "Bijwerken van"
+
+msgid "Version"
+msgstr "Versie"
+
 msgid "View"
 msgstr "Weergave"
+
+msgid "View | Remove Crashlog files"
+msgstr "Bekijk | Crashlog-bestanden verwijderen"
 
 msgid "View Crashlog file: %s"
 msgstr "Crashlogbestand bekijken: %s"
 
-msgid "View | Remove Crashlog files"
-msgstr "Bekijk | Crashlog-bestanden verwijderen"

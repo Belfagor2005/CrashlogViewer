@@ -1,16 +1,18 @@
+# ur translations
+# Copyright (C) 2026 Lululla Team
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: enigma 2\n"
-"PO-Revision-Date: 2026-05-27 18:37+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Urdu <jessbody@gmail.com>\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: ur <ekekaz@gmail.com>\n"
 "Language: ur\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-# Signed-off-by: Dario Croci <spaeleus@croci.org>
-#
 msgid "Back"
 msgstr "پیچھے"
 
@@ -20,8 +22,14 @@ msgstr "بند"
 msgid "Crashlog Viewer"
 msgstr "کریش لاگ دیکھنے والا"
 
+msgid "Date"
+msgstr "تاریخ"
+
 msgid "Deleted %d files"
 msgstr "%d فائلیں حذف کر دی گئیں۔"
+
+msgid "Developer"
+msgstr "ڈویلپر"
 
 msgid "Error Only"
 msgstr "غلطی صرف"
@@ -37,6 +45,9 @@ msgstr "فائل پہلے ہی ہٹا دی گئی ہے۔"
 
 msgid "Full Log"
 msgstr "مکمل لاگ"
+
+msgid "Modifier"
+msgstr "ترمیم کرنے والا"
 
 msgid "No crash logs found"
 msgstr "کوئی کریش لاگز نہیں ملے"
@@ -62,11 +73,21 @@ msgstr "سبھی کو ہٹا دیں۔"
 msgid "Removed: %s"
 msgstr "ہٹا دیا گیا: %s"
 
+msgid "Size"
+msgstr "سائز"
+
+msgid "Update from"
+msgstr "سے اپ ڈیٹ کریں۔"
+
+msgid "Version"
+msgstr "ورژن"
+
 msgid "View"
 msgstr "دیکھیں"
+
+msgid "View | Remove Crashlog files"
+msgstr "دیکھیں | Crashlog فائلوں کو ہٹا دیں۔"
 
 msgid "View Crashlog file: %s"
 msgstr "کریش لاگ فائل دیکھیں: %s"
 
-msgid "View | Remove Crashlog files"
-msgstr "دیکھیں | Crashlog فائلوں کو ہٹا دیں۔"

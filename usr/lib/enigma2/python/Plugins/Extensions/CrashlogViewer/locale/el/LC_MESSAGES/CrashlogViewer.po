@@ -1,17 +1,18 @@
+# el translations
+# Copyright (C) 2026 Lululla Team
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: enigma 2\n"
-"PO-Revision-Date: 2026-05-27 18:18+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Greek <team@lists.gnome.gr>\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: el <ekekaz@gmail.com>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-# Signed-off-by: Dario Croci <spaeleus@croci.org>
-#
 msgid "Back"
 msgstr "Πίσω"
 
@@ -19,10 +20,16 @@ msgid "Close"
 msgstr "Κοντά"
 
 msgid "Crashlog Viewer"
-msgstr ""
+msgstr "Crashlog Viewer"
+
+msgid "Date"
+msgstr "Ημερομηνία"
 
 msgid "Deleted %d files"
 msgstr "Διαγράφηκαν %d αρχεία"
+
+msgid "Developer"
+msgstr "Προγραμματιστής"
 
 msgid "Error Only"
 msgstr "Μόνο σφάλμα"
@@ -38,6 +45,9 @@ msgstr "Το αρχείο έχει ήδη αφαιρεθεί"
 
 msgid "Full Log"
 msgstr "Πλήρες αρχείο καταγραφής"
+
+msgid "Modifier"
+msgstr "Τροποποιητής"
 
 msgid "No crash logs found"
 msgstr "Δεν βρέθηκαν αρχεία καταγραφής σφαλμάτων"
@@ -63,11 +73,21 @@ msgstr "Κατάργηση όλων"
 msgid "Removed: %s"
 msgstr "Καταργήθηκε: %s"
 
+msgid "Size"
+msgstr "Μέγεθος"
+
+msgid "Update from"
+msgstr "Ενημέρωση από"
+
+msgid "Version"
+msgstr "Εκδοχή"
+
 msgid "View"
 msgstr "Θέα"
+
+msgid "View | Remove Crashlog files"
+msgstr "Προβολή | Καταργήστε τα αρχεία Crashlog"
 
 msgid "View Crashlog file: %s"
 msgstr "Προβολή αρχείου Crashlog: %s"
 
-msgid "View | Remove Crashlog files"
-msgstr "Προβολή | Καταργήστε τα αρχεία Crashlog"
