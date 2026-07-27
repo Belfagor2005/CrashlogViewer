@@ -115,17 +115,69 @@ class CrashLogScreen(Screen):
     sz_w = getDesktop(0).size().width()
     if sz_w == 2560:
         skin = """
-        <screen name="crashlogscreen" position="center,center" size="1280,1000" title="View or Remove Crashlog files">
-        <widget source="Redkey" render="Label" position="160,900" size="250,45" zPosition="11" font="Regular; 30" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
-        <widget source="Greenkey" render="Label" position="415,900" size="250,45" zPosition="11" font="Regular; 30" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
-        <widget source="Yellowkey" render="Label" position="670,900" size="250,45" zPosition="11" font="Regular; 30" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
-        <widget source="Bluekey" render="Label" position="925,900" size="250,45" zPosition="11" font="Regular; 30" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
-        <eLabel backgroundColor="#00ff0000" position="160,948" size="250,6" zPosition="12" />
-        <eLabel backgroundColor="#0000ff00" position="415,948" size="250,6" zPosition="12" />
-        <eLabel backgroundColor="#00ffff00" position="670,948" size="250,6" zPosition="12" />
-        <eLabel backgroundColor="#000000ff" position="925,948" size="250,6" zPosition="12" />
-        <eLabel name="" position="1194,901" size="52,52" backgroundColor="#003e4b53" halign="center" valign="center" transparent="0" cornerRadius="26" font="Regular; 17" zPosition="1" text="INFO" />
-        <widget source="menu" render="Listbox" position="80,67" size="1137,781" scrollbarMode="showOnDemand">
+        <screen name="crashlogscreen" position="center,center" size="2560,1440" title="View or Remove Crashlog files">
+        <widget source="Redkey" render="Label" position="160,1280" size="500,90" zPosition="11" font="Regular; 60" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
+        <widget source="Greenkey" render="Label" position="700,1280" size="500,90" zPosition="11" font="Regular; 60" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
+        <widget source="Yellowkey" render="Label" position="1240,1280" size="500,90" zPosition="11" font="Regular; 60" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
+        <widget source="Bluekey" render="Label" position="1780,1280" size="500,90" zPosition="11" font="Regular; 60" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
+        <eLabel backgroundColor="#00ff0000" position="160,1370" size="500,12" zPosition="12" />
+        <eLabel backgroundColor="#0000ff00" position="700,1370" size="500,12" zPosition="12" />
+        <eLabel backgroundColor="#00ffff00" position="1240,1370" size="500,12" zPosition="12" />
+        <eLabel backgroundColor="#000000ff" position="1780,1370" size="500,12" zPosition="12" />
+        <eLabel name="" position="2120,1280" size="400,108" backgroundColor="#003e4b53" halign="center" valign="center" transparent="0" cornerRadius="26" font="Regular; 34" zPosition="1" text="INFO" />
+        <widget source="menu" render="Listbox" position="160,140" size="2240,1100" scrollbarMode="showOnDemand">
+        <convert type="TemplatedMultiContent">
+        {"template": [
+            MultiContentEntryText(pos = (160, 10), size = (1160, 92), font=0, flags = RT_HALIGN_LEFT | RT_VALIGN_CENTER, text = 0),
+            MultiContentEntryText(pos = (160, 110), size = (1160, 76), font=1, flags = RT_HALIGN_LEFT | RT_VALIGN_CENTER, text = 1),
+            MultiContentEntryPixmapAlphaTest(pos = (10, 70), size = (102, 80), png = 2),
+                ],
+        "fonts": [gFont("Regular", 84),gFont("Regular", 68)],
+        "itemHeight": 200
+        }
+                </convert>
+            </widget>
+        </screen>
+        """
+    elif sz_w == 1920:
+        skin = """
+        <screen name="crashlogscreen" position="center,center" size="1920,1080" title="View or Remove Crashlog files">
+        <widget source="Redkey" render="Label" position="120,960" size="375,68" zPosition="11" font="Regular; 45" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
+        <widget source="Greenkey" render="Label" position="525,960" size="375,68" zPosition="11" font="Regular; 45" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
+        <widget source="Yellowkey" render="Label" position="930,960" size="375,68" zPosition="11" font="Regular; 45" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
+        <widget source="Bluekey" render="Label" position="1335,960" size="375,68" zPosition="11" font="Regular; 45" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
+        <eLabel backgroundColor="#00ff0000" position="120,1028" size="375,9" zPosition="12" />
+        <eLabel backgroundColor="#0000ff00" position="525,1028" size="375,9" zPosition="12" />
+        <eLabel backgroundColor="#00ffff00" position="930,1028" size="375,9" zPosition="12" />
+        <eLabel backgroundColor="#000000ff" position="1335,1028" size="375,9" zPosition="12" />
+        <eLabel name="" position="1590,960" size="300,81" backgroundColor="#003e4b53" halign="center" valign="center" transparent="0" cornerRadius="26" font="Regular; 26" zPosition="1" text="INFO" />
+        <widget source="menu" render="Listbox" position="120,105" size="1680,825" scrollbarMode="showOnDemand">
+        <convert type="TemplatedMultiContent">
+        {"template": [
+            MultiContentEntryText(pos = (120, 8), size = (870, 69), font=0, flags = RT_HALIGN_LEFT | RT_VALIGN_CENTER, text = 0),
+            MultiContentEntryText(pos = (120, 82), size = (870, 57), font=1, flags = RT_HALIGN_LEFT | RT_VALIGN_CENTER, text = 1),
+            MultiContentEntryPixmapAlphaTest(pos = (8, 52), size = (76, 60), png = 2),
+                ],
+        "fonts": [gFont("Regular", 63),gFont("Regular", 51)],
+        "itemHeight": 150
+        }
+                </convert>
+            </widget>
+        </screen>
+        """
+    else:
+        skin = """
+        <screen name="crashlogscreen" position="center,center" size="1280,720" title="View or Remove Crashlog files">
+        <widget source="Redkey" render="Label" position="80,640" size="250,45" zPosition="11" font="Regular; 30" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
+        <widget source="Greenkey" render="Label" position="350,640" size="250,45" zPosition="11" font="Regular; 30" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
+        <widget source="Yellowkey" render="Label" position="620,640" size="250,45" zPosition="11" font="Regular; 30" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
+        <widget source="Bluekey" render="Label" position="890,640" size="250,45" zPosition="11" font="Regular; 30" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
+        <eLabel backgroundColor="#00ff0000" position="80,685" size="250,6" zPosition="12" />
+        <eLabel backgroundColor="#0000ff00" position="350,685" size="250,6" zPosition="12" />
+        <eLabel backgroundColor="#00ffff00" position="620,685" size="250,6" zPosition="12" />
+        <eLabel backgroundColor="#000000ff" position="890,685" size="250,6" zPosition="12" />
+        <eLabel name="" position="1060,640" size="200,54" backgroundColor="#003e4b53" halign="center" valign="center" transparent="0" cornerRadius="26" font="Regular; 17" zPosition="1" text="INFO" />
+        <widget source="menu" render="Listbox" position="80,70" size="1120,550" scrollbarMode="showOnDemand">
         <convert type="TemplatedMultiContent">
         {"template": [
             MultiContentEntryText(pos = (80, 5), size = (580, 46), font=0, flags = RT_HALIGN_LEFT | RT_VALIGN_CENTER, text = 0),
@@ -137,58 +189,6 @@ class CrashLogScreen(Screen):
         }
                 </convert>
             </widget>
-        </screen>
-        """
-    elif sz_w == 1920:
-        skin = """
-        <screen name="crashlogscreen" position="center,center" size="1000,880" title="View or Remove Crashlog files">
-        <widget source="Redkey" render="Label" position="0,814" size="250,45" zPosition="11" font="Regular; 26" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
-        <widget source="Greenkey" render="Label" position="252,813" size="250,45" zPosition="11" font="Regular; 26" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
-        <widget source="Yellowkey" render="Label" position="499,814" size="250,45" zPosition="11" font="Regular; 26" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
-        <widget source="Bluekey" render="Label" position="749,814" size="250,45" zPosition="11" font="Regular; 26" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
-        <eLabel backgroundColor="#00ff0000" position="0,858" size="250,6" zPosition="12" />
-        <eLabel backgroundColor="#0000ff00" position="250,858" size="250,6" zPosition="12" />
-        <eLabel backgroundColor="#00ffff00" position="500,858" size="250,6" zPosition="12" />
-        <eLabel backgroundColor="#000000ff" position="750,858" size="250,6" zPosition="12" />
-        <eLabel name="" position="933,753" size="52,52" backgroundColor="#003e4b53" halign="center" valign="center" transparent="0" cornerRadius="26" font="Regular; 17" zPosition="1" text="INFO" />
-        <widget source="menu" render="Listbox" position="20,10" size="961,781" scrollbarMode="showOnDemand">
-        <convert type="TemplatedMultiContent">
-        {"template": [
-            MultiContentEntryText(pos = (70, 2), size = (580, 34), font=0, flags = RT_HALIGN_LEFT, text = 0),
-            MultiContentEntryText(pos = (80, 29), size = (580, 30), font=1, flags = RT_HALIGN_LEFT, text = 1),
-            MultiContentEntryPixmapAlphaTest(pos = (5, 15), size = (51, 40), png = 2),
-                ],
-        "fonts": [gFont("Regular", 30),gFont("Regular", 26)],
-        "itemHeight": 70
-        }
-                </convert>
-            </widget>
-        </screen>
-        """
-    else:
-        skin = """
-        <screen name="crashlogscreen" position="center,center" size="640,586" title="View or Remove Crashlog files">
-        <widget source="Redkey" render="Label" position="6,536" size="160,35" zPosition="11" font="Regular; 22" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
-        <widget source="Greenkey" render="Label" position="166,536" size="160,35" zPosition="11" font="Regular; 22" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
-        <widget source="Yellowkey" render="Label" position="325,536" size="160,35" zPosition="11" font="Regular; 22" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
-        <widget source="Bluekey" render="Label" position="485,536" size="160,35" zPosition="11" font="Regular; 22" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
-        <eLabel backgroundColor="#00ff0000" position="5,570" size="160,6" zPosition="12" />
-        <eLabel backgroundColor="#0000ff00" position="165,570" size="160,6" zPosition="12" />
-        <eLabel backgroundColor="#00ffff00" position="325,570" size="160,6" zPosition="12" />
-        <eLabel backgroundColor="#000000ff" position="480,570" size="160,6" zPosition="12" />
-        <eLabel name="" position="586,495" size="42,35" backgroundColor="#003e4b53" halign="center" valign="center" transparent="0" cornerRadius="26" font="Regular; 14" zPosition="1" text="INFO" />
-        <widget source="menu" render="Listbox" position="13,6" size="613,517" scrollbarMode="showOnDemand">
-        <convert type="TemplatedMultiContent">
-        {"template": [
-            MultiContentEntryText(pos = (46, 1), size = (386, 22), font=0, flags = RT_HALIGN_LEFT, text = 0),
-            MultiContentEntryText(pos = (53, 19), size = (386, 20), font=1, flags = RT_HALIGN_LEFT, text = 1),
-            MultiContentEntryPixmapAlphaTest(pos = (3, 10), size = (34, 26), png = 2),
-                ],
-        "fonts": [gFont("Regular", 18),gFont("Regular", 16)],
-        "itemHeight": 50
-        }
-                </convert>
-        </widget>
         </screen>
         """
 
@@ -438,26 +438,38 @@ class CrashLogView(Screen):
     sz_w = getDesktop(0).size().width()
     if sz_w == 1920:
         skin = """
-        <screen name="CrashLogView" position="center,center" size="1880,980" title="View Crashlog file">
-        <widget source="Redkey" render="Label" position="16,919" size="250,45" zPosition="11" font="Regular; 30" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
-        <widget source="Greenkey" render="Label" position="266,919" size="250,45" zPosition="11" font="Regular; 30" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
-        <eLabel backgroundColor="#00ff0000" position="20,963" size="250,6" zPosition="12" />
-        <eLabel backgroundColor="#0000ff00" position="270,963" size="250,6" zPosition="12" />
-        <widget name="text" position="10,70" size="1860,630" font="Console; 24" text="text" />
-        <widget name="text2" position="10,720" size="1860,190" font="Console; 26" foregroundColor="#ff0000" />
-        <eLabel position="10,710" size="1860,2" backgroundColor="#555555" zPosition="1" />
+        <screen name="CrashLogView" position="center,center" size="1920,1080" title="View Crashlog file">
+        <widget source="Redkey" render="Label" position="120,1000" size="375,45" zPosition="11" font="Regular; 33" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
+        <widget source="Greenkey" render="Label" position="525,1000" size="375,45" zPosition="11" font="Regular; 33" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
+        <eLabel backgroundColor="#00ff0000" position="120,1045" size="375,6" zPosition="12" />
+        <eLabel backgroundColor="#0000ff00" position="525,1045" size="375,6" zPosition="12" />
+        <widget name="text" position="20,80" size="1880,720" font="Console; 26" text="text" />
+        <widget name="text2" position="20,810" size="1880,180" font="Console; 28" foregroundColor="#ff0000" />
+        <eLabel position="20,800" size="1880,4" backgroundColor="#555555" zPosition="1" />
+        </screen>
+        """
+    elif sz_w == 2560:
+        skin = """
+        <screen name="CrashLogView" position="center,center" size="2560,1440" title="View Crashlog file">
+        <widget source="Redkey" render="Label" position="160,1330" size="500,60" zPosition="11" font="Regular; 44" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
+        <widget source="Greenkey" render="Label" position="700,1330" size="500,60" zPosition="11" font="Regular; 44" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
+        <eLabel backgroundColor="#00ff0000" position="160,1390" size="500,8" zPosition="12" />
+        <eLabel backgroundColor="#0000ff00" position="700,1390" size="500,8" zPosition="12" />
+        <widget name="text" position="30,100" size="2500,980" font="Console; 36" text="text" />
+        <widget name="text2" position="30,1090" size="2500,230" font="Console; 38" foregroundColor="#ff0000" />
+        <eLabel position="30,1080" size="2500,6" backgroundColor="#555555" zPosition="1" />
         </screen>
         """
     else:
         skin = """
-        <screen name="CrashLogView" position="center,center" size="1253,653" title="View Crashlog file">
-        <widget source="Redkey" render="Label" position="19,609" size="172,33" zPosition="11" font="Regular; 22" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
-        <widget source="Greenkey" render="Label" position="191,609" size="172,33" zPosition="11" font="Regular; 22" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
-        <eLabel backgroundColor="#00ff0000" position="20,643" size="172,6" zPosition="12" />
-        <eLabel backgroundColor="#0000ff00" position="192,643" size="172,6" zPosition="12" />
-        <widget name="text" position="6,50" size="1240,420" font="Console; 16" text="text" />
-        <widget name="text2" position="6,480" size="1240,126" font="Console; 17" foregroundColor="#ff0000" />
-        <eLabel position="6,473" size="1240,1" backgroundColor="#555555" zPosition="1" />
+        <screen name="CrashLogView" position="center,center" size="1280,720" title="View Crashlog file">
+        <widget source="Redkey" render="Label" position="80,660" size="250,30" zPosition="11" font="Regular; 22" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
+        <widget source="Greenkey" render="Label" position="350,660" size="250,30" zPosition="11" font="Regular; 22" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
+        <eLabel backgroundColor="#00ff0000" position="80,690" size="250,6" zPosition="12" />
+        <eLabel backgroundColor="#0000ff00" position="350,690" size="250,6" zPosition="12" />
+        <widget name="text" position="10,50" size="1260,480" font="Console; 16" text="text" />
+        <widget name="text2" position="10,540" size="1260,110" font="Console; 17" foregroundColor="#ff0000" />
+        <eLabel position="10,530" size="1260,2" backgroundColor="#555555" zPosition="1" />
         </screen>
         """
 

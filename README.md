@@ -1,5 +1,5 @@
 <h1 align="center">🗑️ Crashlog Viewer for Enigma2 Image</h
-[![Version](https://img.shields.io/badge/Version-1.9-blue.svg)](https://github.com/Belfagor2005/CrashlogViewer)
+[![Version](https://img.shields.io/badge/Version-2.0-blue.svg)](https://github.com/Belfagor2005/CrashlogViewer)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![Python package](https://github.com/Belfagor2005/CrashlogViewer/actions/workflows/pylint.yml/badge.svg)](https://github.com/Belfagor2005/CrashlogViewer/actions/workflows/pylint.yml) 
 1>
