@@ -2,9 +2,6 @@
 # Copyright (C) 2026 Lululla Team
 #
 
-
-
-
 msgid "Back"
 msgstr ""
 
